@@ -1,0 +1,1830 @@
+Date,order id,Product ,Qty,Unit Price (NGN),Total,Vendor,channel,Payment Method,Delivery Fee
+22/05/2026,BD57395,Jollof Rice,2,"NGN1,800",3600,Jummie Kitchen,APP,card,200
+08/06/2026,BD75987,  SOFT DRINK  ,1,400,400,Amala Pavilion,APP,pos,0
+2026-05-22,BD85303,Eba & Okra,2,1500,3000,Amala Pavilion,APP,pos,500
+03-Jul-2026,BD25653,  SOFT DRINK  ,3,400,1200,Munchies,walkin,transfer,500
+2026-06-15,BD44843,Bottled Water,1,200,200,Amala Pavilion,walkin,card,300
+2026-07-20,BD50543,Moi Moi,2,700,1400,Alaga Spot,walk-in,Cash,0
+22/07/2026,BD16103,White Rice & Stew,2,1500,3000,Amala Pavilion,APP,Transfer,200
+03/07/2026,BD46113,White Rice & Stew,2,1500,3000,Butter N Crumbs,phone,Transfer,0
+01/05/2026,BD80381,Meat Pie,3,864,2592,Jummie Kitchen,App,cash,300
+28/06/2026,BD95093,  SOFT DRINK  ,1,400,400,Munchies,walk-in,card,500
+2026-07-19,BD31750,  FRIED RICE  ,1,1800,1800,Munchies,APP,POS,500
+18/07/2026,BD16834,White Rice & Stew,1,1500,1500,Alaga Spot,Walk In,card,300
+29/06/2026,BD83160,Zobo,2,500,1000,Munchies,app,Transfer,0
+03/06/2026,BD38883,Beef (piece),1,800,800,Munchies,walkin,transfer,500
+2026-05-22,BD98724,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,phone,cash,500
+11/06/2026,BD70646,Soft Drink,2,400,800,Alaga Spot,Phone,transfer,0
+25/05/2026,BD15699,Fish (piece),2,1254,2508,Munchies,Walk In,Transfer,500
+01/06/2026,BD31627,White Rice & Stew,2,1500,3000,Butter N Crumbs,app,Transfer,0
+25/06/2026,BD15587,Jollof Rice,2,1800,3600,Jummie Kitchen,APP,Cash,300
+04/06/2026,BD22934,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,Phone,cash,500
+18/07/2026,BD67133,Meat Pie,3,800,2400,Alaga Spot,walk-in,Cash,200
+03/05/2026,BD72031,Moi Moi,2,700,1400,Jummie Kitchen,phone,POS,500
+09/06/2026,BD28346,Pounded Yam & Egusi,2,2500,5000,Butter N Crumbs,walk-in,transfer,200
+2026-05-19,BD90689,Zobo,1,500,500,Jummie Kitchen,Phone,pos,500
+19/05/2026,BD68073,Meat Pie,1,800,800,Jummie Kitchen,walk-in,pos,0
+06-May-2026,BD22015,Amala & Ewedu,4,2000,8000,Butter N Crumbs,app,transfer,200
+06/07/2026,BD74983,Puff Puff (6pcs),1,500,500,Munchies,phone,POS,200
+14/06/2026,BD74440,  MEAT PIE  ,1,800,800,Alaga Spot,app,POS,0
+27/05/2026,BD28643,Moi Moi,1,700,700,Amala Pavilion,App,POS,500
+18/05/2026,BD59006,Soft Drink,2,400,800,Munchies,APP,Cash,0
+21/05/2026,BD30636,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,phone,cash,300
+09/05/2026,BD41552,Puff Puff (6pcs),1,500,500,Jummie Kitchen,,,200
+20/07/2026,BD73123,Pounded Yam & Egusi,2,2500,5000,Munchies,Walk In,POS,0
+16/05/2026,BD36941,Chicken (piece),3,1500,4500,Amala Pavilion,Walk In,POS,200
+21/05/2026,BD20202,White Rice & Stew,1,1500,1500,Amala Pavilion,walk-in,card,300
+13/06/2026,BD11469,Fried Rice,1,1800,1800,Alaga Spot,Phone,cash,0
+04/06/2026,BD79417,Beef (piece),3,800,2400,Munchies,walk-in,pos,0
+2026-07-28,BD83076,Moi Moi,4,700,2800,Jummie Kitchen,walk-in,Cash,500
+14/07/2026,BD37453,Puff Puff (6pcs),1,500,500,Alaga Spot,walkin,POS,300
+09/05/2026,BD20358,Bottled Water,2,200,400,Amala Pavilion,Walk In,POS,300
+20/07/2026,BD62032,  JOLLOF RICE  ,1,2048,2048,Munchies,App,pos,200
+08-Jun-2026,BD80593,Beef (piece),1,800,800,Jummie Kitchen,Phone,Transfer,300
+11/05/2026,BD39536,Moi Moi,1,700,700,Alaga Spot,Phone,transfer,500
+27/07/2026,BD91971,Meat Pie,2,800,1600,Amala Pavilion,app,Transfer,500
+18/05/2026,BD64325,  SOFT DRINK  ,2,400,800,Butter N Crumbs,App,pos,300
+13/05/2026,BD15453,Pounded Yam & Egusi,2,2500,10000,Amala Pavilion,walk-in,Cash,0
+24/07/2026,BD42638,Soft Drink,2,400,800,Amala Pavilion,walk-in,card,0
+19-Jul-2026,BD20239,Puff Puff (6pcs),3,500,1500,Jummie Kitchen,Phone,transfer,300
+11/07/2026,BD85377,Fried Rice,2,1800,3600,Butter N Crumbs,phone,pos,500
+02/05/2026,BD44600,Chicken (piece),1,1500,1500,Jummie Kitchen,app,transfer,300
+23/05/2026,BD55039,Chicken (piece),1,1500,1500,Jummie Kitchen,Walk In,POS,200
+29/05/2026,BD71000,Fried Rice,1,1800,1800,Alaga Spot,APP,pos,500
+24/06/2026,BD16536,Meat Pie,2,800,1600,Munchies,walk-in,transfer,0
+07/05/2026,BD68222,Jollof Rice,1,1800,1800,Amala Pavilion,walk-in,card,0
+09/07/2026,BD54217,Fried Rice,2,"NGN1,800",3600,Alaga Spot,Walk In,cash,300
+21/05/2026,BD30625,Fried Rice,1,1800,1800,Munchies,walk-in,Cash,200
+02/06/2026,BD68303,Puff Puff (6pcs),1,500,500,Jummie Kitchen,phone,Transfer,200
+15/05/2026,BD53456,Zobo,2,500,1000,Amala Pavilion,app,Transfer,500
+10/05/2026,BD40437,Beef (piece),1,800,800,Munchies,APP,Cash,0
+2026-05-19,BD99573,Amala & Ewedu,1,2000,2000,Munchies,Walk In,Transfer,500
+17/05/2026,BD39939,White Rice & Stew,3,1500,4500,Alaga Spot,walk-in,POS,0
+23/05/2026,BD24801,Amala & Ewedu,1,2000,2000,Amala Pavilion,walkin,transfer,0
+06/05/2026,BD82641,Amala & Ewedu,4,2000,8000,Alaga Spot,walk-in,cash,0
+05/07/2026,BD34341,Amala & Ewedu,2,2000,4000,Munchies,phone,Transfer,200
+17/05/2026,BD53426,Amala & Ewedu,1,2000,2000,Butter N Crumbs,Walk In,Cash,0
+18/07/2026,BD70625,Pounded Yam & Egusi,2,2500,5000,Jummie Kitchen,APP,Transfer,500
+07/05/2026,BD47947,Chicken (piece),1,1500,1500,Munchies,walkin,Transfer,500
+2026-06-20,BD15244,Eba & Okra,1,1500,1500,Amala Pavilion,walk-in,Transfer,500
+04/07/2026,BD52875,Moi Moi,1,700,700,Amala Pavilion,,,0
+17/06/2026,BD70003,Fish (piece),2,1200,2400,Jummie Kitchen,Phone,card,200
+07/05/2026,BD32037,  MOI MOI  ,3,700,2100,Munchies,walk-in,pos,200
+28/05/2026,BD84569,Meat Pie,1,857,857,Munchies,APP,Transfer,200
+14/06/2026,BD64767,Soft Drink,1,400,400,Jummie Kitchen,phone,Transfer,0
+04/05/2026,BD63523,Beef (piece),2,800,1600,Munchies,APP,cash,300
+01-May-2026,BD50306,Puff Puff (6pcs),1,500,500,Alaga Spot,App,transfer,300
+11-May-2026,BD19742,Beef (piece),4,800,3200,Munchies,app,Cash,0
+17/06/2026,BD22984,Fish (piece),1,1200,1200,Alaga Spot,walkin,pos,300
+05/05/2026,BD57823,Zobo,2,548,1096,Munchies,Walk In,cash,300
+04/06/2026,BD70570,Moi Moi,2,700,1400,Alaga Spot,walk-in,Transfer,300
+07/06/2026,BD45300,Soft Drink,2,400,800,Munchies,walkin,transfer,500
+05-Jul-2026,BD23254,White Rice & Stew,2,1500,3000,Munchies,walkin,POS,200
+20/06/2026,BD41395,Fried Rice,1,1800,1800,Butter N Crumbs,App,transfer,0
+08/07/2026,BD40062,Soft Drink,1,400,400,Munchies,phone,Cash,0
+25/06/2026,BD58147,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,phone,POS,0
+08/05/2026,BD76496,Meat Pie,4,800,3200,Butter N Crumbs,app,Cash,300
+2026-06-16,BD89452,Fish (piece),1,1200,1200,Alaga Spot,App,POS,0
+14/07/2026,BD60536,Puff Puff (6pcs),3,500,1500,Munchies,APP,pos,200
+2026-05-13,BD28569,Zobo,4,500,2000,Jummie Kitchen,Phone,pos,0
+2026-06-30,BD49334,Beef (piece),1,800,800,Jummie Kitchen,Phone,Cash,300
+25/06/2026,BD90315,White Rice & Stew,2,1500,3000,Butter N Crumbs,App,Cash,0
+28/06/2026,BD91465,Bottled Water,1,200,200,Amala Pavilion,app,pos,0
+14/07/2026,BD54212,Amala & Ewedu,1,2000,2000,Amala Pavilion,phone,Transfer,200
+24/05/2026,BD85527,Fish (piece),1,1200,1200,Munchies,Walk In,transfer,500
+08/07/2026,BD44757,Jollof Rice,1,1800,1800,Munchies,app,cash,0
+21/06/2026,BD23606,  ZOBO  ,3,500,1500,Munchies,phone,transfer,300
+08-Jun-2026,BD75991,  EBA & OKRA  ,2,1500,3000,Munchies,walkin,Cash,0
+11/06/2026,BD54909,Meat Pie,4,800,3200,Amala Pavilion,Walk In,Transfer,200
+07/07/2026,BD38155,Soft Drink,1,400,400,Amala Pavilion,walk-in,Cash,200
+10/06/2026,BD49967,Chicken (piece),1,"NGN1,500",1500,Jummie Kitchen,Walk In,Cash,0
+12/07/2026,BD37581,Beef (piece),3,800,2400,Munchies,app,Transfer,200
+21/07/2026,BD49298,Fried Rice,4,1800,7200,Munchies,Walk In,cash,0
+18-Jul-2026,BD22108,Jollof Rice,2,"NGN1,800",3600,Butter N Crumbs,app,cash,0
+07/07/2026,BD71845,Pounded Yam & Egusi,1,2500,2500,Munchies,walkin,pos,300
+03/05/2026,BD74332,Puff Puff (6pcs),1,500,500,Munchies,App,cash,0
+18/06/2026,BD97337,Bottled Water,1,200,200,Alaga Spot,Phone,POS,0
+28/05/2026,BD10861,Puff Puff (6pcs),1,500,500,Butter N Crumbs,Walk In,card,500
+02/05/2026,BD86019,Soft Drink,1,400,400,Jummie Kitchen,Phone,Cash,300
+06/07/2026,BD44082,Puff Puff (6pcs),3,500,1500,Butter N Crumbs,App,POS,500
+2026-07-24,BD78920,Bottled Water,2,200,400,Munchies,app,cash,0
+2026-05-25,BD83490,Meat Pie,1,800,800,Munchies,app,Transfer,500
+25/06/2026,BD56865,Puff Puff (6pcs),2,NGN500,1000,Amala Pavilion,,,300
+17/06/2026,BD39984,Pounded Yam & Egusi,4,2500,10000,Munchies,Walk In,Cash,200
+12-May-2026,BD84289,Zobo,1,500,500,Munchies,App,POS,200
+06/05/2026,BD52437,  WHITE RICE & STEW  ,1,1500,1500,Jummie Kitchen,,,300
+26/06/2026,BD59063,Chicken (piece),1,1631,1631,Munchies,APP,cash,0
+14/05/2026,BD52217,Beef (piece),1,800,800,Amala Pavilion,Phone,Transfer,500
+08/05/2026,BD14561,Jollof Rice,1,1800,1800,Alaga Spot,walkin,cash,300
+06/05/2026,BD64524,Zobo,1,NGN500,500,Jummie Kitchen,phone,cash,200
+11/07/2026,BD56106,Fish (piece),1,"NGN1,370",1370,Munchies,phone,POS,500
+14/06/2026,BD80278,Bottled Water,1,200,200,Butter N Crumbs,APP,cash,0
+07/05/2026,BD47079,Puff Puff (6pcs),1,500,500,Jummie Kitchen,app,pos,200
+25/06/2026,BD36149,Beef (piece),3,800,2400,Amala Pavilion,,,200
+20/05/2026,BD67367,Bottled Water,2,200,400,Munchies,Phone,Transfer,500
+07/07/2026,BD50372,Eba & Okra,2,1500,3000,Amala Pavilion,phone,transfer,300
+11/07/2026,BD15861,Meat Pie,2,800,1600,Munchies,,,0
+2026-06-07,BD42264,Meat Pie,2,800,1600,Munchies,walkin,transfer,200
+01-Jul-2026,BD52431,Bottled Water,1,200,200,Munchies,Walk In,cash,300
+16-Jun-2026,BD38208,Amala & Ewedu,1,2000,2000,Butter N Crumbs,walk-in,card,200
+03/06/2026,BD77050,Meat Pie,1,800,800,Jummie Kitchen,phone,Transfer,300
+10/07/2026,BD48523,Meat Pie,1,NGN800,800,Munchies,walkin,Transfer,300
+2026-06-15,BD21722,Amala & Ewedu,1,2000,2000,Munchies,APP,cash,300
+07/06/2026,BD99779,Bottled Water,1,200,200,Jummie Kitchen,App,pos,200
+11/07/2026,BD84459,Meat Pie,1,800,800,Munchies,APP,Transfer,500
+18-May-2026,BD85832,Puff Puff (6pcs),3,500,1500,Alaga Spot,App,Cash,500
+06-Jul-2026,BD73254,Eba & Okra,1,1500,1500,Munchies,walkin,POS,0
+18/06/2026,BD24046,  PUFF PUFF (6PCS)  ,1,507,507,Alaga Spot,,,0
+07/05/2026,BD88554,  PUFF PUFF (6PCS)  ,1,500,500,Alaga Spot,Walk In,Transfer,0
+2026-05-02,BD77889,Bottled Water,1,200,200,Butter N Crumbs,walk-in,pos,0
+06/07/2026,BD80594,Fried Rice,3,1800,5400,Alaga Spot,App,pos,0
+27/05/2026,BD67613,Meat Pie,2,800,1600,Jummie Kitchen,Walk In,Cash,0
+09/07/2026,BD54875,Bottled Water,1,NGN200,200,Jummie Kitchen,App,pos,200
+09/07/2026,BD82844,White Rice & Stew,2,1500,3000,Alaga Spot,App,transfer,300
+29/05/2026,BD73225,Moi Moi,1,700,700,Jummie Kitchen,walk-in,pos,500
+09/05/2026,BD20336,Eba & Okra,3,1500,4500,Butter N Crumbs,,,200
+16-May-2026,BD13697,Eba & Okra,2,1500,3000,Jummie Kitchen,APP,card,0
+07/06/2026,BD56439,Jollof Rice,1,1800,1800,Butter N Crumbs,app,transfer,200
+17/05/2026,BD83273,White Rice & Stew,1,1500,1500,Alaga Spot,walkin,POS,0
+21/05/2026,BD83872,Zobo,1,500,500,Jummie Kitchen,App,Transfer,300
+02/05/2026,BD83259,Puff Puff (6pcs),1,500,500,Amala Pavilion,phone,pos,500
+06/05/2026,BD65028,Fish (piece),2,1303,2606,Alaga Spot,walkin,cash,200
+24-Jul-2026,BD13049,Beef (piece),1,800,800,Amala Pavilion,phone,cash,300
+01-Jun-2026,BD65864,Chicken (piece),2,1500,3000,Amala Pavilion,walkin,transfer,500
+17/06/2026,BD65572,Meat Pie,3,800,2400,Alaga Spot,Phone,Cash,500
+20-May-2026,BD27603,Fish (piece),2,1200,2400,Jummie Kitchen,Phone,Cash,300
+2026-05-10,BD72580,Fried Rice,1,1800,1800,Alaga Spot,app,cash,300
+23/07/2026,BD74166,Meat Pie,1,800,800,Alaga Spot,phone,cash,0
+23/07/2026,BD68859,Soft Drink,4,400,1600,Butter N Crumbs,Phone,cash,200
+05/06/2026,BD96317,Beef (piece),1,800,800,Munchies,APP,Cash,300
+21/07/2026,BD45396,Soft Drink,3,400,1200,Munchies,Phone,cash,0
+23/05/2026,BD28985,Zobo,1,500,500,Jummie Kitchen,phone,POS,500
+19/07/2026,BD58662,  POUNDED YAM & EGUSI  ,1,2500,2500,Amala Pavilion,walkin,pos,500
+21/07/2026,BD88583,Fish (piece),1,1200,1200,Jummie Kitchen,App,transfer,200
+22-Jun-2026,BD24540,Beef (piece),1,800,800,Butter N Crumbs,App,transfer,0
+01/06/2026,BD91051,  FISH (PIECE)  ,1,1200,1200,Alaga Spot,app,Transfer,0
+17/05/2026,BD90962,Fish (piece),1,1200,1200,Munchies,App,Cash,0
+13/06/2026,BD75213,Eba & Okra,1,1500,1500,Amala Pavilion,app,Transfer,300
+04/07/2026,BD54231,Jollof Rice,3,1800,5400,Munchies,Walk In,Transfer,200
+18/07/2026,BD44825,  CHICKEN (PIECE)  ,2,1500,3000,Amala Pavilion,Phone,card,0
+15/07/2026,BD44123,Bottled Water,2,200,400,Jummie Kitchen,Phone,transfer,300
+24/07/2026,BD30787,  BEEF (PIECE)  ,2,800,1600,Amala Pavilion,APP,cash,500
+02/07/2026,BD94519,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,Walk In,pos,500
+09/06/2026,BD93422,Meat Pie,2,800,1600,Amala Pavilion,Phone,POS,300
+04-Jul-2026,BD78623,Fish (piece),2,1200,2400,Munchies,App,cash,200
+20/07/2026,BD71952,Amala & Ewedu,2,2226,4452,Jummie Kitchen,Walk In,cash,300
+17/07/2026,BD93020,Puff Puff (6pcs),1,500,500,Munchies,APP,POS,0
+04/06/2026,BD24459,Moi Moi,1,700,700,Amala Pavilion,walkin,POS,200
+2026-05-22,BD43779,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,App,cash,500
+16/06/2026,BD48905,Jollof Rice,1,1800,1800,Amala Pavilion,Phone,Transfer,500
+16/07/2026,BD91295,Bottled Water,1,200,200,Amala Pavilion,app,Cash,0
+25/07/2026,BD60631,Zobo,2,500,1000,Amala Pavilion,App,cash,0
+02/07/2026,BD87916,Meat Pie,1,800,800,Jummie Kitchen,walk-in,cash,0
+13-Jun-2026,BD31150,Fish (piece),4,1200,4800,Munchies,App,Transfer,200
+16/05/2026,BD96787,Soft Drink,1,400,400,Munchies,walkin,cash,200
+02/06/2026,BD89879,Chicken (piece),1,1500,1500,Amala Pavilion,walkin,Transfer,300
+19/05/2026,BD83699,Fish (piece),2,1200,2400,Butter N Crumbs,phone,POS,500
+23/07/2026,BD82597,Meat Pie,1,800,800,Jummie Kitchen,app,Cash,0
+19/07/2026,BD71125,Zobo,1,500,500,Jummie Kitchen,walk-in,Cash,0
+14/06/2026,BD37462,Bottled Water,2,200,400,Amala Pavilion,Walk In,transfer,0
+22/07/2026,BD85578,Moi Moi,1,700,700,Butter N Crumbs,App,POS,0
+09/06/2026,BD20233,Jollof Rice,1,1800,1800,Butter N Crumbs,phone,card,500
+21/05/2026,BD87436,Fish (piece),1,1200,1200,Amala Pavilion,,,0
+23/07/2026,BD96283,Eba & Okra,1,1500,1500,Jummie Kitchen,phone,transfer,0
+04/05/2026,BD82102,  FISH (PIECE)  ,1,"NGN1,200",1200,Munchies,walkin,cash,200
+22/05/2026,BD33957,Puff Puff (6pcs),1,500,500,Alaga Spot,Phone,POS,0
+2026-05-28,BD56380,Soft Drink,1,400,400,Butter N Crumbs,Phone,card,300
+05/06/2026,BD98668,Moi Moi,1,700,700,Jummie Kitchen,walkin,transfer,0
+25-Jun-2026,BD68171,Amala & Ewedu,1,2000,2000,Munchies,Walk In,Cash,300
+2026-05-09,BD45601,Amala & Ewedu,1,2000,2000,Butter N Crumbs,walk-in,Transfer,0
+04/06/2026,BD38981,Zobo,3,500,1500,Butter N Crumbs,App,Cash,300
+04/07/2026,BD20127,Eba & Okra,1,1574,1574,Alaga Spot,Phone,Transfer,0
+19/05/2026,BD77746,Moi Moi,1,700,700,Jummie Kitchen,Phone,Cash,0
+14/06/2026,BD91777,Puff Puff (6pcs),1,500,500,Munchies,walk-in,Cash,200
+10/05/2026,BD57419,  SOFT DRINK  ,2,400,800,Butter N Crumbs,App,transfer,500
+06/07/2026,BD26260,Fish (piece),3,1200,3600,Jummie Kitchen,App,POS,0
+19/07/2026,BD45695,Amala & Ewedu,2,2000,4000,Munchies,app,Cash,0
+20/07/2026,BD41881,Chicken (piece),1,1500,1500,Alaga Spot,walkin,Transfer,500
+08/06/2026,BD68361,Moi Moi,1,700,700,Amala Pavilion,app,pos,300
+06/07/2026,BD72558,Jollof Rice,1,1800,1800,Butter N Crumbs,app,cash,0
+02/05/2026,BD51104,  AMALA & EWEDU  ,4,2000,8000,Butter N Crumbs,Phone,card,500
+05/07/2026,BD91902,Bottled Water,1,200,200,Butter N Crumbs,walkin,card,300
+2026-06-02,BD72182,Fried Rice,2,1800,3600,Alaga Spot,app,transfer,200
+25/07/2026,BD76176,Fish (piece),1,1200,1200,Jummie Kitchen,phone,transfer,300
+27/06/2026,BD12371,Meat Pie,2,800,1600,Munchies,phone,pos,300
+08/07/2026,BD63432,  ZOBO  ,1,500,500,Amala Pavilion,APP,Transfer,0
+18/06/2026,BD40333,Moi Moi,1,700,700,Amala Pavilion,Phone,transfer,500
+27/07/2026,BD87200,Soft Drink,1,400,400,Alaga Spot,App,POS,0
+30/06/2026,BD24728,Chicken (piece),1,1500,1500,Jummie Kitchen,phone,Cash,200
+07/07/2026,BD59166,  JOLLOF RICE  ,1,1800,1800,Alaga Spot,phone,transfer,300
+29-Jul-2026,BD76123,Bottled Water,2,200,400,Amala Pavilion,walkin,cash,0
+15/06/2026,BD63581,Fish (piece),1,1200,1200,Butter N Crumbs,App,pos,0
+30-May-2026,BD30220,Meat Pie,1,800,800,Alaga Spot,APP,transfer,0
+12/05/2026,BD67469,Jollof Rice,4,1800,7200,Munchies,phone,POS,300
+11/06/2026,BD26361,  CHICKEN (PIECE)  ,1,1500,1500,Munchies,app,Cash,200
+12/07/2026,BD42244,Eba & Okra,2,1500,3000,Alaga Spot,walk-in,pos,500
+13/05/2026,BD60916,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,phone,Cash,0
+11/07/2026,BD21679,  JOLLOF RICE  ,2,1800,3600,Amala Pavilion,phone,pos,300
+07/06/2026,BD84600,Puff Puff (6pcs),1,500,500,Munchies,Walk In,cash,0
+02-May-2026,BD32241,Beef (piece),1,800,800,Jummie Kitchen,,,0
+31/05/2026,BD47593,Beef (piece),4,800,3200,Alaga Spot,App,pos,200
+01/06/2026,BD32878,Beef (piece),1,800,800,Munchies,APP,POS,300
+22-May-2026,BD82036,Chicken (piece),1,1613,1613,Butter N Crumbs,walkin,cash,200
+27-May-2026,BD69596,  WHITE RICE & STEW  ,1,1500,1500,Jummie Kitchen,APP,POS,0
+19/05/2026,BD19600,  FISH (PIECE)  ,2,1295,2590,Jummie Kitchen,App,card,0
+05/07/2026,BD24500,Soft Drink,1,400,400,Alaga Spot,APP,pos,300
+03/07/2026,BD84542,Jollof Rice,3,1800,5400,Amala Pavilion,walkin,POS,200
+24/07/2026,BD51171,Soft Drink,2,400,800,Munchies,phone,Cash,0
+23/07/2026,BD37403,Amala & Ewedu,2,2000,4000,Jummie Kitchen,Phone,transfer,300
+11/06/2026,BD67923,  ZOBO  ,2,500,1000,Butter N Crumbs,phone,transfer,0
+13/05/2026,BD99037,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,phone,transfer,200
+06-May-2026,BD19632,Moi Moi,2,700,1400,Jummie Kitchen,APP,transfer,0
+11/06/2026,BD54669,Soft Drink,1,400,400,Jummie Kitchen,walk-in,transfer,500
+19/05/2026,BD23955,  POUNDED YAM & EGUSI  ,3,2500,7500,Alaga Spot,app,POS,0
+23-Jun-2026,BD64405,Jollof Rice,1,1831,1831,Jummie Kitchen,walkin,pos,200
+28/06/2026,BD80092,Meat Pie,1,800,800,Butter N Crumbs,Walk In,Transfer,300
+26-Jul-2026,BD84221,Zobo,2,500,1000,Jummie Kitchen,,,0
+27/05/2026,BD59856,Zobo,1,500,500,Amala Pavilion,app,card,0
+2026-07-12,BD93453,Beef (piece),1,800,800,Alaga Spot,Phone,card,200
+24/07/2026,BD62439,Moi Moi,1,700,700,Jummie Kitchen,APP,card,500
+30/06/2026,BD51799,Amala & Ewedu,2,2000,4000,Jummie Kitchen,phone,POS,0
+28-Jun-2026,BD59114,Bottled Water,1,200,200,Jummie Kitchen,app,Transfer,200
+13/07/2026,BD15302,Fish (piece),1,1200,1200,Amala Pavilion,App,cash,500
+18/06/2026,BD33878,Amala & Ewedu,1,2000,2000,Jummie Kitchen,App,Cash,300
+24/06/2026,BD83156,Puff Puff (6pcs),2,500,1000,Jummie Kitchen,Phone,cash,0
+11/07/2026,BD35957,Beef (piece),1,800,800,Amala Pavilion,phone,Cash,300
+2026-06-08,BD67386,Chicken (piece),2,1500,3000,Munchies,,,500
+20/05/2026,BD70909,Zobo,2,500,1000,Munchies,phone,cash,500
+26/07/2026,BD83913,Pounded Yam & Egusi,2,2500,5000,Munchies,phone,card,0
+18/05/2026,BD16014,  MOI MOI  ,2,700,1400,Alaga Spot,APP,cash,200
+23/06/2026,BD83525,Moi Moi,1,700,700,Butter N Crumbs,App,card,300
+11/07/2026,BD94833,Fried Rice,1,1800,1800,Jummie Kitchen,Phone,pos,0
+19/05/2026,BD83575,Amala & Ewedu,4,2000,8000,Munchies,App,POS,200
+03/07/2026,BD10735,Zobo,2,505,1010,Jummie Kitchen,App,cash,200
+11/07/2026,BD89102,Chicken (piece),1,1500,1500,Butter N Crumbs,walkin,Cash,500
+25/07/2026,BD98592,Soft Drink,1,400,400,Amala Pavilion,App,card,200
+09/05/2026,BD49596,Puff Puff (6pcs),3,500,1500,Amala Pavilion,Walk In,Cash,0
+03/06/2026,BD54930,Soft Drink,3,400,1200,Jummie Kitchen,Phone,card,500
+09/07/2026,BD69258,Amala & Ewedu,2,2000,4000,Amala Pavilion,Walk In,card,300
+09/06/2026,BD86230,Fish (piece),1,1200,1200,Butter N Crumbs,walk-in,cash,200
+06/05/2026,BD59925,Pounded Yam & Egusi,2,2500,5000,Butter N Crumbs,Walk In,Cash,500
+06/07/2026,BD25675,Amala & Ewedu,1,2000,2000,Jummie Kitchen,Phone,Cash,500
+2026-06-25,BD65170,  PUFF PUFF (6PCS)  ,1,500,500,Alaga Spot,Walk In,pos,0
+06/07/2026,BD83566,Pounded Yam & Egusi,3,"NGN2,500",7500,Amala Pavilion,App,pos,0
+03/05/2026,BD40217,Eba & Okra,1,1500,1500,Alaga Spot,walkin,transfer,500
+21/06/2026,BD93744,Puff Puff (6pcs),3,500,1500,Munchies,app,Transfer,0
+19/06/2026,BD39401,  FRIED RICE  ,1,1800,1800,Amala Pavilion,phone,Transfer,200
+08/05/2026,BD26821,Beef (piece),1,800,800,Butter N Crumbs,APP,pos,0
+21/07/2026,BD40780,Amala & Ewedu,1,2000,2000,Amala Pavilion,walkin,Transfer,500
+02-May-2026,BD81511,  FRIED RICE  ,1,1800,1800,Jummie Kitchen,APP,Cash,0
+20/07/2026,BD99871,Jollof Rice,1,1800,1800,Jummie Kitchen,App,transfer,0
+19/05/2026,BD99995,Beef (piece),1,800,800,Alaga Spot,APP,card,500
+23/06/2026,BD72421,Amala & Ewedu,1,2000,2000,Amala Pavilion,walkin,cash,0
+2026-05-05,BD49210,White Rice & Stew,1,1500,1500,Amala Pavilion,Walk In,Cash,200
+27-May-2026,BD81618,Fried Rice,1,1800,1800,Amala Pavilion,walkin,Cash,0
+23/07/2026,BD42921,White Rice & Stew,1,1500,1500,Jummie Kitchen,walk-in,POS,300
+26/05/2026,BD83051,Beef (piece),3,800,2400,Munchies,APP,cash,0
+05/07/2026,BD70820,Moi Moi,1,700,700,Munchies,,,300
+2026-06-06,BD84762,Eba & Okra,1,1500,1500,Munchies,walk-in,transfer,300
+24/05/2026,BD62047,  ZOBO  ,2,500,1000,Munchies,Walk In,card,0
+21/07/2026,BD34811,Eba & Okra,2,1500,3000,Jummie Kitchen,app,card,0
+30/05/2026,BD93058,Beef (piece),2,800,1600,Butter N Crumbs,Walk In,card,0
+12/05/2026,BD56388,Meat Pie,1,NGN800,800,Butter N Crumbs,walkin,pos,300
+09/07/2026,BD36041,Amala & Ewedu,1,2000,2000,Jummie Kitchen,APP,card,500
+25/05/2026,BD49953,Amala & Ewedu,1,2000,2000,Jummie Kitchen,Phone,card,0
+26/07/2026,BD35487,Bottled Water,1,200,200,Alaga Spot,App,Transfer,0
+08/05/2026,BD75211,Zobo,4,500,2000,Butter N Crumbs,Walk In,pos,0
+18/06/2026,BD62412,Meat Pie,1,800,800,Amala Pavilion,APP,transfer,0
+11/05/2026,BD78742,Jollof Rice,4,1800,7200,Amala Pavilion,phone,Transfer,200
+2026-05-23,BD72530,Meat Pie,1,800,800,Amala Pavilion,Walk In,card,0
+14/06/2026,BD74415,Jollof Rice,1,1800,1800,Amala Pavilion,phone,POS,200
+13-May-2026,BD90541,Chicken (piece),1,1500,1500,Alaga Spot,walkin,transfer,0
+06/06/2026,BD88852,Bottled Water,1,200,200,Munchies,phone,cash,0
+23/05/2026,BD78306,Amala & Ewedu,2,2030,4060,Alaga Spot,Phone,Cash,200
+16/06/2026,BD94408,Amala & Ewedu,3,2000,6000,Amala Pavilion,phone,pos,0
+14/05/2026,BD50043,Beef (piece),3,800,2400,Alaga Spot,phone,POS,0
+14/05/2026,BD25473,White Rice & Stew,2,"NGN1,500",3000,Munchies,walkin,pos,300
+07/06/2026,BD94834,Chicken (piece),1,1500,1500,Munchies,Phone,Transfer,200
+30/05/2026,BD26718,Fried Rice,1,1800,1800,Munchies,walkin,card,0
+03/06/2026,BD31805,Pounded Yam & Egusi,2,2470,4940,Alaga Spot,Walk In,Transfer,0
+18/06/2026,BD34928,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,Phone,POS,500
+30-May-2026,BD29231,Zobo,1,500,500,Amala Pavilion,Walk In,Cash,500
+20/06/2026,BD69545,Meat Pie,1,800,800,Jummie Kitchen,Walk In,POS,0
+26/05/2026,BD13862,Bottled Water,1,200,200,Jummie Kitchen,walk-in,Transfer,200
+02/06/2026,BD54025,Fish (piece),1,1200,1200,Butter N Crumbs,,,0
+27/06/2026,BD89445,Chicken (piece),2,1500,3000,Munchies,App,transfer,200
+31/05/2026,BD70245,Eba & Okra,1,1500,1500,Jummie Kitchen,walk-in,Transfer,500
+05/07/2026,BD41949,Chicken (piece),1,1500,1500,Munchies,walkin,card,300
+2026-06-21,BD15593,Meat Pie,1,800,800,Munchies,walk-in,POS,500
+24/07/2026,BD76062,Eba & Okra,1,1500,1500,Jummie Kitchen,Walk In,Transfer,0
+20/07/2026,BD15073,Amala & Ewedu,1,2000,2000,Butter N Crumbs,Walk In,Cash,200
+04/07/2026,BD54186,Bottled Water,1,200,200,Butter N Crumbs,Walk In,Transfer,500
+2026-05-27,BD47851,Moi Moi,1,700,700,Munchies,APP,Transfer,0
+13/06/2026,BD37508,Bottled Water,4,200,800,Butter N Crumbs,Phone,POS,300
+12/07/2026,BD58614,Bottled Water,2,200,400,Alaga Spot,Phone,card,0
+12/05/2026,BD86791,Eba & Okra,1,1500,1500,Munchies,Walk In,pos,0
+16/06/2026,BD26264,Soft Drink,1,400,400,Alaga Spot,App,Transfer,500
+10-Jul-2026,BD74819,Chicken (piece),3,1500,4500,Amala Pavilion,phone,transfer,0
+2026-05-16,BD72236,Soft Drink,1,NGN400,400,Alaga Spot,Phone,cash,0
+24/06/2026,BD75960,Fish (piece),1,1200,1200,Butter N Crumbs,Phone,POS,200
+15/05/2026,BD70807,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,walk-in,POS,500
+14/06/2026,BD20531,Beef (piece),2,800,1600,Alaga Spot,phone,Transfer,300
+18/07/2026,BD78673,Bottled Water,1,200,200,Munchies,Phone,card,500
+24/05/2026,BD15175,Jollof Rice,2,1800,3600,Amala Pavilion,Walk In,card,300
+08-Jun-2026,BD61345,  CHICKEN (PIECE)  ,1,1500,1500,Munchies,App,POS,300
+14/06/2026,BD73176,  MEAT PIE  ,2,800,1600,Amala Pavilion,phone,pos,0
+2026-05-02,BD46585,Moi Moi,1,700,700,Butter N Crumbs,phone,POS,500
+27/07/2026,BD38606,Meat Pie,1,NGN800,800,Butter N Crumbs,Walk In,cash,200
+23/07/2026,BD12799,Meat Pie,2,739,1478,Alaga Spot,APP,pos,0
+2026-06-28,BD43954,Jollof Rice,1,1800,1800,Munchies,walkin,card,0
+23/05/2026,BD34371,Puff Puff (6pcs),1,456,456,Jummie Kitchen,Walk In,Transfer,300
+29/07/2026,BD79748,Amala & Ewedu,1,2000,2000,Butter N Crumbs,app,Cash,0
+16/06/2026,BD47098,Eba & Okra,2,"NGN1,500",3000,Alaga Spot,phone,transfer,0
+13/06/2026,BD15723,Zobo,2,500,1000,Alaga Spot,Walk In,POS,500
+21/06/2026,BD51472,Jollof Rice,1,1800,1800,Amala Pavilion,Walk In,card,0
+07/07/2026,BD65611,Zobo,1,NGN500,500,Alaga Spot,walk-in,pos,200
+25/07/2026,BD17259,Moi Moi,2,637,1274,Alaga Spot,walkin,Cash,300
+13/06/2026,BD75509,Chicken (piece),3,1500,4500,Jummie Kitchen,walkin,Transfer,300
+30/05/2026,BD46989,Jollof Rice,2,1800,3600,Alaga Spot,phone,POS,500
+11/05/2026,BD38668,Soft Drink,2,400,800,Jummie Kitchen,app,card,500
+18/07/2026,BD22568,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,walk-in,transfer,500
+24/07/2026,BD65328,Beef (piece),1,800,800,Butter N Crumbs,App,POS,200
+19/07/2026,BD35383,Jollof Rice,1,1679,1679,Alaga Spot,phone,card,500
+02/05/2026,BD44335,Soft Drink,1,437,437,Amala Pavilion,phone,card,0
+2026-07-16,BD78566,Fish (piece),2,1200,2400,Amala Pavilion,walk-in,card,200
+09/05/2026,BD78712,Chicken (piece),1,1500,1500,Butter N Crumbs,phone,Transfer,0
+04/05/2026,BD42816,  CHICKEN (PIECE)  ,1,1500,1500,Alaga Spot,app,pos,200
+18/07/2026,BD97776,Meat Pie,2,800,1600,Butter N Crumbs,APP,pos,200
+2026-07-15,BD28045,Jollof Rice,1,1800,1800,Jummie Kitchen,phone,pos,300
+16/06/2026,BD54595,Amala & Ewedu,1,2000,2000,Alaga Spot,App,card,200
+14/06/2026,BD93963,Jollof Rice,2,1800,3600,Butter N Crumbs,app,Transfer,0
+06/07/2026,BD28352,Fish (piece),1,1200,1200,Jummie Kitchen,app,Transfer,200
+01/07/2026,BD11932,Meat Pie,2,800,1600,Butter N Crumbs,APP,transfer,500
+10/07/2026,BD34386,Moi Moi,1,700,700,Butter N Crumbs,phone,POS,500
+25-Jul-2026,BD48528,Pounded Yam & Egusi,3,2500,7500,Butter N Crumbs,phone,POS,0
+07/06/2026,BD63546,Soft Drink,1,400,400,Munchies,Walk In,cash,0
+27/05/2026,BD96445,Moi Moi,1,700,700,Alaga Spot,APP,Transfer,0
+07/07/2026,BD26338,  PUFF PUFF (6PCS)  ,1,500,500,Alaga Spot,App,Transfer,0
+05/06/2026,BD85000,Chicken (piece),2,1500,3000,Butter N Crumbs,APP,card,0
+17/05/2026,BD49722,Zobo,1,500,500,Amala Pavilion,App,pos,0
+19/05/2026,BD43425,  POUNDED YAM & EGUSI  ,1,2500,2500,Amala Pavilion,APP,transfer,0
+24/05/2026,BD20480,Chicken (piece),2,"NGN1,695",3390,Munchies,walkin,card,300
+15/07/2026,BD38242,  FISH (PIECE)  ,1,1200,1200,Amala Pavilion,app,transfer,300
+18/07/2026,BD34763,Moi Moi,2,700,1400,Jummie Kitchen,Phone,Cash,500
+27/07/2026,BD25071,Soft Drink,2,400,800,Alaga Spot,walkin,Cash,0
+17/07/2026,BD73733,Beef (piece),1,800,800,Amala Pavilion,APP,pos,300
+15/06/2026,BD97897,Bottled Water,1,200,200,Alaga Spot,Phone,transfer,200
+25/05/2026,BD61684,Chicken (piece),1,1500,1500,Jummie Kitchen,App,Cash,500
+30/05/2026,BD67041,Moi Moi,2,700,1400,Alaga Spot,Phone,Transfer,0
+09/05/2026,BD86106,Chicken (piece),1,1500,1500,Butter N Crumbs,walkin,pos,500
+2026-07-08,BD64411,Puff Puff (6pcs),2,500,1000,Munchies,walkin,Cash,200
+07/05/2026,BD76497,  BEEF (PIECE)  ,1,800,800,Amala Pavilion,Phone,transfer,0
+10/07/2026,BD20097,Zobo,3,500,1500,Alaga Spot,walkin,pos,0
+17/06/2026,BD39500,White Rice & Stew,2,1500,3000,Jummie Kitchen,APP,card,200
+23/05/2026,BD56771,White Rice & Stew,1,1500,1500,Jummie Kitchen,Phone,Cash,500
+06-Jun-2026,BD28993,Puff Puff (6pcs),2,500,1000,Jummie Kitchen,Walk In,transfer,500
+30/06/2026,BD83696,Meat Pie,1,800,800,Jummie Kitchen,walkin,Cash,300
+05/07/2026,BD83093,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,,,300
+2026-07-20,BD24095,Bottled Water,1,200,200,Jummie Kitchen,App,pos,500
+09/05/2026,BD67807,Jollof Rice,1,1800,1800,Alaga Spot,phone,POS,0
+18/07/2026,BD54747,Puff Puff (6pcs),2,500,1000,Butter N Crumbs,App,cash,0
+2026-07-27,BD51182,Amala & Ewedu,1,2000,2000,Alaga Spot,walk-in,cash,300
+02-May-2026,BD22833,  ZOBO  ,1,500,500,Butter N Crumbs,app,transfer,0
+09/05/2026,BD45842,Fish (piece),2,1200,2400,Butter N Crumbs,phone,Cash,200
+13/07/2026,BD42688,Meat Pie,2,800,1600,Alaga Spot,Phone,transfer,0
+06/06/2026,BD48970,Soft Drink,3,400,1200,Amala Pavilion,walk-in,card,0
+2026-07-10,BD76512,Bottled Water,1,200,200,Butter N Crumbs,walkin,transfer,500
+17-Jul-2026,BD51881,Chicken (piece),1,1500,1500,Amala Pavilion,walk-in,Transfer,300
+27/07/2026,BD12979,Fish (piece),3,1200,3600,Butter N Crumbs,Walk In,transfer,0
+10/06/2026,BD46356,Meat Pie,1,800,800,Alaga Spot,app,card,200
+01/05/2026,BD30926,Chicken (piece),1,1500,1500,Jummie Kitchen,Walk In,Transfer,0
+13-Jul-2026,BD18030,Puff Puff (6pcs),1,500,500,Butter N Crumbs,app,transfer,0
+16/06/2026,BD48456,Amala & Ewedu,1,2000,2000,Amala Pavilion,APP,card,300
+03/07/2026,BD87483,Zobo,1,500,500,Munchies,APP,pos,0
+09/06/2026,BD64396,Eba & Okra,1,1500,1500,Alaga Spot,APP,pos,500
+11-Jul-2026,BD34651,Bottled Water,2,200,400,Jummie Kitchen,APP,POS,200
+10/06/2026,BD56061,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,Walk In,transfer,0
+16/05/2026,BD90495,Chicken (piece),1,1500,1500,Alaga Spot,walkin,POS,0
+29/05/2026,BD60801,Beef (piece),4,800,3200,Butter N Crumbs,App,transfer,200
+02/06/2026,BD79842,Soft Drink,1,400,400,Amala Pavilion,walkin,pos,0
+10/05/2026,BD55371,Moi Moi,1,NGN700,700,Alaga Spot,App,transfer,300
+08-Jun-2026,BD49013,Soft Drink,1,400,400,Amala Pavilion,Phone,card,200
+27/06/2026,BD81707,Amala & Ewedu,1,2000,2000,Jummie Kitchen,app,Transfer,300
+07/05/2026,BD43029,Fried Rice,1,1800,1800,Butter N Crumbs,APP,cash,0
+26/06/2026,BD32806,Bottled Water,2,NGN200,400,Amala Pavilion,phone,transfer,0
+16/05/2026,BD97232,Fish (piece),3,1200,3600,Alaga Spot,phone,cash,200
+18/06/2026,BD36013,White Rice & Stew,1,1500,1500,Jummie Kitchen,app,Transfer,300
+08/07/2026,BD50819,Puff Puff (6pcs),1,NGN500,500,Jummie Kitchen,APP,cash,500
+18/06/2026,BD36082,Moi Moi,2,700,1400,Jummie Kitchen,App,Cash,300
+21/06/2026,BD70929,Beef (piece),1,800,800,Alaga Spot,App,Cash,300
+07/05/2026,BD95990,Chicken (piece),2,1500,3000,Amala Pavilion,APP,card,0
+09/06/2026,BD63648,Moi Moi,2,700,1400,Butter N Crumbs,walkin,transfer,300
+09-May-2026,BD78069,Jollof Rice,1,1800,1800,Butter N Crumbs,APP,cash,500
+21/07/2026,BD50902,Bottled Water,1,200,200,Amala Pavilion,Walk In,transfer,0
+15/07/2026,BD60930,Soft Drink,1,400,400,Amala Pavilion,phone,card,0
+24/05/2026,BD91785,Chicken (piece),2,1500,3000,Jummie Kitchen,app,cash,0
+21/06/2026,BD37979,Jollof Rice,1,1800,1800,Munchies,phone,transfer,200
+22/07/2026,BD55123,Chicken (piece),2,1500,3000,Butter N Crumbs,phone,card,200
+06/07/2026,BD19154,  EBA & OKRA  ,3,1500,4500,Munchies,phone,pos,500
+21/05/2026,BD25403,  ZOBO  ,2,547,1094,Alaga Spot,app,pos,300
+03/07/2026,BD12185,Pounded Yam & Egusi,4,2500,10000,Jummie Kitchen,APP,card,200
+2026-05-14,BD45916,  ZOBO  ,2,500,1000,Jummie Kitchen,Walk In,transfer,200
+31/05/2026,BD95467,Beef (piece),1,800,800,Jummie Kitchen,Walk In,cash,0
+16-Jun-2026,BD12826,Pounded Yam & Egusi,4,2500,10000,Jummie Kitchen,phone,POS,300
+29/07/2026,BD26361,Eba & Okra,2,1500,3000,Butter N Crumbs,APP,pos,200
+2026-05-21,BD90473,Chicken (piece),1,1500,1500,Jummie Kitchen,app,pos,0
+2026-07-15,BD85597,Moi Moi,2,700,1400,Munchies,Walk In,POS,200
+24/07/2026,BD40907,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,walk-in,cash,200
+29/07/2026,BD83227,Beef (piece),1,800,800,Butter N Crumbs,walkin,pos,300
+23/07/2026,BD26617,Puff Puff (6pcs),3,500,1500,Alaga Spot,App,card,300
+17-May-2026,BD28004,Meat Pie,1,800,800,Jummie Kitchen,phone,card,300
+02-May-2026,BD44664,Pounded Yam & Egusi,3,2500,7500,Munchies,APP,cash,200
+18/07/2026,BD54220,Beef (piece),1,800,800,Amala Pavilion,walkin,Transfer,300
+10/06/2026,BD87187,  PUFF PUFF (6PCS)  ,1,500,500,Munchies,walkin,Cash,0
+2026-07-11,BD16943,Beef (piece),1,800,800,Jummie Kitchen,App,pos,0
+2026-06-06,BD45118,Amala & Ewedu,2,"NGN2,000",4000,Butter N Crumbs,phone,card,0
+17/06/2026,BD39591,Eba & Okra,3,1500,4500,Munchies,phone,Transfer,300
+01/06/2026,BD54470,  SOFT DRINK  ,2,400,800,Munchies,phone,transfer,0
+2026-06-11,BD56900,Fish (piece),1,1200,1200,Butter N Crumbs,Walk In,pos,0
+13/07/2026,BD87374,Eba & Okra,2,1500,3000,Alaga Spot,walkin,pos,200
+25/05/2026,BD60940,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,App,transfer,200
+12/05/2026,BD74357,Moi Moi,4,700,2800,Alaga Spot,walkin,Cash,200
+23-May-2026,BD29148,  FISH (PIECE)  ,2,1200,2400,Amala Pavilion,App,card,300
+27/07/2026,BD75491,Meat Pie,1,800,800,Alaga Spot,APP,transfer,0
+2026-05-01,BD83000,White Rice & Stew,1,1500,1500,Jummie Kitchen,app,Transfer,0
+20/05/2026,BD10659,Jollof Rice,1,1800,1800,Amala Pavilion,App,cash,0
+24/05/2026,BD52283,Beef (piece),1,800,800,Jummie Kitchen,App,transfer,500
+23/06/2026,BD29398,Zobo,1,500,500,Amala Pavilion,Phone,POS,0
+26/07/2026,BD84548,Meat Pie,2,800,1600,Jummie Kitchen,App,cash,0
+07/07/2026,BD36213,Soft Drink,1,400,400,Amala Pavilion,walk-in,cash,500
+13/05/2026,BD68176,Beef (piece),1,NGN800,800,Munchies,app,pos,0
+07/06/2026,BD46831,Fried Rice,1,1800,1800,Amala Pavilion,Walk In,cash,500
+2026-06-04,BD72851,Zobo,1,500,500,Jummie Kitchen,APP,pos,300
+28/05/2026,BD90649,Beef (piece),2,800,1600,Amala Pavilion,app,cash,200
+19/05/2026,BD32779,Pounded Yam & Egusi,1,2500,2500,Munchies,phone,transfer,300
+14/07/2026,BD64572,Bottled Water,1,200,200,Amala Pavilion,APP,card,0
+2026-07-19,BD74681,Amala & Ewedu,1,2000,2000,Amala Pavilion,walkin,card,200
+2026-06-01,BD80328,Bottled Water,2,200,400,Butter N Crumbs,walk-in,transfer,0
+07/07/2026,BD12815,Bottled Water,2,NGN200,400,Jummie Kitchen,app,card,300
+05/05/2026,BD93442,Bottled Water,2,200,400,Jummie Kitchen,APP,POS,0
+24-May-2026,BD11498,Soft Drink,2,400,800,Amala Pavilion,app,cash,500
+09/06/2026,BD68482,Zobo,1,NGN500,500,Butter N Crumbs,Phone,POS,200
+21/05/2026,BD90200,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,walk-in,Cash,500
+02/07/2026,BD37606,Fish (piece),1,1200,1200,Alaga Spot,APP,card,300
+28/06/2026,BD29450,Eba & Okra,1,1500,1500,Alaga Spot,APP,Cash,0
+2026-07-28,BD14692,Puff Puff (6pcs),2,500,1000,Amala Pavilion,App,cash,0
+09/05/2026,BD58567,Fish (piece),4,1200,4800,Munchies,walkin,Transfer,300
+27/05/2026,BD78657,Fried Rice,1,1800,1800,Butter N Crumbs,APP,Cash,500
+10/06/2026,BD26458,Chicken (piece),2,1500,3000,Amala Pavilion,Phone,transfer,500
+25/07/2026,BD91759,Bottled Water,1,200,200,Amala Pavilion,phone,pos,200
+08-May-2026,BD93584,Meat Pie,1,800,800,Jummie Kitchen,walk-in,transfer,0
+19/06/2026,BD83774,Soft Drink,2,400,800,Alaga Spot,Walk In,cash,300
+08/07/2026,BD18693,Jollof Rice,1,1800,1800,Amala Pavilion,Phone,Cash,500
+19/06/2026,BD86449,Jollof Rice,1,1800,1800,Amala Pavilion,Walk In,pos,500
+09/06/2026,BD22843,Meat Pie,1,800,800,Amala Pavilion,phone,transfer,0
+28/07/2026,BD96449,Eba & Okra,2,1500,3000,Jummie Kitchen,Phone,transfer,200
+01/05/2026,BD17100,Fried Rice,2,1800,3600,Munchies,app,Cash,200
+29-Jun-2026,BD25720,Meat Pie,1,800,800,Amala Pavilion,,,0
+09/06/2026,BD49838,Zobo,2,500,1000,Butter N Crumbs,App,POS,0
+04/07/2026,BD23711,Moi Moi,2,700,1400,Munchies,APP,Cash,300
+14/06/2026,BD82463,Bottled Water,3,200,600,Jummie Kitchen,phone,Cash,200
+22/06/2026,BD71548,Amala & Ewedu,2,2000,4000,Jummie Kitchen,Phone,Cash,300
+12/07/2026,BD84906,Fried Rice,1,1800,1800,Jummie Kitchen,phone,Cash,0
+15/06/2026,BD86342,Jollof Rice,1,1800,1800,Munchies,App,Transfer,500
+2026-05-14,BD92251,  POUNDED YAM & EGUSI  ,1,2500,2500,Amala Pavilion,walkin,transfer,300
+02/07/2026,BD61543,Eba & Okra,1,1500,1500,Amala Pavilion,Phone,cash,200
+03/06/2026,BD68402,Eba & Okra,1,1479,1479,Munchies,walk-in,POS,300
+31/05/2026,BD83886,Pounded Yam & Egusi,1,2826,2826,Amala Pavilion,APP,card,0
+23/07/2026,BD10012,Fried Rice,1,1800,1800,Jummie Kitchen,walkin,pos,300
+07/05/2026,BD15544,Soft Drink,2,NGN400,800,Amala Pavilion,App,pos,200
+03/05/2026,BD97747,Amala & Ewedu,1,1876,1876,Alaga Spot,Phone,POS,200
+26/07/2026,BD64749,Meat Pie,1,800,800,Munchies,Phone,Transfer,0
+17-May-2026,BD98063,Beef (piece),1,800,800,Jummie Kitchen,APP,pos,500
+22/07/2026,BD65079,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,Phone,transfer,0
+23/07/2026,BD27723,  MOI MOI  ,3,700,2100,Alaga Spot,walk-in,pos,0
+10/07/2026,BD83463,Amala & Ewedu,1,2000,2000,Butter N Crumbs,APP,Cash,500
+27/07/2026,BD81581,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,Phone,Transfer,300
+11/06/2026,BD98864,  ZOBO  ,1,500,500,Butter N Crumbs,Walk In,POS,500
+07-May-2026,BD21053,Jollof Rice,1,1800,1800,Alaga Spot,app,Transfer,300
+19/06/2026,BD46968,  AMALA & EWEDU  ,1,2000,2000,Alaga Spot,APP,pos,300
+24/07/2026,BD92686,Puff Puff (6pcs),2,500,1000,Butter N Crumbs,app,POS,0
+18/07/2026,BD17821,Beef (piece),1,800,800,Munchies,walkin,pos,300
+15/07/2026,BD46885,White Rice & Stew,1,1500,1500,Jummie Kitchen,phone,Transfer,0
+11/06/2026,BD84949,Meat Pie,1,758,758,Alaga Spot,phone,transfer,0
+24/07/2026,BD26014,Amala & Ewedu,2,2000,4000,Alaga Spot,APP,pos,0
+07/07/2026,BD52661,Puff Puff (6pcs),3,500,1500,Butter N Crumbs,Phone,transfer,300
+18/05/2026,BD23082,Puff Puff (6pcs),4,500,2000,Munchies,Walk In,cash,200
+16/05/2026,BD50508,Soft Drink,4,400,1600,Munchies,App,transfer,0
+2026-06-02,BD86037,Meat Pie,1,800,800,Alaga Spot,walk-in,cash,200
+25/07/2026,BD58222,Zobo,1,500,500,Jummie Kitchen,APP,transfer,0
+01/05/2026,BD55082,Bottled Water,1,200,200,Munchies,Phone,card,0
+01/05/2026,BD99593,White Rice & Stew,1,1500,1500,Butter N Crumbs,APP,card,0
+08/06/2026,BD64638,White Rice & Stew,3,1500,4500,Jummie Kitchen,Phone,pos,0
+17-May-2026,BD63031,Beef (piece),1,800,800,Munchies,walk-in,cash,0
+14/05/2026,BD24777,Bottled Water,3,200,600,Butter N Crumbs,App,card,0
+27/07/2026,BD35340,Bottled Water,1,200,200,Jummie Kitchen,app,transfer,0
+15/07/2026,BD64386,Jollof Rice,1,1800,1800,Munchies,walk-in,card,0
+18/05/2026,BD53371,Soft Drink,1,400,400,Munchies,walk-in,card,300
+22/07/2026,BD17810,Moi Moi,1,711,711,Butter N Crumbs,Walk In,Transfer,300
+12/07/2026,BD33634,Zobo,1,500,500,Munchies,walk-in,Cash,500
+05/05/2026,BD30232,  JOLLOF RICE  ,2,1800,3600,Jummie Kitchen,walkin,card,300
+14/07/2026,BD35923,Bottled Water,1,200,200,Amala Pavilion,Walk In,Transfer,500
+14/05/2026,BD72613,  SOFT DRINK  ,1,400,400,Amala Pavilion,App,POS,0
+02/05/2026,BD91351,Eba & Okra,2,1500,3000,Alaga Spot,APP,pos,0
+18/07/2026,BD29711,Fried Rice,2,1800,3600,Amala Pavilion,phone,transfer,500
+05/07/2026,BD28162,Moi Moi,1,700,700,Butter N Crumbs,App,card,500
+11/06/2026,BD18853,Eba & Okra,1,1500,1500,Alaga Spot,APP,POS,500
+23/05/2026,BD83472,Bottled Water,1,200,200,Alaga Spot,APP,POS,300
+20-Jul-2026,BD30629,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,App,Cash,500
+14-May-2026,BD55054,Eba & Okra,1,1500,1500,Munchies,app,transfer,300
+28/07/2026,BD35688,Amala & Ewedu,3,2000,6000,Alaga Spot,app,card,300
+17/06/2026,BD24841,Jollof Rice,1,1800,1800,Alaga Spot,App,cash,200
+04/07/2026,BD39057,Eba & Okra,1,1500,1500,Alaga Spot,walk-in,cash,200
+11/07/2026,BD76496,Zobo,1,500,500,Amala Pavilion,app,card,0
+29/06/2026,BD98091,Meat Pie,1,800,800,Jummie Kitchen,app,Cash,0
+23/05/2026,BD41399,Soft Drink,1,400,400,Butter N Crumbs,Walk In,cash,500
+2026-05-02,BD98777,Meat Pie,1,800,800,Alaga Spot,Walk In,Cash,500
+25/06/2026,BD84130,Chicken (piece),1,1500,1500,Munchies,phone,Transfer,300
+13/07/2026,BD95831,Pounded Yam & Egusi,2,2500,5000,Jummie Kitchen,Walk In,pos,0
+24/06/2026,BD19103,Soft Drink,3,400,1200,Jummie Kitchen,Phone,Transfer,0
+03/05/2026,BD62994,Pounded Yam & Egusi,1,2460,2460,Amala Pavilion,APP,card,500
+08-May-2026,BD26341,Eba & Okra,1,1500,1500,Alaga Spot,Walk In,Cash,500
+13/06/2026,BD80464,Moi Moi,2,700,1400,Butter N Crumbs,app,card,0
+14/07/2026,BD11828,Moi Moi,4,700,2800,Alaga Spot,APP,card,0
+18-Jul-2026,BD93275,Bottled Water,1,200,200,Butter N Crumbs,Walk In,Cash,0
+13/06/2026,BD81568,Zobo,1,500,500,Alaga Spot,walkin,cash,200
+28-Jul-2026,BD66773,Chicken (piece),2,1500,3000,Butter N Crumbs,Walk In,card,200
+01/07/2026,BD42598,Zobo,1,500,500,Munchies,app,pos,500
+02/07/2026,BD20154,Zobo,1,500,500,Munchies,walk-in,cash,0
+03/06/2026,BD31135,Soft Drink,2,400,800,Munchies,walkin,card,0
+31/05/2026,BD40958,Beef (piece),1,800,800,Butter N Crumbs,app,cash,0
+04/05/2026,BD69682,Puff Puff (6pcs),1,500,500,Alaga Spot,walk-in,card,300
+07/07/2026,BD89522,Fish (piece),4,1200,4800,Munchies,App,transfer,200
+27/06/2026,BD15821,Moi Moi,1,NGN700,700,Amala Pavilion,APP,POS,300
+22/06/2026,BD30760,Eba & Okra,1,1500,1500,Jummie Kitchen,App,Transfer,500
+2026-05-05,BD57537,  FISH (PIECE)  ,1,1200,1200,Jummie Kitchen,walkin,transfer,300
+12/05/2026,BD93086,Fish (piece),1,1200,1200,Amala Pavilion,walkin,cash,0
+23/07/2026,BD19721,Amala & Ewedu,3,2000,6000,Butter N Crumbs,App,cash,500
+24/07/2026,BD55265,Jollof Rice,1,1737,1737,Munchies,walkin,POS,500
+01/05/2026,BD84341,Bottled Water,1,200,200,Jummie Kitchen,walk-in,POS,300
+10/05/2026,BD86344,Amala & Ewedu,1,2000,2000,Munchies,Walk In,POS,200
+16/05/2026,BD11620,Moi Moi,1,700,700,Butter N Crumbs,phone,transfer,300
+09/05/2026,BD47453,Puff Puff (6pcs),1,500,500,Munchies,phone,Transfer,200
+25/06/2026,BD39300,Meat Pie,1,800,800,Alaga Spot,Walk In,POS,200
+2026-07-14,BD73530,Puff Puff (6pcs),1,500,500,Butter N Crumbs,walk-in,pos,0
+07/06/2026,BD22182,  BOTTLED WATER  ,1,200,200,Jummie Kitchen,Phone,POS,0
+06/06/2026,BD46408,Amala & Ewedu,1,2000,2000,Alaga Spot,app,POS,300
+29-May-2026,BD53684,Zobo,1,500,500,Munchies,App,card,200
+20/05/2026,BD94663,Fish (piece),2,1200,2400,Alaga Spot,APP,Transfer,0
+15/07/2026,BD49139,Fish (piece),3,1200,3600,Alaga Spot,,,300
+17/05/2026,BD85534,Jollof Rice,1,1800,1800,Amala Pavilion,App,Transfer,500
+07/07/2026,BD83147,Pounded Yam & Egusi,2,2517,5034,Alaga Spot,walk-in,card,500
+08/07/2026,BD74592,Eba & Okra,4,1500,6000,Butter N Crumbs,walk-in,Transfer,0
+09/05/2026,BD16705,Fish (piece),1,1200,1200,Alaga Spot,walkin,card,200
+2026-05-28,BD79330,Chicken (piece),1,1500,1500,Amala Pavilion,Walk In,Cash,500
+28-Jun-2026,BD68170,Chicken (piece),2,1500,3000,Amala Pavilion,app,Cash,0
+2026-07-27,BD13003,Eba & Okra,1,1500,1500,Butter N Crumbs,phone,Cash,0
+09/07/2026,BD39769,Moi Moi,2,700,1400,Munchies,App,card,200
+02/07/2026,BD10734,Jollof Rice,1,1800,1800,Alaga Spot,walk-in,POS,0
+18-Jul-2026,BD87274,Meat Pie,1,800,800,Butter N Crumbs,APP,Cash,200
+05/05/2026,BD84177,Jollof Rice,4,1800,7200,Munchies,Phone,pos,200
+03/05/2026,BD23446,Fish (piece),3,1200,3600,Butter N Crumbs,Walk In,Cash,300
+11/06/2026,BD74091,Beef (piece),1,800,800,Butter N Crumbs,App,pos,0
+01/05/2026,BD18326,White Rice & Stew,2,1500,3000,Butter N Crumbs,Phone,card,200
+09/06/2026,BD94078,Moi Moi,1,700,700,Butter N Crumbs,app,POS,500
+16/05/2026,BD67637,Zobo,1,500,500,Alaga Spot,Walk In,card,0
+2026-05-21,BD88188,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,phone,Cash,0
+26-Jul-2026,BD12293,Zobo,4,500,2000,Jummie Kitchen,app,cash,300
+03/05/2026,BD21003,Jollof Rice,3,1800,5400,Alaga Spot,Phone,Transfer,0
+05/06/2026,BD42011,Eba & Okra,4,1500,6000,Jummie Kitchen,App,POS,0
+05/05/2026,BD52516,Puff Puff (6pcs),1,500,500,Jummie Kitchen,walkin,cash,300
+17/05/2026,BD47364,  SOFT DRINK  ,3,NGN400,1200,Munchies,APP,pos,500
+31/05/2026,BD44654,Amala & Ewedu,1,2000,2000,Munchies,app,Transfer,300
+24/07/2026,BD85605,Beef (piece),1,800,800,Munchies,app,POS,300
+16/05/2026,BD13373,Soft Drink,2,400,800,Jummie Kitchen,App,Cash,0
+12/06/2026,BD52949,Chicken (piece),1,1500,1500,Jummie Kitchen,APP,pos,500
+10/06/2026,BD97097,White Rice & Stew,3,1500,4500,Amala Pavilion,walk-in,Cash,200
+26/05/2026,BD78251,Zobo,1,500,500,Butter N Crumbs,walk-in,Cash,0
+28/05/2026,BD47274,Jollof Rice,1,1800,1800,Butter N Crumbs,APP,Cash,500
+12/06/2026,BD53403,Beef (piece),1,800,800,Butter N Crumbs,walkin,card,200
+12/05/2026,BD51220,  ZOBO  ,1,500,500,Alaga Spot,APP,pos,300
+22/06/2026,BD59559,Pounded Yam & Egusi,1,2500,2500,Munchies,Walk In,transfer,0
+08/05/2026,BD90584,Chicken (piece),1,1500,1500,Butter N Crumbs,phone,Transfer,0
+06/06/2026,BD73620,Fried Rice,1,1978,1978,Amala Pavilion,phone,POS,0
+23/07/2026,BD66966,Bottled Water,1,200,200,Alaga Spot,Walk In,POS,500
+18/06/2026,BD87489,Fish (piece),2,1200,2400,Alaga Spot,walk-in,transfer,0
+19-May-2026,BD41958,Puff Puff (6pcs),1,500,500,Jummie Kitchen,phone,pos,0
+10/06/2026,BD63382,White Rice & Stew,1,1500,1500,Munchies,walkin,Transfer,0
+2026-07-08,BD29841,Soft Drink,1,400,400,Alaga Spot,walkin,transfer,0
+2026-07-29,BD39052,White Rice & Stew,4,1500,6000,Alaga Spot,walkin,card,500
+02/06/2026,BD18782,Chicken (piece),1,1500,1500,Alaga Spot,APP,cash,0
+25/06/2026,BD69910,Puff Puff (6pcs),1,500,500,Amala Pavilion,app,card,200
+27/07/2026,BD41191,White Rice & Stew,1,1500,1500,Jummie Kitchen,APP,Cash,300
+16/07/2026,BD69083,Zobo,1,500,500,Alaga Spot,app,cash,500
+10/05/2026,BD38721,Beef (piece),3,800,2400,Amala Pavilion,APP,Cash,500
+15/06/2026,BD90293,Beef (piece),1,800,800,Jummie Kitchen,phone,Cash,0
+26/07/2026,BD66904,Moi Moi,1,700,700,Munchies,phone,card,300
+16/06/2026,BD26346,Fried Rice,1,1800,1800,Jummie Kitchen,APP,Cash,0
+04/05/2026,BD95394,Chicken (piece),1,1500,1500,Jummie Kitchen,APP,card,300
+28-May-2026,BD14660,Soft Drink,1,400,400,Amala Pavilion,APP,POS,300
+03/07/2026,BD51358,Moi Moi,2,700,1400,Alaga Spot,Walk In,Transfer,0
+2026-06-21,BD54017,Eba & Okra,2,"NGN1,500",3000,Alaga Spot,Phone,Cash,200
+24/06/2026,BD20579,White Rice & Stew,4,1500,6000,Munchies,Phone,cash,0
+20/07/2026,BD76188,Amala & Ewedu,1,2000,2000,Amala Pavilion,walk-in,Cash,0
+13/05/2026,BD31542,Jollof Rice,2,1800,3600,Alaga Spot,APP,card,0
+04/07/2026,BD40710,Chicken (piece),1,1500,1500,Butter N Crumbs,App,Cash,300
+10-May-2026,BD27431,Moi Moi,1,700,700,Jummie Kitchen,App,Transfer,500
+21/07/2026,BD26003,Meat Pie,2,800,1600,Butter N Crumbs,Walk In,pos,0
+19/06/2026,BD51853,Eba & Okra,4,1500,6000,Amala Pavilion,phone,card,200
+18/06/2026,BD49515,Zobo,1,500,500,Alaga Spot,APP,transfer,0
+20/05/2026,BD84356,Chicken (piece),2,1500,3000,Butter N Crumbs,Phone,POS,500
+03/05/2026,BD63545,White Rice & Stew,1,1500,1500,Butter N Crumbs,Phone,cash,0
+21/06/2026,BD67250,Moi Moi,1,700,700,Butter N Crumbs,phone,pos,0
+03/05/2026,BD11658,Moi Moi,2,700,1400,Amala Pavilion,App,Cash,200
+05/07/2026,BD88544,Meat Pie,1,800,800,Jummie Kitchen,App,POS,200
+19/06/2026,BD24733,Beef (piece),1,800,800,Munchies,walk-in,transfer,200
+14/05/2026,BD27451,Fried Rice,1,1800,3600,Alaga Spot,App,card,500
+18/06/2026,BD25775,  FRIED RICE  ,3,1800,5400,Alaga Spot,walk-in,POS,300
+29/06/2026,BD39312,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,Walk In,card,0
+22/07/2026,BD97275,Soft Drink,2,400,800,Alaga Spot,Phone,Cash,200
+26/05/2026,BD89377,Fried Rice,1,2063,2063,Alaga Spot,walk-in,Transfer,0
+18/06/2026,BD46773,Moi Moi,2,700,1400,Amala Pavilion,walk-in,cash,0
+01/05/2026,BD13478,Jollof Rice,1,1800,1800,Butter N Crumbs,phone,Transfer,300
+04-Jun-2026,BD71936,White Rice & Stew,1,1500,1500,Jummie Kitchen,phone,Transfer,300
+31/05/2026,BD34217,White Rice & Stew,1,1500,1500,Alaga Spot,Walk In,cash,300
+03/05/2026,BD59692,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,Walk In,pos,0
+05/06/2026,BD19123,Meat Pie,1,800,800,Amala Pavilion,walkin,Transfer,0
+11/05/2026,BD33496,Jollof Rice,1,1800,1800,Munchies,APP,Transfer,0
+18/07/2026,BD77786,Puff Puff (6pcs),1,500,500,Alaga Spot,app,Cash,200
+06/05/2026,BD57453,Meat Pie,1,800,800,Munchies,Phone,card,0
+08/07/2026,BD14485,Eba & Okra,1,1500,1500,Amala Pavilion,app,pos,0
+10/05/2026,BD74930,Zobo,3,500,1500,Jummie Kitchen,app,transfer,200
+15-Jul-2026,BD43073,Jollof Rice,2,1800,3600,Munchies,Walk In,transfer,0
+02/05/2026,BD84085,Amala & Ewedu,1,1840,1840,Jummie Kitchen,walk-in,POS,200
+25-May-2026,BD47707,  AMALA & EWEDU  ,3,2000,6000,Munchies,Walk In,Cash,300
+20/07/2026,BD74927,White Rice & Stew,1,1500,1500,Alaga Spot,APP,Cash,0
+10-Jul-2026,BD21648,Bottled Water,1,200,200,Butter N Crumbs,walk-in,cash,200
+04/07/2026,BD80126,Meat Pie,1,800,800,Munchies,APP,Cash,500
+08/06/2026,BD98487,Soft Drink,4,400,1600,Jummie Kitchen,App,Transfer,0
+2026-06-06,BD71746,Pounded Yam & Egusi,3,2500,7500,Jummie Kitchen,phone,pos,0
+20/06/2026,BD58690,Beef (piece),2,800,1600,Alaga Spot,Walk In,transfer,0
+18-May-2026,BD22183,Zobo,1,500,500,Jummie Kitchen,APP,transfer,300
+15/07/2026,BD36816,Chicken (piece),4,1500,6000,Munchies,phone,pos,0
+2026-05-31,BD79798,Moi Moi,1,700,700,Amala Pavilion,Phone,cash,0
+07/07/2026,BD48196,Meat Pie,2,800,1600,Alaga Spot,App,pos,200
+02/07/2026,BD65584,Soft Drink,1,400,400,Butter N Crumbs,walk-in,Cash,200
+14/07/2026,BD73771,Soft Drink,4,400,1600,Amala Pavilion,,,0
+22/06/2026,BD45076,Jollof Rice,3,1800,5400,Jummie Kitchen,Walk In,pos,300
+05-Jul-2026,BD74858,Meat Pie,1,800,800,Jummie Kitchen,Phone,Transfer,0
+07/05/2026,BD38074,Meat Pie,1,800,800,Amala Pavilion,walk-in,Transfer,0
+22/07/2026,BD46125,Eba & Okra,1,"NGN1,500",1500,Amala Pavilion,Walk In,Transfer,300
+07/07/2026,BD79258,  MOI MOI  ,1,700,700,Butter N Crumbs,walkin,transfer,500
+15/05/2026,BD36143,Puff Puff (6pcs),1,500,500,Butter N Crumbs,walk-in,POS,500
+19/05/2026,BD77147,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,walkin,POS,500
+12/07/2026,BD80975,Moi Moi,2,700,1400,Amala Pavilion,APP,pos,200
+2026-07-27,BD40999,Soft Drink,1,400,400,Jummie Kitchen,App,Cash,300
+03-Jul-2026,BD15006,Fish (piece),3,1200,3600,Butter N Crumbs,APP,POS,0
+2026-06-22,BD45073,White Rice & Stew,1,1500,1500,Alaga Spot,App,cash,500
+20/06/2026,BD13453,Fried Rice,4,1800,7200,Amala Pavilion,walkin,transfer,0
+21-May-2026,BD99701,Fried Rice,1,1800,1800,Alaga Spot,App,Transfer,300
+03-Jul-2026,BD71709,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,Phone,Transfer,300
+23/07/2026,BD58056,Amala & Ewedu,2,2162,4324,Jummie Kitchen,phone,Transfer,0
+10/07/2026,BD89513,Fried Rice,4,1800,7200,Amala Pavilion,phone,transfer,500
+09/07/2026,BD20874,White Rice & Stew,3,1500,4500,Butter N Crumbs,APP,Cash,500
+04/05/2026,BD19150,Zobo,1,500,500,Amala Pavilion,walkin,pos,500
+07/07/2026,BD39214,Jollof Rice,1,1800,1800,Jummie Kitchen,Phone,POS,0
+22/05/2026,BD25776,Moi Moi,3,700,2100,Amala Pavilion,walkin,POS,0
+28/07/2026,BD89918,Beef (piece),1,NGN800,800,Munchies,App,cash,200
+27/06/2026,BD44478,Jollof Rice,1,1800,1800,Munchies,walkin,Cash,200
+07/06/2026,BD31624,Soft Drink,2,400,800,Amala Pavilion,APP,card,300
+2026-06-03,BD53421,White Rice & Stew,1,1500,1500,Jummie Kitchen,Phone,cash,500
+24/07/2026,BD26223,Fried Rice,1,1800,1800,Butter N Crumbs,,,500
+18/07/2026,BD90788,Fried Rice,2,1800,3600,Jummie Kitchen,Walk In,cash,200
+02/05/2026,BD64377,Amala & Ewedu,1,2000,2000,Butter N Crumbs,Phone,Cash,0
+10/06/2026,BD13788,Jollof Rice,1,1800,1800,Alaga Spot,app,cash,500
+21/06/2026,BD91871,Zobo,2,500,1000,Jummie Kitchen,App,POS,300
+2026-06-08,BD99694,Zobo,2,500,1000,Alaga Spot,phone,cash,500
+26/05/2026,BD89260,Eba & Okra,1,1500,1500,Jummie Kitchen,APP,pos,300
+15/05/2026,BD72873,Bottled Water,1,200,200,Amala Pavilion,walkin,card,500
+14/07/2026,BD90357,Beef (piece),1,800,800,Munchies,Walk In,cash,500
+11-May-2026,BD75444,Amala & Ewedu,1,2000,2000,Jummie Kitchen,Walk In,pos,300
+29/06/2026,BD63592,Fried Rice,2,1800,3600,Amala Pavilion,Walk In,pos,300
+27/05/2026,BD10753,Chicken (piece),2,1536,3072,Amala Pavilion,walk-in,Transfer,500
+11/06/2026,BD26809,Beef (piece),2,800,1600,Alaga Spot,Walk In,card,0
+16/05/2026,BD23726,  FRIED RICE  ,2,1629,3258,Alaga Spot,phone,Transfer,0
+17/06/2026,BD63145,  BEEF (PIECE)  ,4,800,3200,Alaga Spot,app,POS,300
+11/06/2026,BD95200,  ZOBO  ,1,500,500,Jummie Kitchen,phone,pos,300
+13-May-2026,BD11256,Eba & Okra,2,1500,3000,Alaga Spot,phone,card,500
+11-Jun-2026,BD62649,  BEEF (PIECE)  ,1,800,800,Amala Pavilion,walk-in,pos,500
+13/06/2026,BD69105,Bottled Water,1,200,200,Alaga Spot,app,Cash,0
+08/07/2026,BD20772,Meat Pie,1,800,800,Amala Pavilion,Walk In,card,0
+2026-05-14,BD30365,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,App,cash,300
+2026-05-14,BD52898,Fish (piece),3,"NGN1,200",3600,Munchies,Phone,POS,200
+19/07/2026,BD77763,Puff Puff (6pcs),1,500,500,Amala Pavilion,Phone,Cash,500
+22/07/2026,BD11803,Fried Rice,1,1800,1800,Jummie Kitchen,walk-in,Cash,0
+18-Jul-2026,BD49779,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,walkin,cash,300
+04/07/2026,BD21848,White Rice & Stew,2,1500,3000,Alaga Spot,walkin,Cash,300
+18/06/2026,BD76043,Zobo,1,500,500,Alaga Spot,Walk In,POS,0
+07/07/2026,BD44452,Chicken (piece),2,1500,3000,Jummie Kitchen,walkin,Transfer,200
+2026-06-02,BD76524,Fried Rice,2,1800,3600,Alaga Spot,Walk In,transfer,0
+10/06/2026,BD74615,Jollof Rice,1,"NGN1,800",1800,Butter N Crumbs,phone,transfer,200
+28/05/2026,BD46913,Meat Pie,2,800,1600,Munchies,Walk In,cash,500
+02/06/2026,BD66113,Chicken (piece),1,"NGN1,500",1500,Alaga Spot,walk-in,cash,300
+20/05/2026,BD86099,Fried Rice,1,1800,1800,Jummie Kitchen,walkin,Transfer,0
+06/05/2026,BD98470,Soft Drink,1,400,400,Munchies,Walk In,transfer,0
+25/06/2026,BD41546,Beef (piece),1,800,800,Butter N Crumbs,walk-in,Cash,300
+03/06/2026,BD50172,Soft Drink,1,400,400,Jummie Kitchen,walk-in,Cash,200
+30/05/2026,BD20254,Soft Drink,4,400,1600,Butter N Crumbs,App,Transfer,300
+06/07/2026,BD33944,Puff Puff (6pcs),1,500,500,Alaga Spot,walk-in,POS,300
+27/06/2026,BD80047,Fried Rice,3,1800,5400,Butter N Crumbs,Walk In,Cash,500
+31/05/2026,BD94604,Puff Puff (6pcs),4,500,2000,Alaga Spot,phone,Transfer,500
+24/05/2026,BD51515,Fish (piece),1,1200,1200,Jummie Kitchen,Phone,POS,0
+22/05/2026,BD29116,Bottled Water,1,200,200,Alaga Spot,Phone,pos,0
+27-Jul-2026,BD52339,  CHICKEN (PIECE)  ,1,1500,1500,Amala Pavilion,Walk In,card,0
+2026-07-17,BD89325,Fried Rice,1,1800,1800,Amala Pavilion,Phone,cash,300
+06/05/2026,BD21957,Eba & Okra,4,1500,6000,Munchies,phone,transfer,200
+05/07/2026,BD96142,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,Phone,card,200
+11/05/2026,BD62022,  CHICKEN (PIECE)  ,1,1500,1500,Amala Pavilion,Phone,card,0
+28-May-2026,BD84839,Eba & Okra,4,1500,6000,Alaga Spot,App,pos,200
+14/06/2026,BD11965,Fried Rice,1,1800,1800,Jummie Kitchen,app,Cash,0
+08/05/2026,BD28191,White Rice & Stew,1,1500,1500,Amala Pavilion,Phone,card,0
+08/06/2026,BD34259,  EBA & OKRA  ,4,1500,6000,Butter N Crumbs,Walk In,pos,0
+11/07/2026,BD22564,Moi Moi,2,700,1400,Alaga Spot,phone,cash,300
+19/05/2026,BD15965,Beef (piece),2,800,1600,Munchies,walkin,card,0
+05/05/2026,BD23154,Jollof Rice,1,1800,1800,Amala Pavilion,App,card,300
+16/05/2026,BD24160,Amala & Ewedu,1,2000,2000,Munchies,phone,Cash,300
+19/05/2026,BD98542,Jollof Rice,1,1800,1800,Alaga Spot,phone,Transfer,500
+14/07/2026,BD27284,Bottled Water,1,200,200,Munchies,APP,Transfer,0
+08/06/2026,BD82653,Moi Moi,2,700,1400,Munchies,Phone,Cash,300
+2026-06-02,BD85196,Chicken (piece),1,1500,1500,Amala Pavilion,app,transfer,300
+23/05/2026,BD42983,White Rice & Stew,3,1500,4500,Munchies,walk-in,Transfer,300
+01/06/2026,BD32372,Zobo,1,500,500,Munchies,App,transfer,300
+29-May-2026,BD52058,Jollof Rice,1,1800,1800,Jummie Kitchen,Walk In,card,200
+16-Jun-2026,BD49855,Eba & Okra,2,1500,3000,Alaga Spot,APP,Cash,300
+15-May-2026,BD89076,  FRIED RICE  ,1,1800,1800,Jummie Kitchen,APP,transfer,0
+24/06/2026,BD11777,Meat Pie,1,NGN800,800,Jummie Kitchen,walkin,card,500
+15/05/2026,BD90868,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,,,500
+03/06/2026,BD65552,Fish (piece),4,1200,4800,Amala Pavilion,APP,pos,500
+10/06/2026,BD28156,Puff Puff (6pcs),2,NGN500,1000,Amala Pavilion,Phone,POS,300
+15-May-2026,BD19808,Chicken (piece),1,1500,1500,Munchies,phone,POS,0
+04/07/2026,BD67012,Puff Puff (6pcs),2,500,1000,Amala Pavilion,walk-in,cash,200
+04/05/2026,BD10150,Fried Rice,4,1800,7200,Butter N Crumbs,Phone,Cash,0
+20/07/2026,BD90593,Bottled Water,1,200,200,Munchies,App,Cash,500
+05/05/2026,BD11824,Soft Drink,2,400,800,Munchies,Phone,cash,200
+30/05/2026,BD67243,Beef (piece),1,800,800,Alaga Spot,App,Transfer,300
+16/05/2026,BD84381,  WHITE RICE & STEW  ,1,1613,1613,Butter N Crumbs,walkin,pos,500
+09/07/2026,BD79582,Meat Pie,1,800,800,Alaga Spot,App,POS,0
+20/05/2026,BD12441,Pounded Yam & Egusi,2,2500,5000,Munchies,phone,pos,500
+08/07/2026,BD65052,Meat Pie,1,800,800,Munchies,walkin,cash,200
+14/05/2026,BD26142,Soft Drink,1,400,400,Amala Pavilion,,,200
+29/06/2026,BD46608,Moi Moi,1,700,700,Munchies,walk-in,cash,300
+18/05/2026,BD72684,Moi Moi,4,700,2800,Alaga Spot,App,Transfer,0
+19/07/2026,BD93889,Moi Moi,4,700,2800,Jummie Kitchen,walkin,transfer,200
+03-May-2026,BD82848,  EBA & OKRA  ,1,1500,1500,Alaga Spot,App,Transfer,300
+24/05/2026,BD69517,  WHITE RICE & STEW  ,1,1500,1500,Butter N Crumbs,phone,POS,0
+09/05/2026,BD64596,Pounded Yam & Egusi,1,2457,2457,Munchies,Phone,cash,500
+25/07/2026,BD54634,Fried Rice,4,1800,7200,Amala Pavilion,APP,Cash,500
+08/05/2026,BD39430,  MEAT PIE  ,1,800,800,Munchies,walkin,pos,0
+18/07/2026,BD46329,Jollof Rice,1,1800,1800,Alaga Spot,walk-in,Transfer,500
+11/07/2026,BD84861,Fish (piece),1,1200,1200,Munchies,app,Cash,0
+15-May-2026,BD32789,  EBA & OKRA  ,1,1462,1462,Amala Pavilion,,,500
+06/07/2026,BD68017,Jollof Rice,1,1800,1800,Alaga Spot,Phone,transfer,200
+2026-05-03,BD55870,Puff Puff (6pcs),1,500,500,Munchies,app,pos,0
+18/07/2026,BD90779,  WHITE RICE & STEW  ,2,1500,3000,Alaga Spot,App,card,500
+23/05/2026,BD11170,Bottled Water,1,200,200,Butter N Crumbs,Phone,POS,500
+2026-06-27,BD45456,Zobo,1,500,500,Munchies,app,Cash,500
+22/05/2026,BD22190,Meat Pie,1,800,800,Jummie Kitchen,App,card,0
+12/06/2026,BD13934,Soft Drink,4,400,1600,Alaga Spot,Walk In,Cash,0
+21/06/2026,BD97551,Meat Pie,2,800,1600,Alaga Spot,walkin,POS,200
+30-Jun-2026,BD45168,Bottled Water,1,200,200,Alaga Spot,walkin,POS,0
+11/05/2026,BD82970,Beef (piece),1,800,800,Alaga Spot,phone,card,300
+21/05/2026,BD66224,Meat Pie,1,800,800,Amala Pavilion,phone,cash,500
+14/05/2026,BD66948,Fish (piece),4,1200,4800,Butter N Crumbs,app,cash,0
+05/07/2026,BD91984,Fish (piece),1,1262,1262,Munchies,walkin,transfer,500
+2026-05-24,BD30278,  ZOBO  ,1,500,500,Amala Pavilion,walkin,Transfer,0
+24/07/2026,BD48191,Beef (piece),2,857,1714,Alaga Spot,walk-in,pos,200
+2026-05-15,BD61505,Amala & Ewedu,1,2000,2000,Jummie Kitchen,walkin,Cash,200
+26-May-2026,BD50501,Chicken (piece),1,1500,1500,Butter N Crumbs,APP,Cash,0
+11/07/2026,BD88479,Eba & Okra,3,1500,4500,Jummie Kitchen,phone,POS,500
+05/06/2026,BD52260,Fish (piece),1,1174,1174,Amala Pavilion,App,POS,0
+2026-05-21,BD67065,  BOTTLED WATER  ,1,200,200,Jummie Kitchen,walk-in,cash,0
+15/07/2026,BD97428,Zobo,1,500,500,Alaga Spot,App,card,0
+05/06/2026,BD91522,White Rice & Stew,1,1500,1500,Munchies,Phone,pos,300
+28/07/2026,BD92289,Pounded Yam & Egusi,1,2500,5000,Amala Pavilion,Phone,card,500
+06/05/2026,BD10800,Pounded Yam & Egusi,2,2500,5000,Alaga Spot,phone,transfer,0
+25/05/2026,BD90739,Amala & Ewedu,1,2000,2000,Butter N Crumbs,walk-in,Transfer,0
+10/06/2026,BD91094,Meat Pie,2,800,1600,Munchies,walk-in,pos,300
+19-Jul-2026,BD63110,Eba & Okra,2,1500,3000,Butter N Crumbs,phone,Transfer,500
+08/06/2026,BD54606,Chicken (piece),1,1500,1500,Munchies,Walk In,Transfer,500
+14/05/2026,BD10088,Jollof Rice,1,1800,1800,Amala Pavilion,walk-in,POS,0
+06/07/2026,BD44078,Puff Puff (6pcs),3,500,1500,Amala Pavilion,walkin,pos,300
+24/05/2026,BD55603,Moi Moi,1,700,700,Amala Pavilion,phone,pos,0
+16-Jun-2026,BD35644,Pounded Yam & Egusi,3,2500,7500,Munchies,walkin,POS,500
+18-Jun-2026,BD27428,Pounded Yam & Egusi,1,2500,2500,Munchies,walk-in,pos,0
+03/06/2026,BD46428,Beef (piece),1,800,800,Munchies,Phone,POS,0
+17/07/2026,BD31331,  FISH (PIECE)  ,1,1200,1200,Butter N Crumbs,walkin,Cash,0
+16/05/2026,BD93789,White Rice & Stew,4,1500,6000,Jummie Kitchen,APP,POS,500
+22-Jun-2026,BD96463,Bottled Water,1,200,200,Butter N Crumbs,app,transfer,200
+06/07/2026,BD23090,Amala & Ewedu,1,2000,2000,Alaga Spot,Phone,cash,500
+23/07/2026,BD59091,  SOFT DRINK  ,3,400,1200,Alaga Spot,phone,transfer,0
+15-Jul-2026,BD49590,Beef (piece),1,800,800,Amala Pavilion,walk-in,transfer,0
+01/07/2026,BD47105,Fried Rice,1,1800,1800,Alaga Spot,walk-in,transfer,200
+23/06/2026,BD35837,  BEEF (PIECE)  ,2,800,1600,Amala Pavilion,Phone,transfer,200
+10/05/2026,BD17292,Fish (piece),1,1200,1200,Butter N Crumbs,phone,Cash,500
+31/05/2026,BD17872,Pounded Yam & Egusi,2,2500,5000,Jummie Kitchen,APP,Cash,0
+04/06/2026,BD27950,Fried Rice,1,1800,1800,Jummie Kitchen,Phone,Cash,200
+02/06/2026,BD69394,  POUNDED YAM & EGUSI  ,1,2500,2500,Munchies,APP,Transfer,0
+20/07/2026,BD18658,  ZOBO  ,1,469,469,Jummie Kitchen,phone,Transfer,300
+16/07/2026,BD22065,  PUFF PUFF (6PCS)  ,2,500,1000,Munchies,Phone,Cash,200
+19/07/2026,BD36044,Moi Moi,1,700,700,Alaga Spot,phone,pos,0
+04/06/2026,BD51446,Bottled Water,1,200,200,Jummie Kitchen,Walk In,POS,200
+19/06/2026,BD79067,Soft Drink,1,NGN400,400,Alaga Spot,,,200
+11/07/2026,BD95634,Fish (piece),3,1200,3600,Jummie Kitchen,phone,POS,0
+24/06/2026,BD24337,  PUFF PUFF (6PCS)  ,1,500,500,Munchies,Walk In,pos,0
+10/07/2026,BD41939,Puff Puff (6pcs),2,500,1000,Butter N Crumbs,Phone,pos,300
+13-Jul-2026,BD21453,White Rice & Stew,1,1500,1500,Munchies,app,POS,200
+27/06/2026,BD39852,  AMALA & EWEDU  ,2,2000,4000,Munchies,app,pos,0
+05/07/2026,BD95576,Moi Moi,1,700,700,Munchies,phone,transfer,0
+16/07/2026,BD31587,Chicken (piece),1,1500,1500,Jummie Kitchen,Phone,transfer,200
+13/06/2026,BD70849,Pounded Yam & Egusi,1,2500,2500,Munchies,App,card,0
+11/05/2026,BD38477,Amala & Ewedu,2,2000,4000,Munchies,APP,card,200
+22-Jul-2026,BD52613,White Rice & Stew,2,1500,3000,Amala Pavilion,Walk In,Cash,0
+07/06/2026,BD76681,Amala & Ewedu,3,2000,6000,Butter N Crumbs,walk-in,card,0
+22/05/2026,BD38241,Meat Pie,3,739,2217,Amala Pavilion,App,Cash,200
+13/06/2026,BD42728,Puff Puff (6pcs),1,546,546,Alaga Spot,walk-in,transfer,0
+16/06/2026,BD86919,Puff Puff (6pcs),2,500,1000,Butter N Crumbs,Phone,cash,0
+16/06/2026,BD26555,Moi Moi,1,700,700,Butter N Crumbs,walk-in,transfer,300
+15/07/2026,BD45646,Fish (piece),1,1200,1200,Alaga Spot,walk-in,POS,300
+18/07/2026,BD97776,Meat Pie,2,800,1600,Butter N Crumbs,APP,pos,200
+06/06/2026,BD81770,Moi Moi,1,700,700,Munchies,APP,card,300
+11/07/2026,BD73452,Fried Rice,1,1800,1800,Jummie Kitchen,Phone,pos,200
+16/05/2026,BD55061,White Rice & Stew,2,1500,3000,Amala Pavilion,walk-in,card,0
+05/07/2026,BD27386,White Rice & Stew,1,1500,1500,Munchies,walk-in,card,300
+09/07/2026,BD41780,White Rice & Stew,1,1500,1500,Alaga Spot,phone,Cash,500
+16/05/2026,BD93768,Beef (piece),3,800,2400,Jummie Kitchen,Phone,transfer,200
+05/07/2026,BD32283,White Rice & Stew,1,1500,1500,Jummie Kitchen,phone,transfer,500
+09/06/2026,BD64493,Eba & Okra,2,1500,3000,Munchies,walk-in,pos,300
+13/07/2026,BD24879,  BOTTLED WATER  ,2,200,400,Alaga Spot,App,Transfer,0
+2026-05-15,BD13133,Bottled Water,2,200,400,Jummie Kitchen,app,cash,0
+22-Jul-2026,BD42450,  POUNDED YAM & EGUSI  ,1,2500,2500,Alaga Spot,APP,POS,500
+05/06/2026,BD59327,Moi Moi,3,700,2100,Munchies,app,Transfer,500
+16/07/2026,BD80806,Zobo,3,500,1500,Alaga Spot,APP,pos,0
+09/06/2026,BD16256,Soft Drink,1,400,400,Munchies,Phone,cash,500
+27/07/2026,BD86344,Moi Moi,2,700,1400,Amala Pavilion,APP,transfer,200
+2026-05-24,BD30278,  ZOBO  ,1,500,500,Amala Pavilion,walkin,Transfer,0
+20/06/2026,BD47587,Fish (piece),1,1200,1200,Munchies,app,card,0
+24/05/2026,BD99908,Eba & Okra,2,1500,3000,Munchies,app,cash,0
+21/06/2026,BD84728,Jollof Rice,1,1800,1800,Munchies,walk-in,Cash,300
+23/06/2026,BD44567,Pounded Yam & Egusi,3,2280,6840,Butter N Crumbs,phone,cash,0
+20-May-2026,BD29162,White Rice & Stew,1,1500,1500,Amala Pavilion,walkin,transfer,0
+21/05/2026,BD40116,Fish (piece),1,1200,1200,Alaga Spot,App,Transfer,500
+01/06/2026,BD23994,Moi Moi,2,700,1400,Jummie Kitchen,Phone,transfer,300
+10/07/2026,BD92643,Beef (piece),3,800,2400,Munchies,Walk In,Cash,0
+22/06/2026,BD92772,Jollof Rice,2,"NGN1,800",3600,Alaga Spot,walk-in,POS,0
+01-May-2026,BD44522,White Rice & Stew,1,1500,1500,Alaga Spot,App,pos,200
+14/07/2026,BD35477,Bottled Water,1,200,200,Jummie Kitchen,walk-in,POS,500
+14/06/2026,BD42429,Pounded Yam & Egusi,2,2500,5000,Alaga Spot,app,transfer,0
+02/07/2026,BD31750,Meat Pie,1,800,800,Butter N Crumbs,walk-in,pos,500
+17/05/2026,BD95824,Meat Pie,3,800,2400,Butter N Crumbs,,,0
+23-Jul-2026,BD43043,Chicken (piece),4,1500,6000,Butter N Crumbs,APP,POS,300
+16-May-2026,BD60911,Bottled Water,4,200,800,Alaga Spot,,,500
+11/07/2026,BD41508,Zobo,2,500,1000,Jummie Kitchen,APP,Cash,0
+04/06/2026,BD27759,White Rice & Stew,1,1500,1500,Munchies,Walk In,cash,300
+01-Jun-2026,BD64555,Zobo,1,NGN500,500,Amala Pavilion,APP,Transfer,0
+03/06/2026,BD14546,Puff Puff (6pcs),1,500,500,Jummie Kitchen,APP,cash,300
+13/05/2026,BD60965,  FISH (PIECE)  ,2,1200,2400,Alaga Spot,walk-in,cash,0
+29/05/2026,BD45866,Bottled Water,1,200,200,Butter N Crumbs,App,Transfer,500
+06/07/2026,BD71849,Amala & Ewedu,1,2000,2000,Jummie Kitchen,walk-in,card,0
+14/05/2026,BD23487,Soft Drink,1,400,400,Munchies,walk-in,POS,500
+17/07/2026,BD64166,Puff Puff (6pcs),1,NGN500,500,Munchies,walk-in,Transfer,0
+04/07/2026,BD72286,Jollof Rice,3,1800,5400,Butter N Crumbs,walkin,cash,500
+21/06/2026,BD47359,White Rice & Stew,1,1500,1500,Amala Pavilion,Walk In,POS,500
+17/05/2026,BD36433,Chicken (piece),1,1500,1500,Amala Pavilion,Walk In,Transfer,0
+15/05/2026,BD99550,Moi Moi,2,700,1400,Jummie Kitchen,,,200
+08/05/2026,BD56176,Bottled Water,1,200,200,Alaga Spot,Phone,POS,300
+28/05/2026,BD56346,  MEAT PIE  ,1,800,800,Alaga Spot,Walk In,pos,0
+07/07/2026,BD83176,Beef (piece),1,800,800,Butter N Crumbs,APP,pos,500
+2026-05-21,BD77915,Beef (piece),1,890,890,Munchies,walk-in,card,0
+23/05/2026,BD57600,Chicken (piece),2,1500,3000,Butter N Crumbs,Phone,Cash,0
+06/07/2026,BD75679,Zobo,1,500,500,Jummie Kitchen,phone,pos,300
+2026-05-08,BD13396,Moi Moi,1,700,700,Amala Pavilion,phone,card,0
+10/07/2026,BD31049,Eba & Okra,1,1500,1500,Butter N Crumbs,walkin,POS,300
+12/07/2026,BD24331,Amala & Ewedu,1,2000,2000,Munchies,,,0
+06/07/2026,BD29205,Beef (piece),1,800,800,Amala Pavilion,Walk In,POS,0
+16-May-2026,BD43801,Amala & Ewedu,4,2000,8000,Munchies,App,Cash,500
+07/06/2026,BD69999,Jollof Rice,1,1800,1800,Alaga Spot,App,cash,0
+10-Jul-2026,BD57377,Soft Drink,2,400,800,Alaga Spot,walkin,transfer,0
+20/06/2026,BD89788,Bottled Water,2,200,400,Jummie Kitchen,Phone,pos,0
+15/05/2026,BD52179,Bottled Water,3,200,600,Jummie Kitchen,Walk In,pos,0
+2026-07-29,BD61534,Soft Drink,1,400,400,Amala Pavilion,walk-in,Transfer,200
+26/06/2026,BD75461,Soft Drink,2,NGN400,800,Amala Pavilion,walkin,pos,0
+13/06/2026,BD15122,Zobo,1,500,500,Jummie Kitchen,Phone,cash,200
+18/06/2026,BD66223,Moi Moi,1,700,700,Alaga Spot,APP,Transfer,200
+15/07/2026,BD45944,Zobo,1,456,456,Jummie Kitchen,Phone,Cash,500
+11/07/2026,BD82674,  SOFT DRINK  ,1,400,400,Alaga Spot,walkin,Transfer,0
+16/05/2026,BD90431,Meat Pie,3,800,2400,Munchies,phone,POS,0
+04/06/2026,BD22648,Zobo,1,500,500,Butter N Crumbs,walk-in,card,0
+23/06/2026,BD41768,Bottled Water,1,200,200,Alaga Spot,App,transfer,300
+13/05/2026,BD32706,Puff Puff (6pcs),2,500,1000,Amala Pavilion,Walk In,Transfer,0
+29-May-2026,BD20295,Soft Drink,1,400,400,Amala Pavilion,APP,transfer,300
+20-Jun-2026,BD75393,  MEAT PIE  ,3,800,2400,Jummie Kitchen,APP,cash,0
+12/05/2026,BD49378,Soft Drink,2,400,800,Alaga Spot,Phone,cash,0
+23/07/2026,BD46754,Fried Rice,1,1884,1884,Amala Pavilion,walk-in,transfer,200
+02-Jun-2026,BD57708,Fish (piece),3,1200,3600,Munchies,phone,cash,300
+23-May-2026,BD11653,White Rice & Stew,1,1500,1500,Alaga Spot,phone,pos,300
+19/06/2026,BD97460,Meat Pie,1,800,800,Butter N Crumbs,Walk In,cash,0
+29/05/2026,BD95124,  MOI MOI  ,2,700,1400,Jummie Kitchen,Phone,Cash,500
+17/05/2026,BD12348,Jollof Rice,3,1800,5400,Alaga Spot,walk-in,POS,200
+27/07/2026,BD36858,Fried Rice,1,1800,1800,Alaga Spot,App,transfer,500
+16/06/2026,BD65982,Fried Rice,2,1800,3600,Alaga Spot,app,transfer,200
+07/06/2026,BD94825,Soft Drink,1,400,400,Alaga Spot,App,cash,300
+28/06/2026,BD46194,Eba & Okra,4,1500,6000,Amala Pavilion,APP,Transfer,0
+18-Jul-2026,BD41380,Chicken (piece),1,1500,1500,Jummie Kitchen,Walk In,Transfer,200
+27/06/2026,BD81641,White Rice & Stew,3,1500,4500,Jummie Kitchen,APP,POS,500
+06/07/2026,BD45582,Moi Moi,2,700,1400,Butter N Crumbs,App,pos,0
+16/07/2026,BD93947,Fish (piece),1,1200,1200,Alaga Spot,walk-in,POS,0
+01/06/2026,BD15975,Meat Pie,1,800,800,Jummie Kitchen,App,transfer,200
+2026-05-09,BD28909,Eba & Okra,2,1500,3000,Butter N Crumbs,phone,card,0
+2026-06-24,BD35419,Fried Rice,1,1800,1800,Amala Pavilion,APP,card,200
+23/07/2026,BD22594,Beef (piece),2,800,1600,Butter N Crumbs,walk-in,Transfer,200
+31/05/2026,BD41692,Pounded Yam & Egusi,2,2500,5000,Butter N Crumbs,walk-in,card,200
+07/05/2026,BD77154,Puff Puff (6pcs),2,500,1000,Amala Pavilion,App,cash,500
+09/05/2026,BD91689,Fried Rice,1,1800,1800,Munchies,APP,transfer,300
+31/05/2026,BD14959,Jollof Rice,3,1800,5400,Jummie Kitchen,APP,POS,200
+24/07/2026,BD72492,Meat Pie,2,NGN800,1600,Butter N Crumbs,App,Transfer,0
+09/05/2026,BD30885,Soft Drink,1,400,400,Butter N Crumbs,Phone,Cash,200
+29/06/2026,BD13378,Zobo,1,500,500,Jummie Kitchen,phone,POS,300
+13-Jul-2026,BD21453,White Rice & Stew,1,1500,1500,Munchies,app,POS,200
+04-Jul-2026,BD11602,Eba & Okra,2,1500,3000,Alaga Spot,phone,POS,300
+19/06/2026,BD21115,Eba & Okra,1,1500,1500,Butter N Crumbs,APP,Transfer,300
+24/05/2026,BD39083,Meat Pie,1,800,800,Jummie Kitchen,app,pos,200
+13/05/2026,BD69942,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,App,card,0
+24/05/2026,BD98407,Moi Moi,2,700,1400,Amala Pavilion,App,Transfer,0
+05/06/2026,BD86541,  CHICKEN (PIECE)  ,1,1500,1500,Jummie Kitchen,phone,transfer,300
+06/06/2026,BD31001,Zobo,2,500,1000,Jummie Kitchen,phone,pos,0
+22/07/2026,BD72518,  FRIED RICE  ,1,1800,1800,Jummie Kitchen,phone,card,0
+15/05/2026,BD99550,Moi Moi,2,700,1400,Jummie Kitchen,,,200
+14/07/2026,BD35551,Zobo,1,500,500,Butter N Crumbs,Walk In,Transfer,300
+03-Jul-2026,BD42339,Amala & Ewedu,2,2000,4000,Alaga Spot,APP,cash,0
+01/05/2026,BD87110,Puff Puff (6pcs),1,500,500,Butter N Crumbs,walk-in,transfer,0
+31/05/2026,BD14569,  BEEF (PIECE)  ,1,800,800,Butter N Crumbs,Walk In,pos,300
+18/06/2026,BD22699,Pounded Yam & Egusi,3,"NGN2,500",7500,Butter N Crumbs,APP,cash,200
+07/07/2026,BD95219,Soft Drink,3,400,1200,Munchies,phone,pos,200
+16/06/2026,BD16889,Soft Drink,2,400,800,Alaga Spot,Phone,POS,300
+10/06/2026,BD32044,Amala & Ewedu,2,2000,4000,Butter N Crumbs,phone,card,300
+25/07/2026,BD69151,Amala & Ewedu,2,2000,4000,Jummie Kitchen,phone,transfer,0
+20/05/2026,BD81529,Amala & Ewedu,1,2000,2000,Alaga Spot,Walk In,POS,200
+10/07/2026,BD96925,Fish (piece),1,1200,1200,Jummie Kitchen,,,200
+15/07/2026,BD71928,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,walkin,POS,500
+02/06/2026,BD48769,Fish (piece),2,1200,2400,Munchies,app,Cash,200
+06/06/2026,BD94030,Bottled Water,1,200,200,Amala Pavilion,walk-in,POS,200
+18/06/2026,BD58380,Meat Pie,1,800,800,Butter N Crumbs,Walk In,POS,0
+19/05/2026,BD22577,Pounded Yam & Egusi,3,2500,7500,Butter N Crumbs,app,POS,0
+17/06/2026,BD19248,Beef (piece),1,800,800,Jummie Kitchen,walk-in,POS,200
+22/06/2026,BD38351,Jollof Rice,1,1800,1800,Munchies,walk-in,transfer,200
+2026-06-05,BD32114,  FISH (PIECE)  ,1,1200,1200,Alaga Spot,walkin,Transfer,500
+13/07/2026,BD79380,Amala & Ewedu,1,2000,2000,Alaga Spot,Phone,card,0
+28/07/2026,BD67208,Puff Puff (6pcs),1,500,500,Alaga Spot,,,500
+08/06/2026,BD72537,Moi Moi,1,650,650,Amala Pavilion,Phone,cash,500
+13/07/2026,BD53992,Moi Moi,1,700,700,Butter N Crumbs,phone,Cash,200
+01-May-2026,BD91070,Zobo,1,500,500,Jummie Kitchen,walk-in,POS,0
+21/05/2026,BD99727,Moi Moi,2,700,1400,Alaga Spot,,,0
+14/07/2026,BD63704,Amala & Ewedu,1,2000,2000,Amala Pavilion,walkin,pos,300
+08/06/2026,BD94833,Beef (piece),2,800,1600,Jummie Kitchen,Phone,Cash,0
+09/06/2026,BD69993,Soft Drink,1,400,400,Butter N Crumbs,App,POS,0
+13/06/2026,BD42654,Moi Moi,2,700,1400,Butter N Crumbs,phone,Cash,300
+18/07/2026,BD67325,Puff Puff (6pcs),1,500,500,Alaga Spot,Walk In,cash,200
+28/06/2026,BD23924,Jollof Rice,1,1800,1800,Jummie Kitchen,walkin,Transfer,300
+11/06/2026,BD77797,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,app,cash,300
+27-Jun-2026,BD51793,Pounded Yam & Egusi,3,2500,7500,Butter N Crumbs,,,200
+2026-07-10,BD85448,  FRIED RICE  ,1,1800,1800,Alaga Spot,,,500
+12/06/2026,BD35612,Soft Drink,2,400,800,Alaga Spot,App,cash,0
+25/06/2026,BD53425,Eba & Okra,1,1500,1500,Munchies,app,POS,0
+13/07/2026,BD55066,White Rice & Stew,1,1534,1534,Munchies,walkin,transfer,0
+06/06/2026,BD79922,Puff Puff (6pcs),1,500,500,Munchies,walkin,card,300
+18/05/2026,BD24945,  CHICKEN (PIECE)  ,1,1500,1500,Alaga Spot,app,cash,200
+14-May-2026,BD84498,Eba & Okra,3,1500,4500,Butter N Crumbs,APP,pos,300
+22/05/2026,BD70142,Moi Moi,1,700,700,Butter N Crumbs,app,Cash,0
+07/07/2026,BD95254,Puff Puff (6pcs),1,500,500,Alaga Spot,walkin,Cash,500
+16/05/2026,BD81568,White Rice & Stew,3,1500,4500,Amala Pavilion,walk-in,Transfer,300
+12/06/2026,BD37556,Moi Moi,2,700,1400,Alaga Spot,walkin,pos,200
+25/05/2026,BD75774,Fish (piece),1,1200,1200,Alaga Spot,APP,Cash,500
+06-Jun-2026,BD67986,Zobo,2,500,1000,Amala Pavilion,Walk In,cash,0
+19/05/2026,BD38830,Meat Pie,1,800,800,Butter N Crumbs,App,pos,500
+14/06/2026,BD89410,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,Phone,POS,0
+10/05/2026,BD30934,Fish (piece),1,1200,1200,Butter N Crumbs,Walk In,POS,0
+03/06/2026,BD13266,Meat Pie,4,800,3200,Amala Pavilion,APP,Cash,200
+04/07/2026,BD32553,White Rice & Stew,1,1500,1500,Munchies,APP,Transfer,0
+22/05/2026,BD36577,Amala & Ewedu,2,2000,4000,Butter N Crumbs,walkin,Transfer,0
+2026-06-22,BD32769,Moi Moi,1,700,700,Jummie Kitchen,APP,Cash,0
+05-May-2026,BD95841,  MOI MOI  ,1,700,700,Amala Pavilion,phone,cash,0
+05/06/2026,BD74419,Beef (piece),3,800,2400,Jummie Kitchen,phone,Cash,0
+15/06/2026,BD42576,Soft Drink,1,400,400,Butter N Crumbs,Phone,card,300
+2026-05-25,BD76655,Soft Drink,3,400,1200,Munchies,walkin,Cash,500
+02/05/2026,BD16057,Beef (piece),1,800,800,Amala Pavilion,,,300
+30-May-2026,BD49286,Chicken (piece),1,1500,1500,Jummie Kitchen,phone,POS,200
+20/07/2026,BD20788,Eba & Okra,1,1500,1500,Munchies,APP,card,300
+30/05/2026,BD40953,Bottled Water,4,200,800,Munchies,Phone,transfer,500
+01-Jul-2026,BD14785,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,phone,pos,0
+26/07/2026,BD76719,White Rice & Stew,1,1500,1500,Munchies,app,pos,0
+26/05/2026,BD99694,Eba & Okra,1,1500,1500,Jummie Kitchen,walk-in,card,200
+12/07/2026,BD69285,Amala & Ewedu,3,2000,6000,Amala Pavilion,Phone,cash,200
+27/07/2026,BD63955,Fish (piece),3,1200,3600,Butter N Crumbs,APP,cash,0
+12-Jun-2026,BD15530,Moi Moi,1,700,700,Munchies,walk-in,POS,0
+02/05/2026,BD44760,Chicken (piece),4,1500,6000,Jummie Kitchen,App,Transfer,200
+22/07/2026,BD65856,Fried Rice,3,1800,5400,Amala Pavilion,App,card,300
+19/07/2026,BD46564,Beef (piece),2,800,1600,Alaga Spot,walk-in,pos,0
+25/05/2026,BD58997,Puff Puff (6pcs),1,500,500,Munchies,App,POS,0
+07/06/2026,BD66217,Pounded Yam & Egusi,2,2500,5000,Alaga Spot,App,cash,0
+21/07/2026,BD20441,Pounded Yam & Egusi,2,2500,5000,Butter N Crumbs,Walk In,card,200
+07/06/2026,BD71636,Jollof Rice,1,1800,1800,Amala Pavilion,phone,transfer,300
+06/05/2026,BD50953,Soft Drink,3,400,1200,Butter N Crumbs,walk-in,Transfer,300
+31/05/2026,BD98931,Meat Pie,3,905,2715,Butter N Crumbs,app,transfer,500
+25/05/2026,BD81620,Jollof Rice,1,1800,1800,Jummie Kitchen,Phone,card,0
+11/06/2026,BD27527,Eba & Okra,1,1500,1500,Munchies,Phone,transfer,0
+23/06/2026,BD70525,Beef (piece),2,800,1600,Amala Pavilion,app,card,500
+20/05/2026,BD80736,Amala & Ewedu,3,2000,6000,Alaga Spot,walkin,Cash,0
+08-May-2026,BD81932,Zobo,1,500,500,Butter N Crumbs,phone,transfer,200
+29/07/2026,BD54287,Fried Rice,2,1800,3600,Amala Pavilion,APP,cash,300
+29/07/2026,BD93092,Soft Drink,2,NGN400,800,Butter N Crumbs,Walk In,pos,300
+20/06/2026,BD92044,  POUNDED YAM & EGUSI  ,1,2500,2500,Alaga Spot,walk-in,pos,0
+16/07/2026,BD69323,White Rice & Stew,2,1500,3000,Amala Pavilion,walkin,POS,300
+02/05/2026,BD77033,Moi Moi,1,700,700,Butter N Crumbs,walk-in,cash,0
+23/06/2026,BD56890,Fried Rice,1,1800,1800,Alaga Spot,walkin,cash,0
+12/06/2026,BD68262,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,app,Cash,500
+23/07/2026,BD33371,  MEAT PIE  ,1,800,800,Amala Pavilion,walk-in,Transfer,0
+13/07/2026,BD20637,Jollof Rice,2,1800,3600,Munchies,app,Cash,0
+13/05/2026,BD61451,Meat Pie,4,800,3200,Jummie Kitchen,walkin,pos,300
+14/06/2026,BD55688,Amala & Ewedu,2,2000,4000,Amala Pavilion,walkin,POS,0
+19/07/2026,BD93903,Puff Puff (6pcs),1,500,500,Munchies,App,Cash,0
+16-Jun-2026,BD14501,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,App,cash,500
+06/07/2026,BD30701,Eba & Okra,1,1500,1500,Alaga Spot,walkin,card,300
+19/06/2026,BD42145,Beef (piece),2,800,1600,Amala Pavilion,App,POS,500
+23/06/2026,BD87485,Moi Moi,1,700,700,Butter N Crumbs,app,cash,0
+08/05/2026,BD81176,Zobo,1,500,500,Munchies,walk-in,cash,200
+25/07/2026,BD61838,Soft Drink,1,439,439,Munchies,App,transfer,0
+04/07/2026,BD62194,Jollof Rice,1,1800,1800,Munchies,Phone,pos,0
+17/06/2026,BD84559,Puff Puff (6pcs),1,500,500,Jummie Kitchen,,,500
+01/06/2026,BD55593,Chicken (piece),4,1500,6000,Butter N Crumbs,walk-in,Transfer,0
+11/05/2026,BD59436,Fried Rice,1,1800,1800,Butter N Crumbs,app,pos,0
+18/05/2026,BD40737,  PUFF PUFF (6PCS)  ,3,500,1500,Munchies,App,pos,500
+29/05/2026,BD41148,Soft Drink,1,401,401,Jummie Kitchen,walk-in,card,200
+02/06/2026,BD64079,Amala & Ewedu,2,2000,4000,Amala Pavilion,walk-in,transfer,300
+23/05/2026,BD78592,Eba & Okra,1,1500,1500,Alaga Spot,walkin,cash,300
+23/06/2026,BD60470,Jollof Rice,1,1800,1800,Munchies,walkin,Transfer,500
+17/05/2026,BD38601,Moi Moi,3,700,2100,Butter N Crumbs,phone,card,0
+14/06/2026,BD80688,  AMALA & EWEDU  ,2,2000,4000,Alaga Spot,walk-in,card,300
+06/07/2026,BD17836,Beef (piece),4,800,3200,Amala Pavilion,app,cash,300
+07/05/2026,BD31266,Zobo,2,500,1000,Butter N Crumbs,APP,POS,300
+25-Jul-2026,BD93792,Pounded Yam & Egusi,2,2500,5000,Jummie Kitchen,App,card,200
+13/06/2026,BD63183,Pounded Yam & Egusi,2,2500,5000,Munchies,Phone,POS,500
+2026-06-19,BD18822,Moi Moi,1,700,700,Amala Pavilion,Walk In,Transfer,0
+14/06/2026,BD36787,Amala & Ewedu,1,2000,2000,Munchies,phone,POS,300
+18/07/2026,BD40980,Chicken (piece),1,1500,1500,Butter N Crumbs,walkin,pos,0
+24/05/2026,BD41298,Zobo,1,500,500,Munchies,phone,Transfer,500
+12/07/2026,BD52160,Moi Moi,1,756,756,Alaga Spot,App,POS,0
+07/06/2026,BD74771,Amala & Ewedu,3,2000,6000,Amala Pavilion,walk-in,card,0
+03/07/2026,BD97519,Meat Pie,1,800,800,Munchies,walk-in,pos,500
+18/06/2026,BD99710,Bottled Water,1,200,200,Jummie Kitchen,phone,card,0
+15/06/2026,BD78164,Fish (piece),1,1200,1200,Butter N Crumbs,app,Transfer,300
+25/07/2026,BD47178,Eba & Okra,1,1500,1500,Butter N Crumbs,App,POS,300
+09-Jul-2026,BD29929,Beef (piece),2,800,1600,Butter N Crumbs,,,0
+23/07/2026,BD63835,Fish (piece),1,1200,1200,Alaga Spot,Phone,Cash,500
+08/07/2026,BD53073,Amala & Ewedu,1,2000,2000,Amala Pavilion,Walk In,pos,0
+17/06/2026,BD99650,Chicken (piece),1,1500,1500,Munchies,walkin,POS,0
+09/06/2026,BD19120,  WHITE RICE & STEW  ,2,1500,3000,Jummie Kitchen,phone,pos,0
+20/06/2026,BD75211,  CHICKEN (PIECE)  ,1,1500,1500,Munchies,APP,pos,200
+03/06/2026,BD33437,Zobo,3,NGN500,1500,Munchies,App,Transfer,200
+08/06/2026,BD72041,Eba & Okra,1,1500,3000,Butter N Crumbs,walkin,Cash,300
+27/06/2026,BD26608,Soft Drink,2,NGN400,800,Jummie Kitchen,app,cash,200
+18/05/2026,BD98857,Jollof Rice,1,"NGN1,800",1800,Butter N Crumbs,walk-in,POS,200
+2026-06-17,BD96661,Fish (piece),1,1200,1200,Butter N Crumbs,app,card,300
+11/05/2026,BD41831,Moi Moi,4,700,2800,Jummie Kitchen,App,Cash,200
+14/05/2026,BD66314,Soft Drink,1,400,400,Amala Pavilion,Walk In,cash,200
+09/05/2026,BD49221,Eba & Okra,1,1500,1500,Butter N Crumbs,Phone,POS,500
+17/05/2026,BD33276,Beef (piece),1,800,800,Amala Pavilion,,,0
+29/06/2026,BD77673,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,app,Cash,0
+05/05/2026,BD79942,Beef (piece),1,800,800,Jummie Kitchen,Phone,pos,500
+03/06/2026,BD94500,  ZOBO  ,1,500,500,Alaga Spot,App,transfer,0
+31/05/2026,BD72670,Zobo,1,538,538,Munchies,walk-in,transfer,300
+05-May-2026,BD57953,White Rice & Stew,1,1500,1500,Jummie Kitchen,APP,cash,300
+08/05/2026,BD90199,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,walk-in,transfer,0
+30/05/2026,BD65797,Soft Drink,1,400,400,Amala Pavilion,phone,card,300
+14/07/2026,BD79420,Beef (piece),2,800,1600,Jummie Kitchen,APP,cash,500
+31-May-2026,BD11861,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,APP,card,0
+06/07/2026,BD59790,  BEEF (PIECE)  ,1,800,800,Munchies,walkin,Transfer,200
+25-Jul-2026,BD10649,Pounded Yam & Egusi,2,2401,4802,Amala Pavilion,walk-in,cash,200
+2026-05-07,BD36174,Bottled Water,1,200,200,Alaga Spot,Walk In,transfer,300
+24-Jul-2026,BD13926,  PUFF PUFF (6PCS)  ,1,500,500,Munchies,app,pos,0
+07/05/2026,BD90981,  CHICKEN (PIECE)  ,1,1500,1500,Munchies,Walk In,Cash,300
+2026-05-22,BD77277,Meat Pie,1,800,800,Butter N Crumbs,Walk In,POS,300
+13-Jun-2026,BD48603,Amala & Ewedu,1,2000,2000,Butter N Crumbs,App,pos,200
+02/05/2026,BD43972,Puff Puff (6pcs),3,500,1500,Jummie Kitchen,Phone,POS,0
+18/07/2026,BD20139,Moi Moi,2,700,1400,Amala Pavilion,APP,pos,300
+02/07/2026,BD40386,Beef (piece),3,800,2400,Munchies,APP,Transfer,0
+2026-05-15,BD37215,Eba & Okra,1,1500,1500,Amala Pavilion,Walk In,pos,0
+16/06/2026,BD88139,Amala & Ewedu,1,2000,2000,Amala Pavilion,App,pos,300
+05/06/2026,BD52744,  SOFT DRINK  ,1,400,400,Amala Pavilion,phone,cash,0
+2026-06-06,BD98027,Jollof Rice,2,1800,3600,Butter N Crumbs,phone,cash,200
+19/06/2026,BD11364,Zobo,2,500,1000,Alaga Spot,Walk In,Transfer,200
+28/06/2026,BD11990,Puff Puff (6pcs),2,500,1000,Jummie Kitchen,App,Transfer,500
+14/07/2026,BD71571,Chicken (piece),1,1500,1500,Jummie Kitchen,App,Cash,0
+01/05/2026,BD68800,Bottled Water,3,200,600,Alaga Spot,Walk In,Cash,0
+07/06/2026,BD45190,Meat Pie,1,800,800,Amala Pavilion,App,pos,300
+21-May-2026,BD63562,Zobo,3,500,1500,Munchies,app,card,500
+29/05/2026,BD97186,Pounded Yam & Egusi,3,2500,7500,Jummie Kitchen,Phone,Cash,0
+21/07/2026,BD72053,Chicken (piece),1,1500,1500,Butter N Crumbs,walkin,transfer,500
+27/06/2026,BD49375,Puff Puff (6pcs),2,500,1000,Munchies,app,cash,500
+27/07/2026,BD48408,Moi Moi,1,700,700,Munchies,walkin,transfer,300
+13/05/2026,BD14224,Fish (piece),2,1200,2400,Jummie Kitchen,App,Cash,0
+21/05/2026,BD63840,Chicken (piece),4,"NGN1,500",6000,Butter N Crumbs,APP,card,500
+29/05/2026,BD71700,Zobo,1,500,500,Munchies,App,Cash,0
+03/05/2026,BD33086,Beef (piece),3,800,2400,Jummie Kitchen,Phone,Cash,300
+20/05/2026,BD66139,White Rice & Stew,1,1500,1500,Jummie Kitchen,walk-in,pos,0
+26/07/2026,BD89525,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,walkin,POS,0
+19/06/2026,BD64874,White Rice & Stew,2,1500,3000,Butter N Crumbs,Phone,card,500
+28-Jul-2026,BD30753,Chicken (piece),1,1500,1500,Munchies,walkin,pos,0
+05/07/2026,BD35301,Zobo,2,500,1000,Alaga Spot,Phone,cash,0
+07/05/2026,BD92306,White Rice & Stew,2,1500,3000,Butter N Crumbs,Phone,POS,500
+10/07/2026,BD99523,Fish (piece),1,1200,1200,Alaga Spot,Walk In,Cash,0
+04/06/2026,BD46356,White Rice & Stew,2,1404,2808,Jummie Kitchen,walkin,Transfer,500
+25/06/2026,BD75956,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,phone,card,0
+07-Jul-2026,BD69885,Jollof Rice,4,1800,7200,Munchies,walk-in,Transfer,200
+18-Jul-2026,BD35609,Moi Moi,3,700,2100,Munchies,App,pos,0
+24/05/2026,BD14099,Beef (piece),1,800,800,Amala Pavilion,walk-in,transfer,0
+25/06/2026,BD34034,Fried Rice,1,1800,1800,Amala Pavilion,App,Transfer,500
+02/06/2026,BD18305,Zobo,1,500,500,Amala Pavilion,Phone,card,500
+04/05/2026,BD67939,Amala & Ewedu,1,2000,2000,Alaga Spot,Walk In,card,0
+10/05/2026,BD80453,Eba & Okra,1,1500,1500,Alaga Spot,walk-in,POS,500
+04/07/2026,BD33576,Amala & Ewedu,1,2000,2000,Jummie Kitchen,Walk In,Cash,300
+24/06/2026,BD23106,Meat Pie,1,800,800,Jummie Kitchen,Phone,Cash,200
+21/05/2026,BD22807,Bottled Water,2,200,400,Jummie Kitchen,Phone,pos,0
+30/05/2026,BD85751,Moi Moi,1,700,700,Alaga Spot,,,500
+16/07/2026,BD22065,  PUFF PUFF (6PCS)  ,2,500,1000,Munchies,Phone,Cash,200
+13/07/2026,BD72973,Fish (piece),2,1200,2400,Jummie Kitchen,Phone,cash,500
+13/07/2026,BD51353,Amala & Ewedu,1,2000,2000,Amala Pavilion,Phone,cash,0
+16/07/2026,BD37321,Jollof Rice,2,1800,3600,Butter N Crumbs,Phone,POS,500
+18/05/2026,BD75382,  PUFF PUFF (6PCS)  ,2,500,1000,Munchies,phone,pos,500
+10-Jun-2026,BD64732,Jollof Rice,1,1800,1800,Jummie Kitchen,Phone,cash,300
+07/05/2026,BD23875,Puff Puff (6pcs),2,500,1000,Butter N Crumbs,phone,card,0
+21/05/2026,BD89195,  EBA & OKRA  ,2,1500,3000,Alaga Spot,Phone,Transfer,0
+13/06/2026,BD67941,Amala & Ewedu,2,2000,4000,Butter N Crumbs,App,Cash,200
+05/05/2026,BD59986,Amala & Ewedu,4,2000,8000,Butter N Crumbs,Walk In,POS,200
+18/07/2026,BD63267,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,APP,Transfer,0
+20/07/2026,BD58546,White Rice & Stew,1,1500,1500,Alaga Spot,Phone,Cash,300
+28/06/2026,BD25891,Chicken (piece),2,1500,3000,Butter N Crumbs,app,card,300
+15/06/2026,BD54846,  FRIED RICE  ,1,1800,1800,Alaga Spot,Phone,Cash,0
+27/06/2026,BD14634,Fried Rice,2,1800,3600,Munchies,phone,card,500
+20/06/2026,BD61202,Bottled Water,1,200,200,Alaga Spot,App,cash,300
+30-May-2026,BD33091,Chicken (piece),1,1500,1500,Amala Pavilion,App,card,0
+25-Jun-2026,BD70322,Beef (piece),1,800,800,Munchies,,,0
+11-Jul-2026,BD29382,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,App,POS,200
+26/06/2026,BD82937,Fish (piece),1,1200,1200,Jummie Kitchen,Phone,Cash,200
+13/07/2026,BD21789,Fried Rice,1,2008,2008,Jummie Kitchen,walk-in,POS,0
+20/06/2026,BD30732,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,APP,transfer,0
+23/05/2026,BD38467,Fish (piece),1,1200,1200,Jummie Kitchen,Phone,cash,300
+2026-07-01,BD62081,Fish (piece),1,1200,1200,Amala Pavilion,walkin,Cash,500
+02/05/2026,BD74799,Zobo,2,NGN500,1000,Alaga Spot,app,pos,0
+28/06/2026,BD24835,Chicken (piece),1,1500,1500,Alaga Spot,walk-in,cash,500
+15/07/2026,BD65465,White Rice & Stew,1,1500,3000,Jummie Kitchen,App,cash,300
+02/05/2026,BD54020,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,App,Transfer,0
+23/06/2026,BD31712,Moi Moi,1,700,700,Amala Pavilion,phone,Cash,300
+12/07/2026,BD91735,Puff Puff (6pcs),1,500,500,Alaga Spot,walk-in,cash,500
+06-Jul-2026,BD78697,Zobo,2,543,1086,Alaga Spot,walkin,POS,0
+09/06/2026,BD82323,Meat Pie,4,800,3200,Jummie Kitchen,APP,transfer,0
+28/07/2026,BD32834,  MOI MOI  ,1,700,700,Butter N Crumbs,APP,cash,500
+31/05/2026,BD47132,Meat Pie,1,800,800,Munchies,app,card,0
+26-Jun-2026,BD35204,  AMALA & EWEDU  ,1,2000,2000,Munchies,App,Transfer,0
+20/06/2026,BD83307,Jollof Rice,1,1800,1800,Munchies,Phone,Cash,200
+17/07/2026,BD13700,Jollof Rice,2,1800,3600,Amala Pavilion,App,card,0
+20/07/2026,BD69826,  PUFF PUFF (6PCS)  ,4,500,2000,Jummie Kitchen,app,Cash,500
+16/06/2026,BD10220,White Rice & Stew,3,1500,4500,Butter N Crumbs,walk-in,pos,300
+2026-05-02,BD82845,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,APP,Transfer,200
+03/05/2026,BD83772,Chicken (piece),2,1500,3000,Munchies,walk-in,transfer,500
+11/05/2026,BD82305,Zobo,1,500,500,Munchies,Walk In,card,200
+10/07/2026,BD94815,Moi Moi,2,700,1400,Amala Pavilion,app,Cash,300
+01/07/2026,BD30577,Beef (piece),1,800,800,Amala Pavilion,walk-in,cash,0
+11/07/2026,BD17683,Soft Drink,1,400,400,Amala Pavilion,App,pos,500
+16/06/2026,BD68342,Soft Drink,2,400,800,Munchies,App,transfer,0
+12/05/2026,BD83822,Beef (piece),2,800,1600,Amala Pavilion,walkin,pos,300
+18-Jun-2026,BD83445,Amala & Ewedu,1,2000,2000,Jummie Kitchen,Phone,POS,0
+11/05/2026,BD72773,Zobo,1,500,500,Butter N Crumbs,walk-in,Cash,0
+13/06/2026,BD38476,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,App,cash,0
+14/05/2026,BD38277,  BOTTLED WATER  ,1,200,200,Munchies,phone,card,200
+17/06/2026,BD50180,Fried Rice,2,1800,3600,Amala Pavilion,App,card,200
+21/06/2026,BD38329,Moi Moi,2,700,1400,Alaga Spot,app,cash,200
+11/05/2026,BD95029,Meat Pie,1,800,800,Jummie Kitchen,,,300
+17/05/2026,BD27536,Fish (piece),1,1200,1200,Amala Pavilion,walkin,pos,0
+02/07/2026,BD11213,Puff Puff (6pcs),1,500,500,Amala Pavilion,Walk In,POS,200
+18/07/2026,BD29079,Moi Moi,1,700,700,Munchies,walkin,cash,300
+23-Jul-2026,BD88423,Zobo,1,500,500,Alaga Spot,app,Cash,200
+2026-06-22,BD35252,Chicken (piece),4,1500,6000,Amala Pavilion,app,pos,500
+20-Jul-2026,BD64689,Beef (piece),4,800,3200,Butter N Crumbs,walk-in,cash,500
+25/07/2026,BD24681,Bottled Water,1,200,200,Butter N Crumbs,app,Transfer,300
+27/06/2026,BD87151,  EBA & OKRA  ,1,1500,1500,Amala Pavilion,app,pos,0
+13/05/2026,BD63090,Eba & Okra,1,1500,1500,Alaga Spot,phone,Cash,0
+20/07/2026,BD52412,Puff Puff (6pcs),2,500,1000,Jummie Kitchen,phone,POS,200
+28/05/2026,BD45968,Fried Rice,1,1800,1800,Amala Pavilion,walk-in,POS,0
+07/06/2026,BD69468,Chicken (piece),1,1500,1500,Amala Pavilion,App,Transfer,0
+12/05/2026,BD77999,Fried Rice,1,1800,1800,Butter N Crumbs,walk-in,Cash,200
+17/05/2026,BD11109,Puff Puff (6pcs),3,500,1500,Butter N Crumbs,Walk In,POS,200
+14/05/2026,BD82534,Bottled Water,1,200,200,Butter N Crumbs,Walk In,pos,0
+2026-05-03,BD25012,Bottled Water,1,200,200,Alaga Spot,Walk In,transfer,500
+12/05/2026,BD45358,Fried Rice,1,1800,1800,Munchies,APP,Cash,300
+17/07/2026,BD68471,Jollof Rice,1,1800,1800,Butter N Crumbs,walkin,card,200
+23/05/2026,BD47304,Chicken (piece),1,1500,1500,Butter N Crumbs,Phone,pos,300
+2026-06-21,BD73997,  BEEF (PIECE)  ,3,800,2400,Jummie Kitchen,phone,Cash,500
+24-Jun-2026,BD68886,Pounded Yam & Egusi,3,2500,7500,Butter N Crumbs,APP,cash,200
+09/06/2026,BD49838,Zobo,2,500,1000,Butter N Crumbs,App,POS,0
+12/07/2026,BD54025,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,app,pos,300
+11/05/2026,BD32463,  MOI MOI  ,1,700,700,Amala Pavilion,walkin,card,0
+04/06/2026,BD35736,Fried Rice,1,1800,1800,Butter N Crumbs,app,Cash,0
+17-Jul-2026,BD86489,Jollof Rice,1,1800,1800,Alaga Spot,Phone,pos,0
+10/05/2026,BD69552,Chicken (piece),2,1500,3000,Butter N Crumbs,Phone,Transfer,500
+12/06/2026,BD13890,Beef (piece),1,NGN800,800,Jummie Kitchen,APP,Transfer,200
+13/07/2026,BD70393,Soft Drink,3,400,1200,Jummie Kitchen,App,card,0
+2026-07-21,BD43853,Jollof Rice,3,1800,5400,Alaga Spot,Walk In,cash,300
+11/07/2026,BD84692,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,phone,Transfer,500
+2026-05-15,BD78125,White Rice & Stew,2,1500,3000,Jummie Kitchen,Phone,POS,0
+29/06/2026,BD56362,Soft Drink,1,400,400,Alaga Spot,App,cash,0
+14/07/2026,BD72534,White Rice & Stew,1,"NGN1,369",1369,Jummie Kitchen,phone,card,0
+03/05/2026,BD52600,Chicken (piece),2,1500,3000,Alaga Spot,walkin,pos,200
+2026-06-13,BD84473,Zobo,1,500,500,Butter N Crumbs,phone,Cash,0
+13-Jul-2026,BD24545,White Rice & Stew,2,1500,3000,Alaga Spot,,,0
+29/06/2026,BD54124,Meat Pie,1,800,800,Butter N Crumbs,App,POS,0
+17/05/2026,BD14897,Chicken (piece),1,1500,1500,Jummie Kitchen,app,card,0
+12/07/2026,BD60915,Amala & Ewedu,1,2000,2000,Alaga Spot,walkin,POS,0
+03/05/2026,BD25866,Fried Rice,2,1800,3600,Butter N Crumbs,app,cash,500
+11/06/2026,BD75578,Soft Drink,2,400,800,Butter N Crumbs,walk-in,POS,500
+24/06/2026,BD87735,Bottled Water,1,200,200,Amala Pavilion,Walk In,transfer,300
+07-Jul-2026,BD26688,Fried Rice,1,1800,1800,Munchies,walkin,pos,200
+16/05/2026,BD77740,Moi Moi,3,700,2100,Butter N Crumbs,APP,transfer,300
+2026-05-06,BD83620,Bottled Water,1,200,200,Munchies,phone,cash,300
+06/06/2026,BD95089,Eba & Okra,1,1500,1500,Butter N Crumbs,phone,pos,200
+19-May-2026,BD65601,Amala & Ewedu,2,2000,4000,Alaga Spot,phone,POS,0
+29/06/2026,BD82373,Zobo,1,500,500,Alaga Spot,app,card,0
+25/07/2026,BD94414,Beef (piece),2,800,1600,Alaga Spot,app,Cash,0
+24/07/2026,BD15546,White Rice & Stew,1,1500,1500,Alaga Spot,walkin,cash,500
+20/06/2026,BD65191,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,app,POS,0
+01/07/2026,BD23768,Meat Pie,1,800,800,Munchies,phone,Transfer,0
+20/07/2026,BD38698,Soft Drink,1,400,400,Alaga Spot,Phone,Transfer,0
+26-May-2026,BD53160,Chicken (piece),1,1500,1500,Alaga Spot,walk-in,POS,0
+04-Jun-2026,BD49834,Pounded Yam & Egusi,1,2766,2766,Amala Pavilion,walk-in,transfer,0
+11/05/2026,BD51973,Puff Puff (6pcs),1,500,500,Jummie Kitchen,walkin,Cash,0
+23/06/2026,BD62421,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,APP,Transfer,200
+10/06/2026,BD49998,Bottled Water,1,200,200,Alaga Spot,APP,pos,300
+08/07/2026,BD50819,Puff Puff (6pcs),1,500,500,Jummie Kitchen,APP,cash,500
+21/07/2026,BD93888,Soft Drink,3,400,1200,Butter N Crumbs,app,Cash,500
+16-May-2026,BD44734,  POUNDED YAM & EGUSI  ,2,2500,5000,Butter N Crumbs,phone,Transfer,200
+01/07/2026,BD81511,Pounded Yam & Egusi,2,2500,5000,Alaga Spot,walkin,Cash,300
+17/05/2026,BD62654,  POUNDED YAM & EGUSI  ,1,2500,2500,Jummie Kitchen,walk-in,transfer,300
+21/07/2026,BD34652,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,app,POS,200
+08/06/2026,BD34670,Jollof Rice,1,1800,1800,Alaga Spot,Phone,POS,0
+19/06/2026,BD92232,White Rice & Stew,1,1500,1500,Munchies,App,card,200
+03/07/2026,BD84471,Pounded Yam & Egusi,1,2500,2500,Munchies,Phone,transfer,0
+07-Jul-2026,BD85609,Bottled Water,2,NGN200,400,Alaga Spot,walk-in,cash,0
+04/07/2026,BD70917,Soft Drink,2,400,800,Munchies,Phone,Cash,200
+10/07/2026,BD45885,  SOFT DRINK  ,1,400,400,Alaga Spot,walk-in,Transfer,0
+24/05/2026,BD34832,Meat Pie,1,800,800,Alaga Spot,APP,card,500
+2026-06-18,BD65876,  MOI MOI  ,1,700,700,Alaga Spot,App,pos,0
+16/07/2026,BD35035,  POUNDED YAM & EGUSI  ,2,"NGN2,500",5000,Munchies,Walk In,transfer,0
+13/07/2026,BD34817,Amala & Ewedu,1,2000,2000,Munchies,walk-in,Transfer,200
+14/05/2026,BD71835,Jollof Rice,1,1800,1800,Alaga Spot,APP,pos,0
+2026-07-10,BD15370,Zobo,2,500,1000,Jummie Kitchen,App,POS,300
+16/06/2026,BD12588,Fish (piece),3,1200,3600,Butter N Crumbs,Phone,transfer,500
+2026-05-03,BD64921,Pounded Yam & Egusi,2,2500,5000,Butter N Crumbs,walk-in,Cash,0
+16-May-2026,BD30131,  POUNDED YAM & EGUSI  ,1,2607,2607,Munchies,phone,transfer,200
+2026-05-23,BD80685,Zobo,1,500,500,Butter N Crumbs,Phone,POS,500
+26/07/2026,BD88694,Puff Puff (6pcs),2,533,1066,Amala Pavilion,App,transfer,0
+28/06/2026,BD17678,Eba & Okra,1,1500,1500,Munchies,Walk In,card,500
+18/06/2026,BD99710,Bottled Water,1,200,200,Jummie Kitchen,phone,card,0
+02/07/2026,BD24898,  MEAT PIE  ,2,800,1600,Amala Pavilion,Phone,Transfer,500
+28/06/2026,BD79377,Jollof Rice,2,1800,3600,Amala Pavilion,walkin,Transfer,300
+01/05/2026,BD28131,Moi Moi,3,700,2100,Munchies,app,pos,0
+18/07/2026,BD48099,Amala & Ewedu,1,2000,2000,Amala Pavilion,Phone,transfer,500
+08/05/2026,BD82616,Bottled Water,1,200,200,Amala Pavilion,APP,card,0
+19/07/2026,BD35733,  FISH (PIECE)  ,2,1200,2400,Amala Pavilion,Walk In,Cash,0
+30/05/2026,BD77195,Zobo,1,500,500,Butter N Crumbs,walkin,Cash,200
+29/07/2026,BD85051,Soft Drink,3,400,1200,Jummie Kitchen,phone,Transfer,200
+29/06/2026,BD76764,  FISH (PIECE)  ,1,1200,1200,Munchies,walkin,POS,300
+24/06/2026,BD47128,Eba & Okra,2,1444,2888,Butter N Crumbs,APP,transfer,200
+15/06/2026,BD62665,Eba & Okra,3,1500,4500,Alaga Spot,app,card,0
+07/05/2026,BD66446,Bottled Water,1,NGN200,200,Amala Pavilion,walk-in,card,500
+11/06/2026,BD91292,Bottled Water,2,199,398,Jummie Kitchen,app,Cash,500
+13/06/2026,BD55043,Fried Rice,2,1800,3600,Alaga Spot,phone,transfer,0
+2026-07-06,BD30749,Chicken (piece),1,1500,1500,Jummie Kitchen,Phone,POS,300
+14/07/2026,BD57227,Meat Pie,1,800,800,Jummie Kitchen,App,Cash,200
+2026-06-04,BD78852,Fried Rice,1,1800,1800,Munchies,phone,transfer,0
+04/06/2026,BD22989,Bottled Water,2,200,400,Munchies,walk-in,POS,0
+12-Jul-2026,BD84311,Jollof Rice,1,1800,1800,Alaga Spot,app,card,500
+21-Jun-2026,BD54829,White Rice & Stew,2,1500,3000,Jummie Kitchen,APP,Transfer,200
+24/07/2026,BD20769,Moi Moi,1,700,700,Munchies,phone,cash,300
+06/05/2026,BD95814,Chicken (piece),1,"NGN1,500",1500,Butter N Crumbs,walk-in,Cash,300
+12/06/2026,BD86865,Chicken (piece),1,1500,1500,Alaga Spot,app,Transfer,500
+12/06/2026,BD91684,Beef (piece),1,800,800,Munchies,App,Transfer,0
+21/06/2026,BD13007,Bottled Water,1,200,200,Amala Pavilion,Walk In,cash,0
+12/05/2026,BD55332,  BOTTLED WATER  ,4,200,800,Amala Pavilion,walk-in,pos,0
+10-Jul-2026,BD41816,Eba & Okra,1,1500,1500,Alaga Spot,phone,POS,200
+10/06/2026,BD64109,Fish (piece),1,1200,1200,Jummie Kitchen,,,0
+09/07/2026,BD46204,Amala & Ewedu,1,2000,2000,Amala Pavilion,App,POS,500
+04/05/2026,BD24871,Pounded Yam & Egusi,1,2500,2500,Munchies,APP,Cash,200
+14/07/2026,BD42320,Fish (piece),1,1200,1200,Munchies,walkin,cash,500
+01/05/2026,BD26828,Soft Drink,1,400,400,Butter N Crumbs,APP,cash,500
+06/07/2026,BD53075,Bottled Water,1,200,200,Butter N Crumbs,Walk In,POS,200
+11/07/2026,BD35509,Chicken (piece),1,1500,1500,Butter N Crumbs,APP,pos,0
+21/06/2026,BD69168,Fried Rice,1,1800,1800,Butter N Crumbs,walk-in,POS,200
+07-May-2026,BD35430,Pounded Yam & Egusi,4,2500,10000,Butter N Crumbs,Phone,Cash,200
+14/07/2026,BD11699,Meat Pie,3,800,2400,Alaga Spot,walkin,POS,200
+08/07/2026,BD37502,White Rice & Stew,2,1500,3000,Jummie Kitchen,walkin,card,300
+12/06/2026,BD45171,Meat Pie,2,800,1600,Butter N Crumbs,app,Transfer,0
+17/06/2026,BD22272,Soft Drink,1,400,400,Munchies,App,POS,200
+2026-06-16,BD66840,Bottled Water,1,200,200,Alaga Spot,App,cash,0
+01/06/2026,BD31627,White Rice & Stew,2,1500,3000,Butter N Crumbs,app,Transfer,0
+17-May-2026,BD88647,Bottled Water,1,200,200,Jummie Kitchen,APP,POS,0
+01/07/2026,BD42062,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,phone,cash,500
+22/07/2026,BD34582,Amala & Ewedu,4,2061,8244,Alaga Spot,app,Cash,0
+19/07/2026,BD81817,Soft Drink,1,NGN400,400,Jummie Kitchen,walkin,card,0
+04/05/2026,BD13783,Zobo,1,500,500,Butter N Crumbs,walk-in,POS,0
+02/06/2026,BD22844,Fish (piece),2,1239,2478,Alaga Spot,,,0
+19/05/2026,BD16157,Bottled Water,2,NGN200,400,Amala Pavilion,phone,pos,200
+05/05/2026,BD33600,White Rice & Stew,1,1500,1500,Munchies,,,0
+21-Jun-2026,BD26350,Jollof Rice,1,1800,1800,Amala Pavilion,phone,Cash,200
+2026-07-14,BD18769,Puff Puff (6pcs),4,500,2000,Amala Pavilion,Walk In,Transfer,0
+20-May-2026,BD90482,Jollof Rice,2,1800,3600,Butter N Crumbs,APP,Cash,0
+18/06/2026,BD89261,Fish (piece),2,1200,2400,Jummie Kitchen,walk-in,card,300
+30/05/2026,BD74788,Beef (piece),2,800,1600,Munchies,App,Transfer,0
+13/06/2026,BD18280,Moi Moi,1,773,773,Munchies,APP,POS,0
+25/06/2026,BD25035,  FISH (PIECE)  ,4,1225,4900,Alaga Spot,App,card,0
+24/06/2026,BD12716,Puff Puff (6pcs),1,500,500,Amala Pavilion,walk-in,POS,0
+2026-05-22,BD85354,  AMALA & EWEDU  ,2,2000,4000,Alaga Spot,phone,card,0
+02-May-2026,BD97900,Fish (piece),1,1200,1200,Amala Pavilion,App,POS,200
+19/05/2026,BD89822,Zobo,1,500,500,Alaga Spot,Walk In,Cash,200
+28/05/2026,BD64257,Zobo,3,500,1500,Munchies,Walk In,card,200
+2026-05-02,BD63964,Zobo,1,500,500,Alaga Spot,Walk In,Transfer,0
+2026-06-24,BD46208,Zobo,1,500,500,Munchies,walkin,pos,500
+28/05/2026,BD48074,Puff Puff (6pcs),2,500,1000,Munchies,App,transfer,300
+09/06/2026,BD75325,White Rice & Stew,2,1500,3000,Munchies,APP,POS,200
+2026-05-22,BD85354,  AMALA & EWEDU  ,2,2000,4000,Alaga Spot,phone,card,0
+20/05/2026,BD94613,Eba & Okra,2,1500,3000,Jummie Kitchen,APP,card,0
+09/06/2026,BD49522,  ZOBO  ,2,500,1000,Butter N Crumbs,walkin,Cash,0
+16/07/2026,BD28920,Zobo,2,500,1000,Jummie Kitchen,walk-in,pos,300
+08-May-2026,BD69130,White Rice & Stew,2,1500,3000,Munchies,phone,transfer,300
+15/07/2026,BD21284,Zobo,3,500,1500,Amala Pavilion,Walk In,cash,0
+27/06/2026,BD20242,Puff Puff (6pcs),1,500,500,Butter N Crumbs,Walk In,transfer,0
+23/06/2026,BD48466,Puff Puff (6pcs),1,513,513,Butter N Crumbs,walkin,Cash,0
+21/05/2026,BD51405,Fried Rice,1,1800,1800,Munchies,APP,Cash,500
+04/07/2026,BD56924,Eba & Okra,1,1500,1500,Amala Pavilion,APP,pos,0
+04/05/2026,BD71993,Amala & Ewedu,3,2000,6000,Amala Pavilion,phone,POS,0
+05/07/2026,BD74324,Moi Moi,4,800,3200,Amala Pavilion,APP,Cash,500
+28/06/2026,BD71585,White Rice & Stew,1,1500,1500,Alaga Spot,app,pos,300
+06/07/2026,BD21974,White Rice & Stew,1,1500,1500,Munchies,APP,card,200
+06/06/2026,BD24671,Moi Moi,3,700,2100,Butter N Crumbs,App,card,500
+08/06/2026,BD76932,Jollof Rice,1,1800,1800,Munchies,Phone,POS,500
+24/06/2026,BD66472,Fried Rice,1,1800,1800,Munchies,Phone,cash,200
+10/05/2026,BD17897,Jollof Rice,1,1800,1800,Munchies,Phone,transfer,200
+20/05/2026,BD73682,Fried Rice,1,1800,1800,Butter N Crumbs,Walk In,POS,500
+12/06/2026,BD35688,  FISH (PIECE)  ,1,1200,1200,Jummie Kitchen,App,transfer,0
+24/07/2026,BD79514,Bottled Water,1,200,200,Munchies,walk-in,POS,0
+17/05/2026,BD46291,Puff Puff (6pcs),1,500,500,Jummie Kitchen,walk-in,Transfer,500
+19/07/2026,BD88616,Soft Drink,1,NGN400,400,Jummie Kitchen,App,card,300
+09/06/2026,BD49888,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,walkin,transfer,200
+13/07/2026,BD85189,  JOLLOF RICE  ,1,1800,1800,Amala Pavilion,walk-in,Cash,300
+20/06/2026,BD61202,Bottled Water,1,200,200,Alaga Spot,App,cash,300
+31/05/2026,BD57044,Fish (piece),2,1200,2400,Jummie Kitchen,phone,transfer,0
+04/07/2026,BD28958,Amala & Ewedu,1,2000,2000,Amala Pavilion,Walk In,cash,300
+15-May-2026,BD52899,  ZOBO  ,1,500,500,Amala Pavilion,app,cash,0
+2026-06-01,BD41258,Fish (piece),1,1087,1087,Munchies,Walk In,Cash,500
+26-Jul-2026,BD11957,Eba & Okra,1,1500,1500,Amala Pavilion,App,POS,0
+2026-06-15,BD52229,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,,,200
+19/05/2026,BD66757,Zobo,1,500,500,Amala Pavilion,App,card,0
+28/05/2026,BD14813,Soft Drink,2,374,748,Munchies,Walk In,cash,0
+06-Jun-2026,BD41205,Bottled Water,3,200,600,Jummie Kitchen,walkin,pos,500
+29/07/2026,BD73074,Soft Drink,1,400,400,Alaga Spot,app,Transfer,500
+18/06/2026,BD37784,White Rice & Stew,1,1500,1500,Jummie Kitchen,App,Cash,0
+12/06/2026,BD53452,Puff Puff (6pcs),2,500,1000,Amala Pavilion,walk-in,Cash,0
+04/06/2026,BD37504,Soft Drink,2,400,800,Munchies,phone,POS,0
+17/05/2026,BD52056,White Rice & Stew,1,1500,1500,Amala Pavilion,App,Transfer,300
+17/05/2026,BD25176,Beef (piece),1,800,800,Amala Pavilion,App,card,200
+13/07/2026,BD74071,White Rice & Stew,3,1500,4500,Munchies,Phone,POS,0
+27/06/2026,BD55587,Meat Pie,1,800,800,Butter N Crumbs,walkin,pos,200
+09/05/2026,BD85598,Jollof Rice,2,"NGN1,640",3280,Alaga Spot,phone,card,0
+14/06/2026,BD94153,  EBA & OKRA  ,1,1500,1500,Butter N Crumbs,Phone,POS,200
+20/07/2026,BD94930,Puff Puff (6pcs),3,500,1500,Munchies,app,Cash,0
+21/07/2026,BD62751,Bottled Water,2,200,400,Alaga Spot,Phone,pos,500
+19/07/2026,BD76315,  JOLLOF RICE  ,2,1800,3600,Alaga Spot,phone,cash,300
+28/06/2026,BD65898,Eba & Okra,2,1500,3000,Alaga Spot,app,cash,500
+06-May-2026,BD78347,Chicken (piece),1,1500,1500,Munchies,app,Cash,300
+01/05/2026,BD28301,Moi Moi,3,700,2100,Butter N Crumbs,Walk In,POS,500
+15-Jul-2026,BD67061,Bottled Water,1,200,200,Amala Pavilion,walk-in,POS,0
+08/05/2026,BD69914,  AMALA & EWEDU  ,1,2009,2009,Amala Pavilion,app,POS,500
+08/06/2026,BD40765,Fried Rice,2,1800,3600,Munchies,app,cash,200
+24/06/2026,BD23242,Zobo,1,500,500,Butter N Crumbs,phone,Cash,300
+11/05/2026,BD18819,Bottled Water,3,200,600,Munchies,Phone,card,0
+08/07/2026,BD42636,Pounded Yam & Egusi,2,2500,5000,Munchies,APP,card,0
+17-May-2026,BD84537,  FISH (PIECE)  ,1,1200,1200,Alaga Spot,walk-in,pos,0
+27/05/2026,BD59856,Zobo,1,500,500,Amala Pavilion,app,card,0
+2026-07-19,BD31416,Pounded Yam & Egusi,4,2500,10000,Jummie Kitchen,Phone,pos,0
+05/06/2026,BD73508,Eba & Okra,1,1500,1500,Alaga Spot,Phone,transfer,0
+2026-05-12,BD64827,Chicken (piece),1,1500,1500,Jummie Kitchen,App,transfer,0
+14/07/2026,BD44177,Soft Drink,1,400,400,Munchies,app,transfer,0
+11/05/2026,BD38444,Amala & Ewedu,2,2000,4000,Jummie Kitchen,Walk In,transfer,0
+14/06/2026,BD72616,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,app,POS,0
+28/06/2026,BD86645,Zobo,1,500,500,Butter N Crumbs,Walk In,pos,200
+03/05/2026,BD72616,Puff Puff (6pcs),1,NGN500,500,Munchies,phone,Cash,0
+10/05/2026,BD53007,Zobo,1,500,500,Amala Pavilion,App,POS,0
+01/06/2026,BD55593,Chicken (piece),4,1500,6000,Butter N Crumbs,walk-in,Transfer,0
+2026-05-31,BD46226,Beef (piece),3,800,2400,Jummie Kitchen,Walk In,Transfer,0
+17/06/2026,BD65009,Chicken (piece),2,1500,3000,Jummie Kitchen,phone,Cash,0
+12/07/2026,BD73790,Eba & Okra,1,1500,1500,Butter N Crumbs,app,POS,0
+20/05/2026,BD78337,Zobo,1,572,572,Jummie Kitchen,Walk In,card,500
+14/05/2026,BD62727,  BEEF (PIECE)  ,2,800,1600,Butter N Crumbs,APP,cash,0
+2026-06-20,BD24438,  AMALA & EWEDU  ,4,2079,8316,Jummie Kitchen,walkin,pos,0
+29/06/2026,BD76614,Eba & Okra,1,1500,1500,Amala Pavilion,Walk In,cash,300
+18/05/2026,BD85108,Moi Moi,2,700,1400,Amala Pavilion,Phone,cash,0
+19/06/2026,BD59528,White Rice & Stew,2,1500,3000,Munchies,app,pos,0
+27/06/2026,BD25149,Fish (piece),1,1200,1200,Butter N Crumbs,walkin,cash,0
+13/05/2026,BD52727,Chicken (piece),1,1500,1500,Munchies,Walk In,POS,300
+22-May-2026,BD92660,White Rice & Stew,1,1500,1500,Jummie Kitchen,Phone,cash,200
+15/05/2026,BD86638,Amala & Ewedu,1,2000,2000,Munchies,APP,Cash,300
+01/05/2026,BD23434,Fried Rice,1,1800,1800,Butter N Crumbs,App,card,300
+27-May-2026,BD42207,Puff Puff (6pcs),1,500,500,Amala Pavilion,,,300
+14/06/2026,BD63580,Moi Moi,1,700,700,Munchies,phone,card,0
+29/05/2026,BD32387,Fried Rice,1,1800,1800,Jummie Kitchen,APP,card,0
+06/06/2026,BD49309,Eba & Okra,2,1500,3000,Butter N Crumbs,walkin,Transfer,300
+27/06/2026,BD14701,Amala & Ewedu,1,2000,2000,Amala Pavilion,Phone,transfer,0
+15/05/2026,BD38707,  EBA & OKRA  ,1,1500,1500,Jummie Kitchen,app,pos,300
+28/06/2026,BD89327,Meat Pie,1,800,800,Amala Pavilion,walk-in,card,0
+22/05/2026,BD78909,Pounded Yam & Egusi,1,"NGN2,500",2500,Amala Pavilion,app,card,200
+29/07/2026,BD52960,Fried Rice,1,1800,1800,Alaga Spot,APP,cash,500
+07/06/2026,BD62279,Fish (piece),1,1200,1200,Alaga Spot,phone,transfer,0
+23-Jun-2026,BD94984,Moi Moi,1,700,700,Amala Pavilion,App,POS,0
+2026-06-14,BD57131,Pounded Yam & Egusi,3,2500,7500,Alaga Spot,Phone,Cash,300
+02/05/2026,BD12560,Amala & Ewedu,2,2000,4000,Butter N Crumbs,phone,Cash,0
+16/05/2026,BD53406,Amala & Ewedu,2,2000,4000,Alaga Spot,walkin,cash,0
+14/06/2026,BD75878,Eba & Okra,1,1500,1500,Amala Pavilion,walk-in,Transfer,0
+07/06/2026,BD71352,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,phone,Transfer,200
+02/05/2026,BD70332,Moi Moi,3,700,2100,Alaga Spot,walk-in,transfer,0
+23/05/2026,BD82034,Zobo,1,500,500,Jummie Kitchen,Phone,POS,200
+04-Jul-2026,BD97613,Meat Pie,2,800,1600,Amala Pavilion,walk-in,pos,0
+21/07/2026,BD94783,Beef (piece),1,800,800,Amala Pavilion,,,0
+14/05/2026,BD37925,Jollof Rice,2,1800,3600,Alaga Spot,phone,card,300
+10/05/2026,BD70150,Puff Puff (6pcs),1,500,500,Alaga Spot,app,POS,200
+2026-07-05,BD33183,Puff Puff (6pcs),1,500,500,Butter N Crumbs,App,pos,500
+09/07/2026,BD61088,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,Phone,Cash,200
+24/05/2026,BD88632,Meat Pie,1,800,800,Jummie Kitchen,walkin,card,200
+18/07/2026,BD52092,Amala & Ewedu,2,2000,4000,Amala Pavilion,APP,transfer,200
+02-Jul-2026,BD38036,Soft Drink,1,400,400,Jummie Kitchen,APP,pos,300
+09/07/2026,BD49167,Bottled Water,2,200,400,Butter N Crumbs,Phone,Transfer,0
+23-Jun-2026,BD58349,Amala & Ewedu,1,2000,2000,Butter N Crumbs,app,POS,0
+28/07/2026,BD96364,Eba & Okra,2,1500,3000,Alaga Spot,walk-in,POS,200
+2026-07-20,BD20793,Zobo,1,500,500,Butter N Crumbs,app,pos,0
+2026-05-12,BD36188,Soft Drink,2,400,800,Butter N Crumbs,APP,POS,500
+21/06/2026,BD70390,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,Walk In,pos,300
+07/05/2026,BD26750,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,App,POS,300
+03/05/2026,BD23006,Moi Moi,1,700,700,Alaga Spot,walk-in,cash,0
+11/07/2026,BD39225,  BEEF (PIECE)  ,2,873,1746,Munchies,App,Transfer,300
+03/07/2026,BD46038,Meat Pie,3,800,2400,Amala Pavilion,app,POS,200
+18/07/2026,BD12867,Amala & Ewedu,2,2000,4000,Jummie Kitchen,walkin,Cash,0
+10-Jun-2026,BD47912,Jollof Rice,1,1800,1800,Alaga Spot,app,transfer,300
+17/05/2026,BD73908,White Rice & Stew,1,1500,1500,Alaga Spot,walkin,POS,0
+16/05/2026,BD29360,Zobo,2,500,1000,Alaga Spot,App,pos,500
+08/05/2026,BD31842,Beef (piece),1,800,800,Jummie Kitchen,Phone,transfer,200
+2026-07-23,BD87553,Fish (piece),1,1200,1200,Butter N Crumbs,walkin,Cash,0
+17/07/2026,BD17863,Pounded Yam & Egusi,1,2500,2500,Munchies,App,card,200
+02-May-2026,BD17685,White Rice & Stew,1,1500,1500,Munchies,phone,cash,300
+08/05/2026,BD39430,  MEAT PIE  ,1,800,800,Munchies,walkin,pos,0
+17-Jul-2026,BD80210,Puff Puff (6pcs),1,500,500,Munchies,Walk In,card,0
+03-Jun-2026,BD67947,Beef (piece),1,800,800,Munchies,Phone,transfer,0
+06/05/2026,BD27038,Bottled Water,3,222,666,Alaga Spot,App,POS,0
+21/06/2026,BD68209,Fish (piece),2,1200,2400,Munchies,Walk In,pos,300
+12/05/2026,BD83339,Jollof Rice,1,1800,1800,Alaga Spot,APP,POS,300
+2026-05-27,BD67577,Bottled Water,1,200,200,Amala Pavilion,walkin,pos,300
+15/07/2026,BD20567,Amala & Ewedu,1,2000,2000,Jummie Kitchen,APP,Cash,0
+28/06/2026,BD57408,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,app,transfer,200
+04/05/2026,BD40595,Pounded Yam & Egusi,2,2500,5000,Butter N Crumbs,walk-in,Cash,0
+2026-07-14,BD68547,Fried Rice,1,1800,1800,Butter N Crumbs,APP,card,300
+06/06/2026,BD90586,Puff Puff (6pcs),1,500,500,Amala Pavilion,walk-in,Cash,0
+19/07/2026,BD75388,Moi Moi,1,700,700,Amala Pavilion,app,card,200
+01/07/2026,BD72064,Chicken (piece),1,1500,1500,Butter N Crumbs,walk-in,transfer,300
+25/07/2026,BD69183,Chicken (piece),2,1500,3000,Munchies,app,card,200
+18/05/2026,BD96732,Meat Pie,1,800,800,Amala Pavilion,walkin,POS,300
+05-May-2026,BD49608,Beef (piece),1,800,800,Munchies,APP,transfer,0
+16/07/2026,BD24664,Soft Drink,2,400,800,Butter N Crumbs,app,card,0
+19/05/2026,BD38992,White Rice & Stew,1,1500,1500,Jummie Kitchen,walkin,cash,200
+04/05/2026,BD62757,Zobo,1,500,500,Butter N Crumbs,Phone,Cash,0
+04/05/2026,BD71894,Meat Pie,2,800,1600,Butter N Crumbs,APP,Cash,0
+14/05/2026,BD87814,Fish (piece),1,1200,1200,Amala Pavilion,app,transfer,200
+01-May-2026,BD53309,  FISH (PIECE)  ,2,1200,2400,Alaga Spot,Walk In,POS,300
+09/05/2026,BD30056,Meat Pie,3,800,2400,Alaga Spot,walkin,POS,0
+10/05/2026,BD94656,Moi Moi,1,700,700,Jummie Kitchen,,,300
+30-Jun-2026,BD80256,Pounded Yam & Egusi,1,2500,2500,Munchies,walkin,Transfer,500
+15/05/2026,BD86823,Eba & Okra,2,1500,3000,Munchies,app,transfer,0
+02-Jul-2026,BD65858,Zobo,1,500,500,Jummie Kitchen,walkin,card,300
+23-May-2026,BD50549,Chicken (piece),1,1500,1500,Jummie Kitchen,Phone,POS,0
+11-Jul-2026,BD34837,Moi Moi,2,NGN700,1400,Amala Pavilion,Walk In,card,0
+14/05/2026,BD75065,Fried Rice,1,1800,1800,Butter N Crumbs,Walk In,Transfer,200
+29/07/2026,BD35448,Bottled Water,2,200,400,Butter N Crumbs,App,POS,500
+08-Jun-2026,BD49013,Soft Drink,1,400,400,Amala Pavilion,Phone,card,200
+21/07/2026,BD96117,Fish (piece),2,1200,2400,Amala Pavilion,Phone,Cash,200
+2026-05-25,BD21743,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,phone,cash,200
+02-Jun-2026,BD21334,Zobo,1,500,500,Butter N Crumbs,Phone,pos,0
+02/07/2026,BD25760,Meat Pie,1,800,800,Amala Pavilion,walkin,Transfer,0
+25/06/2026,BD87182,Bottled Water,2,200,400,Jummie Kitchen,phone,transfer,0
+20/06/2026,BD59487,Moi Moi,3,NGN700,2100,Alaga Spot,walk-in,Cash,500
+19/07/2026,BD89818,White Rice & Stew,1,1500,1500,Butter N Crumbs,Walk In,Cash,0
+28/06/2026,BD85398,Beef (piece),1,800,800,Alaga Spot,walkin,Transfer,200
+2026-05-16,BD23124,Eba & Okra,2,1500,3000,Alaga Spot,Walk In,card,0
+22/06/2026,BD12035,  BEEF (PIECE)  ,1,800,800,Jummie Kitchen,walkin,cash,0
+14/05/2026,BD89551,Soft Drink,2,400,800,Amala Pavilion,Walk In,POS,0
+14/06/2026,BD78271,White Rice & Stew,1,1500,1500,Amala Pavilion,Walk In,pos,0
+27-Jun-2026,BD38873,Meat Pie,1,800,800,Jummie Kitchen,walkin,pos,500
+13/07/2026,BD87635,Bottled Water,4,200,800,Amala Pavilion,Walk In,Transfer,300
+2026-05-01,BD36365,Soft Drink,2,400,800,Amala Pavilion,walkin,Cash,500
+03-May-2026,BD21359,Soft Drink,2,400,800,Amala Pavilion,walk-in,pos,300
+21/07/2026,BD37827,Bottled Water,1,200,200,Munchies,walk-in,transfer,200
+17/07/2026,BD81235,Jollof Rice,2,1800,3600,Amala Pavilion,app,cash,300
+04/06/2026,BD60434,Meat Pie,2,800,1600,Butter N Crumbs,Walk In,POS,300
+05/05/2026,BD98452,Chicken (piece),1,1500,1500,Munchies,walkin,card,0
+29/07/2026,BD45301,Beef (piece),2,800,1600,Jummie Kitchen,phone,Cash,500
+05-Jun-2026,BD75419,Soft Drink,4,400,1600,Butter N Crumbs,Walk In,pos,300
+23/05/2026,BD27907,Bottled Water,1,200,200,Amala Pavilion,Phone,cash,500
+25/07/2026,BD79285,Amala & Ewedu,1,2000,2000,Munchies,walk-in,Transfer,200
+24/06/2026,BD74903,Fried Rice,1,1800,1800,Alaga Spot,walkin,POS,200
+18/05/2026,BD17113,Amala & Ewedu,2,2000,4000,Amala Pavilion,walkin,card,500
+14/07/2026,BD44866,  CHICKEN (PIECE)  ,1,1500,1500,Amala Pavilion,walk-in,pos,200
+13-Jul-2026,BD17917,Fried Rice,1,1800,1800,Amala Pavilion,App,POS,300
+12/05/2026,BD18292,White Rice & Stew,1,1500,1500,Jummie Kitchen,phone,cash,300
+22/07/2026,BD38628,Fish (piece),3,1200,3600,Alaga Spot,APP,POS,500
+10/06/2026,BD26118,Fish (piece),1,1200,1200,Butter N Crumbs,Walk In,Cash,0
+13-May-2026,BD84720,White Rice & Stew,2,1500,3000,Jummie Kitchen,APP,cash,200
+04/07/2026,BD59054,  MOI MOI  ,1,700,1400,Alaga Spot,,,300
+11-May-2026,BD95686,Fish (piece),1,1200,1200,Munchies,App,Cash,300
+29/05/2026,BD87693,Fried Rice,1,1800,1800,Amala Pavilion,walkin,cash,200
+20/07/2026,BD64957,Fish (piece),1,1200,1200,Jummie Kitchen,App,Transfer,0
+2026-07-11,BD50850,Zobo,1,500,500,Munchies,walkin,POS,0
+19/06/2026,BD36728,Meat Pie,1,800,800,Amala Pavilion,APP,Cash,0
+09/07/2026,BD52922,  BEEF (PIECE)  ,1,800,800,Munchies,Walk In,card,0
+17-May-2026,BD59051,Jollof Rice,1,1800,1800,Butter N Crumbs,Walk In,cash,0
+18/07/2026,BD26110,Puff Puff (6pcs),1,500,500,Munchies,app,pos,0
+2026-06-16,BD95209,Puff Puff (6pcs),1,500,500,Amala Pavilion,APP,POS,300
+16/05/2026,BD23133,White Rice & Stew,1,1500,1500,Butter N Crumbs,App,pos,200
+18/05/2026,BD19836,Beef (piece),1,800,800,Munchies,Walk In,POS,0
+02/06/2026,BD90281,Meat Pie,1,800,800,Alaga Spot,App,card,200
+20/07/2026,BD25429,Fish (piece),1,1200,1200,Amala Pavilion,APP,Transfer,0
+19-Jun-2026,BD22280,Fish (piece),2,1200,2400,Amala Pavilion,APP,pos,0
+23-Jun-2026,BD77300,Zobo,1,500,500,Amala Pavilion,walk-in,transfer,200
+2026-06-13,BD26926,Soft Drink,3,400,2400,Amala Pavilion,App,Cash,0
+24-May-2026,BD44840,Soft Drink,1,400,400,Munchies,Walk In,transfer,0
+2026-06-15,BD71184,Bottled Water,1,200,200,Amala Pavilion,App,Cash,500
+16/06/2026,BD43419,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,phone,Cash,0
+22/05/2026,BD34105,Amala & Ewedu,1,2000,2000,Alaga Spot,phone,POS,200
+21/07/2026,BD98055,Zobo,2,500,1000,Alaga Spot,phone,Transfer,0
+20/05/2026,BD15610,Bottled Water,1,200,200,Butter N Crumbs,walkin,Cash,300
+05/07/2026,BD47726,Fried Rice,1,1766,1766,Butter N Crumbs,Phone,card,300
+10/05/2026,BD72350,Meat Pie,4,800,3200,Alaga Spot,Walk In,cash,200
+14/06/2026,BD60172,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,App,transfer,500
+11/07/2026,BD83023,  MEAT PIE  ,1,800,800,Jummie Kitchen,App,Transfer,0
+2026-05-08,BD33652,Fish (piece),1,1200,1200,Jummie Kitchen,App,transfer,200
+05/07/2026,BD37204,Fried Rice,2,1800,3600,Butter N Crumbs,walkin,cash,200
+09/05/2026,BD48038,Fried Rice,1,1800,1800,Butter N Crumbs,phone,Transfer,0
+07-May-2026,BD40968,Eba & Okra,2,1500,3000,Jummie Kitchen,walk-in,Transfer,500
+11/07/2026,BD99545,Puff Puff (6pcs),1,500,500,Butter N Crumbs,walkin,card,0
+29/06/2026,BD37614,Eba & Okra,2,1500,3000,Jummie Kitchen,walkin,transfer,200
+29/07/2026,BD14940,  SOFT DRINK  ,2,400,800,Jummie Kitchen,walk-in,Cash,200
+10/07/2026,BD67171,  SOFT DRINK  ,1,400,400,Alaga Spot,app,card,300
+10/05/2026,BD10455,Moi Moi,1,700,700,Jummie Kitchen,Phone,POS,500
+27/05/2026,BD11967,Puff Puff (6pcs),1,500,500,Amala Pavilion,walk-in,POS,0
+06/06/2026,BD65164,Soft Drink,1,400,400,Butter N Crumbs,walkin,Cash,0
+01/07/2026,BD59359,Amala & Ewedu,1,2000,2000,Munchies,walk-in,Cash,500
+29/05/2026,BD22137,White Rice & Stew,1,1500,1500,Munchies,Phone,card,0
+06/06/2026,BD87728,Puff Puff (6pcs),1,500,500,Jummie Kitchen,walk-in,transfer,300
+07/05/2026,BD80748,White Rice & Stew,1,1500,1500,Butter N Crumbs,app,POS,200
+12/07/2026,BD99247,White Rice & Stew,1,1500,1500,Amala Pavilion,Walk In,card,200
+11/07/2026,BD88346,Chicken (piece),1,1500,1500,Alaga Spot,phone,Transfer,300
+12/06/2026,BD50107,Zobo,1,500,500,Amala Pavilion,APP,pos,200
+28/06/2026,BD41594,Amala & Ewedu,1,2000,2000,Amala Pavilion,walkin,transfer,200
+07/07/2026,BD89117,Eba & Okra,1,1500,1500,Munchies,APP,transfer,300
+18/06/2026,BD76752,Soft Drink,1,400,400,Amala Pavilion,phone,card,200
+21/07/2026,BD51309,Beef (piece),1,800,800,Munchies,APP,pos,0
+03/05/2026,BD80010,Pounded Yam & Egusi,1,2500,2500,Munchies,app,card,200
+08-Jun-2026,BD15501,Chicken (piece),2,1500,3000,Alaga Spot,App,pos,0
+18/05/2026,BD81971,  PUFF PUFF (6PCS)  ,2,NGN500,1000,Munchies,Walk In,card,500
+12/07/2026,BD36299,Soft Drink,4,400,1600,Munchies,phone,Cash,0
+30-Jun-2026,BD88781,Bottled Water,3,200,600,Alaga Spot,app,cash,200
+14/06/2026,BD53677,Puff Puff (6pcs),1,500,500,Amala Pavilion,walk-in,Transfer,0
+31-May-2026,BD88562,Jollof Rice,3,1800,5400,Munchies,App,pos,500
+11/05/2026,BD88370,Amala & Ewedu,2,2000,4000,Jummie Kitchen,walk-in,cash,0
+01-May-2026,BD85525,Amala & Ewedu,1,2000,2000,Amala Pavilion,phone,Transfer,0
+22/07/2026,BD94570,Amala & Ewedu,1,2000,2000,Alaga Spot,APP,transfer,200
+02/05/2026,BD69929,Amala & Ewedu,1,2000,2000,Munchies,app,Cash,500
+08/06/2026,BD73293,Chicken (piece),1,1500,1500,Alaga Spot,APP,card,300
+12/06/2026,BD75350,Moi Moi,2,700,1400,Alaga Spot,walkin,POS,200
+19/07/2026,BD95075,Puff Puff (6pcs),3,500,1500,Amala Pavilion,walk-in,Transfer,0
+20/06/2026,BD15987,  CHICKEN (PIECE)  ,1,1500,1500,Munchies,Walk In,transfer,200
+13/05/2026,BD55957,Bottled Water,2,200,400,Butter N Crumbs,phone,Transfer,500
+13/06/2026,BD83669,Jollof Rice,1,1800,1800,Butter N Crumbs,walk-in,card,300
+03/07/2026,BD56550,Pounded Yam & Egusi,1,2500,2500,Jummie Kitchen,Phone,pos,0
+22/06/2026,BD57369,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,phone,transfer,300
+23/06/2026,BD16269,Soft Drink,1,400,400,Alaga Spot,App,cash,300
+05/05/2026,BD80457,Pounded Yam & Egusi,4,2500,10000,Amala Pavilion,walkin,POS,500
+17/07/2026,BD77290,Soft Drink,1,NGN400,400,Munchies,APP,Transfer,300
+23/06/2026,BD46771,Meat Pie,1,800,800,Amala Pavilion,walk-in,transfer,200
+21/05/2026,BD15136,White Rice & Stew,1,1500,1500,Alaga Spot,app,Transfer,200
+13/06/2026,BD89171,Fish (piece),2,1200,2400,Butter N Crumbs,Walk In,transfer,200
+08/05/2026,BD12128,Jollof Rice,2,1800,3600,Munchies,walkin,Transfer,0
+18/05/2026,BD84572,Soft Drink,1,400,400,Alaga Spot,phone,pos,200
+15-May-2026,BD33507,Chicken (piece),1,1500,1500,Butter N Crumbs,app,Cash,0
+25/07/2026,BD83580,Fried Rice,1,"NGN1,800",1800,Alaga Spot,walk-in,card,200
+13-Jun-2026,BD89084,Fried Rice,2,1800,3600,Alaga Spot,walk-in,transfer,300
+19/07/2026,BD61775,Jollof Rice,1,1800,1800,Amala Pavilion,Phone,POS,500
+23/06/2026,BD89599,Chicken (piece),2,1500,3000,Alaga Spot,walkin,cash,0
+04/06/2026,BD46335,Zobo,2,500,1000,Munchies,walkin,card,300
+14/06/2026,BD66164,Chicken (piece),2,1500,3000,Butter N Crumbs,App,transfer,0
+2026-05-26,BD63903,Fish (piece),1,1200,1200,Jummie Kitchen,APP,pos,0
+16/07/2026,BD51894,Chicken (piece),1,1500,1500,Jummie Kitchen,Phone,pos,300
+29-May-2026,BD50679,Amala & Ewedu,1,2000,2000,Alaga Spot,App,pos,500
+12/05/2026,BD52778,  EBA & OKRA  ,2,1500,3000,Jummie Kitchen,Phone,Cash,0
+12/05/2026,BD61007,Zobo,1,500,500,Butter N Crumbs,walkin,Cash,0
+2026-06-05,BD13895,  POUNDED YAM & EGUSI  ,1,2500,2500,Munchies,App,Cash,0
+04/06/2026,BD25674,Chicken (piece),1,1500,1500,Butter N Crumbs,app,pos,200
+17/06/2026,BD26563,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,Walk In,transfer,200
+22/05/2026,BD27188,Eba & Okra,3,1500,4500,Alaga Spot,App,POS,200
+13/06/2026,BD69593,  POUNDED YAM & EGUSI  ,1,2500,2500,Butter N Crumbs,app,Transfer,200
+06/05/2026,BD25058,Amala & Ewedu,2,2000,4000,Butter N Crumbs,walk-in,pos,300
+2026-07-28,BD40926,Puff Puff (6pcs),2,500,1000,Butter N Crumbs,APP,pos,0
+05/05/2026,BD47667,Jollof Rice,2,1800,3600,Munchies,phone,transfer,0
+08/05/2026,BD26315,Soft Drink,2,400,800,Amala Pavilion,phone,POS,300
+22/05/2026,BD90455,  FRIED RICE  ,3,1800,5400,Butter N Crumbs,app,pos,300
+23/07/2026,BD12625,Pounded Yam & Egusi,2,2500,5000,Jummie Kitchen,phone,pos,500
+13/07/2026,BD29925,Pounded Yam & Egusi,1,2500,2500,Munchies,,,500
+05-May-2026,BD71385,Bottled Water,1,200,200,Alaga Spot,walk-in,pos,300
+29/06/2026,BD44771,Chicken (piece),1,1500,1500,Amala Pavilion,APP,POS,300
+18/06/2026,BD82371,Pounded Yam & Egusi,1,2500,2500,Alaga Spot,app,card,0
+29/06/2026,BD64808,Puff Puff (6pcs),1,500,500,Butter N Crumbs,phone,POS,500
+2026-06-04,BD32571,Zobo,4,500,2000,Munchies,App,Transfer,0
+10/06/2026,BD25566,Puff Puff (6pcs),1,500,500,Amala Pavilion,App,transfer,200
+13/07/2026,BD12615,White Rice & Stew,3,1500,4500,Jummie Kitchen,Phone,card,500
+21/07/2026,BD81082,Eba & Okra,1,1500,1500,Munchies,App,Transfer,0
+18/06/2026,BD11161,Amala & Ewedu,1,2000,2000,Butter N Crumbs,Phone,card,500
+25/06/2026,BD59351,Zobo,1,500,500,Butter N Crumbs,APP,card,500
+16/07/2026,BD63454,Soft Drink,2,400,800,Amala Pavilion,App,card,200
+16/06/2026,BD59375,  PUFF PUFF (6PCS)  ,2,500,1000,Jummie Kitchen,APP,pos,0
+01/06/2026,BD12048,Bottled Water,2,NGN200,400,Munchies,app,transfer,0
+18/07/2026,BD85974,Pounded Yam & Egusi,1,2500,2500,Amala Pavilion,Phone,Transfer,0
+10/07/2026,BD73871,Moi Moi,1,700,700,Alaga Spot,App,transfer,500
+12/05/2026,BD65460,White Rice & Stew,2,1500,3000,Munchies,Phone,card,300
+20/07/2026,BD51150,Chicken (piece),1,1500,1500,Munchies,phone,Cash,300
+03-May-2026,BD59192,Jollof Rice,3,1800,5400,Alaga Spot,App,card,0
+17/05/2026,BD31891,  POUNDED YAM & EGUSI  ,1,2500,2500,Munchies,Walk In,cash,300
+2026-06-22,BD20002,Bottled Water,1,200,200,Amala Pavilion,phone,cash,300
+16/07/2026,BD82433,Amala & Ewedu,2,2000,4000,Amala Pavilion,walk-in,card,300
+13/06/2026,BD64747,Eba & Okra,2,1500,3000,Amala Pavilion,app,cash,0
+04/07/2026,BD17144,Jollof Rice,1,1800,1800,Jummie Kitchen,App,card,300
+24/05/2026,BD49361,  POUNDED YAM & EGUSI  ,1,2500,2500,Amala Pavilion,walk-in,POS,0
+07/06/2026,BD23902,Beef (piece),4,800,3200,Alaga Spot,app,transfer,300
+27/06/2026,BD20282,Zobo,1,500,500,Alaga Spot,walk-in,cash,500
+04/07/2026,BD14668,Eba & Okra,1,1500,1500,Jummie Kitchen,app,card,300
+08/05/2026,BD69988,  BEEF (PIECE)  ,1,800,800,Alaga Spot,app,pos,0
+02/05/2026,BD15229,Jollof Rice,1,1800,1800,Alaga Spot,walk-in,POS,0
+11/05/2026,BD82523,Chicken (piece),3,1500,4500,Butter N Crumbs,phone,cash,0
+04/05/2026,BD28643,  MEAT PIE  ,1,800,800,Alaga Spot,Walk In,card,500
+04/07/2026,BD31499,Bottled Water,1,200,200,Jummie Kitchen,walk-in,card,0
+2026-06-15,BD41404,Eba & Okra,1,1500,1500,Amala Pavilion,phone,card,0
+11/06/2026,BD22678,  AMALA & EWEDU  ,1,2000,2000,Amala Pavilion,app,card,200
+17/05/2026,BD77698,Amala & Ewedu,3,"NGN2,000",6000,Munchies,APP,transfer,200
+20/06/2026,BD33910,Fried Rice,1,1800,1800,Alaga Spot,Walk In,Cash,300
+07-Jul-2026,BD52869,Moi Moi,4,700,2800,Amala Pavilion,Walk In,card,200
+06/07/2026,BD11581,Jollof Rice,3,1800,5400,Butter N Crumbs,phone,Cash,500
+27/06/2026,BD39362,Puff Puff (6pcs),1,500,500,Jummie Kitchen,Walk In,Cash,200
+06/06/2026,BD65426,Fish (piece),1,"NGN1,200",1200,Munchies,APP,Transfer,200
+23/05/2026,BD17055,  FRIED RICE  ,1,1800,1800,Amala Pavilion,App,transfer,200
+01-Jul-2026,BD20962,  FRIED RICE  ,2,1800,3600,Alaga Spot,walk-in,pos,300
+2026-06-19,BD20009,Pounded Yam & Egusi,3,2500,7500,Alaga Spot,APP,cash,0
+30-Jun-2026,BD21829,Meat Pie,1,800,800,Jummie Kitchen,,,500
+2026-07-23,BD67839,Fish (piece),1,1200,1200,Alaga Spot,walk-in,Transfer,200
+28/05/2026,BD58309,Eba & Okra,3,1500,4500,Munchies,phone,pos,500
+23/05/2026,BD55504,Moi Moi,1,700,700,Alaga Spot,App,Cash,200
+08/05/2026,BD58623,Chicken (piece),1,1500,1500,Munchies,APP,card,200
+13/05/2026,BD69303,Meat Pie,1,800,800,Jummie Kitchen,app,pos,0
+12/06/2026,BD51674,Bottled Water,1,200,200,Alaga Spot,app,pos,500
+25/05/2026,BD38940,Eba & Okra,1,1500,1500,Amala Pavilion,Phone,pos,500
+04/06/2026,BD56507,White Rice & Stew,1,1500,1500,Amala Pavilion,walk-in,card,0
+21/05/2026,BD73407,Bottled Water,1,200,200,Jummie Kitchen,walkin,pos,300
+10/05/2026,BD12853,Jollof Rice,1,1800,1800,Munchies,walk-in,card,0
+31-May-2026,BD64125,White Rice & Stew,1,1500,1500,Alaga Spot,,,0
+10/05/2026,BD90079,Bottled Water,1,200,200,Amala Pavilion,phone,card,200
+20/06/2026,BD36440,Chicken (piece),1,1500,1500,Munchies,walk-in,cash,0
+10/06/2026,BD21930,Moi Moi,1,700,700,Munchies,APP,cash,0
+08/05/2026,BD21506,Soft Drink,1,400,800,Jummie Kitchen,walkin,POS,0
+14/06/2026,BD27423,Chicken (piece),1,1500,1500,Jummie Kitchen,Phone,transfer,200
+06-Jun-2026,BD94678,Beef (piece),1,800,800,Butter N Crumbs,walk-in,Cash,0
+13/06/2026,BD28702,Meat Pie,2,800,1600,Amala Pavilion,walk-in,card,200
+13-Jul-2026,BD13072,Amala & Ewedu,1,2000,2000,Alaga Spot,app,POS,0
+24/07/2026,BD46101,Eba & Okra,1,1500,1500,Alaga Spot,Phone,card,0
+02/06/2026,BD93021,  WHITE RICE & STEW  ,2,1500,3000,Munchies,phone,POS,200
+31/05/2026,BD98185,  BEEF (PIECE)  ,2,800,1600,Munchies,app,Cash,0
+02/05/2026,BD49363,Chicken (piece),1,1500,1500,Amala Pavilion,walkin,Cash,200
+13/07/2026,BD57379,Jollof Rice,4,1800,7200,Butter N Crumbs,App,card,200
+12/05/2026,BD91924,Bottled Water,1,200,200,Butter N Crumbs,walk-in,Cash,0
+22/06/2026,BD85619,Fried Rice,2,1800,3600,Jummie Kitchen,APP,cash,0
+25/07/2026,BD85246,Chicken (piece),1,1500,1500,Munchies,Phone,cash,500
+01/07/2026,BD27195,Fish (piece),1,1200,1200,Jummie Kitchen,App,transfer,0
+27-Jul-2026,BD67756,Amala & Ewedu,2,2000,4000,Jummie Kitchen,phone,Transfer,0
+13/06/2026,BD53101,Moi Moi,1,700,700,Amala Pavilion,Walk In,transfer,0
+11/06/2026,BD98112,Meat Pie,1,800,800,Amala Pavilion,walkin,Cash,0
+04/05/2026,BD86931,Pounded Yam & Egusi,2,2500,5000,Amala Pavilion,APP,Cash,500
+2026-05-08,BD17518,  CHICKEN (PIECE)  ,4,1500,6000,Amala Pavilion,walkin,card,0
+17/05/2026,BD11219,Puff Puff (6pcs),2,500,1000,Munchies,Walk In,card,500
+28/06/2026,BD95799,  WHITE RICE & STEW  ,3,1500,4500,Butter N Crumbs,,,200
+15/05/2026,BD25919,  AMALA & EWEDU  ,1,2000,2000,Alaga Spot,APP,Transfer,300
+20-Jun-2026,BD29685,  ZOBO  ,2,500,1000,Amala Pavilion,Phone,card,0
+02/05/2026,BD90173,Pounded Yam & Egusi,1,2500,2500,Butter N Crumbs,app,POS,500
+06/06/2026,BD99824,Meat Pie,1,800,800,Amala Pavilion,phone,cash,0
+02-Jul-2026,BD16840,Puff Puff (6pcs),3,500,1500,Amala Pavilion,phone,POS,300
+17/05/2026,BD36097,Amala & Ewedu,1,2000,2000,Amala Pavilion,phone,POS,0
+10/07/2026,BD57706,Zobo,3,500,1500,Jummie Kitchen,phone,cash,200
+18-May-2026,BD27125,Chicken (piece),1,1500,1500,Amala Pavilion,App,Cash,300
+24/07/2026,BD90505,Jollof Rice,1,1800,1800,Butter N Crumbs,walkin,pos,0
+03-Jun-2026,BD78247,Fried Rice,2,1800,3600,Munchies,Walk In,Cash,500
+18/05/2026,BD90065,Soft Drink,2,400,800,Munchies,phone,Transfer,300
+10/07/2026,BD91500,Fried Rice,3,1800,5400,Alaga Spot,phone,Transfer,200
+07-May-2026,BD92210,Beef (piece),2,NGN800,1600,Amala Pavilion,App,Cash,300
+18/07/2026,BD68959,Jollof Rice,1,1800,1800,Alaga Spot,APP,Cash,500
+12/05/2026,BD91289,White Rice & Stew,1,1500,1500,Jummie Kitchen,Phone,cash,300
+2026-06-17,BD79688,White Rice & Stew,1,1500,1500,Amala Pavilion,Phone,card,0
+01/05/2026,BD31174,Soft Drink,2,400,800,Butter N Crumbs,app,card,200
+23/06/2026,BD50871,Bottled Water,1,200,200,Alaga Spot,App,Transfer,0
+24/05/2026,BD71393,Amala & Ewedu,1,2000,2000,Butter N Crumbs,APP,transfer,500
+2026-05-17,BD60242,  MOI MOI  ,2,700,1400,Butter N Crumbs,walk-in,POS,200
+11/06/2026,BD74597,Amala & Ewedu,4,"NGN2,000",8000,Butter N Crumbs,walk-in,transfer,0
+05/06/2026,BD81098,Amala & Ewedu,1,2000,2000,Butter N Crumbs,app,pos,0
+08/06/2026,BD67424,Jollof Rice,1,1800,1800,Alaga Spot,walkin,card,300
+03/05/2026,BD78494,Bottled Water,1,200,200,Amala Pavilion,Walk In,pos,500
+2026-05-29,BD47128,Eba & Okra,1,1500,1500,Alaga Spot,App,cash,500
+17/05/2026,BD91350,  PUFF PUFF (6PCS)  ,1,500,500,Alaga Spot,App,pos,300
+08/05/2026,BD78903,Fried Rice,1,1800,1800,Amala Pavilion,App,Transfer,200
+12/07/2026,BD30428,Beef (piece),1,800,800,Butter N Crumbs,walk-in,Transfer,300
+10/07/2026,BD42986,Soft Drink,2,400,800,Jummie Kitchen,phone,POS,200
+2026-06-10,BD33559,Meat Pie,3,800,2400,Jummie Kitchen,walk-in,Transfer,500
+14/07/2026,BD36770,Moi Moi,2,700,1400,Munchies,app,POS,300
+09/05/2026,BD36741,Fish (piece),1,1200,1200,Alaga Spot,,,200
+23/07/2026,BD79794,Jollof Rice,3,1800,5400,Alaga Spot,phone,card,0
+20/07/2026,BD31519,Zobo,2,500,1000,Amala Pavilion,App,Cash,200
+16/05/2026,BD35260,White Rice & Stew,3,1500,4500,Amala Pavilion,App,POS,300
+11/06/2026,BD50788,Chicken (piece),1,1500,1500,Butter N Crumbs,APP,Transfer,300
+25/06/2026,BD54471,White Rice & Stew,2,1500,3000,Alaga Spot,Walk In,pos,200
+11/05/2026,BD56160,Fish (piece),2,1200,2400,Butter N Crumbs,Phone,Transfer,500
+12/06/2026,BD71691,Chicken (piece),3,1500,4500,Butter N Crumbs,App,Transfer,500
+13/05/2026,BD55215,Puff Puff (6pcs),2,500,1000,Amala Pavilion,App,cash,300
+07/05/2026,BD84928,Meat Pie,4,800,3200,Jummie Kitchen,Phone,card,0
+24/06/2026,BD44581,Beef (piece),1,800,800,Alaga Spot,app,card,200
+14/05/2026,BD93050,Beef (piece),1,800,800,Munchies,phone,card,200
+15/05/2026,BD23624,Bottled Water,2,200,400,Alaga Spot,phone,Cash,0
+07/06/2026,BD58614,Meat Pie,2,800,1600,Butter N Crumbs,app,card,0
+08/06/2026,BD73950,Meat Pie,1,800,800,Munchies,app,Cash,500
+24/05/2026,BD52395,Soft Drink,1,400,400,Butter N Crumbs,walk-in,Cash,500
+24/07/2026,BD93498,Soft Drink,2,392,784,Munchies,walk-in,Cash,0
+02/06/2026,BD13199,White Rice & Stew,2,1500,3000,Amala Pavilion,APP,pos,300
+24/06/2026,BD66455,Eba & Okra,1,1500,1500,Munchies,walk-in,Cash,0
+13-Jun-2026,BD97135,White Rice & Stew,3,1500,4500,Butter N Crumbs,Walk In,card,0
+07/06/2026,BD65481,Fish (piece),1,1200,1200,Jummie Kitchen,App,transfer,500
+2026-05-01,BD40512,Jollof Rice,2,1800,3600,Amala Pavilion,Walk In,Cash,200
+16-Jun-2026,BD26127,  FISH (PIECE)  ,1,1200,1200,Butter N Crumbs,walk-in,POS,0
+27-Jun-2026,BD75647,Puff Puff (6pcs),1,500,500,Butter N Crumbs,APP,pos,0
+05/05/2026,BD43289,Puff Puff (6pcs),3,500,1500,Munchies,Phone,cash,500
+09/05/2026,BD23133,Beef (piece),3,800,2400,Amala Pavilion,App,POS,0
+12/07/2026,BD63504,Eba & Okra,3,1500,4500,Jummie Kitchen,walk-in,Cash,0
+2026-05-02,BD33405,Eba & Okra,3,1500,4500,Jummie Kitchen,app,transfer,500
+09/07/2026,BD52274,  JOLLOF RICE  ,1,1977,1977,Amala Pavilion,Phone,pos,200
+21/07/2026,BD65072,  FRIED RICE  ,3,1800,5400,Jummie Kitchen,Walk In,POS,0
+17/05/2026,BD98826,Bottled Water,4,200,800,Amala Pavilion,app,pos,0
+03/07/2026,BD45251,  AMALA & EWEDU  ,1,2000,2000,Alaga Spot,Walk In,Transfer,300
+07-May-2026,BD21835,Eba & Okra,2,1500,3000,Butter N Crumbs,phone,Cash,500
+21/07/2026,BD80098,Fried Rice,1,1800,1800,Jummie Kitchen,app,cash,300
+23/06/2026,BD16169,Moi Moi,1,700,700,Amala Pavilion,Phone,pos,0
+17/07/2026,BD97123,Meat Pie,2,800,1600,Amala Pavilion,walk-in,Transfer,0
+12/07/2026,BD61761,Pounded Yam & Egusi,3,2500,7500,Alaga Spot,App,card,300
+22/06/2026,BD87763,Fried Rice,1,1800,1800,Butter N Crumbs,App,card,300
+25/07/2026,BD78743,Meat Pie,3,800,2400,Munchies,APP,Transfer,0
+2026-05-09,BD70249,Beef (piece),1,800,800,Jummie Kitchen,walkin,POS,200
+21/06/2026,BD89215,Amala & Ewedu,1,2000,2000,Amala Pavilion,,,300
+02-May-2026,BD18981,White Rice & Stew,1,1500,1500,Alaga Spot,phone,transfer,500
+23/06/2026,BD38019,Bottled Water,1,214,214,Jummie Kitchen,walk-in,card,0
+12/07/2026,BD31115,Fried Rice,2,1800,3600,Jummie Kitchen,app,transfer,0
+2026-06-24,BD55481,Fried Rice,1,1800,1800,Munchies,Phone,POS,0
+09/05/2026,BD18163,Moi Moi,1,700,700,Butter N Crumbs,walk-in,card,200
+15/07/2026,BD32801,Meat Pie,1,800,800,Jummie Kitchen,Phone,cash,200
+25/07/2026,BD13457,Amala & Ewedu,1,"NGN2,000",2000,Amala Pavilion,walk-in,Transfer,0
+02/06/2026,BD55033,Fried Rice,3,1800,5400,Jummie Kitchen,APP,pos,500
+30/05/2026,BD58310,Chicken (piece),1,1500,1500,Amala Pavilion,App,Transfer,500
+2026-05-18,BD17152,  WHITE RICE & STEW  ,2,1500,3000,Alaga Spot,Phone,pos,300
+26/07/2026,BD25753,Bottled Water,1,NGN200,200,Alaga Spot,Walk In,Cash,500
+06/06/2026,BD18817,Fish (piece),2,1200,2400,Butter N Crumbs,Phone,Cash,0
+19/06/2026,BD81252,White Rice & Stew,1,1500,1500,Munchies,App,card,200
+03/05/2026,BD46241,Bottled Water,2,200,400,Butter N Crumbs,Walk In,transfer,0
+10/07/2026,BD82623,Amala & Ewedu,2,2000,4000,Alaga Spot,Phone,cash,500
+24/06/2026,BD22863,Bottled Water,2,200,400,Jummie Kitchen,Walk In,Transfer,500
+18/06/2026,BD30147,Fried Rice,1,1800,1800,Amala Pavilion,app,Transfer,200
+24-Jul-2026,BD26287,Zobo,1,500,500,Butter N Crumbs,app,cash,200
+09/05/2026,BD49124,Chicken (piece),1,1500,1500,Jummie Kitchen,Walk In,POS,0
+11/06/2026,BD34369,Pounded Yam & Egusi,1,2500,2500,Munchies,app,Transfer,200
