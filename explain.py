@@ -19,7 +19,7 @@ from pathlib import Path
 # The per-call argument wins if both are given. This is what lets
 # tests/compare_quants.py load three different quantizations in one process
 # without touching this module.
-MODEL_PATH = Path.home() / "adtc/adtc-2026-submission-template/model/smollm3-3b-q3_k_m-templated.gguf"
+MODEL_PATH = Path(__file__).resolve().parent / "model" / "smollm3-3b-q3_k_m-templated.gguf"
 
 
 def _resolve_model_path(model_path: str | Path | None) -> str:
@@ -40,14 +40,86 @@ SYSTEM = (
     "or percentage that is not already provided, describe it in words instead."
 )
 
-CATEGORIES = """ranking_by_product: best, strongest, highest-earning or most popular selling products; bestsellers; what sells the most; what to stock more of
-worst_by_product: worst, weakest, slowest-selling or lowest-earning products; underperformers; what is not selling; what to drop, discontinue or discount
-monthly_trend: revenue over time, growth, decline, month to month, trending up or down, is business improving or getting worse, seasonal patterns
-ranking_by_vendor: comparison between vendors, suppliers, branches or outlets
-ranking_by_channel: comparison between sales channels (app, walk-in, phone, online, in-store, delivery)
-ranking_by_payment: comparison between payment methods (cash, transfer, card, pos)
-quiet_days: patterns by day of week — busiest or slowest days, dead days, empty days, no customers, quiet periods, slow periods, when the shop is dead, when business is dead, ghost town, when to close early, when to reduce staff or hours, worst days of the week
-revenue_summary: overall totals, general performance, how is the business doing overall, big-picture summary, is the shop doing well"""
+# (key, description). One rule the description text has to follow, learned
+# from a real failure (docs/routing-evaluation.md, 2026-08-06/07): a
+# question asking "What are my best sellers?" got completed with the literal
+# word "bestsellers", copied out of ranking_by_product's own description
+# text, instead of the label key — the model found the single word in the
+# prompt that best matched the question and echoed it back, because nothing
+# stopped a description word from being a more tempting completion than the
+# key itself. No description below contains a standalone noun that is
+# itself a plausible one-word answer to a real question in that category
+# (no "bestsellers", "underperformers", etc.) — every one describes the
+# CONCEPT, not a name for it.
+#
+# A second structural fix was tried and measured, not just reasoned about:
+# moving the model's output space to a number (1-8) instead of the category
+# name, on the theory that a digit can never collide with a description
+# word. It fixed the original bug but broke worse elsewhere — the model
+# frequently just echoed "1. ranking_by_product" (the first line of the
+# numbered list) regardless of the actual question, and revenue_summary
+# collapsed from 100% to 0%. Measured 33/48 (69%) median over 3 runs,
+# *below* the 37/48 (77%) this was meant to improve on. Reverted. The
+# cleaned descriptions below, kept with the original text-key output format,
+# measured 45/48 (93.8%), stable across 3 runs with zero flaky cases — see
+# docs/routing-evaluation.md, 2026-08-07, for both experiments' numbers.
+CATEGORY_LIST: list[tuple[str, str]] = [
+    ("ranking_by_product", "which products earn the most or sell the most, and which "
+     "to stock up on"),
+    ("worst_by_product", "which products earn the least or barely sell, and which to "
+     "drop, discount, or stop carrying"),
+    ("monthly_trend", "how revenue is changing over time — growing, shrinking, or "
+     "following a seasonal pattern"),
+    ("ranking_by_vendor", "comparing vendors, suppliers, branches, or outlets against "
+     "each other"),
+    ("ranking_by_channel", "comparing sales channels against each other — app, "
+     "walk-in, phone, online, in-store, delivery"),
+    ("ranking_by_payment", "comparing payment methods against each other — cash, "
+     "transfer, card, POS"),
+    ("quiet_days", "which day of the week does best or worst — including when the "
+     "shop is emptiest, or when to close early or cut staff hours"),
+    ("revenue_summary", "the overall totals and general performance of the business, "
+     "the big picture rather than any one slice of it"),
+]
+_CATEGORY_LABELS = {key for key, _ in CATEGORY_LIST}
+
+
+def _text_categories() -> str:
+    return "\n".join(f"{key}: {desc}" for key, desc in CATEGORY_LIST)
+
+
+class QuestionTooLongError(ValueError):
+    """Raised before ever calling into llama_cpp, when a prompt would
+    exceed the model's context window. Left unguarded, llama_cpp raises its
+    own exception for this ('Requested tokens (4498) exceed context window
+    of 2048') straight out of create_chat_completion — accurate, but not
+    something a shop owner would understand, and not caught anywhere
+    upstream (see docs/adversarial-testing-2026-08-07.md, #3). Checking the
+    token count first means Ledgerit can say something useful instead."""
+
+    def __init__(self, token_count: int, limit: int):
+        self.token_count = token_count
+        self.limit = limit
+        super().__init__(
+            "That question is too long for Ledgerit to read in one go. "
+            "Try asking something shorter."
+        )
+
+
+# A little headroom beyond the exact count: token-counting the raw message
+# text is a close but not perfect stand-in for what create_chat_completion
+# actually sends (the chat template wraps it in a handful of its own
+# special tokens). Erring toward rejecting a question that would have just
+# barely fit is a far smaller problem than the crash this replaces.
+_CONTEXT_SAFETY_MARGIN = 64
+
+
+def _ensure_fits_context(system: str, user: str, max_tokens: int, model_path=None) -> None:
+    llm = _llm(model_path)
+    count = len(llm.tokenize((system + "\n" + user).encode("utf-8"), add_bos=True))
+    limit = llm.n_ctx()
+    if count + max_tokens + _CONTEXT_SAFETY_MARGIN > limit:
+        raise QuestionTooLongError(count, limit)
 
 
 @lru_cache(maxsize=1)
@@ -209,12 +281,19 @@ def explain(finding, question: str, model_path: str | Path | None = None) -> Nar
     base_prompt = _build_prompt(finding, question)
 
     def generate(prompt_text: str) -> str:
+        # Guards both the initial call and verify_and_retry's retry call —
+        # the retry prompt is the original plus more text (the unsupported
+        # numbers to fix), so it's never shorter. Same QuestionTooLongError
+        # as classify(); a long question can overflow here even when the
+        # figures themselves are short.
+        max_tokens = 300
+        _ensure_fits_context(SYSTEM, prompt_text, max_tokens, model_path)
         out = _llm(model_path).create_chat_completion(
             messages=[
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt_text},
             ],
-            max_tokens=300,
+            max_tokens=max_tokens,
             temperature=0.3,   # low: this is explanation, not creative writing
         )
         return _strip_think(out["choices"][0]["message"]["content"])
@@ -255,8 +334,6 @@ def explain(finding, question: str, model_path: str | Path | None = None) -> Nar
 # design.
 # --------------------------------------------------------------------------
 
-_CATEGORY_LABELS = {line.split(":")[0] for line in CATEGORIES.splitlines()}
-
 _DIMENSION_HINT_WORDS = {
     "ranking_by_vendor": ("vendor", "vendors", "branch", "branches", "outlet", "outlets",
                           "supplier", "suppliers"),
@@ -293,18 +370,28 @@ def classify(question: str, model_path: str | Path | None = None) -> str | None:
     so it can only emit a label. See the module comment above for why this
     is a single call with a dimension hint, not a two-stage classifier.
 
+    Reply format is the category name, not a number — see the numbered-list
+    experiment noted above CATEGORY_LIST for why that alternative was tried
+    and dropped. This measured 45/48 (93.8%), stable across 3 runs.
+
     `model_path` overrides MODEL_PATH/LEDGERIT_MODEL_PATH for this call only.
+
+    Raises QuestionTooLongError if `question` alone would overflow the
+    model's context window — checked before the call, not caught after.
     """
+    system = ("/no_think\nYou label questions. Reply with exactly one category "
+               "name from the list and nothing else. If none fit, reply: none")
+    user = (f"Categories:\n{_text_categories()}\n{_hint_line(question)}\n"
+            f"Question: {question}\n\nCategory:")
+    max_tokens = 10
+    _ensure_fits_context(system, user, max_tokens, model_path)
+
     out = _llm(model_path).create_chat_completion(
         messages=[
-            {"role": "system", "content":
-                "/no_think\nYou label questions. Reply with exactly one category "
-                "name from the list and nothing else. If none fit, reply: none"},
-            {"role": "user", "content":
-                f"Categories:\n{CATEGORIES}\n{_hint_line(question)}\n"
-                f"Question: {question}\n\nCategory:"},
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
         ],
-        max_tokens=10,
+        max_tokens=max_tokens,
         temperature=0.0,
     )
     label = _strip_think(out["choices"][0]["message"]["content"]).lower()

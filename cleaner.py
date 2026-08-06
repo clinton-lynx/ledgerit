@@ -13,6 +13,63 @@ import pandas as pd
 
 DATE_FORMATS = ["%Y-%m-%d", "%d/%m/%Y", "%d-%b-%Y", "%m/%d/%Y"]
 
+# The minimum a file needs for Ledgerit to do anything useful with it: a
+# date and product to slice by, and the three numbers every arithmetic
+# check and revenue figure is built from. vendor/channel/payment_method are
+# deliberately NOT required — a single-outlet, single-channel, cash-only
+# shop's export can reasonably omit them, and the rest of clean() already
+# degrades gracefully (via the `if col in df.columns` guards below) when
+# they're missing. A real POS export (Moniepoint, Opay, Paystack) uses
+# column names nothing like these, which is exactly the case this check
+# exists to catch early and explain, rather than let fail three steps later
+# as a raw KeyError inside some handler in analyst.py.
+REQUIRED_COLUMNS = ["date", "product", "qty", "unit_price", "total"]
+
+
+class MissingColumnsError(ValueError):
+    """Raised by clean() when a file doesn't have the columns Ledgerit
+    needs, with enough detail for the caller to show a genuinely useful
+    message instead of a raw KeyError from wherever the missing column
+    first got touched downstream."""
+
+    def __init__(self, required: list[str], found: list[str]):
+        self.required = required
+        self.found = found
+        self.missing = [c for c in required if c not in found]
+        super().__init__(
+            "This doesn't look like a sales file Ledgerit recognises.\n"
+            f"Missing column{'s' if len(self.missing) != 1 else ''}: "
+            f"{', '.join(self.missing)}.\n"
+            f"Ledgerit needs: {', '.join(required)}.\n"
+            f"Found in your file: {', '.join(found) if found else '(no columns at all)'}."
+        )
+
+
+class EmptyDatasetError(ValueError):
+    """Raised by clean() when nothing survives cleaning — a header-only
+    file, or one where every row got filtered out (most commonly: every
+    date failed to parse). Left unchecked, a 0-row "successful" load reaches
+    build_index() and every analysis handler downstream, both of which
+    crash on an empty DataFrame with a raw pandas exception nowhere near
+    where the actual cause was (see
+    docs/adversarial-testing-2026-08-07.md, #2). Catching it here, where
+    the reason is already known, means the message can say why."""
+
+    def __init__(self, rows_in: int, dates_failed: int, duplicates_removed: int):
+        self.rows_in = rows_in
+        if rows_in == 0:
+            detail = "The file has no data rows — only a header, or nothing at all."
+        elif dates_failed and dates_failed >= rows_in - duplicates_removed:
+            detail = (
+                f"All {rows_in} row(s) were read, but every date failed to parse — "
+                f"check the date column's format."
+            )
+        elif duplicates_removed >= rows_in:
+            detail = f"All {rows_in} row(s) were exact duplicates of each other."
+        else:
+            detail = f"{rows_in} row(s) were read, but none survived cleaning."
+        super().__init__(f"This file has nothing left to show after cleaning. {detail}")
+
 
 @dataclass
 class CleanReport:
@@ -104,6 +161,10 @@ def clean(df: pd.DataFrame) -> tuple[pd.DataFrame, CleanReport]:
     rep.columns_renamed = {k: v for k, v in rename.items() if k != v}
     df = df.rename(columns=rename)
 
+    missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    if missing:
+        raise MissingColumnsError(REQUIRED_COLUMNS, list(df.columns))
+
     before = len(df)
     df = df.drop_duplicates()
     rep.duplicates_removed = before - len(df)
@@ -153,4 +214,6 @@ def clean(df: pd.DataFrame) -> tuple[pd.DataFrame, CleanReport]:
             })
 
     rep.rows_out = len(df)
+    if rep.rows_out == 0:
+        raise EmptyDatasetError(rep.rows_in, rep.dates_failed, rep.duplicates_removed)
     return df.reset_index(drop=True), rep

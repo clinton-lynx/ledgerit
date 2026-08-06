@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.1.0",
+  "profiler_version": "adtc-profiler 0.1.0",
+  "submission": {
+    "team_id": "ledgerit",
+    "domain": "corporate_enterprise",
+    "language_scope": [
+      "en"
+    ],
+    "african_alpha_claim": false,
+    "budget_laptop_claim": true,
+    "submitter": {
+      "name": "Clinton Adeoti",
+      "email": "clintonadeoti02@gmail.com",
+      "github_handle": "clinton-lynx"
+    },
+    "cross_disciplinary_pairing": {
+      "discipline": "small-business accounting and data analysis",
+      "load_bearing": true,
+      "description": "Ledgerit pairs a local language model with deterministic data analysis over a business's own sales records. A BM25 retrieval index built over the shop's transactions grounds every answer in that shop's actual data, and all arithmetic is computed in pandas before the model sees it. The model's only role is explanation. Without the retrieval and analysis layer the model cannot answer a single question about the business, which is what makes the pairing load-bearing rather than decorative."
+    },
+    "test_prompts": [
+      {
+        "prompt_id": "tp_001",
+        "prompt": "A shop's sales records show these figures: Pounded Yam & Egusi earned NGN 559,732 from 221 units; Eba & Okra earned NGN 272,903 from 230 units. Explain to the shop owner what this difference means for their business."
+      },
+      {
+        "prompt_id": "tp_002",
+        "prompt": "A sales record shows order BD15453 with a recorded total of NGN 10,000, but quantity multiplied by unit price gives NGN 5,000. Explain what this means and what the shop owner should do about it."
+      }
+    ],
+    "model": {
+      "name": "smollm3-3b-q3_k_m-templated",
+      "runtime": "llama.cpp",
+      "quantization": "GGUF Q3_K_M",
+      "parameters_estimate": "3B",
+      "packaging": "binary_bundle"
+    }
+  },
+  "environment": {
+    "measured_on": "participant_laptop",
+    "cpu_model": "Apple M1",
+    "ram_gb": 16.0,
+    "gpu": "integrated only",
+    "os": "macOS-15.6-arm64-arm-64bit"
+  },
+  "throughput": {
+    "tokens_per_second_generation": 6.13,
+    "first_token_latency_ms": 16119.64,
+    "prompt_tokens": 512,
+    "generated_tokens": 128
+  },
+  "memory": {
+    "peak_rss_mb": 1976.48,
+    "steady_state_rss_mb": 1530.3,
+    "peak_vms_mb": 805985.95
+  },
+  "accuracy": [],
+  "cpu_thermal": {
+    "cpu_percent_p99": 100.0,
+    "core_temp_c_peak": null,
+    "throttled": false
+  },
+  "reproducibility": {
+    "git_commit_sha": "0b735fb0630c",
+    "docker_image_digest": "unknown",
+    "random_seed": 42
+  },
+  "model_info": {
+    "params_count": 3075098624,
+    "context_length": 65536,
+    "architecture": "smollm3",
+    "claimed_params_estimate": "3B",
+    "params_match": true
+  }
+}

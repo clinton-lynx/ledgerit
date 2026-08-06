@@ -66,6 +66,16 @@ class BM25:
 
 def build_index(df: pd.DataFrame) -> BM25:
     """One searchable text line per order."""
+    if df.empty:
+        # df[cols].astype(str).agg(" ".join, axis=1) returns a DataFrame,
+        # not a Series, when df has zero rows — .tolist() below then fails
+        # with a bare AttributeError nowhere near the actual cause (see
+        # docs/adversarial-testing-2026-08-07.md, #2). BM25([]) is already
+        # well-defined (empty index, search() returns no hits), so the fix
+        # is just not to build docs from an empty frame in the first place.
+        # cleaner.clean() now raises before an empty df reaches this far in
+        # the real server/CLI path; this guard is for any other caller.
+        return BM25([])
     cols = [c for c in ("product", "vendor", "channel", "payment_method") if c in df.columns]
     docs = df[cols].astype(str).agg(" ".join, axis=1)
     if "date" in df.columns:

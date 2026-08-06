@@ -1,0 +1,6 @@
+# No requirements.txt existed before this file — pandas and llama-cpp-python
+# were already load-bearing dependencies, just never declared anywhere.
+# Versions pinned to what this submission was built and tested against.
+pandas==3.0.5
+llama-cpp-python==0.3.34
+openpyxl==3.1.5

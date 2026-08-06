@@ -50,6 +50,24 @@ CASES: list[tuple[str, str, bool]] = [
     ("What are my top sellers this month?", "ranking_by_product", False),
     ("What should I make sure I never run out of?", "ranking_by_product", True),
     ("Which products are really carrying this business?", "ranking_by_product", True),
+    # Added after a real demo chip ("What are my best sellers?") misrouted
+    # to the fallback summary. classify() logs the raw completion for each:
+    # every one of these gets the literal token "bestsellers" echoed back
+    # (e.g. 'bestsellers\n\nI chose "bestsellers'), pulled straight out of
+    # the ranking_by_product line in CATEGORIES ("...most popular selling
+    # products; bestsellers; what sells the most..."), instead of the label
+    # key ranking_by_product. classify()'s own parser correctly rejects
+    # that stray word (it isn't in _CATEGORY_LABELS) and returns None — the
+    # miss is a real vocabulary collision in CATEGORIES's description text,
+    # not model incapacity or a parsing bug. Left in as failures, not
+    # tuned away: see docs/routing-evaluation.md for the honest number.
+    ("What are my best sellers?", "ranking_by_product", False),
+    ("Show me my best sellers.", "ranking_by_product", False),
+    ("What sells the most?", "ranking_by_product", False),
+    ("What's my most popular product?", "ranking_by_product", False),
+    ("What do customers buy most often?", "ranking_by_product", False),
+    ("What are people buying the most?", "ranking_by_product", True),
+    ("What's flying off the shelves?", "ranking_by_product", True),
 
     # -- worst_by_product --------------------------------------------------
     ("What's not selling well?", "worst_by_product", False),
