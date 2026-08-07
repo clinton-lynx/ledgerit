@@ -1,7 +1,5 @@
-# Ledgerit
+# Technical Report — Ledgerit
 ### An offline bookkeeping assistant for Nigerian small businesses
-
-**ADTC 2026 Submission Report**
 
 | | |
 |---|---|
@@ -13,22 +11,7 @@
 
 ---
 
-## Contents
-
-1. [Problem definition and context](#1-problem-definition-and-context)
-2. [Constraints](#2-constraints)
-3. [System overview](#3-system-overview)
-4. [Design alternatives and decisions](#4-design-alternatives-and-decisions)
-5. [Tools and why they were chosen](#5-tools-and-why-they-were-chosen)
-6. [Performance tests and benchmarks](#6-performance-tests-and-benchmarks)
-7. [Known limitations](#7-known-limitations)
-8. [African use case](#8-african-use-case)
-9. [Screenshots](#9-screenshots)
-10. [Further work](#10-further-work)
-
----
-
-## 1. Problem definition and context
+## Problem
 
 ### 1.1 The user
 
@@ -75,25 +58,11 @@ network connection at any point after installation.
 
 ---
 
-## 2. Constraints
-
-Every design decision in this report traces back to one of these.
-
-| Constraint | Requirement | Consequence |
-|---|---|---|
-| **Hardware** | 8 GB RAM, 4-core x86-64, integrated graphics | Peak RSS above 7 GB is disqualifying. Rules out larger models and heavyweight UI runtimes. |
-| **Connectivity** | Zero network calls after installation | Rules out hosted inference entirely, including as a fallback. |
-| **Cost** | No API fees, no subscription | Rules out any per-query cost model. |
-| **Power** | Unreliable mains supply | A design pinning four cores for minutes is worse than one that does not. |
-| **Trust** | A stated figure must be correct | Shaped the architecture more than any other constraint. |
-
-The trust constraint deserves emphasis. A bookkeeping tool that misstates a
-number is worse than no tool at all: the owner acts on it and loses money
-without knowing why.
-
 ---
 
-## 3. System overview
+## Design Decisions
+
+### 2.1 System overview
 
 Ledgerit is a local application with four stages.
 
@@ -135,12 +104,10 @@ through llama.cpp. 3 billion parameters, 1.5 GB on disk, 1,976 MB peak RSS.
 
 ---
 
-## 4. Design alternatives and decisions
-
 Each decision below follows the same structure: what was at stake, what was
 considered, what was chosen, and what the evidence was.
 
-### 4.1 Model selection and quantization
+### 2.2 Model selection and quantization
 
 **At stake.** Speed and memory account for 50% of the competition score, and
 both are determined entirely by this choice.
@@ -184,7 +151,7 @@ does more work per weight. Smaller does not imply faster on CPU-only inference.
 Both Q3_K_M and IQ4_XS were quantized by us and published publicly at
 `huggingface.co/clintonlynx`.
 
-### 4.2 Architecture: deterministic computation with model narration
+### 2.3 Architecture: deterministic computation with model narration
 
 **At stake.** Whether a business owner can trust the figures Ledgerit states.
 
@@ -211,7 +178,7 @@ flagged visibly in the interface rather than passed silently.
 and three candidate models. Both genuine hallucinations observed before
 mitigation were caught and corrected on retry.
 
-### 4.3 Retrieval: BM25 over local records
+### 2.4 Retrieval: BM25 over local records
 
 **At stake.** Grounding answers in the specific business's data. This is also
 our cross-disciplinary integration.
@@ -235,7 +202,7 @@ underlying data. The pairing of a local language model with deterministic data
 analysis over the business's own records is not decorative; remove either side
 and the system does nothing.
 
-### 4.4 Question routing
+### 2.5 Question routing
 
 **At stake.** Mapping a plain-English question to the correct analysis. Most of
 our measurement effort went here. Full log in `docs/routing-evaluation.md`.
@@ -277,7 +244,7 @@ inference. All routing figures here are medians of three runs. Earlier internal
 figures of 95% and 77% were single-run point estimates on a smaller question set
 and did not survive re-measurement.
 
-### 4.5 The chat template failure
+### 2.6 The chat template failure
 
 **At stake.** Whether our submitted weights behave correctly in the runtimes
 judges use. This was the most consequential finding of the project.
@@ -321,7 +288,7 @@ reproduced the failures above.
 
 ---
 
-## 5. Tools and why they were chosen
+### 2.7 Tools and why they were chosen
 
 | Tool | Role | Why |
 |---|---|---|
@@ -340,11 +307,33 @@ interface shell, at 200–400 MB of runtime competing with the model against the
 
 ---
 
-## 6. Performance tests and benchmarks
+---
+
+## Constraints
+
+Every design decision in this report traces back to one of these.
+
+| Constraint | Requirement | Consequence |
+|---|---|---|
+| **Hardware** | 8 GB RAM, 4-core x86-64, integrated graphics | Peak RSS above 7 GB is disqualifying. Rules out larger models and heavyweight UI runtimes. |
+| **Connectivity** | Zero network calls after installation | Rules out hosted inference entirely, including as a fallback. |
+| **Cost** | No API fees, no subscription | Rules out any per-query cost model. |
+| **Power** | Unreliable mains supply | A design pinning four cores for minutes is worse than one that does not. |
+| **Trust** | A stated figure must be correct | Shaped the architecture more than any other constraint. |
+
+The trust constraint deserves emphasis. A bookkeeping tool that misstates a
+number is worse than no tool at all: the owner acts on it and loses money
+without knowing why.
+
+---
+
+---
+
+## Benchmarks
 
 All figures measured cold: machine rebooted, single run, no other load.
 
-### 6.1 Shipping model
+### 4.1 Shipping model
 
 **SmolLM3-3B-Q3_K_M (templated)**
 
@@ -360,7 +349,7 @@ All figures measured cold: machine rebooted, single run, no other load.
 <!-- FILL — if the x86 run completes, add those figures alongside these. Even an
 approximate reading on Intel hardware strengthens this section considerably. -->
 
-### 6.2 System accuracy
+### 4.2 System accuracy
 
 | Measure | Result |
 |---|---|
@@ -372,7 +361,7 @@ approximate reading on Intel hardware strengthens this section considerably. -->
 The routing test set covers all eight analysis categories and includes
 deliberately awkward phrasings. It was not tuned to the implementation.
 
-### 6.3 Measurement transparency
+### 4.3 Measurement transparency
 
 These figures were taken on Apple Silicon, not on the Standard Laptop profile.
 The rules permit development on any hardware while auditing against the
@@ -387,40 +376,11 @@ here.
 
 ---
 
-## 7. Known limitations
-
-Reported rather than omitted.
-
-**Load time scales linearly** and becomes user-hostile before it becomes
-dangerous: 150,000 rows in 10.7 s, 600,000 in 45.8 s, 2 million in 2.5 minutes.
-Realistic files for the target user are far smaller, but there is no progress
-indication beyond an indeterminate pulse.
-
-**Very long questions are slow.** A question of roughly 1,200 words takes about
-47 s to narrate, against 20–30 s typical.
-
-**Three routing phrasings still fail:** negation ("what is nobody buying"),
-"remove from the menu", and "best day to run a promo". All three remain in the
-test set as recorded failures rather than being removed.
-
-**No fine-tuning.** The weights are unmodified SmolLM3; our optimization is at
-the quantization and packaging layer. Domain-calibrated importance-matrix
-quantization was attempted but blocked: the GGUF-my-repo Space rejected every
-`.txt` calibration upload as an invalid file type, including a 27-byte plain
-ASCII test file.
-
-**Photo input for handwritten ledgers was considered and rejected.** Many target
-users keep paper records, so this is the natural extension. We rejected it
-because OCR error rates on handwritten figures are incompatible with a system
-whose central guarantee is that it never states a number it cannot support. A
-tool that silently misreads ₦10,000 as ₦70,000 leaves the owner with confident
-wrong books. Guided entry or voice input is the more honest path.
-
 ---
 
-## 8. African use case
+## African Use Case
 
-### 8.1 The user we built for
+### 5.1 The user we built for
 
 Consider a woman running a provisions shop near a Nigerian university. She sells
 rice, drinks, sachet water, biscuits, cooking oil. Perhaps sixty transactions on
@@ -439,7 +399,7 @@ items sit on the shelf for weeks. She cannot say which day is worth opening
 early for. The information is all in the file; she has no way to ask it
 anything.
 
-### 8.2 Why the existing tools do not reach her
+### 5.2 Why the existing tools do not reach her
 
 The capability to answer her questions has existed for several years. The
 delivery mechanism has not.
@@ -465,7 +425,7 @@ integrated-graphics machine this competition targets, often bought refurbished.
 Each of these is individually surmountable. Together they are why she does not
 have this tool, despite the underlying technology being three years old.
 
-### 8.3 What offline-first changes
+### 5.3 What offline-first changes
 
 Offline is not a feature of Ledgerit. It is the precondition that makes the
 other constraints tractable at once.
@@ -478,7 +438,7 @@ decision resolves four separate barriers. That is why the competition's framing
 treated the 7 GB ceiling as a design input rather than a limitation to work
 around.
 
-### 8.4 Local specificity in the system
+### 5.4 Local specificity in the system
 
 The African context is not only in the framing; it is in the implementation.
 
@@ -517,14 +477,49 @@ section. -->
 
 ---
 
-## 9. Screenshots
+---
+
+## Known Limitations
+
+Reported rather than omitted.
+
+**Load time scales linearly** and becomes user-hostile before it becomes
+dangerous: 150,000 rows in 10.7 s, 600,000 in 45.8 s, 2 million in 2.5 minutes.
+Realistic files for the target user are far smaller, but there is no progress
+indication beyond an indeterminate pulse.
+
+**Very long questions are slow.** A question of roughly 1,200 words takes about
+47 s to narrate, against 20–30 s typical.
+
+**Three routing phrasings still fail:** negation ("what is nobody buying"),
+"remove from the menu", and "best day to run a promo". All three remain in the
+test set as recorded failures rather than being removed.
+
+**No fine-tuning.** The weights are unmodified SmolLM3; our optimization is at
+the quantization and packaging layer. Domain-calibrated importance-matrix
+quantization was attempted but blocked: the GGUF-my-repo Space rejected every
+`.txt` calibration upload as an invalid file type, including a 27-byte plain
+ASCII test file.
+
+**Photo input for handwritten ledgers was considered and rejected.** Many target
+users keep paper records, so this is the natural extension. We rejected it
+because OCR error rates on handwritten figures are incompatible with a system
+whose central guarantee is that it never states a number it cannot support. A
+tool that silently misreads ₦10,000 as ₦70,000 leaves the owner with confident
+wrong books. Guided entry or voice input is the more honest path.
+
+---
+
+---
+
+## Screenshots
 
 <!-- FILL — empty state; receipt with flagged entries and the CHECK THIS stamp;
 a question showing computed table and narration; the offline indicator. -->
 
 ---
 
-## 10. Further work
+## Further Work
 
 **Real vendor data** replacing the synthetic test set.
 
