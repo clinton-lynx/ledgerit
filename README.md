@@ -4,9 +4,7 @@ Offline AI bookkeeper for Nigerian small businesses. Cleans messy sales
 records, answers questions about them, and flags entries that don't add up.
 Runs entirely on an 8 GB laptop with no internet.
 
-<!-- ADD: screenshot of the receipt with a flagged entry goes here. It is the
-first thing anyone sees and it explains the product faster than any paragraph.
-     ![Ledgerit](screenshots/receipt.png)                                    -->
+![Ledgerit](screenshots/sample-file.jpeg)
 
 **How it works:** pandas computes every figure; the local model only explains
 what pandas already calculated. It never does arithmetic, and every number in

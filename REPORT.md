@@ -514,8 +514,25 @@ wrong books. Guided entry or voice input is the more honest path.
 
 ## Screenshots
 
-<!-- FILL — empty state; receipt with flagged entries and the CHECK THIS stamp;
-a question showing computed table and narration; the offline indicator. -->
+**Empty state.** No file loaded, no network activity — the offline indicator is
+live from launch.
+
+![Empty state](screenshots/empty-state.jpeg)
+
+**Cleaning report.** What Ledgerit found in the file, with entries that don't
+add up flagged rather than silently corrected.
+
+![Cleaning report](screenshots/sample-file.jpeg)
+
+**Answering a question.** The computed table renders immediately; the model's
+explanation follows underneath.
+
+![Result](screenshots/result.jpeg)
+
+**Offline indicator.** Watches every request the page makes for its whole
+lifetime and latches permanently if anything non-local is attempted.
+
+![Offline](screenshots/offline.jpeg)
 
 ---
 
