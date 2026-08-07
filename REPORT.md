@@ -1,4 +1,4 @@
-# Technical Report — Ledgerit
+# Ledgerit Technical Report
 ### An offline bookkeeping assistant for Nigerian small businesses
 
 | | |
