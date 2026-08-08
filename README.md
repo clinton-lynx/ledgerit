@@ -1,10 +1,22 @@
 # Ledgerit
 
-Offline AI bookkeeper for Nigerian small businesses. Cleans messy sales
-records, answers questions about them, and flags entries that don't add up.
-Runs entirely on an 8 GB laptop with no internet.
+**Offline bookkeeping intelligence for African small businesses.**
+
+Getting your own records cleaned, checked and explained shouldn't need an
+internet connection and a monthly fee.
 
 ![Ledgerit](screenshots/sample-file.jpeg)
+
+My mother is a petty trader. She wrote everything in a notebook: what sold, how
+many packs, who paid cash and who took it on credit. At the end of every month
+she'd sit with that notebook and a calculator trying to work out whether she'd
+made any money. Cash in hand, goods still on the shelf, money owed by people who
+never came back. Three piles that had to reconcile, no way to check her own
+working, and hours gone.
+
+Ledgerit reads the file a small business already keeps, cleans it, flags the
+entries that don't add up, and answers questions about it in plain English.
+Entirely on an 8 GB laptop, with no internet.
 
 **How it works:** pandas computes every figure; the local model only explains
 what pandas already calculated. It never does arithmetic, and every number in
@@ -29,7 +41,7 @@ bash download_model.sh
 
 ## Running it
 
-**As an app** — a dedicated window, not a browser tab:
+**As an app**, in a dedicated window rather than a browser tab:
 
 ```
 python3 launch.py
@@ -37,8 +49,8 @@ python3 launch.py
 
 Starts a local server on `127.0.0.1` and opens Ledgerit in your installed
 Chrome, Chromium, Edge or Brave using `--app` mode. Falls back to your default
-browser if none are installed. Closing the window shuts the server down; so
-does Ctrl+C.
+browser if none are installed. Closing the window shuts the server down, as does
+Ctrl+C.
 
 **As a CLI:**
 
@@ -53,14 +65,14 @@ python3 main.py data/sales_raw.csv
 | | |
 |---|---|
 | **Formats** | `.csv`, `.xlsx` |
-| **Encodings** | UTF-8, UTF-8 with BOM, Windows-1252, UTF-16 — detected automatically |
-| **Delimiters** | comma, semicolon, tab — sniffed automatically |
+| **Encodings** | UTF-8, UTF-8 with BOM, Windows-1252, UTF-16. Detected automatically. |
+| **Delimiters** | comma, semicolon, tab. Sniffed automatically. |
 | **Required columns** | `date`, `product`, `qty`, `unit_price`, `total` |
 | **Not supported** | `.xls`, PDF, scanned or photographed input |
 
-Column names are matched after normalising, so spelling and casing don't
-matter. If a required column is missing, Ledgerit tells you which ones it
-needed and which ones it found.
+Column names are matched after normalising, so spelling and casing don't matter.
+If a required column is missing, Ledgerit tells you which ones it needed and
+which ones it found.
 
 Load your own file by clicking the filename in the top bar, or drop it onto the
 window.
@@ -69,21 +81,20 @@ window.
 
 ## What it does with a file
 
-1. **Cleans it** — parses mixed date formats, strips currency text from number
+1. **Cleans it.** Parses mixed date formats, strips currency text from number
    columns, removes duplicate rows, normalises category casing.
-2. **Flags what doesn't add up** — where a recorded total doesn't equal
-   quantity × unit price, both figures are shown. Nothing is silently
-   corrected.
-3. **Answers questions** in plain English — best and worst sellers, monthly
+2. **Flags what doesn't add up.** Where a recorded total doesn't equal quantity
+   times unit price, both figures are shown. Nothing is silently corrected.
+3. **Answers questions** in plain English: best and worst sellers, monthly
    trend, quietest day, breakdown by vendor, channel or payment method.
 
 ---
 
 ## Offline
 
-No network calls at any point after installation. The interface includes a
-live indicator that watches every request the page makes and latches red
-permanently if anything non-local is ever attempted.
+No network calls at any point after installation. The interface includes a live
+indicator that watches every request the page makes and latches red permanently
+if anything non-local is ever attempted.
 
 ---
 
@@ -94,7 +105,7 @@ metadata.json        ADTC submission metadata
 download_model.sh    Fetches the GGUF weights
 REPORT.md            Technical report
 cleaner.py           Deterministic cleaning. No model involved.
-analyst.py           BM25 retrieval + eight pandas analyses
+analyst.py           BM25 retrieval and eight pandas analyses
 explain.py           Model narration, routing, number verification
 server.py            Local HTTP server
 launch.py            Starts the server and opens the app window

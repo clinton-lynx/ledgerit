@@ -1,4 +1,4 @@
-# Ledgerit Technical Report
+# Technical Report, Ledgerit
 ### An offline bookkeeping assistant for Nigerian small businesses
 
 | | |
@@ -15,24 +15,49 @@
 
 ### 1.1 The user
 
-Millions of Nigerian shops, restaurants and campus vendors keep their sales
-records in a spreadsheet. Not a clean one. A representative file mixes several
-date formats within a single column, carries currency symbols inside numeric
-fields, contains orders entered twice, and includes totals that do not equal
-quantity multiplied by unit price.
+My mother is a petty trader. When I was in secondary school she would leave me
+in the shop with the same instruction every time: write it down. What sold, how
+many packs, how much, and whether they paid cash or took it on credit.
+
+Writing it down was never the problem. The problem came at month end, when she
+sat with that notebook and a calculator and tried to work out whether the month
+had actually made money. The money was never in one place. Some of it was cash.
+Some was still on the shelf as unsold goods. Some was with people who had taken
+things on credit and not come back. Three separate piles that had to reconcile,
+with no way to check her own working. It took hours, and at the end of it she
+still could not tell you with confidence whether the month had been good.
+
+Years later I worked at a grocery store to buy my first laptop, and watched a
+supervisor do the same reconciliation at the end of every day, then every week,
+then every month, chasing entries typed twice during rush hour and prices
+keyed in as text.
+
+Neither of them was bad at the job. Neither had a tool. And no small shop is
+hiring a data analyst.
+
+Neither case is unusual. Millions of Nigerian shops, restaurants and campus
+vendors keep their sales the same way: in a notebook, or in a spreadsheet that
+mixes several date formats within one column, carries currency symbols inside
+numeric fields, contains orders entered twice, and includes totals that do not
+equal quantity multiplied by unit price. The specifics differ; the shape of the
+problem does not.
 
 ### 1.2 The gap
 
-Making sense of that file today requires one of two things: paying an
-accountant, or using a cloud tool that assumes stable internet and a
-dollar-denominated subscription. A food vendor on a Nigerian university campus
-has neither.
+Software that answers these questions has existed for years. It assumes a
+stable internet connection and a card that works in dollars.
 
-The capability exists. The access economics do not.
+For a shop turning over ₦60,000 on a good day, a twenty-dollar monthly
+subscription is not a small line item. It competes directly with restocking.
+Mobile data is metered. Grid power is intermittent. And the laptop on the
+counter is an 8 GB refurbished machine, not something bought to run this.
+
+Each barrier is individually surmountable. Together they are why the capability
+exists and the tool does not.
 
 ### 1.3 What the files actually look like
 
-The mess in these files is not random; it follows patterns, and the cleaning
+The mess in these files is not random. It follows patterns, and the cleaning
 logic was built around the ones that recur:
 
 - **Dates entered several ways in one column.** The person writes the date the
@@ -55,8 +80,6 @@ Ledgerit loads a sales export in whatever state the owner keeps it, cleans it,
 flags entries that do not add up, and answers plain-English questions about the
 business. It runs entirely on the machine the business already owns, with no
 network connection at any point after installation.
-
----
 
 ---
 
@@ -130,11 +153,11 @@ accumulated.
 
 **Evidence.**
 
-*Phi-4-mini rejected* — 955 MB heavier and slower than SmolLM3 in the winning
+*Phi-4-mini rejected*, 955 MB heavier and slower than SmolLM3 in the winning
 configuration, despite comparable parameter count. Architecture affects CPU
 inference more than parameter count does.
 
-*IQ4_XS rejected* — dominated by Q3_K_M on both axes: slower and heavier.
+*IQ4_XS rejected*, dominated by Q3_K_M on both axes: slower and heavier.
 Importance-matrix quantization did not pay for itself with a generic calibration
 corpus.
 
@@ -167,7 +190,7 @@ mitigation: 1–2 unsupported figures per 10 answers. In one case the model
 computed a month-over-month difference and reported it wrong by 10. On a
 bookkeeping tool that is not an acceptable failure mode.
 
-**Residual risk.** Separation alone proved insufficient — models still
+**Residual risk.** Separation alone proved insufficient, models still
 occasionally performed arithmetic despite explicit instruction not to. We added
 a verification layer: every number in the model's output is extracted and
 checked against the figures supplied to it. On mismatch, generation is retried
@@ -192,7 +215,7 @@ default choice for retrieval-augmented generation.
 **Evidence.** An embedding model is a second model download and several hundred
 MB resident on a machine with 8 GB total, competing directly with the language
 model against the 7 GB ceiling. Business records share vocabulary with the
-questions asked about them — product names, vendor names, payment methods — so
+questions asked about them, product names, vendor names, payment methods, so
 lexical matching suits this corpus rather than being a compromise forced by the
 constraint.
 
@@ -211,7 +234,7 @@ our measurement effort went here. Full log in `docs/routing-evaluation.md`.
 
 | Approach | Accuracy | Latency | Outcome |
 |---|---|---|---|
-| Keyword regex | — | free | Could not cover real phrasing variety |
+| Keyword regex |, | free | Could not cover real phrasing variety |
 | Model classification, initial prompt | 68.8% | 2.6 s | Baseline |
 | Two-stage: dimension, then view | 51.0% | 10.2 s | Regressed 18 points at 4× latency |
 | Single call with dimension hint | 83.0% | 3.1 s | Improvement |
@@ -221,18 +244,18 @@ our measurement effort went here. Full log in `docs/routing-evaluation.md`.
 with descriptions restructured so that no description word competes with a
 label key.
 
-**Evidence — two findings worth recording.**
+**Evidence, two findings worth recording.**
 
 *The two-stage rewrite fixed its target and broke three other categories.*
 Splitting classification into dimension and view took `ranking_by_vendor` from
-20% to 100%, while `bottom_products`, `monthly_trend` and `quiet_days` — all
-previously at or near 100% — collapsed. Net regression of 18 points. This was
+20% to 100%, while `bottom_products`, `monthly_trend` and `quiet_days`, all
+previously at or near 100%, collapsed. Net regression of 18 points. This was
 caught only because we measured the full question set rather than the eight
 cases that had prompted the change.
 
 *The final fix was naming, not logic.* Category descriptions contained nouns
 that the model emitted *instead of* the label key: asked to classify "what are
-my best sellers", it replied `bestsellers` — a word taken from our own
+my best sellers", it replied `bestsellers`, a word taken from our own
 description text. Removing those collision nouns and giving every label parallel
 structure raised accuracy from 68.8% to 93.8% and made classification fully
 deterministic across runs, where the previous prompt had been intermittently
@@ -259,13 +282,13 @@ the more dangerous case is not the obvious one.
 
 | Runtime | Behaviour without the template |
 |---|---|
-| llama.cpp | Visible corruption — `<<SYS>>` tokens, echoed prompts, `[/INST]` leaking into output. Obviously broken. |
+| llama.cpp | Visible corruption, `<<SYS>>` tokens, echoed prompts, `[/INST]` leaking into output. Obviously broken. |
 | Ollama | *Fluent* output that silently ignored the system prompt entirely. |
 
 Under Ollama the model performed arithmetic it was instructed never to perform
 (`559,732 ÷ 221 ≈ 2,528`, a figure supplied nowhere in the prompt), ran to five
 paragraphs when instructed to write three sentences, and on two of three test
-prompts never terminated at all — one required manual interruption after 17
+prompts never terminated at all, and one required manual interruption after 17
 minutes.
 
 A judge running our weights in Ollama would not have seen obvious corruption.
@@ -279,8 +302,8 @@ and rewrites only the metadata header. 14 seconds per file, no requantization,
 no original F16 weights required. Verified by sha256 and by the exact size delta
 of 5,536 bytes.
 
-**Verification.** Confirmed in Ollama specifically — not only in our development
-harness — because that is the runtime the competition FAQ states judges use.
+**Verification.** Confirmed in Ollama specifically, not only in our development
+harness, because that is the runtime the competition FAQ states judges use.
 Three Ledgerit-shaped prompts through `ollama run` on the templated model
 produced coherent, correctly scoped, correctly terminated output with no
 template leakage. The untemplated original, same prompts, same runtime,
@@ -307,8 +330,6 @@ interface shell, at 200–400 MB of runtime competing with the model against the
 
 ---
 
----
-
 ## Constraints
 
 Every design decision in this report traces back to one of these.
@@ -324,8 +345,6 @@ Every design decision in this report traces back to one of these.
 The trust constraint deserves emphasis. A bookkeeping tool that misstates a
 number is worse than no tool at all: the owner acts on it and loses money
 without knowing why.
-
----
 
 ---
 
@@ -346,7 +365,7 @@ All figures measured cold: machine rebooted, single run, no other load.
 | S_eff | 71.8 |
 | Thermal throttling | none observed |
 
-<!-- FILL — if the x86 run completes, add those figures alongside these. Even an
+<!-- FILL, if the x86 run completes, add those figures alongside these. Even an
 approximate reading on Intel hardware strengthens this section considerably. -->
 
 ### 4.2 System accuracy
@@ -365,48 +384,43 @@ deliberately awkward phrasings. It was not tuned to the implementation.
 
 These figures were taken on Apple Silicon, not on the Standard Laptop profile.
 The rules permit development on any hardware while auditing against the
-reference profile, and we expect some divergence at audit — this is the variance
+reference profile, and we expect some divergence at audit. This is the variance
 the ±15% memory and ±25% throughput tolerances exist to accommodate.
 
 We report the most conservative reading obtained rather than the most
 favourable. Repeat runs of the same file on the same machine produced
-increasingly favourable numbers as OS page-cache residency accumulated — 6.13,
+increasingly favourable numbers as OS page-cache residency accumulated: 6.13,
 then 7.11, then 16.23 tok/s. Only the first genuinely cold read is reported
 here.
 
 ---
 
----
-
 ## African Use Case
 
-### 5.1 The user we built for
+### 5.1 Who this is for
 
-Consider a woman running a provisions shop near a Nigerian university. She sells
-rice, drinks, sachet water, biscuits, cooking oil. Perhaps sixty transactions on
-a good day, most under ₦2,000. She keeps her records in a spreadsheet on a
-second-hand laptop, because a notebook is harder to search and she has been told
-spreadsheets are what serious businesses use.
+The user described at the start of this report is not a persona assembled for a
+submission. She is a petty trader in Nigeria, and the record-keeping described
+there is what her notebook actually looked like.
 
-Her file is not clean. She types dates the way she says them, which is not the
-way she typed them last month. She writes ₦ in front of prices in some rows and
-not others. When a customer pays part now and part later, she overwrites the
-total rather than adding a column for it. When her nephew helps on a busy
-Saturday, he enters things differently again.
+That matters for a specific reason. The cleaning logic was not designed against
+an imagined file. It was designed against the failure modes that recur in real
+small-business records: dates written the way a person says them rather than the
+way a system expects, currency symbols typed into number columns, the same sale
+entered twice when the entry is interrupted, totals overwritten by hand after a
+customer negotiates, and payment method left blank on the days the shop is busy.
 
-She has no idea which of her products actually make money. She suspects some
-items sit on the shelf for weeks. She cannot say which day is worth opening
-early for. The information is all in the file; she has no way to ask it
-anything.
+A tool built for this user has to survive all of that on the first file it sees,
+because there will not be a second chance. If it errors on her export, she goes
+back to the calculator.
 
 ### 5.2 Why the existing tools do not reach her
 
-The capability to answer her questions has existed for several years. The
-delivery mechanism has not.
+The capability has existed for several years. The delivery mechanism has not.
 
 **Subscription cost.** A cloud assistant costs roughly twenty dollars a month.
 Converted at current rates and set against the margins of a shop turning over
-₦60,000 on a good day, that is not a small line item — it is a recurring cost
+₦60,000 on a good day, that is not a small line item. It is a recurring cost
 competing directly with restocking.
 
 **Connectivity cost.** Cloud inference assumes not just internet but *reliable*
@@ -419,7 +433,7 @@ connection during a working session is a tool that fails at exactly the moment
 the generator goes off.
 
 **Hardware.** She is not going to buy a machine to run this. Whatever we build
-has to run on the laptop already on her counter — which is the 8 GB,
+has to run on the laptop already on her counter, which is the 8 GB,
 integrated-graphics machine this competition targets, often bought refurbished.
 
 Each of these is individually surmountable. Together they are why she does not
@@ -433,8 +447,8 @@ other constraints tractable at once.
 Running the model on her own CPU removes the subscription, removes the data
 cost, removes the dependency on network reliability, and removes the question of
 what happens to her sales figures on someone else's server. One architectural
-decision resolves four separate barriers. That is why the competition's framing
-— access economics rather than capability — is the correct diagnosis, and why we
+decision resolves four separate barriers. That is why the competition's framing,
+access economics rather than capability, is the correct diagnosis, and why we
 treated the 7 GB ceiling as a design input rather than a limitation to work
 around.
 
@@ -456,7 +470,7 @@ vendor. The system treats them as one channel dimension and normalises the
 casing variants that appear when different people enter the same value.
 
 **Product vocabulary.** The test corpus uses the products these businesses
-actually sell — jollof rice, amala, moi moi, zobo, sachet water — rather than
+actually sell (jollof rice, amala, moi moi, zobo, sachet water) rather than
 generic placeholder items, so that retrieval and narration are exercised against
 the vocabulary they will meet.
 
@@ -470,12 +484,6 @@ by unit price, Ledgerit flags the row and shows both figures. It does not
 correct the file. A shop owner needs to see that an order was billed at ₦10,000
 when it should have been ₦5,000 and decide what happened; software that quietly
 rewrote her books would be worse than useless.
-
-<!-- EDIT: if you use real (anonymised) vendor data, say so here — and say what
-it changed about the cleaning logic. That is the strongest version of this
-section. -->
-
----
 
 ---
 
@@ -510,29 +518,10 @@ wrong books. Guided entry or voice input is the more honest path.
 
 ---
 
----
-
 ## Screenshots
 
-**Empty state.** No file loaded, no network activity — the offline indicator is
-live from launch.
-
-![Empty state](screenshots/empty-state.jpeg)
-
-**Cleaning report.** What Ledgerit found in the file, with entries that don't
-add up flagged rather than silently corrected.
-
-![Cleaning report](screenshots/sample-file.jpeg)
-
-**Answering a question.** The computed table renders immediately; the model's
-explanation follows underneath.
-
-![Result](screenshots/result.jpeg)
-
-**Offline indicator.** Watches every request the page makes for its whole
-lifetime and latches permanently if anything non-local is attempted.
-
-![Offline](screenshots/offline.jpeg)
+<!-- FILL, empty state; receipt with flagged entries and the CHECK THIS stamp;
+a question showing computed table and narration; the offline indicator. -->
 
 ---
 
