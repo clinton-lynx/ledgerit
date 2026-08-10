@@ -329,9 +329,25 @@ def _apply_mapping(df: pd.DataFrame, column_map: dict[str, str] | None = None) -
             continue
         rename[source] = target
 
+    # An unmapped column can snake-case to the same name as a deliberately
+    # mapped target — a leftover "Unit Price" column sitting next to a
+    # "Rate" the user explicitly mapped to unit_price, say. Left alone,
+    # that produces two columns both named "unit_price": every df["x"]
+    # downstream silently gets back a DataFrame instead of a Series, and
+    # arithmetic on it fails in whatever way that particular operation
+    # fails on a 2-column frame rather than a clear, obvious error here.
+    taken = set(rename.values())
     for col in df.columns:
-        if col not in rename:
-            rename[col] = _snake(col)
+        if col in rename:
+            continue
+        name = _snake(col)
+        if name in taken:
+            base, n = name, 2
+            while name in taken:
+                name = f"{base}_{n}"
+                n += 1
+        rename[col] = name
+        taken.add(name)
 
     return df.rename(columns=rename)
 
@@ -414,7 +430,15 @@ def clean(df: pd.DataFrame, column_map: dict[str, str] | None = None) -> tuple[p
                 rep.currency_stripped = int(
                     sum(1 for v in raw if isinstance(v, str) and re.search(r"[^\d.]", v))
                 )
-            df[col] = converted
+            # _to_number already returns a plain float or None per value, but
+            # that's a per-element guarantee, not a dtype guarantee — an xlsx
+            # column openpyxl hands back as a genuinely mixed-type object
+            # Series (numbers next to text next to blanks, common once a
+            # column has even one cell entered or formatted differently) can
+            # still leave the reassigned Series as dtype object instead of
+            # float64. pd.to_numeric forces the issue: whatever the map
+            # produced, this is what actually lands in df[col].
+            df[col] = pd.to_numeric(converted, errors="coerce")
 
     for col in ("product", "vendor", "channel", "payment_method"):
         if col in df.columns:
@@ -437,7 +461,16 @@ def clean(df: pd.DataFrame, column_map: dict[str, str] | None = None) -> tuple[p
     # Flag arithmetic that doesn't add up. Flag, don't silently "fix" —
     # a business owner needs to see these, not have them quietly overwritten.
     if {"qty", "unit_price", "total"} <= set(df.columns):
-        expected = df["qty"] * df["unit_price"]
+        # Re-coerced here too, immediately before the multiply that actually
+        # needs it, rather than trusting the loop above ran on these exact
+        # columns — belt and suspenders after a real xlsx file reached this
+        # line with qty/unit_price still object-dtype and crashed the
+        # multiply with "Can only string multiply by an integer" (400 vs.
+        # 500 either way is nothing a shop owner should ever see for their
+        # own numbers not adding up).
+        qty = pd.to_numeric(df["qty"], errors="coerce")
+        unit_price = pd.to_numeric(df["unit_price"], errors="coerce")
+        expected = qty * unit_price
         off = (df["total"] - expected).abs() > 1
         for idx in df[off].index[:50]:
             rep.total_mismatches.append({

@@ -1598,13 +1598,24 @@ body {
       // dropzone before anything has loaded, in the usual ask-hint spot
       // once something has (so a bad swap doesn't blank the header), or
       // whichever of the sheet/header/mapping pickers is on screen.
+      // .status starts at opacity:0 — the success paths reveal it via
+      // reveal()/classList.add('show'), and this error path has to do the
+      // same or the message sits in the DOM invisibly. That's exactly how
+      // a server 500 on "Use this mapping" used to look like nothing
+      // happened: the text was there, just never shown.
       var message = "Couldn't load that file: " + err.message;
       if (!document.getElementById('unit-sheet').hidden) {
-        document.getElementById('status-sheet').textContent = message;
+        var sheetStatus = document.getElementById('status-sheet');
+        sheetStatus.textContent = message;
+        sheetStatus.classList.add('show');
       } else if (!document.getElementById('unit-header').hidden) {
-        document.getElementById('status-header').textContent = message;
+        var headerStatus = document.getElementById('status-header');
+        headerStatus.textContent = message;
+        headerStatus.classList.add('show');
       } else if (!document.getElementById('unit-map').hidden) {
-        document.getElementById('status-map').textContent = message;
+        var mapStatus = document.getElementById('status-map');
+        mapStatus.textContent = message;
+        mapStatus.classList.add('show');
       } else if (firstLoad) {
         dzError.textContent = message;
         dzError.hidden = false;
