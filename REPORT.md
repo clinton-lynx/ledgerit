@@ -29,8 +29,8 @@ still could not tell you with confidence whether the month had been good.
 
 Years later I worked at a grocery store to buy my first laptop, and watched a
 supervisor do the same reconciliation at the end of every day, then every week,
-then every month, chasing entries typed twice during rush hour and prices
-keyed in as text.
+then every month, chasing entries typed twice during rush hour and prices keyed
+in as text.
 
 Neither of them was bad at the job. Neither had a tool. And no small shop is
 hiring a data analyst.
@@ -44,13 +44,13 @@ problem does not.
 
 ### 1.2 The gap
 
-Software that answers these questions has existed for years. It assumes a
-stable internet connection and a card that works in dollars.
+Software that answers these questions has existed for years. It assumes a stable
+internet connection and a card that works in dollars.
 
-For a shop turning over ₦60,000 on a good day, a twenty-dollar monthly
+For a shop turning over NGN 60,000 on a good day, a twenty-dollar monthly
 subscription is not a small line item. It competes directly with restocking.
-Mobile data is metered. Grid power is intermittent. And the laptop on the
-counter is an 8 GB refurbished machine, not something bought to run this.
+Mobile data is metered. Grid power is intermittent. And the laptop on the counter
+is an 8 GB refurbished machine, not something bought to run this.
 
 Each barrier is individually surmountable. Together they are why the capability
 exists and the tool does not.
@@ -62,7 +62,7 @@ logic was built around the ones that recur:
 
 - **Dates entered several ways in one column.** The person writes the date the
   way they say it, and that is not always the way they wrote it last week.
-- **Currency symbols inside number columns.** ₦ typed in front of some prices
+- **Currency symbols inside number columns.** NGN typed in front of some prices
   and not others, which turns the whole column into text.
 - **The same sale recorded twice**, usually when the entry is interrupted and
   resumed.
@@ -78,8 +78,15 @@ by someone running a business rather than by someone maintaining a database.
 
 Ledgerit loads a sales export in whatever state the owner keeps it, cleans it,
 flags entries that do not add up, and answers plain-English questions about the
-business. It runs entirely on the machine the business already owns, with no
+business. Any answer can be exported as a receipt-styled PDF the owner can keep
+or send on. It runs entirely on the machine the business already owns, with no
 network connection at any point after installation.
+
+It does not require the file to be shaped a particular way. Where column names
+differ from the ones it expects, it asks the owner to confirm a mapping rather
+than rejecting the file. Where a workbook has several sheets, it asks which one.
+Where the header is not the first row, it detects the header, and asks for
+confirmation when it is not confident.
 
 ---
 
@@ -91,41 +98,40 @@ Ledgerit is a local application with four stages.
 
 ```
   sales file
-      │
-      ▼
-  ┌─────────────┐   deterministic Python. Parses mixed date formats,
-  │  CLEANING   │   strips currency text, removes duplicates, normalises
-  └─────────────┘   category casing, flags arithmetic that does not add up.
-      │
-      ▼
-  ┌─────────────┐   BM25 index over row-level records. No embedding model,
-  │  RETRIEVAL  │   no second download, no additional resident memory.
-  └─────────────┘
-      │
-      ▼
-  ┌─────────────┐   pandas computes every figure. Eight analysis functions,
-  │  ANALYSIS   │   selected by a model classification step.
-  └─────────────┘
-      │
-      ▼
-  ┌─────────────┐   SmolLM3-3B, Q3_K_M, via llama.cpp. Receives figures
-  │ NARRATION   │   already computed and explains them. Never calculates.
-  └─────────────┘   Output is verified against the supplied figures.
-      │
-      ▼
+      |
+      v
+  +-------------+   deterministic Python. Parses mixed date formats,
+  |  CLEANING   |   strips currency text, removes duplicates, normalises
+  +-------------+   category casing, flags arithmetic that does not add up.
+      |
+      v
+  +-------------+   BM25 index over row-level records. No embedding model,
+  |  RETRIEVAL  |   no second download, no additional resident memory.
+  +-------------+
+      |
+      v
+  +-------------+   pandas computes every figure. Eight analysis functions,
+  |  ANALYSIS   |   selected by a model classification step.
+  +-------------+
+      |
+      v
+  +-------------+   SmolLM3-3B, Q3_K_M, via llama.cpp. Receives figures
+  | NARRATION   |   already computed and explains them. Never calculates.
+  +-------------+   Output is verified against the supplied figures.
+      |
+      v
   answer
 ```
 
 **The governing rule: pandas computes, the model narrates.** The language model
 never performs arithmetic. It receives figures the analysis stage has already
 calculated and explains what they mean for the business. This separation exists
-because a small model asked to compute over tabular data produces plausible wrong
-numbers, and a bookkeeping tool that misstates a figure is worse than no tool.
+because a small model asked to compute over tabular data produces plausible
+wrong numbers, and a bookkeeping tool that misstates a figure is worse than no
+tool.
 
 **The model.** SmolLM3-3B by HuggingFaceTB, quantized to Q3_K_M and served
 through llama.cpp. 3 billion parameters, 1.5 GB on disk, 1,976 MB peak RSS.
-
----
 
 Each decision below follows the same structure: what was at stake, what was
 considered, what was chosen, and what the evidence was.
@@ -186,11 +192,11 @@ explains them; it never calculates.
 
 **Evidence.** A 3-billion-parameter model asked to compute over tabular data
 produces plausible wrong numbers. Measured on our candidate models before
-mitigation: 1–2 unsupported figures per 10 answers. In one case the model
+mitigation: one to two unsupported figures per 10 answers. In one case the model
 computed a month-over-month difference and reported it wrong by 10. On a
 bookkeeping tool that is not an acceptable failure mode.
 
-**Residual risk.** Separation alone proved insufficient, models still
+**Residual risk.** Separation alone proved insufficient. Models still
 occasionally performed arithmetic despite explicit instruction not to. We added
 a verification layer: every number in the model's output is extracted and
 checked against the figures supplied to it. On mismatch, generation is retried
@@ -215,9 +221,9 @@ default choice for retrieval-augmented generation.
 **Evidence.** An embedding model is a second model download and several hundred
 MB resident on a machine with 8 GB total, competing directly with the language
 model against the 7 GB ceiling. Business records share vocabulary with the
-questions asked about them, product names, vendor names, payment methods, so
-lexical matching suits this corpus rather than being a compromise forced by the
-constraint.
+questions asked about them, such as product names, vendor names and payment
+methods, so lexical matching suits this corpus rather than being a compromise
+forced by the constraint.
 
 **Why this is load-bearing.** Without the retrieval and analysis layer the model
 cannot answer a single question about the business, because it never sees the
@@ -234,15 +240,15 @@ our measurement effort went here. Full log in `docs/routing-evaluation.md`.
 
 | Approach | Accuracy | Latency | Outcome |
 |---|---|---|---|
-| Keyword regex |, | free | Could not cover real phrasing variety |
+| Keyword regex | not measured | free | Could not cover real phrasing variety |
 | Model classification, initial prompt | 68.8% | 2.6 s | Baseline |
-| Two-stage: dimension, then view | 51.0% | 10.2 s | Regressed 18 points at 4× latency |
+| Two-stage: dimension, then view | 51.0% | 10.2 s | Regressed 18 points at 4x latency |
 | Single call with dimension hint | 83.0% | 3.1 s | Improvement |
 | **Category rename for parallel structure** | **93.8%** | **3.1 s** | **Shipped** |
 
 **Decided.** Single-call model classification into eight labelled categories,
-with descriptions restructured so that no description word competes with a
-label key.
+with descriptions restructured so that no description word competes with a label
+key.
 
 **Evidence, two findings worth recording.**
 
@@ -282,14 +288,14 @@ the more dangerous case is not the obvious one.
 
 | Runtime | Behaviour without the template |
 |---|---|
-| llama.cpp | Visible corruption, `<<SYS>>` tokens, echoed prompts, `[/INST]` leaking into output. Obviously broken. |
+| llama.cpp | Visible corruption. `<<SYS>>` tokens, echoed prompts, `[/INST]` leaking into output. Obviously broken. |
 | Ollama | *Fluent* output that silently ignored the system prompt entirely. |
 
 Under Ollama the model performed arithmetic it was instructed never to perform
-(`559,732 ÷ 221 ≈ 2,528`, a figure supplied nowhere in the prompt), ran to five
-paragraphs when instructed to write three sentences, and on two of three test
-prompts never terminated at all, and one required manual interruption after 17
-minutes.
+(559,732 divided by 221, giving roughly 2,528, a figure supplied nowhere in the
+prompt), ran to five paragraphs when instructed to write three sentences, and on
+two of three test prompts never terminated at all. One required manual
+interruption after 17 minutes.
 
 A judge running our weights in Ollama would not have seen obvious corruption.
 They would have seen a runaway generation inventing figures: precisely the
@@ -309,24 +315,57 @@ produced coherent, correctly scoped, correctly terminated output with no
 template leakage. The untemplated original, same prompts, same runtime,
 reproduced the failures above.
 
----
+### 2.7 Reading files that were not designed for us
 
-### 2.7 Tools and why they were chosen
+**At stake.** Whether Ledgerit works on a real business's spreadsheet or only on
+one shaped like our own sample.
+
+**Considered.** Requiring canonical column names, which is what we shipped
+first. A file using Item, Rate and Amount rather than product, unit_price and
+total was rejected outright, with a message naming what was missing.
+
+**Decided.** Ask rather than reject. Where the required columns are not found,
+Ledgerit shows a mapping step with best-guess preselections drawn from string
+similarity and a small synonym table, plus sample values from each source column
+so the owner can confirm the choice. Multi-sheet workbooks prompt for a sheet.
+Where the header row is not row one, a scoring pass over the first fifteen rows
+detects it, and asks when the result is not confident.
+
+**Evidence.** Tested against a building-materials sales export with columns named
+Date, Invoice No, Item, Qty, Rate and Amount. The mapping preselections were
+correct and the file loaded cleanly. That file also contains legitimate bulk
+discounts, where the same product sells at different unit prices across rows
+while quantity times rate still equals amount. The mismatch detector flagged
+exactly the six genuine entry errors and none of the discounted orders.
+
+**The bug this uncovered was the most dangerous in the project.** A workbook with
+title rows above the real header parsed row one as the header, so every column
+shifted by one. The mapping step rendered normally, the load returned success,
+and the cleaning report read as correct while describing the wrong data. Nothing
+errored.
+
+That is the same failure the architecture exists to prevent, arriving through
+the file reader rather than the model, where none of our number verification
+applies. The fix follows the same principle as the verifier: where the system
+cannot be confident, it does not guess. Confident header detection proceeds
+silently. Uncertain detection shows the candidate rows and asks.
+
+### 2.8 Tools and why they were chosen
 
 | Tool | Role | Why |
 |---|---|---|
 | llama.cpp | Inference runtime | Required by the competition, and independently the right choice: CPU-first, no Python runtime needed for inference, defines the GGUF format |
 | SmolLM3-3B | Base model | Best measured efficiency in its class across four benchmarked configurations; Apache-2.0; published by the llama.cpp maintainers, so runtime support is first-party |
 | pandas | All deterministic computation | Mature and well understood; already a profiler dependency, so no additional footprint |
-| BM25 (own implementation) | Retrieval | ~40 lines, zero dependencies, no model download, no resident memory cost |
+| BM25 (own implementation) | Retrieval | Roughly 40 lines, zero dependencies, no model download, no resident memory cost |
 | openpyxl | xlsx support | Target users keep records in Excel; rejecting those files would make the tool unusable for most of them |
 | Python stdlib HTTP server | Application server | No framework, minimal memory footprint |
 
-**Deliberately not used:** any hosted API, which violates the offline
-constraint; any embedding model, which would cost a second download and several
-hundred MB resident on a machine with 8 GB total; Electron or Tauri for the
-interface shell, at 200–400 MB of runtime competing with the model against the
-7 GB ceiling.
+**Deliberately not used:** any hosted API, which violates the offline constraint;
+any embedding model, which would cost a second download and several hundred MB
+resident on a machine with 8 GB total; Electron or Tauri for the interface
+shell, at 200 to 400 MB of runtime competing with the model against the 7 GB
+ceiling.
 
 ---
 
@@ -365,9 +404,6 @@ All figures measured cold: machine rebooted, single run, no other load.
 | S_eff | 71.8 |
 | Thermal throttling | none observed |
 
-<!-- FILL, if the x86 run completes, add those figures alongside these. Even an
-approximate reading on Intel hardware strengthens this section considerably. -->
-
 ### 4.2 System accuracy
 
 | Measure | Result |
@@ -376,22 +412,54 @@ approximate reading on Intel hardware strengthens this section considerably. -->
 | Unsupported figures in output | 0 across 30 answers, three models, verification active |
 | Cleaning: rows recovered | 1,815 of 1,829 on the reference test file |
 | Cleaning: arithmetic errors detected | 8 of 8 injected errors, no false positives |
+| Cleaning: false positives on legitimate bulk discounts | 0 on a 960-row building-materials export |
 
 The routing test set covers all eight analysis categories and includes
 deliberately awkward phrasings. It was not tuned to the implementation.
 
 ### 4.3 Measurement transparency
 
-These figures were taken on Apple Silicon, not on the Standard Laptop profile.
-The rules permit development on any hardware while auditing against the
-reference profile, and we expect some divergence at audit. This is the variance
-the ±15% memory and ±25% throughput tolerances exist to accommodate.
+**We were not able to measure on the ADTC Standard Laptop.** We do not own an
+Intel Core i5 of the 10th to 12th generation, or an equivalent Ryzen 5, and no
+cloud provider rents mobile-class laptop CPUs. Every figure in this report was
+therefore taken on hardware that differs from the reference profile in at least
+one respect. Rather than report a single number and leave the divergence
+implicit, we measured on three machines that bracket the target.
 
-We report the most conservative reading obtained rather than the most
-favourable. Repeat runs of the same file on the same machine produced
-increasingly favourable numbers as OS page-cache residency accumulated: 6.13,
-then 7.11, then 16.23 tok/s. Only the first genuinely cold read is reported
-here.
+| Machine | Cores | AVX2 / FMA | Throughput | Peak RSS |
+|---|---|---|---|---|
+| Intel i5-3437U (2013, Ivy Bridge), WSL2 | 4 | No | 2.07 tok/s | 1,710 MB |
+| **Apple M1** | 8 | ARM NEON | **6.13 tok/s** | **1,976 MB** |
+| AMD EPYC 9V74, AVX-512 disabled at build | 4 | Yes | 12.18 tok/s | 2,216 MB |
+
+**Why the low bound is not a conservative estimate.** The i5-3437U exposes
+neither AVX2 nor FMA, verified with `lscpu`. llama.cpp relies on both for CPU
+inference, and every reference-generation CPU provides them. Its throughput
+reflects a fallback code path the target machine will not take, so it
+understates reference performance rather than approximating it.
+
+**Why the high bound is not achievable on the target.** The EPYC 9V74 is a
+current-generation datacentre part. We rebuilt llama.cpp with `GGML_AVX512=OFF`
+so it uses only the AVX2 and FMA instructions the reference profile provides,
+and constrained it to 4 cores to match. What cannot be matched is sustained
+clock behaviour: a datacentre chip holds boost indefinitely, while a fanless
+U-series laptop CPU throttles under load.
+
+**What we report and why.** The Apple M1 figures. They fall near the centre of
+both ranges, and the M1's per-core performance is closer to a modern mobile i5
+than either bound. We chose the middle reading rather than the most favourable
+one. Selecting 12.18 tok/s would have raised our reported S_perf from 40.9 to
+81.2, and we judged that indefensible.
+
+**Memory transfers more reliably than throughput.** Peak RSS across three
+different architectures spans 1,710 to 2,216 MB, a range of 506 MB against a
+7,000 MB budget. The efficiency figure should therefore reconcile closely
+regardless of which CPU the audit uses.
+
+**Cold measurement matters.** Three consecutive runs of the same model file on
+the same machine gave 6.13, then 7.11, then 16.23 tok/s as OS page-cache
+residency accumulated. Only the first genuinely cold read is reported anywhere
+in this document.
 
 ---
 
@@ -420,7 +488,7 @@ The capability has existed for several years. The delivery mechanism has not.
 
 **Subscription cost.** A cloud assistant costs roughly twenty dollars a month.
 Converted at current rates and set against the margins of a shop turning over
-₦60,000 on a good day, that is not a small line item. It is a recurring cost
+NGN 60,000 on a good day, that is not a small line item. It is a recurring cost
 competing directly with restocking.
 
 **Connectivity cost.** Cloud inference assumes not just internet but *reliable*
@@ -480,10 +548,16 @@ exact duplicates and reports how many it removed, rather than silently
 discarding rows.
 
 **Arithmetic errors.** Where a recorded total does not equal quantity multiplied
-by unit price, Ledgerit flags the row and shows both figures. It does not
-correct the file. A shop owner needs to see that an order was billed at ₦10,000
-when it should have been ₦5,000 and decide what happened; software that quietly
+by unit price, Ledgerit flags the row and shows both figures. It does not correct
+the file. A shop owner needs to see that an order was billed at NGN 10,000 when
+it should have been NGN 5,000 and decide what happened; software that quietly
 rewrote her books would be worse than useless.
+
+**Unreliable connections, in the tooling too.** `download_model.sh` retries up to
+40 times with resume, because a 1.5 GB download over an intermittent Nigerian
+connection routinely drops. Verified from a clean clone: the transfer completed
+on the sixteenth attempt with the checksum matching. A single-shot `curl` would
+have failed and left the user with nothing.
 
 ---
 
@@ -497,7 +571,7 @@ Realistic files for the target user are far smaller, but there is no progress
 indication beyond an indeterminate pulse.
 
 **Very long questions are slow.** A question of roughly 1,200 words takes about
-47 s to narrate, against 20–30 s typical.
+47 s to narrate, against 20 to 30 s typical.
 
 **Three routing phrasings still fail:** negation ("what is nobody buying"),
 "remove from the menu", and "best day to run a promo". All three remain in the
@@ -509,30 +583,55 @@ quantization was attempted but blocked: the GGUF-my-repo Space rejected every
 `.txt` calibration upload as an invalid file type, including a 27-byte plain
 ASCII test file.
 
-**Photo input for handwritten ledgers was considered and rejected.** Many target
-users keep paper records, so this is the natural extension. We rejected it
-because OCR error rates on handwritten figures are incompatible with a system
-whose central guarantee is that it never states a number it cannot support. A
-tool that silently misreads ₦10,000 as ₦70,000 leaves the owner with confident
-wrong books. Guided entry or voice input is the more honest path.
+**No measurement on the reference hardware.** Covered in full under Measurement
+transparency. We bracketed the target with three machines rather than claiming a
+reading we could not take.
+
+**Photo input for handwritten ledgers is not supported.** OCR error rates on
+handwritten figures are incompatible with a system whose central guarantee is
+that it never states a number it cannot support. A tool that silently misreads
+NGN 10,000 as NGN 70,000 leaves the owner with confident wrong books. The design
+that would work is described under Further Work.
 
 ---
 
 ## Screenshots
 
-<!-- FILL, empty state; receipt with flagged entries and the CHECK THIS stamp;
-a question showing computed table and narration; the offline indicator. -->
+**Empty state.** No file loaded, no network activity. The offline indicator is
+live from launch.
+
+![Empty state](screenshots/empty-state.jpeg)
+
+**Cleaning report.** What Ledgerit found in the file, with entries that do not
+add up flagged rather than silently corrected.
+
+![Cleaning report](screenshots/sample-file.jpeg)
+
+**Answering a question.** The computed table renders immediately; the model's
+explanation follows underneath.
+
+![Result](screenshots/result.jpeg)
+
+**Offline indicator.** Watches every request the page makes for its whole
+lifetime and latches permanently if anything non-local is attempted.
+
+![Offline](screenshots/offline.jpeg)
 
 ---
 
 ## Further Work
 
+**Handwritten records.** Many target users keep paper rather than spreadsheets,
+so photograph input is the natural extension. It requires a design we have
+specified but not built: OCR produces a draft the owner confirms row by row, and
+only confirmed rows enter the pipeline. Reading numbers straight from OCR into
+the analysis would break the guarantee that Ledgerit never states a figure it
+cannot support, and a vision model would add 0.5 to 2 GB resident against a 7 GB
+ceiling where an out-of-memory condition is disqualifying.
+
 **Real vendor data** replacing the synthetic test set.
 
-**Column mapping** so the tool works on a sales export it has never seen, rather
-than requiring the column names it expects.
+**Text-extractable PDF input**, for exports from POS and accounting software.
 
-**Domain-calibrated quantization** once a working importance-matrix path is
+**Domain-calibrated quantization**, once a working importance-matrix path is
 available.
-
-**Report export**, so a cleaned file and its findings can leave the tool.

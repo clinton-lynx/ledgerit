@@ -334,6 +334,170 @@ body {
   text-align: left;
   white-space: pre-line;
 }
+.map-note {
+  margin: 10px 0 16px;
+  font-family: 'Plex Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.map-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.map-block {
+  padding: 10px 0 8px;
+  border-top: 1px solid var(--rule);
+}
+.map-block:first-child { border-top: none; padding-top: 0; }
+.map-block .label {
+  max-width: 170px;
+}
+.map-select {
+  /* Paper/ink to match the receipt and the Download button, not --field-bg
+     (theme-aware — goes dark in dark mode while --ink stays dark, which is
+     the unreadable combination this replaces). appearance: none because the
+     native control otherwise ignores these colors on the popup itself. */
+  width: min(100%, 240px);
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--ink);
+  background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 4.5 6 8 9.5 4.5' fill='none' stroke='%233c362b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 9px center / 10px;
+  color: var(--ink);
+  font: inherit;
+  font-family: 'Plex Mono', monospace;
+  font-size: 0.84rem;
+  padding: 5px 26px 5px 8px;
+  border-radius: 4px;
+}
+.map-select option {
+  background: var(--paper);
+  color: var(--ink);
+}
+.map-select:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+.map-preview, .map-source-line {
+  margin-top: 8px;
+  font-family: 'Plex Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  white-space: pre-wrap;
+}
+.map-source-head {
+  margin: 18px 0 6px;
+  font-family: 'Plex Mono', monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+/* sheet / header-row pickers — one click per choice, no separate confirm
+   step, since unlike column mapping there's only a single field to set. */
+.choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 14px 0 8px;
+}
+.choice-row {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 10px 12px;
+  cursor: pointer;
+  font: inherit;
+  font-family: 'Plex Mono', monospace;
+}
+.choice-row:hover, .choice-row:focus-visible {
+  background: var(--accent-wash);
+}
+.choice-row:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+.choice-row .choice-title {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.choice-row .choice-meta {
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+.choice-row .choice-preview {
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+}
+.receipt-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 18px 0 8px;
+}
+.receipt-action {
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Plex Mono', monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 1;
+}
+.receipt-action:hover, .receipt-action:focus-visible {
+  background: var(--accent-wash);
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.receipt-action:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+.receipt-action:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.receipt-action svg {
+  width: 12px;
+  height: 12px;
+  flex: 0 0 auto;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.export-confirm {
+  margin-top: 12px;
+  padding: 0;
+  font-family: 'Plex Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  overflow-wrap: anywhere;
+  min-width: 0;
+  opacity: 0;
+}
+.export-confirm.show { animation: rowUp 260ms ease-out both; }
+.export-confirm .label {
+  color: var(--ink);
+}
 
 /* ---------------------------------------------------------------- */
 /* the receipt object                                                */
@@ -404,6 +568,7 @@ body {
   padding: 7px 0;
   opacity: 0;
   transform: translateY(6px);
+  min-width: 0;
 }
 .row.show {
   animation: rowUp 260ms ease-out both;
@@ -415,9 +580,12 @@ body {
   font-family: 'Plex Mono', monospace;
   font-size: clamp(0.82rem, 3.3vw, 1rem);
   color: var(--ink);
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .row .leader {
   flex: 1;
+  min-width: 12px;
   border-bottom: 2px dotted var(--rule);
   height: 0;
   margin-bottom: 5px;
@@ -430,7 +598,10 @@ body {
   font-family: 'Plex Mono', monospace;
   font-size: clamp(0.82rem, 3.3vw, 1rem);
   font-variant-numeric: tabular-nums;
-  white-space: nowrap;
+  min-width: 0;
+  max-width: 52%;
+  white-space: normal;
+  overflow-wrap: anywhere;
   color: var(--ink);
 }
 .row .value.dim { color: var(--ink-soft); }
@@ -450,10 +621,18 @@ body {
   align-items: baseline;
   gap: 0.6em;
   padding: 3px 0;
+  min-width: 0;
 }
-.flag-block .flag-row .label { font-family: 'Plex Mono', monospace; color: var(--ink-soft); font-size: clamp(0.76rem, 3vw, 0.92rem); }
+.flag-block .flag-row .label {
+  font-family: 'Plex Mono', monospace;
+  color: var(--ink-soft);
+  font-size: clamp(0.76rem, 3vw, 0.92rem);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
 .flag-block .flag-row .leader {
   flex: 1;
+  min-width: 12px;
   border-bottom: 2px dotted var(--rule);
   height: 0;
   margin-bottom: 4px;
@@ -462,7 +641,10 @@ body {
   font-family: 'Plex Mono', monospace;
   font-size: clamp(0.76rem, 3vw, 0.92rem);
   font-variant-numeric: tabular-nums;
-  white-space: nowrap;
+  min-width: 0;
+  max-width: 52%;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 .flag-block .flag-row .value.was { text-decoration: line-through; text-decoration-color: var(--accent); color: var(--accent); }
 .flag-block .flag-row .value.should { color: var(--ink); font-weight: 600; }
@@ -525,6 +707,7 @@ body {
   line-height: 1.5;
   color: var(--ink-soft);
   opacity: 0;
+  overflow-wrap: anywhere;
 }
 .factline.show { animation: rowUp 260ms ease-out both; }
 .factline b { color: var(--ink); font-weight: 600; }
@@ -585,6 +768,7 @@ body {
   color: var(--ink-soft);
   margin: 0;
   max-width: 60ch;
+  overflow-wrap: anywhere;
 }
 /* indeterminate — real generation is 15s+ and we don't know the duration
    in advance, so this loops rather than counting down to a guess. */
@@ -614,6 +798,7 @@ body {
   line-height: 1.5;
   color: var(--accent);
   opacity: 0;
+  overflow-wrap: anywhere;
 }
 .narration-warn.show { animation: rowUp 260ms ease-out both; }
 
@@ -758,6 +943,65 @@ body {
             </div>
           </div>
 
+          <!-- RECEIPT -2: which sheet has the data (xlsx workbooks with more than one sheet) -->
+          <div class="unit" id="unit-sheet" hidden>
+            <div class="receipt-card">
+              <div class="tear"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
+              <div class="paper" id="paper-sheet">
+                <div class="receipt-head" id="head-sheet">
+                  <span id="sheet-filename">&hellip;</span>
+                  <span id="sheet-date">&hellip;</span>
+                </div>
+                <div class="receipt-title">Which sheet is the sales data?</div>
+                <p class="map-note">This workbook has more than one sheet — pick the one to load.</p>
+                <div class="choice-list" id="sheet-list"></div>
+                <div class="status" id="status-sheet"></div>
+              </div>
+              <div class="tear tear--bottom"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
+            </div>
+          </div>
+
+          <!-- RECEIPT -1: which row is the header (xlsx sheets where it isn't row 1) -->
+          <div class="unit" id="unit-header" hidden>
+            <div class="receipt-card">
+              <div class="tear"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
+              <div class="paper" id="paper-header">
+                <div class="receipt-head" id="head-header">
+                  <span id="header-filename">&hellip;</span>
+                  <span id="header-date">&hellip;</span>
+                </div>
+                <div class="receipt-title">Which row are the column names?</div>
+                <p class="map-note">Ledgerit couldn't tell which row holds the headers — pick it below.</p>
+                <div class="choice-list" id="header-list"></div>
+                <div class="status" id="status-header"></div>
+              </div>
+              <div class="tear tear--bottom"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
+            </div>
+          </div>
+
+          <!-- RECEIPT 0: column mapping -->
+          <div class="unit" id="unit-map" hidden>
+            <div class="receipt-card">
+              <div class="tear"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
+              <div class="paper" id="paper-map">
+                <div class="receipt-head" id="head-map">
+                  <span id="map-filename">&hellip;</span>
+                  <span id="map-date">&hellip;</span>
+                </div>
+                <div class="receipt-title" id="title-map">Map your columns</div>
+                <p class="map-note" id="map-note">Ledgerit found a sales file, but these headers need a quick check before cleaning.</p>
+                <div class="map-grid" id="map-rows"></div>
+                <div class="map-source-head">Source columns</div>
+                <div id="map-sources"></div>
+                <div class="receipt-actions">
+                  <button type="button" class="receipt-action" id="map-apply">Use this mapping</button>
+                </div>
+                <div class="status" id="status-map"></div>
+              </div>
+              <div class="tear tear--bottom"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
+            </div>
+          </div>
+
           <!-- RECEIPT 1: the cleaning report -->
           <div class="unit" id="unit-clean" hidden>
             <div class="receipt-card">
@@ -778,7 +1022,13 @@ body {
                     <span class="num" id="num-clean">0</span>
                   </div>
                 </div>
-                <div class="status" id="status-clean"></div>
+                <div class="receipt-actions">
+                  <button type="button" class="receipt-action" id="clean-download">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v7"></path><path d="M5.5 6.5 8 9l2.5-2.5"></path><path d="M3 11.5v2h10v-2"></path></svg>
+                    <span>Download</span>
+                  </button>
+                </div>
+                <div class="export-confirm" id="status-clean" aria-live="polite"></div>
               </div>
               <div class="tear tear--bottom"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
             </div>
@@ -796,7 +1046,13 @@ body {
                 <div class="receipt-title" id="title-answer"></div>
                 <div id="rows-answer"></div>
                 <div class="facts" id="facts-answer" hidden></div>
-                <div class="status" id="status-answer"></div>
+                <div class="receipt-actions">
+                  <button type="button" class="receipt-action" id="answer-download">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v7"></path><path d="M5.5 6.5 8 9l2.5-2.5"></path><path d="M3 11.5v2h10v-2"></path></svg>
+                    <span>Download</span>
+                  </button>
+                </div>
+                <div class="export-confirm" id="status-answer" aria-live="polite"></div>
               </div>
               <div class="tear tear--bottom"><svg viewBox="0 0 400 14" preserveAspectRatio="none"></svg></div>
             </div>
@@ -972,6 +1228,193 @@ body {
     var d = new Date();
     return String(d.getDate()).padStart(2, '0') + ' ' + months[d.getMonth()] + ' ' + d.getFullYear();
   }
+  function showOnly(unitId) {
+    ['unit-sheet', 'unit-header', 'unit-map', 'unit-clean', 'unit-answer', 'unit-empty'].forEach(function (id) {
+      var node = document.getElementById(id);
+      if (node) node.hidden = id !== unitId;
+    });
+  }
+  function setButtonsDisabled(prefix, disabled) {
+    var node = document.getElementById(prefix + '-download');
+    if (node) node.disabled = disabled;
+  }
+  function prettySavedPath(path) {
+    var p = String(path || '').replace(/\\/g, '/');
+    var idx = p.indexOf('/Desktop/Ledgerit/');
+    if (idx !== -1) return p.slice(idx + 1);
+    var parts = p.split('/');
+    return parts.slice(-3).join('/');
+  }
+  function updateSourcePreview(preview, source) {
+    if (!source) {
+      preview.textContent = 'No preview available.';
+      return;
+    }
+    var samples = source.samples && source.samples.length ? source.samples.join(' · ') : 'no sample values';
+    preview.textContent = 'Samples: ' + samples;
+  }
+  function renderMappingPanel(data) {
+    var unit = document.getElementById('unit-map');
+    var rowsHost = document.getElementById('map-rows');
+    var sourcesHost = document.getElementById('map-sources');
+    rowsHost.innerHTML = '';
+    sourcesHost.innerHTML = '';
+    document.getElementById('status-map').textContent = '';
+    document.getElementById('map-filename').textContent = data.filename || 'upload.csv';
+    document.getElementById('map-date').textContent = todayStamp();
+    document.getElementById('map-note').textContent = 'Choose the closest source column for each required field. Ledgerit keeps the extra columns out of the way.';
+
+    var sources = data.sources || [];
+    var selected = data.selected || {};
+    (data.required || []).forEach(function (target) {
+      var block = el('div', 'map-block');
+      var r = el('div', 'row map-row');
+      var label = target.label || spaced(target.target);
+      var select = document.createElement('select');
+      select.className = 'map-select';
+      select.dataset.target = target.target;
+      sources.forEach(function (source) {
+        var opt = document.createElement('option');
+        opt.value = source.name;
+        opt.textContent = source.name;
+        if (source.name === selected[target.target]) opt.selected = true;
+        select.appendChild(opt);
+      });
+      if (!select.value && sources.length) select.value = selected[target.target] || sources[0].name;
+      r.innerHTML = '<span class="label">' + esc(label) + '</span><span class="leader"></span>';
+      r.appendChild(select);
+      r.classList.add('show');
+      block.appendChild(r);
+      var preview = el('div', 'map-preview');
+      preview.classList.add('show');
+      block.appendChild(preview);
+      block.classList.add('show');
+      rowsHost.appendChild(block);
+      var update = function () {
+        var source = null;
+        for (var i = 0; i < sources.length; i++) {
+          if (sources[i].name === select.value) { source = sources[i]; break; }
+        }
+        updateSourcePreview(preview, source);
+      };
+      select.addEventListener('change', update);
+      update();
+    });
+
+    if (sources.length) {
+      sources.forEach(function (source) {
+        var samples = (source.samples || []).join(' · ') || 'no sample values';
+        var line = row(source.name, 'Samples: ' + samples, true);
+        line.className = 'row map-source-line show';
+        sourcesHost.appendChild(line);
+      });
+    } else {
+      var empty = row('Source columns', 'Samples: no sample values', true);
+      empty.className = 'row map-source-line show';
+      sourcesHost.appendChild(empty);
+    }
+
+    unit.hidden = false;
+    showOnly('unit-map');
+    document.getElementById('topbar-filename').hidden = false;
+    document.getElementById('topbar-filename').textContent = data.filename || 'upload.csv';
+    document.title = 'Ledgerit — ' + (data.filename || 'upload.csv');
+  }
+
+  /* A workbook with more than one sheet — never guessed at, always asked
+     (see NeedsSheetSelectionError). One click picks the sheet and re-runs
+     loadFile with that answer folded in. */
+  function renderSheetPanel(data) {
+    document.getElementById('sheet-filename').textContent = data.filename || 'upload.xlsx';
+    document.getElementById('sheet-date').textContent = todayStamp();
+    document.getElementById('status-sheet').textContent = '';
+    var list = document.getElementById('sheet-list');
+    list.innerHTML = '';
+    (data.sheets || []).forEach(function (sheet) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'choice-row';
+      var meta = plural(sheet.rows, 'row') + ' · ' + plural(sheet.cols, 'column');
+      var preview = (sheet.preview && sheet.preview.length)
+        ? 'First row: ' + sheet.preview.join(' · ')
+        : 'Nothing in the first row.';
+      btn.innerHTML = '<div class="choice-title">' + esc(sheet.name) + '</div>' +
+        '<div class="choice-meta">' + esc(meta) + '</div>' +
+        '<div class="choice-preview">' + esc(preview) + '</div>';
+      btn.addEventListener('click', function () {
+        var answers = Object.assign({}, STATE.pendingFile, { sheet: sheet.name });
+        loadFile(STATE.pendingFile.fileBase64, STATE.pendingFile.filename, answers);
+      });
+      list.appendChild(btn);
+    });
+    showOnly('unit-sheet');
+    document.getElementById('topbar-filename').hidden = false;
+    document.getElementById('topbar-filename').textContent = data.filename || 'upload.xlsx';
+    document.title = 'Ledgerit — ' + (data.filename || 'upload.xlsx');
+  }
+
+  /* Header row couldn't be pinned down with confidence (see
+     _detect_header_row) — title rows, a merged banner, no header at all.
+     Each candidate shows the row's actual cell values so the user is
+     recognising their own file, not reading row numbers blind. */
+  function renderHeaderRowPanel(data) {
+    document.getElementById('header-filename').textContent = data.filename || 'upload.xlsx';
+    document.getElementById('header-date').textContent = todayStamp();
+    document.getElementById('status-header').textContent = '';
+    var list = document.getElementById('header-list');
+    list.innerHTML = '';
+    (data.candidates || []).forEach(function (cand) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'choice-row';
+      var preview = (cand.preview && cand.preview.length) ? cand.preview.join(' · ') : '(blank row)';
+      btn.innerHTML = '<div class="choice-title">Row ' + (cand.row + 1) + '</div>' +
+        '<div class="choice-preview">' + esc(preview) + '</div>';
+      btn.addEventListener('click', function () {
+        var answers = Object.assign({}, STATE.pendingFile, { header_row: cand.row });
+        loadFile(STATE.pendingFile.fileBase64, STATE.pendingFile.filename, answers);
+      });
+      list.appendChild(btn);
+    });
+    showOnly('unit-header');
+    document.getElementById('topbar-filename').hidden = false;
+    document.getElementById('topbar-filename').textContent = data.filename || 'upload.xlsx';
+    document.title = 'Ledgerit — ' + (data.filename || 'upload.xlsx');
+  }
+
+  function buildMappingSelection() {
+    var result = {};
+    document.querySelectorAll('#map-rows select.map-select').forEach(function (select) {
+      result[select.dataset.target] = select.value;
+    });
+    return result;
+  }
+  async function exportReceipt(kind) {
+    var payload;
+    if (kind === 'answer') {
+      if (!STATE.lastAnswer) return;
+      payload = {
+        kind: 'answer',
+        question: STATE.lastAnswer.question,
+        finding: STATE.lastAnswer.finding,
+        narration: STATE.lastAnswer.narration
+      };
+    } else {
+      if (!STATE.lastReport) return;
+      payload = {
+        kind: 'cleaning',
+        filename: STATE.lastReport.filename,
+        report: STATE.lastReport
+      };
+    }
+    var res = await api('/api/export', payload);
+    var node = document.getElementById(kind === 'answer' ? 'status-answer' : 'status-clean');
+    if (node && res && res.path) {
+      node.textContent = 'Saved to ' + prettySavedPath(res.path);
+      node.classList.add('show');
+    }
+    return res;
+  }
 
   /* The Finding's table shape varies by handler (product/vendor/channel/
      payment_method/month/day-of-week as the label column; revenue is the
@@ -1014,10 +1457,17 @@ body {
     }
   }
 
-  var STATE = { ready: false, asking: false };
+  var STATE = {
+    ready: false,
+    asking: false,
+    pendingFile: null,
+    lastReport: null,
+    lastAnswer: null
+  };
 
   /* ================= RECEIPT 1: cleaning report — real cleaner.clean() ================= */
   async function printCleaningReceipt(report) {
+    STATE.lastReport = report;
     var paper = document.getElementById('paper-clean');
     var rowsHost = document.getElementById('rows-clean');
     rowsHost.innerHTML = '';
@@ -1025,6 +1475,7 @@ body {
     ['head-clean','title-clean'].forEach(function(id){ document.getElementById(id).classList.remove('show'); });
     document.getElementById('headline-clean').classList.remove('show');
     document.getElementById('status-clean').classList.remove('show');
+    setButtonsDisabled('clean', false);
 
     document.getElementById('clean-filename').textContent = report.filename;
     document.getElementById('clean-date').textContent = todayStamp();
@@ -1092,33 +1543,69 @@ body {
     if (stamp) stamp.classList.add('show');
   }
 
-  async function loadFile(fileBase64, filename) {
+  async function loadFile(fileBase64, filename, answers) {
     var fnBtn = document.getElementById('topbar-filename');
     var dzError = document.getElementById('dropzone-error');
     var firstLoad = !STATE.ready;   // dropzone is still the thing on screen
 
+    // `answers` accumulates whatever the user has resolved so far — sheet,
+    // header_row, mapping — across however many of those three xlsx asks
+    // this file needed. Each picker builds it as
+    // Object.assign({}, STATE.pendingFile, {the one new answer}), so it
+    // carries forward everything decided in earlier steps of the same
+    // upload rather than each step clobbering the last.
+    STATE.pendingFile = fileBase64 ? Object.assign({ fileBase64: fileBase64, filename: filename }, answers || {}) : null;
     fnBtn.disabled = true;
     document.getElementById('ask-hint').textContent = '';
     dzError.hidden = true;
     dzError.textContent = '';
     document.getElementById('unit-answer').hidden = true;
     try {
-      var report = await api('/api/load', fileBase64 ? { file: fileBase64, filename: filename } : {});
+      var payload = fileBase64 ? { file: fileBase64, filename: filename } : {};
+      if (answers && answers.sheet) payload.sheet = answers.sheet;
+      if (answers && answers.header_row != null) payload.header_row = answers.header_row;
+      if (answers && answers.mapping) payload.mapping = answers.mapping;
+      var report = await api('/api/load', payload);
+      if (report.needs_sheet_selection) {
+        STATE.ready = false;
+        STATE.lastReport = null;
+        renderSheetPanel(report);
+        return;
+      }
+      if (report.needs_header_row) {
+        STATE.ready = false;
+        STATE.lastReport = null;
+        renderHeaderRowPanel(report);
+        return;
+      }
+      if (report.needs_mapping) {
+        STATE.ready = false;
+        STATE.lastReport = null;
+        renderMappingPanel(report);
+        return;
+      }
       STATE.ready = true;
       fnBtn.hidden = false;
       fnBtn.textContent = report.filename;
       document.title = 'Ledgerit — ' + report.filename;
-      document.getElementById('unit-empty').hidden = true;
       document.getElementById('ask-bar').hidden = false;
-      document.getElementById('unit-clean').hidden = false;
+      showOnly('unit-clean');
+      STATE.pendingFile = null;
       await printCleaningReceipt(report);
     } catch (err) {
       // Wrong file type, unreadable, missing columns — whatever cleaner.py
       // rejected, shown where the user's attention already is: in the
       // dropzone before anything has loaded, in the usual ask-hint spot
-      // once something has (so a bad swap doesn't blank the header).
+      // once something has (so a bad swap doesn't blank the header), or
+      // whichever of the sheet/header/mapping pickers is on screen.
       var message = "Couldn't load that file: " + err.message;
-      if (firstLoad) {
+      if (!document.getElementById('unit-sheet').hidden) {
+        document.getElementById('status-sheet').textContent = message;
+      } else if (!document.getElementById('unit-header').hidden) {
+        document.getElementById('status-header').textContent = message;
+      } else if (!document.getElementById('unit-map').hidden) {
+        document.getElementById('status-map').textContent = message;
+      } else if (firstLoad) {
         dzError.textContent = message;
         dzError.hidden = false;
       } else {
@@ -1226,6 +1713,13 @@ body {
       return;
     }
 
+    STATE.lastAnswer = {
+      question: question,
+      finding: finding,
+      narration: narration.text
+    };
+    setButtonsDisabled('answer', false);
+
     if (REDUCED) {
       nText.textContent = narration.text;
     } else {
@@ -1274,6 +1768,25 @@ body {
   document.getElementById('ask-go').addEventListener('click', submitAsk);
   document.getElementById('ask-input').addEventListener('keydown', function (e) {
     if (e.key === 'Enter') submitAsk();
+  });
+  document.getElementById('map-apply').addEventListener('click', function () {
+    if (!STATE.pendingFile) return;
+    var answers = Object.assign({}, STATE.pendingFile, { mapping: buildMappingSelection() });
+    loadFile(STATE.pendingFile.fileBase64, STATE.pendingFile.filename, answers);
+  });
+  document.getElementById('clean-download').addEventListener('click', function () {
+    exportReceipt('cleaning').catch(function (err) {
+      var node = document.getElementById('status-clean');
+      node.textContent = err.message;
+      node.classList.add('show');
+    });
+  });
+  document.getElementById('answer-download').addEventListener('click', function () {
+    exportReceipt('answer').catch(function (err) {
+      var node = document.getElementById('status-answer');
+      node.textContent = err.message;
+      node.classList.add('show');
+    });
   });
 
   /* ---- file selection: header control (post-load), dropzone (pre-load) ---- */

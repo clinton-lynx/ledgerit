@@ -37,6 +37,9 @@ the model weights:
 bash download_model.sh
 ```
 
+The download resumes and retries, because a 1.5 GB transfer over an unreliable
+connection routinely drops. It verifies the checksum before finishing.
+
 ---
 
 ## Running it
@@ -67,12 +70,11 @@ python3 main.py data/sales_raw.csv
 | **Formats** | `.csv`, `.xlsx` |
 | **Encodings** | UTF-8, UTF-8 with BOM, Windows-1252, UTF-16. Detected automatically. |
 | **Delimiters** | comma, semicolon, tab. Sniffed automatically. |
-| **Required columns** | `date`, `product`, `qty`, `unit_price`, `total` |
+| **Column names** | Any. Ledgerit maps them to what it needs and asks you to confirm. |
+| **Multi-sheet workbooks** | Supported. Ledgerit asks which sheet to read. |
+| **Header not in row 1** | Detected. Ledgerit asks when it isn't confident. |
+| **Extra columns** | Preserved and ignored. |
 | **Not supported** | `.xls`, PDF, scanned or photographed input |
-
-Column names are matched after normalising, so spelling and casing don't matter.
-If a required column is missing, Ledgerit tells you which ones it needed and
-which ones it found.
 
 Load your own file by clicking the filename in the top bar, or drop it onto the
 window.
@@ -81,12 +83,18 @@ window.
 
 ## What it does with a file
 
-1. **Cleans it.** Parses mixed date formats, strips currency text from number
+1. **Reads it**, whatever shape it's in. If the columns are named `Item`, `Rate`
+   and `Amount` rather than `product`, `unit_price` and `total`, it shows a
+   mapping with its best guesses and sample values so you can confirm. If a
+   workbook has several sheets, it asks which one. If the header isn't the first
+   row, it works out where the header is.
+2. **Cleans it.** Parses mixed date formats, strips currency text from number
    columns, removes duplicate rows, normalises category casing.
-2. **Flags what doesn't add up.** Where a recorded total doesn't equal quantity
+3. **Flags what doesn't add up.** Where a recorded total doesn't equal quantity
    times unit price, both figures are shown. Nothing is silently corrected.
-3. **Answers questions** in plain English: best and worst sellers, monthly
+4. **Answers questions** in plain English: best and worst sellers, monthly
    trend, quietest day, breakdown by vendor, channel or payment method.
+5. **Exports** any answer, or the cleaning report, as a receipt-styled PDF.
 
 ---
 
@@ -107,7 +115,7 @@ REPORT.md            Technical report
 cleaner.py           Deterministic cleaning. No model involved.
 analyst.py           BM25 retrieval and eight pandas analyses
 explain.py           Model narration, routing, number verification
-server.py            Local HTTP server
+server.py            Local HTTP server, file reading, column mapping, PDF export
 launch.py            Starts the server and opens the app window
 web/                 Interface
 docs/                Evaluation writeups

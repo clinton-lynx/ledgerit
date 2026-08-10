@@ -1,0 +1,961 @@
+Date,Invoice No,Item,Qty,Rate,Amount,Customer,Payment Method,Depot,Balance Owing
+16-Jul-2026,INV4426,12mm Iron Rod (length),76,7517,571292,Eng. Okafor,Part Payment,Main Yard,233138
+05/05/2026,INV4028, BLOCKS 6IN (PIECE) ,285,380,108300,Walk-in,part payment,Ojo Branch,60130
+15/06/2026,INV7372, 12MM IRON ROD (LENGTH) ,37,8500,314500,Site 12 Rehab,Credit,Ojo Branch,0
+27/07/2026,INV7846,Blocks 6in (piece),310,380,117800,Grace Ventures,Credit,Ikorodu Branch,0
+06/06/2026,INV5981,Paint Emulsion (20L),13,26879,349427,Kola & Sons,Credit,Ikorodu Branch,191154
+13/07/2026,INV5883,Nails 3in (kg),7,1800,12600,Grace Ventures,part payment,Ojo Branch,0
+02-Jun-2026,INV9822,10mm Iron Rod (length),56,6200,347200,Alhaji Bello,Credit,Main Yard,0
+15/07/2026,INV5304, BLOCKS 6IN (PIECE) ,259,380,98420,Site 12 Rehab,POS,Main Yard,0
+20/06/2026,INV6235,16mm Iron Rod (length),50,13184,659200,Chief Nwosu,credit,Ojo Branch,0
+25-Jun-2026,INV1203,Sharp Sand (trip),1,85000,85000,Zenith Builders,Cash,Main Yard,0
+01/05/2026,INV6345,Stepping Tiles (carton),11,7500,82500,Mrs Adebayo,POS,Main Yard,0
+23/07/2026,INV1721,BUA Cement (bag),14,9200,128800,Mrs Adebayo,,,0
+04/05/2026,INV1176,Granite 3/4 (trip),2,145000,290000,Site 12 Rehab,transfer,Main Yard,0
+09/07/2026,INV6257,Aluminium Roofing (m2),42,6800,285600,Grace Ventures,Transfer,Main Yard,115911
+2026-06-17,INV8566,Blocks 6in (piece),557,349,194393,Eng. Okafor,Part Payment,Ikorodu Branch,0
+18/07/2026,INV5182,Granite 3/4 (trip),1,145000,145000,Mrs Adebayo,credit,Main Yard,0
+23/06/2026,INV1378,Blocks 6in (piece),406,380,154280,Zenith Builders,Part Payment,Ikorodu Branch,0
+04/06/2026,INV2169,Binding Wire (roll),2,12000,24000,Alhaji Bello,POS,Main Yard,0
+16/06/2026,INV7935,Paint Emulsion (20L),11,24773,272503,Eng. Okafor,Transfer,Ikorodu Branch,0
+07/07/2026,INV6959,Binding Wire (roll),8,11249,89992,Mrs Adebayo,Credit,Main Yard,0
+02/06/2026,INV1848, GRANITE 3/4 (TRIP) ,2,145000,290000,Zenith Builders,cash,Main Yard,0
+06/05/2026,INV7873,12mm Iron Rod (length),58,"N7,789",451762,Site 12 Rehab,cash,Main Yard,0
+28/05/2026,INV2279,16mm Iron Rod (length),36,14500,522000,Alhaji Bello,cash,Main Yard,0
+18/07/2026,INV8331, DANGOTE CEMENT (BAG) ,83,9500,788500,Grace Ventures,Credit,Ikorodu Branch,0
+27/05/2026,INV4511,Paint Emulsion (20L),11,26016,286176,Mrs Adebayo,part payment,Main Yard,159257
+28-Jul-2026,INV2801,Blocks 9in (piece),703,429,301587,Chief Nwosu,Transfer,Main Yard,62810
+30/06/2026,INV2751, 12MM IRON ROD (LENGTH) ,44,8500,374000,Walk-in,Transfer,Main Yard,0
+17-Jul-2026,INV2520,12mm Iron Rod (length),13,8500,110500,Eng. Okafor,Part Payment,Ojo Branch,0
+05/06/2026,INV9397,Blocks 6in (piece),177,380,67260,Eng. Okafor,Cash,Ikorodu Branch,0
+14/05/2026,INV1937,PVC Pipe 4in (length),50,3769,188450,Walk-in,cash,Main Yard,0
+17-Jul-2026,INV9142,Blocks 6in (piece),212,380,80560,Eng. Okafor,Cash,Ojo Branch,44139
+18/05/2026,INV3342,16mm Iron Rod (length),36,14500,522000,Site 4 Contractors,,,239900
+23/07/2026,INV9572,12mm Iron Rod (length),12,8500,102000,Grace Ventures,pos,Ojo Branch,0
+04/07/2026,INV7600,Nails 3in (kg),6,"N1,800",10800,Chief Nwosu,Cash,Ikorodu Branch,4201
+10-Jun-2026,INV4896,Nails 3in (kg),7,1800,12600,Zenith Builders,Credit,Main Yard,0
+11/07/2026,INV1995,Paint Emulsion (20L),2,28000,56000,Kola & Sons,pos,Main Yard,0
+02/05/2026,INV3204,Paint Emulsion (20L),6,28000,168000,Alhaji Bello,Transfer,Main Yard,0
+08/05/2026,INV7596,Nails 3in (kg),40,1653,66120,Walk-in,POS,Main Yard,0
+04/06/2026,INV7517,Nails 3in (kg),40,1687,67480,Mrs Adebayo,cash,Main Yard,0
+12/06/2026,INV2366,Nails 3in (kg),39,1636,63804,Site 12 Rehab,POS,Main Yard,0
+20/06/2026,INV2491, PAINT EMULSION (20L) ,3,28000,84000,Alhaji Bello,part payment,Main Yard,0
+15/07/2026,INV1390,10mm Iron Rod (length),32,6200,198400,Kola & Sons,part payment,Main Yard,0
+05-Jun-2026,INV4428,Sharp Sand (trip),2,85000,170000,Zenith Builders,Part Payment,Main Yard,0
+04-Jun-2026,INV4435,Stepping Tiles (carton),22,7500,165000,Kola & Sons,transfer,Ikorodu Branch,0
+08/06/2026,INV1017,12mm Iron Rod (length),64,7665,490560,Eng. Okafor,pos,Ikorodu Branch,0
+07/07/2026,INV1225,Blocks 9in (piece),304,450,136800,Zenith Builders,Cash,Main Yard,0
+15/05/2026,INV5764,Stepping Tiles (carton),26,7500,195000,Grace Ventures,pos,Main Yard,41088
+01/05/2026,INV3397,Sharp Sand (trip),3,79164,237492,Zenith Builders,transfer,Ikorodu Branch,0
+01/05/2026,INV2476,10mm Iron Rod (length),54,6200,334800,Mrs Adebayo,transfer,Ikorodu Branch,0
+2026-06-29,INV2856,Aluminium Roofing (m2),143,6448,922064,Alhaji Bello,,,0
+21/07/2026,INV2357,16mm Iron Rod (length),51,13757,701607,Site 12 Rehab,Part Payment,Main Yard,0
+2026-06-18,INV9286,Binding Wire (roll),4,12000,48000,Site 12 Rehab,pos,Main Yard,0
+2026-07-17,INV9473,Granite 3/4 (trip),3,132827,398481,Site 4 Contractors,Part Payment,Main Yard,0
+06/06/2026,INV7880,Nails 3in (kg),6,"N1,800",10800,Site 12 Rehab,Part Payment,Main Yard,0
+23/06/2026,INV8201,12mm Iron Rod (length),47,8500,399500,Mrs Adebayo,Transfer,Main Yard,0
+28/07/2026,INV7892,Stepping Tiles (carton),35,7500,262500,Eng. Okafor,Transfer,Ojo Branch,0
+20/07/2026,INV4311,10mm Iron Rod (length),5,6200,31000,Grace Ventures,Cash,Main Yard,0
+31/05/2026,INV1731,Blocks 6in (piece),792,339,268488,Walk-in,pos,Main Yard,0
+15-Jul-2026,INV1290,Sharp Sand (trip),2,85000,170000,Chief Nwosu,cash,Main Yard,0
+07/07/2026,INV8385,Granite 3/4 (trip),1,145000,145000,Walk-in,Credit,Main Yard,0
+10-May-2026,INV4040,16mm Iron Rod (length),53,13425,711525,Site 4 Contractors,Credit,Main Yard,0
+2026-05-20,INV9764,12mm Iron Rod (length),32,8500,272000,Walk-in,Transfer,Main Yard,0
+22-Jul-2026,INV9006,Sharp Sand (trip),2,85000,170000,Alhaji Bello,Transfer,Main Yard,0
+20/06/2026,INV9301,Nails 3in (kg),15,1800,27000,Kola & Sons,part payment,Ojo Branch,0
+03/06/2026,INV7327,Blocks 6in (piece),669,354,236826,Site 12 Rehab,credit,Main Yard,0
+13/05/2026,INV3395, PVC PIPE 4IN (LENGTH) ,39,3890,151710,Kola & Sons,transfer,Main Yard,0
+17-Jul-2026,INV3576,Aluminium Roofing (m2),110,6428,707080,Alhaji Bello,transfer,Main Yard,0
+10/06/2026,INV8556, PAINT EMULSION (20L) ,8,28000,224000,Eng. Okafor,Part Payment,Main Yard,0
+09-Jun-2026,INV3903,12mm Iron Rod (length),8,8500,68000,Eng. Okafor,cash,Ikorodu Branch,0
+16/05/2026,INV3142,16mm Iron Rod (length),52,12968,674336,Mrs Adebayo,cash,Main Yard,173423
+24/07/2026,INV8705,16mm Iron Rod (length),53,13191,699123,Alhaji Bello,cash,Main Yard,0
+06/06/2026,INV5346, BUA CEMENT (BAG) ,72,9200,662400,Site 12 Rehab,credit,Ikorodu Branch,0
+08/07/2026,INV8521,Paint Emulsion (20L),12,26561,318732,Alhaji Bello,credit,Main Yard,102943
+18/05/2026,INV7765,Binding Wire (roll),1,12000,12000,Site 12 Rehab,Transfer,Main Yard,0
+04/05/2026,INV8430,Blocks 9in (piece),497,450,223650,Alhaji Bello,,,0
+12/05/2026,INV9166,Paint Emulsion (20L),6,"N28,000",168000,Grace Ventures,Cash,Main Yard,0
+29-May-2026,INV8898,Granite 3/4 (trip),2,145000,290000,Site 12 Rehab,cash,Ikorodu Branch,0
+25/07/2026,INV8958,Paint Emulsion (20L),15,25539,383085,Eng. Okafor,Part Payment,Ikorodu Branch,0
+16/07/2026,INV6599,Nails 3in (kg),12,1800,21600,Alhaji Bello,transfer,Main Yard,0
+28-May-2026,INV4255,Blocks 9in (piece),720,402,289440,Chief Nwosu,,,137498
+25/07/2026,INV3570,Blocks 6in (piece),259,380,98420,Walk-in,Credit,Main Yard,32616
+09/06/2026,INV5906,Blocks 9in (piece),638,403,257114,Site 12 Rehab,Cash,Main Yard,0
+05/05/2026,INV7645,Blocks 9in (piece),263,450,118350,Walk-in,POS,Main Yard,0
+13/07/2026,INV2130,Aluminium Roofing (m2),26,6800,176800,Grace Ventures,Part Payment,Ikorodu Branch,78263
+23-Jul-2026,INV5771,Stepping Tiles (carton),50,6916,345800,Eng. Okafor,transfer,Ikorodu Branch,0
+25/07/2026,INV3910,Blocks 9in (piece),777,427,331779,Zenith Builders,POS,Main Yard,69136
+29/06/2026,INV3157,PVC Pipe 4in (length),40,3817,152680,Grace Ventures,part payment,Ikorodu Branch,70489
+26/05/2026,INV7083,Paint Emulsion (20L),14,25887,362418,Grace Ventures,Transfer,Ojo Branch,0
+23/07/2026,INV5482,Aluminium Roofing (m2),84,6800,571200,Eng. Okafor,part payment,Main Yard,0
+2026-05-11,INV6412,BUA Cement (bag),154,8180,1259720,Kola & Sons,credit,Main Yard,0
+28/05/2026,INV5696,Paint Emulsion (20L),13,24723,321399,Grace Ventures,Transfer,Ojo Branch,0
+2026-05-16,INV3489,Stepping Tiles (carton),13,7500,97500,Walk-in,part payment,Ikorodu Branch,0
+03/06/2026,INV7150, PAINT EMULSION (20L) ,15,24751,371265,Chief Nwosu,cash,Ikorodu Branch,0
+08/06/2026,INV4562,12mm Iron Rod (length),80,7525,602000,Kola & Sons,POS,Main Yard,0
+12/05/2026,INV8424, PAINT EMULSION (20L) ,9,28000,252000,Mrs Adebayo,part payment,Main Yard,0
+2026-07-17,INV9473,Granite 3/4 (trip),3,132827,398481,Site 4 Contractors,Part Payment,Main Yard,0
+23/07/2026,INV3048,BUA Cement (bag),171,8352,1428192,Grace Ventures,credit,Main Yard,0
+19/05/2026,INV5489,12mm Iron Rod (length),20,8500,170000,Alhaji Bello,credit,Ojo Branch,0
+27/07/2026,INV1847,BUA Cement (bag),121,9200,1113200,Kola & Sons,Credit,Main Yard,0
+09-Jun-2026,INV5803, BUA CEMENT (BAG) ,157,8419,1321783,Kola & Sons,POS,Ojo Branch,0
+04/06/2026,INV1339,Nails 3in (kg),13,1800,23400,Chief Nwosu,cash,Main Yard,0
+27/06/2026,INV9756,Stepping Tiles (carton),58,7117,412786,Kola & Sons,credit,Ojo Branch,0
+22/05/2026,INV7562,Granite 3/4 (trip),3,127883,383649,Zenith Builders,cash,Main Yard,189735
+13/07/2026,INV6685,Paint Emulsion (20L),12,24878,298536,Site 12 Rehab,Transfer,Ojo Branch,172176
+09-Jun-2026,INV1577,Nails 3in (kg),40,1626,65040,Site 12 Rehab,POS,Ikorodu Branch,0
+14/07/2026,INV8203,Blocks 9in (piece),301,450,135450,Kola & Sons,Credit,Ojo Branch,0
+26/05/2026,INV5331, BUA CEMENT (BAG) ,173,8680,1501640,Alhaji Bello,pos,Main Yard,0
+02/05/2026,INV2485,Sharp Sand (trip),3,74884,224652,Zenith Builders,credit,Main Yard,0
+23/05/2026,INV5465,Dangote Cement (bag),167,8474,1415158,Chief Nwosu,Part Payment,Main Yard,0
+20/06/2026,INV7397,Granite 3/4 (trip),2,145000,290000,Site 4 Contractors,POS,Ikorodu Branch,0
+01/07/2026,INV4516,Paint Emulsion (20L),6,28000,168000,Site 12 Rehab,POS,Main Yard,0
+11/06/2026,INV9531,Sharp Sand (trip),1,85000,85000,Site 12 Rehab,credit,Ikorodu Branch,0
+27/05/2026,INV7276,PVC Pipe 4in (length),49,3736,183064,Walk-in,Credit,Main Yard,72640
+2026-05-14,INV7130,PVC Pipe 4in (length),12,4200,50400,Zenith Builders,Transfer,Ojo Branch,20017
+06/06/2026,INV1818,BUA Cement (bag),140,8606,1204840,Alhaji Bello,Credit,Ojo Branch,0
+26/05/2026,INV6590,Stepping Tiles (carton),30,7500,225000,Kola & Sons,cash,Main Yard,0
+22/05/2026,INV6069,BUA Cement (bag),177,8260,1462020,Site 12 Rehab,cash,Main Yard,0
+15/05/2026,INV2652,Blocks 9in (piece),606,410,248460,Grace Ventures,credit,Ojo Branch,0
+27/05/2026,INV9182,BUA Cement (bag),128,8644,1106432,Grace Ventures,POS,Main Yard,0
+21/05/2026,INV5918,Paint Emulsion (20L),9,28000,252000,Mrs Adebayo,part payment,Main Yard,0
+28-May-2026,INV2764,Blocks 9in (piece),481,450,216450,Alhaji Bello,part payment,Main Yard,0
+2026-06-16,INV7391,Paint Emulsion (20L),13,25758,334854,Eng. Okafor,Credit,Main Yard,0
+08/05/2026,INV2490,Blocks 6in (piece),292,380,110960,Grace Ventures,,,0
+15/05/2026,INV9980, ALUMINIUM ROOFING (M2) ,120,5985,718200,Site 12 Rehab,Part Payment,Main Yard,0
+15-Jul-2026,INV3788,Dangote Cement (bag),40,9500,380000,Site 4 Contractors,Credit,Ojo Branch,0
+19/05/2026,INV2830,BUA Cement (bag),64,9200,588800,Kola & Sons,Part Payment,Ojo Branch,0
+23/05/2026,INV6821,Sharp Sand (trip),1,85000,85000,Site 12 Rehab,credit,Main Yard,0
+06-Jun-2026,INV1759,Binding Wire (roll),2,12000,24000,Kola & Sons,Cash,Ikorodu Branch,0
+25/07/2026,INV8432,Blocks 6in (piece),403,380,153140,Site 12 Rehab,Part Payment,Main Yard,0
+07/06/2026,INV4538,Paint Emulsion (20L),15,25059,375885,Mrs Adebayo,transfer,Ojo Branch,0
+10/06/2026,INV9952,PVC Pipe 4in (length),16,4200,67200,Walk-in,part payment,Ojo Branch,0
+17/06/2026,INV4351,Dangote Cement (bag),86,9500,817000,Walk-in,Credit,Ojo Branch,172741
+16/07/2026,INV1639,Aluminium Roofing (m2),30,6800,204000,Grace Ventures,credit,Ojo Branch,0
+18/06/2026,INV3005,Paint Emulsion (20L),13,25828,335764,Mrs Adebayo,Credit,Ikorodu Branch,0
+22/07/2026,INV7156,Granite 3/4 (trip),2,145000,290000,Eng. Okafor,Transfer,Main Yard,0
+17/07/2026,INV5408, PAINT EMULSION (20L) ,2,28000,56000,Chief Nwosu,Part Payment,Main Yard,0
+10/06/2026,INV4934,Sharp Sand (trip),2,85000,170000,Alhaji Bello,pos,Main Yard,0
+21/05/2026,INV6840, SHARP SAND (TRIP) ,3,81530,244590,Site 4 Contractors,credit,Main Yard,0
+2026-06-20,INV1609,Paint Emulsion (20L),2,28000,56000,Chief Nwosu,Cash,Ikorodu Branch,0
+06/07/2026,INV9225,Nails 3in (kg),29,1627,47183,Mrs Adebayo,pos,Ojo Branch,0
+24/07/2026,INV7500,10mm Iron Rod (length),89,5806,516734,Chief Nwosu,Cash,Main Yard,0
+15/06/2026,INV7869,Sharp Sand (trip),2,85000,170000,Site 4 Contractors,Part Payment,Main Yard,0
+01/06/2026,INV3183,Dangote Cement (bag),142,8679,1232418,Chief Nwosu,Transfer,Main Yard,0
+25/06/2026,INV7875,PVC Pipe 4in (length),50,3794,189700,Mrs Adebayo,transfer,Ojo Branch,0
+12/05/2026,INV3958,Stepping Tiles (carton),43,6737,289691,Zenith Builders,cash,Main Yard,0
+20/06/2026,INV3509,Blocks 6in (piece),598,343,205114,Site 12 Rehab,Transfer,Main Yard,0
+08/06/2026,INV4280,Binding Wire (roll),4,12000,48000,Site 12 Rehab,part payment,Ikorodu Branch,0
+17/07/2026,INV4749,10mm Iron Rod (length),80,5581,446480,Kola & Sons,part payment,Ojo Branch,0
+16-May-2026,INV6852,Paint Emulsion (20L),6,28000,168000,Alhaji Bello,cash,Ojo Branch,0
+26-May-2026,INV7228,12mm Iron Rod (length),51,8500,433500,Eng. Okafor,Part Payment,Ikorodu Branch,0
+14/05/2026,INV5883,Blocks 9in (piece),745,413,307685,Site 4 Contractors,Cash,Ikorodu Branch,0
+17/05/2026,INV9999,Nails 3in (kg),8,1800,14400,Site 4 Contractors,cash,Main Yard,4802
+13/06/2026,INV2261,Aluminium Roofing (m2),55,6800,374000,Zenith Builders,transfer,Main Yard,119425
+16/05/2026,INV2092,PVC Pipe 4in (length),45,3847,173115,Walk-in,pos,Main Yard,0
+26/05/2026,INV8278,Paint Emulsion (20L),15,26329,394935,Site 12 Rehab,Cash,Ojo Branch,0
+16/07/2026,INV6599,Nails 3in (kg),12,1800,21600,Alhaji Bello,transfer,Main Yard,0
+06/07/2026,INV3880,BUA Cement (bag),46,"N9,200",423200,Eng. Okafor,Cash,Ojo Branch,0
+09/05/2026,INV4246,Stepping Tiles (carton),42,7500,315000,Site 12 Rehab,Cash,Ikorodu Branch,0
+16/05/2026,INV3860,Aluminium Roofing (m2),72,6800,489600,Chief Nwosu,Transfer,Ikorodu Branch,0
+08/07/2026,INV1271,12mm Iron Rod (length),14,8500,119000,Site 4 Contractors,POS,Main Yard,0
+29/07/2026,INV2380,16mm Iron Rod (length),44,12822,564168,Mrs Adebayo,Cash,Ojo Branch,0
+04/06/2026,INV8562,Stepping Tiles (carton),41,7500,307500,Alhaji Bello,pos,Ikorodu Branch,0
+10/06/2026,INV8313,16mm Iron Rod (length),21,14500,304500,Grace Ventures,POS,Ikorodu Branch,0
+26/05/2026,INV1642,Sharp Sand (trip),1,85000,85000,Zenith Builders,POS,Main Yard,0
+16/05/2026,INV3075,Blocks 9in (piece),580,431,249980,Grace Ventures,Transfer,Main Yard,0
+19/05/2026,INV4691,10mm Iron Rod (length),78,5793,451854,Walk-in,transfer,Main Yard,118548
+2026-07-17,INV9725,PVC Pipe 4in (length),35,3994,139790,Chief Nwosu,credit,Ikorodu Branch,0
+11/06/2026,INV3087,Stepping Tiles (carton),50,7142,357100,Eng. Okafor,POS,Main Yard,0
+28/07/2026,INV4674,BUA Cement (bag),45,9200,414000,Alhaji Bello,part payment,Main Yard,160898
+06/05/2026,INV8466,BUA Cement (bag),22,9200,202400,Alhaji Bello,Part Payment,Ikorodu Branch,69892
+14/05/2026,INV7947,Dangote Cement (bag),63,9500,598500,Eng. Okafor,POS,Ikorodu Branch,0
+26/06/2026,INV5755,Paint Emulsion (20L),13,25166,327158,Walk-in,Credit,Main Yard,0
+06/07/2026,INV4106, PAINT EMULSION (20L) ,12,25338,304056,Zenith Builders,,,0
+04/06/2026,INV7929,Sharp Sand (trip),3,75645,226935,Alhaji Bello,Part Payment,Ikorodu Branch,0
+04/06/2026,INV6862, ALUMINIUM ROOFING (M2) ,88,6800,598400,Walk-in,part payment,Ikorodu Branch,194027
+18/06/2026,INV7430,Stepping Tiles (carton),19,"N7,500",142500,Zenith Builders,pos,Main Yard,0
+2026-05-04,INV6076,Paint Emulsion (20L),7,28000,196000,Walk-in,part payment,Main Yard,0
+15/06/2026,INV6700,12mm Iron Rod (length),52,7927,412204,Mrs Adebayo,Cash,Ojo Branch,0
+13/05/2026,INV3204,Blocks 9in (piece),143,450,64350,Grace Ventures,POS,Main Yard,23419
+21/05/2026,INV4024,12mm Iron Rod (length),71,7848,557208,Walk-in,,,0
+07/05/2026,INV6925,Paint Emulsion (20L),12,26644,319728,Alhaji Bello,Part Payment,Ojo Branch,0
+06-Jun-2026,INV2642,16mm Iron Rod (length),17,14500,246500,Chief Nwosu,Credit,Main Yard,0
+20/06/2026,INV3836,Aluminium Roofing (m2),91,6800,618800,Chief Nwosu,pos,Main Yard,0
+14/07/2026,INV6803,Binding Wire (roll),3,12000,36000,Site 4 Contractors,POS,Main Yard,0
+19/05/2026,INV4465,Blocks 9in (piece),122,450,54900,Alhaji Bello,Credit,Ojo Branch,0
+2026-05-23,INV6136,10mm Iron Rod (length),26,6200,161200,Chief Nwosu,credit,Main Yard,0
+19/06/2026,INV6842, 12MM IRON ROD (LENGTH) ,6,8500,510000,Eng. Okafor,credit,Ikorodu Branch,0
+17/06/2026,INV1905,Paint Emulsion (20L),12,25287,303444,Eng. Okafor,Transfer,Main Yard,0
+06/07/2026,INV7028,Sharp Sand (trip),2,85000,170000,Zenith Builders,POS,Main Yard,36585
+28/05/2026,INV7241,Dangote Cement (bag),17,9500,161500,Alhaji Bello,cash,Main Yard,0
+23-May-2026,INV4525,Nails 3in (kg),37,1656,61272,Grace Ventures,part payment,Main Yard,0
+15/05/2026,INV6972, DANGOTE CEMENT (BAG) ,63,9500,598500,Site 12 Rehab,part payment,Main Yard,0
+18/06/2026,INV8856,Stepping Tiles (carton),40,7500,300000,Zenith Builders,,,0
+30/06/2026,INV9729,Binding Wire (roll),3,12000,36000,Zenith Builders,,,0
+26/06/2026,INV1326,Granite 3/4 (trip),1,145000,145000,Site 12 Rehab,POS,Ojo Branch,0
+13/06/2026,INV7669,Sharp Sand (trip),3,79100,237300,Grace Ventures,POS,Main Yard,0
+19/05/2026,INV2367,PVC Pipe 4in (length),9,4200,37800,Eng. Okafor,credit,Ojo Branch,0
+04-Jun-2026,INV8322,Granite 3/4 (trip),1,145000,145000,Mrs Adebayo,,,0
+24/05/2026,INV7596, 16MM IRON ROD (LENGTH) ,8,14500,116000,Site 4 Contractors,credit,Ojo Branch,0
+20/06/2026,INV3442,Aluminium Roofing (m2),35,6800,238000,Grace Ventures,transfer,Main Yard,0
+17/07/2026,INV1807,PVC Pipe 4in (length),10,4200,42000,Chief Nwosu,Credit,Ikorodu Branch,0
+27-Jun-2026,INV7452,Blocks 9in (piece),126,450,56700,Site 12 Rehab,part payment,Main Yard,18781
+2026-05-30,INV1667,Dangote Cement (bag),195,8676,1691820,Mrs Adebayo,,,0
+04/06/2026,INV5059,Sharp Sand (trip),1,85000,85000,Site 12 Rehab,pos,Main Yard,0
+26/06/2026,INV7368,Sharp Sand (trip),3,78022,234066,Eng. Okafor,transfer,Main Yard,0
+15/05/2026,INV7010,Granite 3/4 (trip),3,131006,393018,Site 12 Rehab,Credit,Main Yard,0
+24/07/2026,INV6795,10mm Iron Rod (length),100,5637,563700,Site 12 Rehab,Credit,Main Yard,0
+02/06/2026,INV9190, SHARP SAND (TRIP) ,3,78865,236595,Alhaji Bello,part payment,Ojo Branch,0
+25/07/2026,INV1152,Binding Wire (roll),3,12000,36000,Walk-in,Part Payment,Ikorodu Branch,0
+2026-07-27,INV1201,Binding Wire (roll),10,11319,113190,Grace Ventures,part payment,Main Yard,0
+02/07/2026,INV3486,Granite 3/4 (trip),3,133090,399270,Chief Nwosu,credit,Ikorodu Branch,0
+25/07/2026,INV8397,Granite 3/4 (trip),1,145000,145000,Zenith Builders,Part Payment,Main Yard,0
+03-Jun-2026,INV5507,Blocks 9in (piece),487,450,219150,Kola & Sons,Credit,Main Yard,0
+2026-05-22,INV4156,Blocks 6in (piece),427,380,162260,Mrs Adebayo,Credit,Main Yard,0
+08/07/2026,INV4335,Sharp Sand (trip),1,85000,85000,Mrs Adebayo,Transfer,Main Yard,0
+12-May-2026,INV2209,BUA Cement (bag),122,9200,1122400,Alhaji Bello,transfer,Ikorodu Branch,0
+18/07/2026,INV6770,Blocks 9in (piece),251,450,112950,Walk-in,part payment,Ojo Branch,26981
+08-May-2026,INV3492,Nails 3in (kg),18,1800,32400,Kola & Sons,POS,Main Yard,0
+16/05/2026,INV1154,Binding Wire (roll),3,12000,36000,Alhaji Bello,credit,Main Yard,0
+16/06/2026,INV8823,Blocks 9in (piece),373,450,167850,Grace Ventures,Credit,Ikorodu Branch,53308
+05/07/2026,INV9539, BINDING WIRE (ROLL) ,10,10867,108670,Site 12 Rehab,pos,Main Yard,0
+16/07/2026,INV9029,Nails 3in (kg),30,1666,49980,Grace Ventures,part payment,Main Yard,0
+21/07/2026,INV9122,Binding Wire (roll),5,12000,60000,Site 4 Contractors,transfer,Main Yard,0
+21/07/2026,INV5748,Nails 3in (kg),34,1617,54978,Zenith Builders,credit,Ojo Branch,0
+03-Jun-2026,INV9451,Granite 3/4 (trip),3,138009,414027,Alhaji Bello,pos,Ikorodu Branch,0
+13/05/2026,INV4959,10mm Iron Rod (length),20,6200,124000,Site 4 Contractors,Cash,Main Yard,0
+01/05/2026,INV4252,Sharp Sand (trip),2,85000,170000,Zenith Builders,Part Payment,Main Yard,0
+2026-07-14,INV2836,Blocks 6in (piece),384,380,145920,Alhaji Bello,Transfer,Main Yard,0
+28/07/2026,INV7726,Blocks 6in (piece),256,380,97280,Chief Nwosu,pos,Ojo Branch,0
+04/05/2026,INV8211,Paint Emulsion (20L),12,25800,309600,Grace Ventures,pos,Main Yard,0
+13/07/2026,INV2040, DANGOTE CEMENT (BAG) ,112,9500,1064000,Chief Nwosu,Transfer,Main Yard,0
+11-Jul-2026,INV3594,Granite 3/4 (trip),3,138602,415806,Eng. Okafor,Credit,Ojo Branch,0
+30/05/2026,INV1796,Stepping Tiles (carton),13,7500,97500,Eng. Okafor,credit,Main Yard,20949
+15-Jun-2026,INV9115,PVC Pipe 4in (length),10,4200,42000,Site 4 Contractors,pos,Main Yard,0
+25/05/2026,INV7817,Aluminium Roofing (m2),107,6290,673030,Kola & Sons,part payment,Main Yard,0
+10/06/2026,INV3910,Granite 3/4 (trip),1,145000,145000,Site 4 Contractors,transfer,Main Yard,60465
+21-May-2026,INV1852,BUA Cement (bag),131,8813,1154503,Kola & Sons,Transfer,Ojo Branch,0
+01/07/2026,INV7299,10mm Iron Rod (length),51,6200,316200,Zenith Builders,Part Payment,Main Yard,0
+29/07/2026,INV8369,Blocks 9in (piece),400,450,180000,Walk-in,cash,Main Yard,0
+23/06/2026,INV8210,Nails 3in (kg),40,1632,65280,Zenith Builders,POS,Main Yard,0
+27/06/2026,INV9131,Nails 3in (kg),16,1800,28800,Zenith Builders,credit,Ojo Branch,0
+15/05/2026,INV9417,Binding Wire (roll),6,12000,72000,Site 4 Contractors,Transfer,Main Yard,0
+13/07/2026,INV9292,Sharp Sand (trip),3,77127,231381,Site 12 Rehab,,,0
+04/05/2026,INV3312,Nails 3in (kg),18,1800,32400,Site 12 Rehab,part payment,Ikorodu Branch,0
+27/07/2026,INV3232,Blocks 6in (piece),674,352,237248,Alhaji Bello,transfer,Ikorodu Branch,0
+15/06/2026,INV6613,Nails 3in (kg),28,1681,47068,Mrs Adebayo,POS,Main Yard,0
+11/05/2026,INV3845,12mm Iron Rod (length),72,7742,557424,Eng. Okafor,part payment,Main Yard,0
+10/06/2026,INV5193,Sharp Sand (trip),2,85000,170000,Chief Nwosu,part payment,Ojo Branch,0
+02/05/2026,INV7905, PAINT EMULSION (20L) ,8,28000,224000,Site 4 Contractors,transfer,Ikorodu Branch,0
+11/06/2026,INV7637,Dangote Cement (bag),136,9106,1238416,Walk-in,credit,Main Yard,662484
+23/05/2026,INV1828,Dangote Cement (bag),31,9500,294500,Kola & Sons,transfer,Main Yard,0
+16/07/2026,INV1486,BUA Cement (bag),182,8489,1544998,Chief Nwosu,Part Payment,Main Yard,0
+10-Jul-2026,INV6937,10mm Iron Rod (length),10,6200,62000,Mrs Adebayo,cash,Main Yard,0
+12/05/2026,INV6802,Paint Emulsion (20L),12,26648,319776,Alhaji Bello,cash,Ikorodu Branch,0
+27-Jun-2026,INV8869,Aluminium Roofing (m2),122,6484,791048,Site 4 Contractors,Transfer,Main Yard,0
+18/07/2026,INV5186,10mm Iron Rod (length),77,"N5,883",452991,Mrs Adebayo,,,0
+05/05/2026,INV6858,PVC Pipe 4in (length),48,3964,190272,Walk-in,Transfer,Ikorodu Branch,0
+19/06/2026,INV3111,Binding Wire (roll),2,12000,24000,Eng. Okafor,credit,Ojo Branch,11693
+03/07/2026,INV3722,Sharp Sand (trip),3,76329,228987,Site 4 Contractors,pos,Main Yard,0
+06-Jul-2026,INV6204,Sharp Sand (trip),2,85000,170000,Site 12 Rehab,POS,Ikorodu Branch,0
+02/06/2026,INV4662,12mm Iron Rod (length),47,8500,399500,Zenith Builders,Credit,Main Yard,0
+11/05/2026,INV7480,Aluminium Roofing (m2),81,6800,550800,Site 4 Contractors,Part Payment,Ikorodu Branch,0
+21/05/2026,INV4840,Aluminium Roofing (m2),105,6267,658035,Kola & Sons,cash,Main Yard,198312
+18-May-2026,INV2923,Binding Wire (roll),4,12000,48000,Chief Nwosu,credit,Main Yard,0
+06/07/2026,INV3674, BLOCKS 6IN (PIECE) ,562,362,203444,Alhaji Bello,credit,Ikorodu Branch,0
+16-Jul-2026,INV2572,12mm Iron Rod (length),8,8500,68000,Kola & Sons,part payment,Ikorodu Branch,0
+15/06/2026,INV7553,Dangote Cement (bag),103,9500,978500,Alhaji Bello,Credit,Main Yard,0
+22/06/2026,INV1448,16mm Iron Rod (length),21,14500,304500,Mrs Adebayo,Part Payment,Ikorodu Branch,0
+19/06/2026,INV8665,Granite 3/4 (trip),2,145000,290000,Grace Ventures,Credit,Main Yard,0
+12-May-2026,INV9691,BUA Cement (bag),122,9200,1122400,Walk-in,pos,Main Yard,238456
+25/07/2026,INV3345,Granite 3/4 (trip),3,134170,402510,Eng. Okafor,Cash,Ikorodu Branch,0
+17/06/2026,INV9114,12mm Iron Rod (length),39,8500,331500,Walk-in,transfer,Main Yard,0
+26/06/2026,INV7937,PVC Pipe 4in (length),46,3719,171074,Zenith Builders,POS,Ojo Branch,0
+06/05/2026,INV8038,Nails 3in (kg),36,1662,59832,Kola & Sons,part payment,Ikorodu Branch,0
+13/05/2026,INV9164,Blocks 9in (piece),638,424,270512,Site 12 Rehab,cash,Ojo Branch,0
+01-Jun-2026,INV2487,Granite 3/4 (trip),1,145000,145000,Site 12 Rehab,Part Payment,Ojo Branch,0
+17/07/2026,INV2156,Nails 3in (kg),30,1636,49080,Mrs Adebayo,credit,Main Yard,0
+08/06/2026,INV1650,10mm Iron Rod (length),87,5474,476238,Mrs Adebayo,Cash,Main Yard,243198
+13/05/2026,INV9284,Granite 3/4 (trip),1,145000,145000,Site 12 Rehab,POS,Main Yard,0
+29/06/2026,INV5739,PVC Pipe 4in (length),10,4200,42000,Grace Ventures,POS,Main Yard,12626
+20/05/2026,INV2241,Aluminium Roofing (m2),53,6800,360400,Zenith Builders,part payment,Ikorodu Branch,128253
+20/06/2026,INV3545,Blocks 9in (piece),473,450,212850,Eng. Okafor,Cash,Ojo Branch,0
+2026-05-15,INV3191,Dangote Cement (bag),130,8805,1144650,Zenith Builders,credit,Main Yard,0
+23/05/2026,INV9134,Blocks 6in (piece),626,N354,221604,Grace Ventures,pos,Ikorodu Branch,0
+07/07/2026,INV1752,16mm Iron Rod (length),7,14500,101500,Site 12 Rehab,Part Payment,Main Yard,0
+14/05/2026,INV4355,Blocks 9in (piece),562,N419,235478,Site 12 Rehab,Credit,Ojo Branch,95776
+27/06/2026,INV5405,Blocks 6in (piece),551,N334,184034,Mrs Adebayo,Part Payment,Main Yard,0
+05/05/2026,INV8807,12mm Iron Rod (length),48,8500,408000,Site 4 Contractors,Cash,Ojo Branch,0
+20/06/2026,INV2213, SHARP SAND (TRIP) ,2,85000,170000,Site 4 Contractors,pos,Main Yard,0
+23/05/2026,INV3887,Blocks 6in (piece),380,380,144400,Grace Ventures,part payment,Main Yard,75590
+09/05/2026,INV6483,Aluminium Roofing (m2),87,6800,591600,Site 4 Contractors,transfer,Main Yard,0
+16-Jul-2026,INV2000, 16MM IRON ROD (LENGTH) ,49,13103,642047,Zenith Builders,Credit,Main Yard,185207
+07/05/2026,INV9545,16mm Iron Rod (length),36,14500,522000,Grace Ventures,credit,Main Yard,0
+10/06/2026,INV3363,Granite 3/4 (trip),2,145000,290000,Site 12 Rehab,credit,Ikorodu Branch,0
+16/06/2026,INV3534,BUA Cement (bag),177,8414,1489278,Grace Ventures,part payment,Ojo Branch,0
+08/05/2026,INV8786,Dangote Cement (bag),106,9500,1007000,Chief Nwosu,Transfer,Ojo Branch,0
+14/05/2026,INV8662,12mm Iron Rod (length),66,7618,502788,Grace Ventures,Credit,Ojo Branch,0
+20/07/2026,INV4738, PVC PIPE 4IN (LENGTH) ,43,3809,163787,Zenith Builders,Transfer,Main Yard,0
+26/05/2026,INV8135,Sharp Sand (trip),3,79148,237444,Site 12 Rehab,,,0
+21/05/2026,INV3307, 16MM IRON ROD (LENGTH) ,28,14500,406000,Site 4 Contractors,cash,Main Yard,0
+01/07/2026,INV1531,Blocks 6in (piece),398,380,151240,Site 12 Rehab,transfer,Main Yard,83633
+25/06/2026,INV1501,BUA Cement (bag),65,9200,598000,Mrs Adebayo,cash,Ikorodu Branch,0
+04/07/2026,INV6752,Nails 3in (kg),5,"N1,800",9000,Chief Nwosu,pos,Ikorodu Branch,0
+19/05/2026,INV2865,Sharp Sand (trip),2,85000,170000,Mrs Adebayo,Transfer,Ojo Branch,0
+30-Jun-2026,INV1616,Aluminium Roofing (m2),21,6800,142800,Grace Ventures,pos,Main Yard,0
+01/07/2026,INV8983,Dangote Cement (bag),154,8883,1367982,Zenith Builders,Credit,Main Yard,0
+23/05/2026,INV8893, BUA CEMENT (BAG) ,91,9200,837200,Eng. Okafor,transfer,Main Yard,0
+13/05/2026,INV2428,10mm Iron Rod (length),59,6200,365800,Mrs Adebayo,Cash,Main Yard,0
+27/05/2026,INV2079,Paint Emulsion (20L),4,28000,112000,Mrs Adebayo,credit,Main Yard,0
+10/07/2026,INV8371,Sharp Sand (trip),2,85000,170000,Kola & Sons,POS,Ojo Branch,0
+27/05/2026,INV1798,Sharp Sand (trip),1,85000,85000,Walk-in,pos,Main Yard,0
+30/05/2026,INV2055,12mm Iron Rod (length),25,8500,212500,Eng. Okafor,Cash,Main Yard,0
+29/06/2026,INV5957,Sharp Sand (trip),2,85000,170000,Alhaji Bello,pos,Main Yard,48039
+13-May-2026,INV8447, 12MM IRON ROD (LENGTH) ,68,7949,540532,Kola & Sons,Credit,Main Yard,0
+08-Jul-2026,INV5043, 10MM IRON ROD (LENGTH) ,72,5590,402480,Chief Nwosu,transfer,Main Yard,0
+08/05/2026,INV4893,Blocks 6in (piece),159,380,60420,Grace Ventures,Part Payment,Ojo Branch,0
+23/05/2026,INV4046,10mm Iron Rod (length),54,6200,334800,Zenith Builders,pos,Main Yard,0
+18/06/2026,INV8760,BUA Cement (bag),40,9200,3680000,Mrs Adebayo,Cash,Ikorodu Branch,0
+11/05/2026,INV1620,Binding Wire (roll),1,12000,12000,Eng. Okafor,credit,Ojo Branch,0
+09/06/2026,INV8407, 10MM IRON ROD (LENGTH) ,16,6200,99200,Mrs Adebayo,Credit,Main Yard,0
+13/05/2026,INV3470,Aluminium Roofing (m2),27,6800,183600,Alhaji Bello,pos,Ojo Branch,0
+02-May-2026,INV3122,Blocks 9in (piece),145,450,65250,Walk-in,Part Payment,Main Yard,0
+28/07/2026,INV8306,Granite 3/4 (trip),3,132002,396006,Site 12 Rehab,Part Payment,Main Yard,0
+30/05/2026,INV4383,PVC Pipe 4in (length),26,4200,109200,Chief Nwosu,,,0
+2026-05-30,INV4668,Binding Wire (roll),7,11393,79751,Site 4 Contractors,POS,Main Yard,0
+05/05/2026,INV9895,PVC Pipe 4in (length),39,3910,152490,Eng. Okafor,Cash,Main Yard,0
+09-Jun-2026,INV9984,Sharp Sand (trip),3,78106,234318,Site 12 Rehab,part payment,Main Yard,0
+29/06/2026,INV2076, 10MM IRON ROD (LENGTH) ,18,6200,111600,Mrs Adebayo,Part Payment,Main Yard,0
+27/05/2026,INV2887,Blocks 9in (piece),288,450,129600,Alhaji Bello,pos,Main Yard,0
+19/06/2026,INV8919,PVC Pipe 4in (length),34,3757,127738,Site 12 Rehab,part payment,Main Yard,0
+05-May-2026,INV4574,Binding Wire (roll),10,10862,108620,Mrs Adebayo,Transfer,Main Yard,0
+2026-05-25,INV4221,16mm Iron Rod (length),60,13222,793320,Kola & Sons,transfer,Ojo Branch,0
+06/06/2026,INV8385,16mm Iron Rod (length),15,14500,217500,Mrs Adebayo,transfer,Main Yard,50769
+25/05/2026,INV6623,Aluminium Roofing (m2),25,6800,170000,Grace Ventures,Part Payment,Main Yard,0
+03/06/2026,INV2633,Blocks 9in (piece),142,450,63900,Site 4 Contractors,part payment,Ikorodu Branch,37492
+23/07/2026,INV7168,Sharp Sand (trip),3,76242,228726,Alhaji Bello,part payment,Main Yard,0
+25/07/2026,INV2096, BINDING WIRE (ROLL) ,2,12000,24000,Walk-in,POS,Ikorodu Branch,0
+14/07/2026,INV4861,16mm Iron Rod (length),13,14500,188500,Mrs Adebayo,credit,Main Yard,0
+30/05/2026,INV9283,Stepping Tiles (carton),48,6748,323904,Chief Nwosu,pos,Ojo Branch,0
+06/07/2026,INV6452,10mm Iron Rod (length),97,5708,553676,Site 12 Rehab,Transfer,Ojo Branch,0
+02/05/2026,INV4318,Binding Wire (roll),5,12000,60000,Walk-in,Credit,Ojo Branch,0
+01-Jul-2026,INV5196,PVC Pipe 4in (length),19,4200,79800,Site 4 Contractors,pos,Main Yard,0
+20/05/2026,INV3422,Granite 3/4 (trip),3,134430,403290,Kola & Sons,Part Payment,Main Yard,0
+18/07/2026,INV2314,Nails 3in (kg),25,1800,45000,Grace Ventures,part payment,Ikorodu Branch,0
+10/07/2026,INV4329,Paint Emulsion (20L),12,26648,319776,Kola & Sons,part payment,Ojo Branch,0
+09/07/2026,INV8418,Blocks 9in (piece),252,450,113400,Alhaji Bello,cash,Main Yard,0
+08/06/2026,INV2264,Sharp Sand (trip),1,85000,85000,Grace Ventures,POS,Main Yard,0
+27/07/2026,INV5573,Binding Wire (roll),4,12000,48000,Mrs Adebayo,Credit,Main Yard,0
+21/05/2026,INV3443,10mm Iron Rod (length),8,6200,49600,Chief Nwosu,POS,Ikorodu Branch,0
+02/06/2026,INV7808,PVC Pipe 4in (length),25,4200,105000,Site 12 Rehab,transfer,Main Yard,0
+19/05/2026,INV7093, NAILS 3IN (KG) ,19,1800,34200,Walk-in,Credit,Main Yard,0
+2026-05-23,INV2998,16mm Iron Rod (length),55,"N13,309",731995,Grace Ventures,credit,Ikorodu Branch,0
+05-May-2026,INV2155,Binding Wire (roll),9,11518,103662,Alhaji Bello,transfer,Ikorodu Branch,0
+26/05/2026,INV5741,Aluminium Roofing (m2),99,6800,673200,Site 4 Contractors,POS,Main Yard,174564
+24/06/2026,INV5050,Stepping Tiles (carton),41,7500,307500,Chief Nwosu,transfer,Main Yard,0
+03/06/2026,INV6030,Paint Emulsion (20L),13,26342,342446,Kola & Sons,transfer,Main Yard,0
+25/07/2026,INV6681, BUA CEMENT (BAG) ,130,8382,1089660,Alhaji Bello,pos,Main Yard,0
+22/05/2026,INV9852,12mm Iron Rod (length),79,7563,597477,Grace Ventures,POS,Main Yard,0
+26/05/2026,INV1717,Paint Emulsion (20L),12,26016,312192,Walk-in,transfer,Ojo Branch,0
+18/05/2026,INV7781,Binding Wire (roll),4,12000,48000,Mrs Adebayo,pos,Ojo Branch,11606
+13/05/2026,INV1806,Sharp Sand (trip),1,85000,85000,Walk-in,Cash,Main Yard,0
+21/05/2026,INV2287,Blocks 6in (piece),353,380,134140,Site 12 Rehab,Cash,Ojo Branch,0
+08/06/2026,INV3388,BUA Cement (bag),183,8749,1601067,Site 12 Rehab,Transfer,Main Yard,0
+13/05/2026,INV9284,Granite 3/4 (trip),1,145000,145000,Site 12 Rehab,POS,Main Yard,0
+16/06/2026,INV5689,BUA Cement (bag),109,9200,10028000,Walk-in,POS,Main Yard,0
+28/05/2026,INV2018,Stepping Tiles (carton),15,7500,112500,Chief Nwosu,part payment,Main Yard,0
+08/07/2026,INV3892,Aluminium Roofing (m2),102,6800,693600,Chief Nwosu,Cash,Main Yard,0
+23/05/2026,INV1889,PVC Pipe 4in (length),11,4200,46200,Zenith Builders,,,0
+21/05/2026,INV2112,PVC Pipe 4in (length),10,4200,42000,Mrs Adebayo,credit,Main Yard,0
+06/05/2026,INV2959,Sharp Sand (trip),3,81599,244797,Chief Nwosu,transfer,Main Yard,0
+16/07/2026,INV1544,BUA Cement (bag),188,8106,1523928,Grace Ventures,Part Payment,Main Yard,0
+23/06/2026,INV3094, BINDING WIRE (ROLL) ,1,12000,12000,Chief Nwosu,Cash,Ojo Branch,0
+23/06/2026,INV4212,10mm Iron Rod (length),74,5949,440226,Walk-in,Credit,Ojo Branch,0
+01/06/2026,INV1682,Aluminium Roofing (m2),72,6800,489600,Grace Ventures,Transfer,Ikorodu Branch,136608
+15/07/2026,INV7791,16mm Iron Rod (length),5,14500,72500,Kola & Sons,POS,Main Yard,0
+06/07/2026,INV4179,PVC Pipe 4in (length),40,3925,157000,Walk-in,Transfer,Ojo Branch,0
+29/06/2026,INV7770,Nails 3in (kg),22,1800,39600,Site 12 Rehab,Transfer,Main Yard,0
+09/05/2026,INV7590, PVC PIPE 4IN (LENGTH) ,45,3933,176985,Grace Ventures,pos,Main Yard,37687
+25/07/2026,INV6123,Sharp Sand (trip),3,76896,230688,Chief Nwosu,POS,Main Yard,0
+20/06/2026,INV2923,Granite 3/4 (trip),1,145000,145000,Kola & Sons,cash,Main Yard,0
+22/06/2026,INV3916,Stepping Tiles (carton),42,7500,315000,Site 4 Contractors,transfer,Main Yard,105416
+2026-07-08,INV4362,Nails 3in (kg),9,1800,16200,Zenith Builders,Cash,Main Yard,0
+2026-07-15,INV6882,Nails 3in (kg),5,1800,9000,Eng. Okafor,transfer,Main Yard,0
+02/07/2026,INV3156,10mm Iron Rod (length),30,6200,186000,Site 4 Contractors,Cash,Main Yard,0
+08/06/2026,INV4465,10mm Iron Rod (length),30,6200,186000,Walk-in,cash,Ikorodu Branch,0
+01/06/2026,INV6434,Stepping Tiles (carton),27,7500,202500,Walk-in,credit,Main Yard,0
+24/06/2026,INV8669,16mm Iron Rod (length),11,14500,159500,Chief Nwosu,pos,Main Yard,0
+2026-06-04,INV7469,Binding Wire (roll),1,12000,12000,Site 4 Contractors,Transfer,Ikorodu Branch,0
+19/06/2026,INV6104,Stepping Tiles (carton),23,7500,172500,Alhaji Bello,Credit,Ikorodu Branch,0
+08/07/2026,INV2566,Sharp Sand (trip),2,85000,170000,Zenith Builders,part payment,Main Yard,62446
+15/05/2026,INV4722,Paint Emulsion (20L),10,24692,246920,Walk-in,POS,Main Yard,0
+26/06/2026,INV7569,Dangote Cement (bag),125,9500,1187500,Site 12 Rehab,Transfer,Main Yard,0
+06/05/2026,INV7697,Stepping Tiles (carton),12,7500,90000,Kola & Sons,transfer,Main Yard,0
+26/06/2026,INV2759,Granite 3/4 (trip),3,132380,397140,Chief Nwosu,transfer,Main Yard,194359
+27-Jul-2026,INV9974,Dangote Cement (bag),200,8881,1776200,Kola & Sons,POS,Main Yard,0
+29/07/2026,INV8438,Blocks 9in (piece),672,429,288288,Grace Ventures,POS,Main Yard,0
+11/06/2026,INV5144,Aluminium Roofing (m2),77,"N6,800",523600,Walk-in,credit,Ojo Branch,0
+09/07/2026,INV6136,Nails 3in (kg),23,1800,41400,Site 12 Rehab,POS,Main Yard,0
+15/05/2026,INV5648,10mm Iron Rod (length),61,6200,378200,Chief Nwosu,credit,Main Yard,0
+01/06/2026,INV2103,Granite 3/4 (trip),1,145000,145000,Grace Ventures,Cash,Main Yard,0
+2026-07-20,INV8753,Dangote Cement (bag),58,"N9,500",551000,Chief Nwosu,pos,Ikorodu Branch,230142
+26/05/2026,INV3434,Dangote Cement (bag),148,"N8,644",1279312,Chief Nwosu,Cash,Main Yard,316101
+26/05/2026,INV9733,Binding Wire (roll),9,10814,97326,Mrs Adebayo,part payment,Main Yard,0
+06/06/2026,INV5889, 16MM IRON ROD (LENGTH) ,11,14500,159500,Grace Ventures,Transfer,Main Yard,0
+28/05/2026,INV8770,Aluminium Roofing (m2),44,6800,299200,Chief Nwosu,transfer,Main Yard,0
+23/05/2026,INV8481, PVC PIPE 4IN (LENGTH) ,7,4200,29400,Site 4 Contractors,Credit,Main Yard,0
+04/06/2026,INV9344,Blocks 9in (piece),694,413,286622,Site 12 Rehab,pos,Main Yard,0
+28/07/2026,INV3580,10mm Iron Rod (length),31,6200,192200,Eng. Okafor,transfer,Main Yard,0
+15/05/2026,INV6880, 12MM IRON ROD (LENGTH) ,73,7560,551880,Site 12 Rehab,part payment,Main Yard,0
+21/07/2026,INV9837,Sharp Sand (trip),2,85000,170000,Mrs Adebayo,pos,Main Yard,40195
+2026-07-20,INV6233,Stepping Tiles (carton),39,7500,292500,Mrs Adebayo,cash,Main Yard,0
+26/06/2026,INV8449,Nails 3in (kg),29,1671,48459,Walk-in,cash,Ojo Branch,0
+18/05/2026,INV6956, GRANITE 3/4 (TRIP) ,1,145000,145000,Alhaji Bello,pos,Main Yard,0
+14/07/2026,INV6991,Aluminium Roofing (m2),57,6800,387600,Grace Ventures,pos,Ojo Branch,0
+05/05/2026,INV2589,12mm Iron Rod (length),16,8500,136000,Kola & Sons,POS,Main Yard,0
+27/07/2026,INV3183,Aluminium Roofing (m2),46,6800,312800,Walk-in,Transfer,Main Yard,0
+19/05/2026,INV1918,Stepping Tiles (carton),54,6821,368334,Grace Ventures,Transfer,Ikorodu Branch,0
+06-May-2026,INV1647,Paint Emulsion (20L),4,28000,112000,Alhaji Bello,part payment,Main Yard,0
+18/05/2026,INV9298,Sharp Sand (trip),2,85000,170000,Site 4 Contractors,Part Payment,Ikorodu Branch,0
+2026-05-18,INV5799,10mm Iron Rod (length),79,5674,448246,Alhaji Bello,pos,Main Yard,156856
+09/06/2026,INV8871,Stepping Tiles (carton),51,7010,357510,Eng. Okafor,part payment,Ikorodu Branch,0
+15/07/2026,INV2880,BUA Cement (bag),47,9200,432400,Mrs Adebayo,part payment,Main Yard,0
+12/07/2026,INV9026,PVC Pipe 4in (length),41,3857,158137,Eng. Okafor,Part Payment,Main Yard,0
+28/05/2026,INV3673,16mm Iron Rod (length),59,13265,782635,Alhaji Bello,Part Payment,Main Yard,207340
+25/05/2026,INV8129,PVC Pipe 4in (length),32,4200,134400,Chief Nwosu,transfer,Ojo Branch,0
+19/06/2026,INV9884,Dangote Cement (bag),164,8505,1394820,Zenith Builders,Cash,Main Yard,0
+28/05/2026,INV8332,Stepping Tiles (carton),34,7500,255000,Alhaji Bello,part payment,Main Yard,0
+24/06/2026,INV5881,12mm Iron Rod (length),7,8500,59500,Walk-in,pos,Ojo Branch,0
+16/07/2026,INV4354,Stepping Tiles (carton),57,6953,396321,Site 12 Rehab,Transfer,Ikorodu Branch,0
+01/05/2026,INV8492,Granite 3/4 (trip),1,145000,145000,Kola & Sons,POS,Main Yard,0
+21/05/2026,INV9074,12mm Iron Rod (length),13,"N8,500",110500,Walk-in,Part Payment,Main Yard,0
+2026-05-01,INV1008,Sharp Sand (trip),1,85000,85000,Alhaji Bello,Credit,Ojo Branch,0
+08/07/2026,INV1324,10mm Iron Rod (length),62,6200,384400,Kola & Sons,Cash,Main Yard,0
+11/05/2026,INV8322,Paint Emulsion (20L),2,28000,56000,Kola & Sons,transfer,Ojo Branch,0
+19/05/2026,INV2170,Blocks 6in (piece),220,380,83600,Walk-in,,,0
+23/05/2026,INV8066,Stepping Tiles (carton),59,6670,393530,Zenith Builders,cash,Main Yard,0
+02/05/2026,INV7905, PAINT EMULSION (20L) ,8,28000,224000,Site 4 Contractors,transfer,Ikorodu Branch,0
+05-Jun-2026,INV2909,Dangote Cement (bag),176,8759,1541584,Eng. Okafor,credit,Main Yard,0
+2026-05-22,INV9052,Aluminium Roofing (m2),137,6123,838851,Chief Nwosu,cash,Ojo Branch,0
+25/06/2026,INV3998,Paint Emulsion (20L),13,25687,333931,Eng. Okafor,part payment,Main Yard,0
+26/06/2026,INV2096,Binding Wire (roll),1,12000,12000,Eng. Okafor,transfer,Main Yard,4213
+07/05/2026,INV7962,Sharp Sand (trip),3,75940,227820,Zenith Builders,transfer,Ojo Branch,0
+25/05/2026,INV4138,Nails 3in (kg),37,1667,61679,Site 4 Contractors,part payment,Ojo Branch,0
+23/05/2026,INV7677,PVC Pipe 4in (length),8,4200,33600,Alhaji Bello,pos,Main Yard,0
+23/07/2026,INV5218,PVC Pipe 4in (length),39,3963,154557,Zenith Builders,Transfer,Main Yard,0
+05/05/2026,INV1669,Binding Wire (roll),1,12000,12000,Eng. Okafor,credit,Ojo Branch,0
+29/05/2026,INV5834,Blocks 6in (piece),251,380,95380,Kola & Sons,Cash,Main Yard,25516
+13/06/2026,INV9515,Nails 3in (kg),22,"N1,800",39600,Zenith Builders,transfer,Main Yard,0
+16/06/2026,INV3716,Aluminium Roofing (m2),64,6800,435200,Grace Ventures,cash,Main Yard,0
+19/06/2026,INV9588,10mm Iron Rod (length),66,5702,376332,Walk-in,Credit,Main Yard,0
+2026-07-27,INV9933,Nails 3in (kg),15,1800,27000,Kola & Sons,Part Payment,Main Yard,0
+04/05/2026,INV9526,Blocks 6in (piece),454,380,172520,Eng. Okafor,,,98861
+27/06/2026,INV7768,Granite 3/4 (trip),1,145000,145000,Zenith Builders,transfer,Ikorodu Branch,0
+14-May-2026,INV7625,BUA Cement (bag),103,9200,947600,Kola & Sons,Credit,Ikorodu Branch,0
+29-Jun-2026,INV4852,Nails 3in (kg),5,1800,9000,Site 12 Rehab,transfer,Main Yard,0
+17/07/2026,INV5547,Granite 3/4 (trip),2,145000,290000,Kola & Sons,Part Payment,Ikorodu Branch,0
+15/05/2026,INV6407,Blocks 9in (piece),651,431,280581,Site 12 Rehab,Credit,Main Yard,0
+01/05/2026,INV4487, BUA CEMENT (BAG) ,111,9200,1021200,Chief Nwosu,part payment,Main Yard,0
+07/05/2026,INV7033,Blocks 6in (piece),299,380,113620,Site 12 Rehab,cash,Ikorodu Branch,0
+24/06/2026,INV1609,12mm Iron Rod (length),76,"N7,739",588164,Zenith Builders,Cash,Ikorodu Branch,0
+20/06/2026,INV6253,PVC Pipe 4in (length),39,3713,144807,Site 4 Contractors,Transfer,Main Yard,0
+25/05/2026,INV3574,10mm Iron Rod (length),95,5793,550335,Eng. Okafor,pos,Main Yard,0
+08/07/2026,INV2728,Granite 3/4 (trip),2,145000,290000,Alhaji Bello,Credit,Main Yard,0
+09/05/2026,INV8229,16mm Iron Rod (length),26,14500,377000,Kola & Sons,Cash,Ikorodu Branch,0
+28/07/2026,INV1842,BUA Cement (bag),62,9200,570400,Grace Ventures,Part Payment,Main Yard,248644
+15/05/2026,INV1315,Sharp Sand (trip),1,85000,85000,Chief Nwosu,cash,Main Yard,0
+09/05/2026,INV3594,10mm Iron Rod (length),18,6200,111600,Site 12 Rehab,part payment,Ikorodu Branch,0
+03/07/2026,INV3140,Blocks 9in (piece),145,450,65250,Kola & Sons,POS,Main Yard,0
+04/06/2026,INV4463,12mm Iron Rod (length),23,8500,195500,Site 4 Contractors,transfer,Ojo Branch,0
+24/07/2026,INV3559,Stepping Tiles (carton),20,7500,150000,Zenith Builders,cash,Main Yard,0
+05/05/2026,INV2553,Binding Wire (roll),7,11444,80108,Alhaji Bello,Part Payment,Main Yard,0
+27/05/2026,INV4035,Nails 3in (kg),21,1800,37800,Alhaji Bello,Cash,Ikorodu Branch,0
+15-Jun-2026,INV9123,Sharp Sand (trip),1,85000,85000,Kola & Sons,Credit,Ojo Branch,32592
+31/05/2026,INV2917,12mm Iron Rod (length),43,8500,365500,Site 12 Rehab,Transfer,Ikorodu Branch,0
+28/07/2026,INV1129,Blocks 9in (piece),457,450,205650,Chief Nwosu,pos,Ikorodu Branch,44276
+17/06/2026,INV4594,Stepping Tiles (carton),52,6934,360568,Grace Ventures,Cash,Main Yard,0
+28/07/2026,INV9480,Aluminium Roofing (m2),42,6800,285600,Site 12 Rehab,Part Payment,Ojo Branch,0
+20-May-2026,INV7040,Stepping Tiles (carton),20,7500,150000,Walk-in,Transfer,Main Yard,0
+05/05/2026,INV8156, BLOCKS 9IN (PIECE) ,302,450,135900,Kola & Sons,POS,Ikorodu Branch,38283
+26/05/2026,INV1771,16mm Iron Rod (length),36,14500,522000,Site 4 Contractors,POS,Ikorodu Branch,172063
+20/07/2026,INV5875,Dangote Cement (bag),53,9500,503500,Zenith Builders,Cash,Main Yard,0
+11/05/2026,INV7667,Granite 3/4 (trip),2,145000,290000,Grace Ventures,Credit,Ojo Branch,0
+27/06/2026,INV2644,Blocks 9in (piece),386,N450,173700,Zenith Builders,part payment,Main Yard,0
+2026-05-27,INV3955,Sharp Sand (trip),1,85000,85000,Alhaji Bello,Credit,Ikorodu Branch,0
+28/05/2026,INV4042,16mm Iron Rod (length),53,13916,737548,Walk-in,,,0
+05/05/2026,INV1373, PAINT EMULSION (20L) ,5,28000,140000,Eng. Okafor,Cash,Main Yard,0
+20/05/2026,INV2676,BUA Cement (bag),69,9200,634800,Site 12 Rehab,cash,Main Yard,0
+08/05/2026,INV3302,Granite 3/4 (trip),3,135895,407685,Kola & Sons,Credit,Main Yard,0
+24-May-2026,INV8973,16mm Iron Rod (length),20,14500,290000,Walk-in,Transfer,Main Yard,0
+18/06/2026,INV3301,16mm Iron Rod (length),30,14500,435000,Walk-in,transfer,Ikorodu Branch,0
+27/07/2026,INV1632,12mm Iron Rod (length),63,7878,496314,Chief Nwosu,cash,Main Yard,0
+25/05/2026,INV7881,Blocks 6in (piece),606,354,214524,Site 4 Contractors,pos,Main Yard,0
+14/07/2026,INV9598,12mm Iron Rod (length),75,7510,1126500,Grace Ventures,transfer,Ikorodu Branch,292197
+06/05/2026,INV1739,Blocks 6in (piece),760,336,255360,Eng. Okafor,credit,Ojo Branch,0
+26-Jun-2026,INV4928,Sharp Sand (trip),3,"N80,555",241665,Chief Nwosu,Part Payment,Ojo Branch,0
+18/06/2026,INV6781, BLOCKS 9IN (PIECE) ,177,450,79650,Chief Nwosu,pos,Ojo Branch,0
+02/05/2026,INV9044,16mm Iron Rod (length),52,13577,706004,Eng. Okafor,Transfer,Main Yard,0
+11/06/2026,INV8889,Nails 3in (kg),30,1615,48450,Eng. Okafor,Credit,Ikorodu Branch,0
+01-Jun-2026,INV4467, SHARP SAND (TRIP) ,1,85000,85000,Zenith Builders,pos,Main Yard,0
+19/06/2026,INV2556,12mm Iron Rod (length),56,7677,429912,Kola & Sons,Cash,Ojo Branch,0
+05/05/2026,INV9172,Binding Wire (roll),6,"N12,000",72000,Chief Nwosu,Transfer,Ikorodu Branch,0
+14-May-2026,INV4351,PVC Pipe 4in (length),16,4200,67200,Kola & Sons,Transfer,Main Yard,0
+26/06/2026,INV6760,Blocks 9in (piece),351,450,157950,Eng. Okafor,Part Payment,Ikorodu Branch,0
+13/07/2026,INV4562,16mm Iron Rod (length),20,14500,290000,Zenith Builders,Part Payment,Main Yard,0
+2026-06-23,INV9584,Nails 3in (kg),16,1800,28800,Alhaji Bello,pos,Main Yard,8154
+18/05/2026,INV1175,Stepping Tiles (carton),55,7178,394790,Site 4 Contractors,credit,Main Yard,0
+16/06/2026,INV9032,Blocks 9in (piece),566,398,225268,Alhaji Bello,credit,Main Yard,0
+07/07/2026,INV6890,Granite 3/4 (trip),3,136200,408600,Zenith Builders,Credit,Ikorodu Branch,0
+08/06/2026,INV2519,16mm Iron Rod (length),6,14500,87000,Kola & Sons,cash,Main Yard,0
+04-Jul-2026,INV1473,Blocks 9in (piece),259,450,116550,Site 4 Contractors,cash,Ojo Branch,30065
+16/07/2026,INV8503,Nails 3in (kg),33,1723,56859,Alhaji Bello,POS,Ikorodu Branch,20432
+24/07/2026,INV4220,16mm Iron Rod (length),7,14500,101500,Alhaji Bello,cash,Main Yard,0
+29/05/2026,INV3468,Dangote Cement (bag),189,8663,1637307,Chief Nwosu,credit,Main Yard,0
+18/05/2026,INV4279,Binding Wire (roll),5,12000,60000,Zenith Builders,credit,Main Yard,0
+15/07/2026,INV9441,Blocks 6in (piece),568,351,199368,Alhaji Bello,POS,Main Yard,0
+08/07/2026,INV5206,Aluminium Roofing (m2),82,6800,557600,Site 12 Rehab,cash,Main Yard,0
+07/05/2026,INV9803,Binding Wire (roll),3,12000,36000,Site 4 Contractors,,,0
+17/06/2026,INV3959,12mm Iron Rod (length),9,8500,76500,Site 4 Contractors,Part Payment,Ikorodu Branch,16480
+30/06/2026,INV1246,Stepping Tiles (carton),53,6726,356478,Zenith Builders,part payment,Main Yard,0
+05/05/2026,INV2883,Paint Emulsion (20L),10,25718,257180,Eng. Okafor,part payment,Main Yard,0
+04-Jul-2026,INV6851,Sharp Sand (trip),1,85000,85000,Zenith Builders,Transfer,Main Yard,0
+06/06/2026,INV6473,Paint Emulsion (20L),1,28000,28000,Zenith Builders,part payment,Main Yard,5802
+11/05/2026,INV8097,Dangote Cement (bag),85,9500,807500,Chief Nwosu,Part Payment,Main Yard,0
+08/05/2026,INV2424,Blocks 6in (piece),501,380,190380,Mrs Adebayo,credit,Main Yard,0
+09/06/2026,INV4687,Sharp Sand (trip),1,85000,85000,Mrs Adebayo,Part Payment,Main Yard,0
+04/05/2026,INV7177, SHARP SAND (TRIP) ,3,75577,226731,Alhaji Bello,POS,Ojo Branch,0
+02/06/2026,INV1467,Blocks 6in (piece),592,352,208384,Grace Ventures,POS,Ikorodu Branch,76615
+24/06/2026,INV8150,Blocks 6in (piece),195,380,74100,Grace Ventures,Part Payment,Main Yard,0
+30/06/2026,INV4402,Aluminium Roofing (m2),118,6214,733252,Zenith Builders,Part Payment,Main Yard,0
+07/07/2026,INV3874,Paint Emulsion (20L),2,28000,56000,Mrs Adebayo,Credit,Ojo Branch,0
+24/06/2026,INV5026,Dangote Cement (bag),192,9053,1738176,Chief Nwosu,POS,Main Yard,0
+10/07/2026,INV4822, BUA CEMENT (BAG) ,170,"N8,228",1398760,Eng. Okafor,Part Payment,Main Yard,0
+15/07/2026,INV8770,PVC Pipe 4in (length),30,4200,126000,Kola & Sons,Part Payment,Main Yard,0
+13/05/2026,INV9915,Blocks 6in (piece),341,380,129580,Chief Nwosu,pos,Ojo Branch,0
+23/07/2026,INV3705,12mm Iron Rod (length),37,8500,314500,Kola & Sons,Transfer,Main Yard,0
+23/07/2026,INV1798,Granite 3/4 (trip),3,128301,384903,Site 12 Rehab,Part Payment,Main Yard,216842
+11/07/2026,INV1147,16mm Iron Rod (length),18,14500,261000,Alhaji Bello,transfer,Ikorodu Branch,0
+24/07/2026,INV6365,PVC Pipe 4in (length),33,4200,138600,Kola & Sons,Part Payment,Main Yard,0
+22/05/2026,INV7947,16mm Iron Rod (length),6,14500,87000,Grace Ventures,pos,Main Yard,0
+25-Jun-2026,INV2866,12mm Iron Rod (length),10,8500,85000,Kola & Sons,POS,Ojo Branch,0
+24/05/2026,INV4931,Stepping Tiles (carton),60,7046,422760,Chief Nwosu,credit,Main Yard,179923
+2026-06-16,INV5642,Blocks 9in (piece),415,450,186750,Chief Nwosu,transfer,Main Yard,0
+06/06/2026,INV1235,Blocks 6in (piece),720,359,258480,Eng. Okafor,transfer,Ikorodu Branch,0
+08/05/2026,INV3200,16mm Iron Rod (length),30,14500,435000,Kola & Sons,POS,Ikorodu Branch,0
+18/05/2026,INV4641,Granite 3/4 (trip),3,135162,405486,Kola & Sons,credit,Main Yard,0
+05/06/2026,INV1373,Nails 3in (kg),9,1800,16200,Mrs Adebayo,cash,Main Yard,0
+29/05/2026,INV8929,Sharp Sand (trip),2,85000,170000,Grace Ventures,Part Payment,Main Yard,0
+25/07/2026,INV1152,Binding Wire (roll),3,12000,36000,Walk-in,Part Payment,Ikorodu Branch,0
+06-Jun-2026,INV4541, DANGOTE CEMENT (BAG) ,104,9500,988000,Zenith Builders,transfer,Main Yard,0
+21/07/2026,INV8596,Blocks 6in (piece),188,380,71440,Grace Ventures,Cash,Main Yard,0
+21/05/2026,INV4804, 10MM IRON ROD (LENGTH) ,78,5890,459420,Site 12 Rehab,Part Payment,Main Yard,0
+25/05/2026,INV8450,10mm Iron Rod (length),34,6200,210800,Zenith Builders,Cash,Ikorodu Branch,0
+2026-06-17,INV1582,Dangote Cement (bag),54,9500,513000,Kola & Sons,Cash,Ojo Branch,0
+30/06/2026,INV2164,Binding Wire (roll),9,"N11,051",99459,Kola & Sons,transfer,Ikorodu Branch,0
+08/06/2026,INV6305,Stepping Tiles (carton),24,7500,180000,Chief Nwosu,pos,Main Yard,0
+04/06/2026,INV1077,12mm Iron Rod (length),51,8500,433500,Walk-in,pos,Ojo Branch,0
+10/06/2026,INV3020, 12MM IRON ROD (LENGTH) ,29,8500,246500,Alhaji Bello,part payment,Main Yard,0
+24/06/2026,INV2257,Dangote Cement (bag),147,8516,1251852,Kola & Sons,cash,Ojo Branch,594960
+25/06/2026,INV7119,Stepping Tiles (carton),54,6674,360396,Zenith Builders,part payment,Main Yard,0
+23/06/2026,INV4720,Blocks 9in (piece),463,450,208350,Kola & Sons,POS,Main Yard,0
+22/07/2026,INV8540,Sharp Sand (trip),2,85000,170000,Grace Ventures,Part Payment,Main Yard,0
+24/06/2026,INV2386,Blocks 6in (piece),422,380,320720,Zenith Builders,POS,Main Yard,0
+19/06/2026,INV4829,Aluminium Roofing (m2),149,6324,942276,Grace Ventures,Transfer,Main Yard,407506
+15/05/2026,INV3406,Sharp Sand (trip),3,79519,238557,Site 4 Contractors,POS,Main Yard,0
+09/07/2026,INV5200,Dangote Cement (bag),51,9500,484500,Zenith Builders,Cash,Main Yard,186476
+09-Jun-2026,INV9997,Blocks 6in (piece),542,349,189158,Eng. Okafor,POS,Ojo Branch,0
+21/07/2026,INV3922,Blocks 6in (piece),783,355,277965,Zenith Builders,transfer,Main Yard,139744
+10/05/2026,INV7252,Blocks 6in (piece),774,338,261612,Alhaji Bello,cash,Main Yard,0
+01/05/2026,INV4086,Granite 3/4 (trip),1,145000,145000,Mrs Adebayo,cash,Ojo Branch,0
+29/06/2026,INV7225, GRANITE 3/4 (TRIP) ,2,145000,290000,Kola & Sons,Cash,Main Yard,0
+14/05/2026,INV7069,Binding Wire (roll),4,12000,48000,Mrs Adebayo,cash,Main Yard,0
+08/05/2026,INV5366,Blocks 6in (piece),628,338,212264,Alhaji Bello,,,0
+27/06/2026,INV9075,Stepping Tiles (carton),11,7500,82500,Chief Nwosu,cash,Ikorodu Branch,0
+27/05/2026,INV1490,Blocks 9in (piece),243,450,109350,Grace Ventures,Part Payment,Main Yard,0
+29/05/2026,INV4326,Binding Wire (roll),8,11076,88608,Chief Nwosu,cash,Main Yard,0
+18/06/2026,INV4467,Sharp Sand (trip),2,85000,170000,Site 4 Contractors,,,53363
+2026-06-17,INV3043,BUA Cement (bag),127,8724,1107948,Site 4 Contractors,pos,Ikorodu Branch,0
+15-Jul-2026,INV6892,Granite 3/4 (trip),1,145000,145000,Grace Ventures,part payment,Ojo Branch,62510
+2026-06-27,INV9904,Binding Wire (roll),9,"N10,743",96687,Chief Nwosu,credit,Main Yard,0
+19/05/2026,INV9701, BINDING WIRE (ROLL) ,8,10672,85376,Site 12 Rehab,credit,Ikorodu Branch,0
+24/07/2026,INV5135,Nails 3in (kg),33,1643,54219,Site 4 Contractors,Cash,Main Yard,0
+06/05/2026,INV9874,Stepping Tiles (carton),12,"N7,500",90000,Site 4 Contractors,cash,Ikorodu Branch,0
+18/05/2026,INV5560,Stepping Tiles (carton),26,7500,195000,Chief Nwosu,Transfer,Ikorodu Branch,0
+2026-06-25,INV1575,Binding Wire (roll),1,12000,12000,Chief Nwosu,Credit,Ikorodu Branch,3475
+12/06/2026,INV8675, BLOCKS 6IN (PIECE) ,607,354,214878,Mrs Adebayo,transfer,Ikorodu Branch,0
+09/07/2026,INV1706,Granite 3/4 (trip),1,145000,145000,Walk-in,Cash,Ojo Branch,0
+06/06/2026,INV3556,Nails 3in (kg),17,1800,30600,Grace Ventures,Transfer,Main Yard,0
+23-May-2026,INV5115,Paint Emulsion (20L),9,28000,252000,Kola & Sons,,,68732
+02/05/2026,INV7042,Dangote Cement (bag),21,9500,199500,Eng. Okafor,Transfer,Main Yard,75837
+15/05/2026,INV3990,Paint Emulsion (20L),13,25332,329316,Eng. Okafor,,,0
+02/06/2026,INV4781,Dangote Cement (bag),123,9500,1168500,Site 4 Contractors,Cash,Main Yard,0
+24/07/2026,INV8106,PVC Pipe 4in (length),27,4200,113400,Kola & Sons,credit,Main Yard,0
+06/07/2026,INV3958,Granite 3/4 (trip),1,145000,145000,Chief Nwosu,transfer,Ojo Branch,0
+21/05/2026,INV4390,PVC Pipe 4in (length),19,4200,79800,Zenith Builders,POS,Ikorodu Branch,0
+10/06/2026,INV6735,16mm Iron Rod (length),33,14500,478500,Zenith Builders,Credit,Ikorodu Branch,0
+2026-05-25,INV6777,Aluminium Roofing (m2),132,6293,830676,Alhaji Bello,Transfer,Main Yard,0
+01/05/2026,INV8402,Nails 3in (kg),40,1707,68280,Chief Nwosu,Cash,Main Yard,0
+18/06/2026,INV2293,Paint Emulsion (20L),6,28000,168000,Site 4 Contractors,Credit,Main Yard,0
+25/06/2026,INV1553,Stepping Tiles (carton),51,"N6,611",337161,Kola & Sons,part payment,Ikorodu Branch,0
+26/05/2026,INV1057,16mm Iron Rod (length),40,12783,511320,Zenith Builders,part payment,Main Yard,176764
+15/05/2026,INV4356,PVC Pipe 4in (length),25,4200,105000,Eng. Okafor,pos,Ojo Branch,0
+09/06/2026,INV8880,Aluminium Roofing (m2),32,6800,217600,Kola & Sons,POS,Ikorodu Branch,0
+29/07/2026,INV6571,BUA Cement (bag),30,9200,276000,Kola & Sons,Cash,Main Yard,0
+08/05/2026,INV4030,Stepping Tiles (carton),42,7500,315000,Kola & Sons,cash,Main Yard,0
+05/05/2026,INV7404,12mm Iron Rod (length),64,7532,482048,Site 12 Rehab,Part Payment,Ojo Branch,0
+2026-05-27,INV4014,Aluminium Roofing (m2),45,6800,306000,Mrs Adebayo,cash,Main Yard,0
+04/05/2026,INV3832,BUA Cement (bag),119,9200,1094800,Eng. Okafor,Credit,Main Yard,0
+12/06/2026,INV3471,BUA Cement (bag),179,8307,1486953,Chief Nwosu,Part Payment,Ojo Branch,0
+18/07/2026,INV5789,Stepping Tiles (carton),56,7026,393456,Chief Nwosu,Part Payment,Ikorodu Branch,145923
+13/07/2026,INV9355,Paint Emulsion (20L),15,26459,396885,Kola & Sons,cash,Main Yard,0
+23/05/2026,INV1640, PVC PIPE 4IN (LENGTH) ,36,3771,135756,Eng. Okafor,Credit,Main Yard,0
+18/05/2026,INV8057,Blocks 9in (piece),301,450,135450,Walk-in,Part Payment,Main Yard,0
+23/05/2026,INV1953,PVC Pipe 4in (length),37,3730,138010,Grace Ventures,Credit,Main Yard,0
+28/05/2026,INV8685,PVC Pipe 4in (length),26,4200,109200,Alhaji Bello,,,0
+15/06/2026,INV2323,Dangote Cement (bag),134,8910,1193940,Walk-in,Cash,Ikorodu Branch,514283
+18/07/2026,INV8645,12mm Iron Rod (length),59,8154,481086,Site 12 Rehab,transfer,Main Yard,0
+2026-05-19,INV9207,Paint Emulsion (20L),9,28000,252000,Site 4 Contractors,credit,Main Yard,0
+29/05/2026,INV3647,Dangote Cement (bag),131,8534,1117954,Eng. Okafor,POS,Main Yard,493431
+07-May-2026,INV2387, BLOCKS 9IN (PIECE) ,207,450,93150,Eng. Okafor,Transfer,Ojo Branch,0
+03-Jul-2026,INV6867,Blocks 6in (piece),563,N337,189731,Eng. Okafor,,,0
+2026-06-13,INV2126,Blocks 9in (piece),702,411,288522,Eng. Okafor,POS,Main Yard,0
+27/07/2026,INV7932,Blocks 6in (piece),403,380,153140,Site 4 Contractors,Credit,Ojo Branch,80443
+21/05/2026,INV4160, PAINT EMULSION (20L) ,12,24867,298404,Grace Ventures,transfer,Ikorodu Branch,0
+04/05/2026,INV7904,BUA Cement (bag),19,9200,174800,Grace Ventures,transfer,Main Yard,0
+13/05/2026,INV5883,Aluminium Roofing (m2),56,6800,380800,Site 4 Contractors,transfer,Ikorodu Branch,0
+07/05/2026,INV4012,Binding Wire (roll),5,12000,60000,Walk-in,pos,Main Yard,0
+03/06/2026,INV9213,BUA Cement (bag),124,9200,1140800,Walk-in,credit,Ojo Branch,0
+19/05/2026,INV2719, ALUMINIUM ROOFING (M2) ,144,6382,919008,Chief Nwosu,,,0
+23/07/2026,INV2964,16mm Iron Rod (length),49,13020,637980,Zenith Builders,Transfer,Main Yard,0
+26-May-2026,INV4189, 16MM IRON ROD (LENGTH) ,42,13909,584178,Mrs Adebayo,,,0
+2026-05-14,INV7307, GRANITE 3/4 (TRIP) ,2,145000,290000,Eng. Okafor,POS,Main Yard,0
+23/07/2026,INV1161,Sharp Sand (trip),2,85000,170000,Site 4 Contractors,transfer,Main Yard,0
+10/06/2026,INV8007,Binding Wire (roll),8,11252,90016,Mrs Adebayo,cash,Ojo Branch,0
+02/07/2026,INV7742, PAINT EMULSION (20L) ,1,28000,28000,Kola & Sons,credit,Main Yard,0
+02/05/2026,INV9867,Blocks 9in (piece),694,412,285928,Site 12 Rehab,transfer,Main Yard,0
+14/05/2026,INV4904,Blocks 6in (piece),631,354,223374,Mrs Adebayo,cash,Ikorodu Branch,0
+22/07/2026,INV6483,Blocks 6in (piece),417,380,158460,Chief Nwosu,pos,Main Yard,0
+12/07/2026,INV8027,Granite 3/4 (trip),2,145000,290000,Zenith Builders,Credit,Main Yard,0
+09/05/2026,INV3221,10mm Iron Rod (length),64,5893,377152,Chief Nwosu,POS,Ikorodu Branch,0
+05/05/2026,INV4128,Blocks 9in (piece),744,429,319176,Walk-in,part payment,Main Yard,0
+21/05/2026,INV9909,Nails 3in (kg),39,"N1,707",66573,Eng. Okafor,POS,Ikorodu Branch,0
+18/06/2026,INV1857,Aluminium Roofing (m2),145,6169,894505,Kola & Sons,Part Payment,Main Yard,0
+14/05/2026,INV6746,16mm Iron Rod (length),35,14500,507500,Mrs Adebayo,POS,Main Yard,0
+07/05/2026,INV2338,Dangote Cement (bag),29,9500,275500,Grace Ventures,Part Payment,Main Yard,0
+26/06/2026,INV1454,Blocks 6in (piece),311,380,118180,Grace Ventures,part payment,Ojo Branch,0
+2026-07-08,INV5086,Aluminium Roofing (m2),62,6800,421600,Alhaji Bello,POS,Ikorodu Branch,0
+18/05/2026,INV7783,Granite 3/4 (trip),2,145000,290000,Grace Ventures,Transfer,Main Yard,0
+18/07/2026,INV7077,16mm Iron Rod (length),12,14500,174000,Zenith Builders,Transfer,Ojo Branch,0
+29/07/2026,INV1605,Paint Emulsion (20L),15,24711,370665,Alhaji Bello,cash,Ikorodu Branch,0
+06/07/2026,INV1597,10mm Iron Rod (length),47,"N6,200",291400,Walk-in,pos,Ojo Branch,0
+07/07/2026,INV3877,Blocks 9in (piece),741,410,303810,Walk-in,Transfer,Ojo Branch,0
+07-May-2026,INV8176,Paint Emulsion (20L),15,26745,401175,Zenith Builders,Credit,Main Yard,0
+07/05/2026,INV7907,Blocks 9in (piece),110,N450,49500,Eng. Okafor,Cash,Main Yard,0
+23/05/2026,INV7550,Aluminium Roofing (m2),107,6240,667680,Site 4 Contractors,cash,Main Yard,0
+02/05/2026,INV1574,Binding Wire (roll),9,11121,100089,Grace Ventures,Part Payment,Main Yard,0
+17-Jun-2026,INV4767,Sharp Sand (trip),1,85000,85000,Kola & Sons,Cash,Ojo Branch,0
+2026-05-15,INV3273, SHARP SAND (TRIP) ,2,85000,170000,Site 4 Contractors,transfer,Main Yard,0
+2026-05-18,INV2090,Blocks 9in (piece),212,450,95400,Kola & Sons,Cash,Ikorodu Branch,0
+16/05/2026,INV2876,Paint Emulsion (20L),11,26409,290499,Site 12 Rehab,part payment,Main Yard,159204
+26-May-2026,INV5610,Dangote Cement (bag),123,9500,1168500,Walk-in,Cash,Ikorodu Branch,0
+22/06/2026,INV5185,16mm Iron Rod (length),35,14500,507500,Grace Ventures,part payment,Main Yard,0
+13/06/2026,INV3919,PVC Pipe 4in (length),48,3871,185808,Site 4 Contractors,credit,Main Yard,0
+18/05/2026,INV4897,Aluminium Roofing (m2),51,6800,346800,Site 4 Contractors,POS,Ikorodu Branch,0
+10/06/2026,INV5310,Sharp Sand (trip),3,"N75,492",226476,Alhaji Bello,Part Payment,Main Yard,0
+03/06/2026,INV5074,Blocks 9in (piece),640,398,254720,Site 4 Contractors,pos,Ojo Branch,0
+23/05/2026,INV5414,Paint Emulsion (20L),15,24765,371475,Chief Nwosu,Credit,Main Yard,0
+28-Jul-2026,INV3338,12mm Iron Rod (length),68,8123,552364,Mrs Adebayo,Transfer,Main Yard,0
+23/06/2026,INV1035,Blocks 9in (piece),148,N450,66600,Kola & Sons,Credit,Main Yard,20328
+16/06/2026,INV3770,Granite 3/4 (trip),1,145000,145000,Site 12 Rehab,,,0
+19/05/2026,INV2383,Stepping Tiles (carton),26,7500,195000,Grace Ventures,,,0
+12/05/2026,INV9215,10mm Iron Rod (length),28,6200,173600,Zenith Builders,Part Payment,Ikorodu Branch,0
+02/05/2026,INV2849,Granite 3/4 (trip),1,145000,145000,Chief Nwosu,Credit,Main Yard,0
+28/05/2026,INV8770,Aluminium Roofing (m2),44,6800,299200,Chief Nwosu,transfer,Main Yard,0
+2026-07-18,INV1540,Aluminium Roofing (m2),138,"N6,171",851598,Eng. Okafor,Cash,Main Yard,0
+26/05/2026,INV3662,Sharp Sand (trip),3,75972,227916,Grace Ventures,POS,Main Yard,0
+06/05/2026,INV5896,Paint Emulsion (20L),10,24751,247510,Kola & Sons,pos,Main Yard,0
+23/05/2026,INV5576,Granite 3/4 (trip),1,145000,145000,Grace Ventures,Transfer,Main Yard,69896
+14/05/2026,INV9501,Binding Wire (roll),5,12000,60000,Zenith Builders,POS,Ojo Branch,0
+12-Jun-2026,INV1110,12mm Iron Rod (length),43,8500,365500,Walk-in,Credit,Main Yard,0
+2026-06-07,INV5743,Granite 3/4 (trip),2,145000,290000,Zenith Builders,Cash,Main Yard,0
+02/05/2026,INV4341,Aluminium Roofing (m2),38,6800,258400,Site 4 Contractors,,,0
+06/05/2026,INV8917,10mm Iron Rod (length),51,6200,316200,Site 12 Rehab,part payment,Main Yard,160944
+2026-07-06,INV3712,12mm Iron Rod (length),34,8500,289000,Site 12 Rehab,transfer,Main Yard,0
+15/07/2026,INV8922,Sharp Sand (trip),1,85000,850000,Zenith Builders,POS,Ikorodu Branch,49214
+09/05/2026,INV2190,BUA Cement (bag),121,9200,1113200,Kola & Sons,POS,Main Yard,0
+14/07/2026,INV6160,BUA Cement (bag),55,9200,506000,Site 12 Rehab,cash,Ikorodu Branch,0
+23-Jun-2026,INV7663,Blocks 6in (piece),400,380,152000,Chief Nwosu,pos,Main Yard,0
+11/06/2026,INV5144,Aluminium Roofing (m2),46,6800,312800,Kola & Sons,pos,Ojo Branch,107003
+25/07/2026,INV9422,16mm Iron Rod (length),57,12998,740886,Site 4 Contractors,Cash,Main Yard,0
+08-May-2026,INV3441,Dangote Cement (bag),62,"N9,500",589000,Site 4 Contractors,Part Payment,Main Yard,0
+2026-06-02,INV2049,Blocks 6in (piece),368,380,139840,Chief Nwosu,Part Payment,Ikorodu Branch,0
+03/07/2026,INV2646,Dangote Cement (bag),183,8459,1547997,Kola & Sons,Part Payment,Ikorodu Branch,0
+09/06/2026,INV5565,Blocks 6in (piece),726,336,243936,Alhaji Bello,Cash,Main Yard,118691
+08/06/2026,INV4415,BUA Cement (bag),116,9200,1067200,Kola & Sons,Credit,Ikorodu Branch,0
+01/07/2026,INV6903,Blocks 9in (piece),340,450,153000,Site 4 Contractors,part payment,Ikorodu Branch,0
+15/07/2026,INV8774,Blocks 6in (piece),547,353,193091,Eng. Okafor,pos,Main Yard,0
+22/05/2026,INV3725,Blocks 9in (piece),584,405,236520,Chief Nwosu,pos,Ikorodu Branch,0
+21/05/2026,INV6942,10mm Iron Rod (length),44,6200,272800,Site 12 Rehab,Cash,Ojo Branch,0
+19/05/2026,INV7356,Blocks 9in (piece),606,413,250278,Grace Ventures,Transfer,Ikorodu Branch,0
+22/06/2026,INV8323,10mm Iron Rod (length),62,6200,384400,Kola & Sons,Part Payment,Main Yard,0
+27/06/2026,INV2304,PVC Pipe 4in (length),44,3843,169092,Site 12 Rehab,,,0
+08/07/2026,INV8767,Granite 3/4 (trip),2,145000,290000,Mrs Adebayo,transfer,Main Yard,0
+07/07/2026,INV5525,PVC Pipe 4in (length),23,"N4,200",96600,Chief Nwosu,pos,Main Yard,0
+01/05/2026,INV8316,Granite 3/4 (trip),3,134721,404163,Site 4 Contractors,POS,Main Yard,0
+16/06/2026,INV1902,Granite 3/4 (trip),2,145000,290000,Chief Nwosu,cash,Ojo Branch,0
+29/05/2026,INV9975,Granite 3/4 (trip),3,137163,411489,Walk-in,Transfer,Main Yard,0
+24/07/2026,INV3351,16mm Iron Rod (length),5,14500,72500,Alhaji Bello,POS,Ojo Branch,0
+06/07/2026,INV3662,10mm Iron Rod (length),64,5513,352832,Zenith Builders,Part Payment,Main Yard,161070
+28/05/2026,INV5544,BUA Cement (bag),199,8401,1671799,Grace Ventures,part payment,Ikorodu Branch,604319
+01/06/2026,INV9684,PVC Pipe 4in (length),12,4200,50400,Site 12 Rehab,pos,Ikorodu Branch,0
+29/06/2026,INV3039,BUA Cement (bag),157,8775,1377675,Mrs Adebayo,Transfer,Ojo Branch,0
+10/07/2026,INV9547,Granite 3/4 (trip),2,145000,290000,Grace Ventures,Part Payment,Main Yard,0
+01/05/2026,INV3580,Sharp Sand (trip),2,85000,170000,Site 12 Rehab,Transfer,Main Yard,93810
+07/05/2026,INV4237,Blocks 6in (piece),137,380,52060,Mrs Adebayo,pos,Main Yard,0
+15/06/2026,INV7556,Binding Wire (roll),4,12000,48000,Zenith Builders,Part Payment,Main Yard,0
+09-Jun-2026,INV7051,Granite 3/4 (trip),1,145000,145000,Site 4 Contractors,pos,Ikorodu Branch,0
+13-Jul-2026,INV3813,12mm Iron Rod (length),52,7588,394576,Kola & Sons,Transfer,Main Yard,0
+18/07/2026,INV4983,Sharp Sand (trip),2,85000,170000,Walk-in,Transfer,Ojo Branch,0
+22/05/2026,INV2173,BUA Cement (bag),79,9200,726800,Walk-in,transfer,Main Yard,0
+17/05/2026,INV8216,PVC Pipe 4in (length),20,4200,84000,Grace Ventures,Cash,Main Yard,0
+01/06/2026,INV9285,Dangote Cement (bag),129,8950,1154550,Walk-in,pos,Main Yard,473739
+25/06/2026,INV9524,Nails 3in (kg),39,1660,64740,Site 4 Contractors,Part Payment,Main Yard,0
+14/05/2026,INV9894,16mm Iron Rod (length),54,12847,693738,Kola & Sons,Transfer,Main Yard,267495
+22/05/2026,INV8532,PVC Pipe 4in (length),41,"N3,731",152971,Grace Ventures,Credit,Main Yard,0
+11/07/2026,INV8861,Blocks 9in (piece),344,450,154800,Site 12 Rehab,part payment,Main Yard,0
+13/05/2026,INV9190, STEPPING TILES (CARTON) ,34,7500,255000,Site 4 Contractors,POS,Main Yard,0
+02/06/2026,INV1964,BUA Cement (bag),89,9200,818800,Chief Nwosu,credit,Main Yard,198240
+15/05/2026,INV7487,Sharp Sand (trip),2,85000,170000,Mrs Adebayo,POS,Ikorodu Branch,0
+28/07/2026,INV5599,Blocks 9in (piece),532,450,239400,Zenith Builders,Cash,Ikorodu Branch,0
+01-Jun-2026,INV2282,Stepping Tiles (carton),28,7500,210000,Alhaji Bello,Credit,Main Yard,0
+18/05/2026,INV8762,Stepping Tiles (carton),60,7045,422700,Site 4 Contractors,credit,Ojo Branch,147254
+15/07/2026,INV7343,Binding Wire (roll),6,12000,72000,Site 12 Rehab,Transfer,Main Yard,0
+18/05/2026,INV6857,10mm Iron Rod (length),49,6200,303800,Alhaji Bello,Transfer,Main Yard,0
+20/06/2026,INV8557,Dangote Cement (bag),32,9500,304000,Site 4 Contractors,POS,Main Yard,0
+13/05/2026,INV1958,Paint Emulsion (20L),10,25129,251290,Chief Nwosu,pos,Main Yard,0
+03/06/2026,INV1311,Aluminium Roofing (m2),131,"N6,056",793336,Site 12 Rehab,Cash,Main Yard,0
+01/06/2026,INV1772,Blocks 6in (piece),555,337,187035,Zenith Builders,Transfer,Ojo Branch,50045
+15/05/2026,INV5159,Sharp Sand (trip),2,85000,170000,Kola & Sons,part payment,Main Yard,0
+26/05/2026,INV6704,PVC Pipe 4in (length),15,4200,63000,Walk-in,Cash,Ojo Branch,0
+13/07/2026,INV9538,16mm Iron Rod (length),47,12892,605924,Alhaji Bello,Part Payment,Ojo Branch,0
+06/05/2026,INV5565,PVC Pipe 4in (length),41,3930,161130,Mrs Adebayo,Cash,Ikorodu Branch,0
+02/06/2026,INV5962, GRANITE 3/4 (TRIP) ,1,145000,145000,Grace Ventures,Part Payment,Main Yard,0
+04/06/2026,INV2216,Nails 3in (kg),26,1800,46800,Alhaji Bello,,,23037
+16/05/2026,INV3142,16mm Iron Rod (length),52,12968,674336,Mrs Adebayo,cash,Main Yard,173423
+24/06/2026,INV7676, BINDING WIRE (ROLL) ,7,11267,78869,Site 4 Contractors,,,43839
+25/06/2026,INV3437,Paint Emulsion (20L),4,28000,112000,Kola & Sons,POS,Main Yard,47481
+18/05/2026,INV9253,12mm Iron Rod (length),18,8500,153000,Chief Nwosu,POS,Main Yard,0
+02/05/2026,INV6096,Dangote Cement (bag),163,8843,1441409,Site 4 Contractors,Transfer,Ojo Branch,0
+2026-07-16,INV1415,PVC Pipe 4in (length),20,4200,84000,Zenith Builders,Transfer,Main Yard,0
+17/07/2026,INV5179,Sharp Sand (trip),2,85000,170000,Grace Ventures,POS,Ikorodu Branch,0
+22-Jun-2026,INV3965,16mm Iron Rod (length),20,14500,290000,Eng. Okafor,transfer,Main Yard,58838
+20/06/2026,INV9645,Nails 3in (kg),40,1649,65960,Mrs Adebayo,transfer,Ikorodu Branch,0
+04-May-2026,INV5556,Nails 3in (kg),33,1630,53790,Alhaji Bello,part payment,Ikorodu Branch,0
+22/05/2026,INV5985,12mm Iron Rod (length),48,8500,408000,Walk-in,part payment,Ikorodu Branch,0
+20/05/2026,INV3684,Blocks 6in (piece),699,344,240456,Kola & Sons,pos,Ikorodu Branch,0
+2026-05-06,INV2204,Dangote Cement (bag),158,9111,1439538,Mrs Adebayo,credit,Ojo Branch,0
+2026-05-07,INV7926, STEPPING TILES (CARTON) ,28,7500,210000,Site 12 Rehab,part payment,Ikorodu Branch,48860
+09/05/2026,INV5014,Stepping Tiles (carton),54,6790,366660,Chief Nwosu,POS,Main Yard,0
+16/06/2026,INV7701,PVC Pipe 4in (length),11,4200,46200,Walk-in,Credit,Main Yard,0
+07-May-2026,INV7192,Nails 3in (kg),27,1800,48600,Grace Ventures,POS,Main Yard,0
+06/06/2026,INV4662,Granite 3/4 (trip),1,145000,145000,Site 4 Contractors,Credit,Main Yard,0
+27/07/2026,INV3827,Nails 3in (kg),11,"N1,800",19800,Eng. Okafor,Credit,Main Yard,5572
+02/07/2026,INV9475,Sharp Sand (trip),3,78538,235614,Zenith Builders,credit,Ojo Branch,0
+2026-05-14,INV5662,Granite 3/4 (trip),2,145000,290000,Zenith Builders,Cash,Main Yard,0
+2026-06-01,INV7223,Aluminium Roofing (m2),145,5985,867825,Grace Ventures,Credit,Main Yard,0
+23/06/2026,INV1033,BUA Cement (bag),144,8765,1262160,Mrs Adebayo,cash,Main Yard,0
+25/05/2026,INV8449,Stepping Tiles (carton),59,6653,392527,Site 12 Rehab,credit,Main Yard,0
+23/07/2026,INV2531,16mm Iron Rod (length),22,14500,319000,Site 12 Rehab,credit,Ojo Branch,0
+19/06/2026,INV2100,Binding Wire (roll),3,12000,36000,Grace Ventures,transfer,Main Yard,0
+06/05/2026,INV6631,Binding Wire (roll),8,11019,88152,Eng. Okafor,Transfer,Main Yard,0
+02/07/2026,INV3498,Nails 3in (kg),26,1800,46800,Chief Nwosu,Part Payment,Ikorodu Branch,0
+2026-06-18,INV9025,Stepping Tiles (carton),48,6924,332352,Site 12 Rehab,Transfer,Main Yard,140396
+15/06/2026,INV8708,Aluminium Roofing (m2),88,6800,598400,Alhaji Bello,Part Payment,Ikorodu Branch,0
+20/06/2026,INV2437, BINDING WIRE (ROLL) ,2,12000,24000,Site 12 Rehab,pos,Main Yard,13534
+30/06/2026,INV1186,PVC Pipe 4in (length),46,3757,172822,Site 4 Contractors,cash,Main Yard,0
+20/05/2026,INV9021,Binding Wire (roll),10,10713,107130,Walk-in,part payment,Main Yard,0
+20-May-2026,INV2068,16mm Iron Rod (length),32,14500,464000,Kola & Sons,POS,Ojo Branch,0
+06/07/2026,INV4117,Nails 3in (kg),16,1800,28800,Kola & Sons,Transfer,Ikorodu Branch,9591
+25/07/2026,INV3158,16mm Iron Rod (length),12,14500,174000,Eng. Okafor,POS,Ikorodu Branch,103942
+02-Jul-2026,INV8850,Binding Wire (roll),6,12000,72000,Site 12 Rehab,transfer,Ojo Branch,0
+10/06/2026,INV7958,Aluminium Roofing (m2),20,6800,136000,Chief Nwosu,part payment,Main Yard,0
+11/05/2026,INV7907,Blocks 6in (piece),268,380,101840,Site 4 Contractors,Transfer,Ikorodu Branch,0
+27/07/2026,INV3787,Blocks 6in (piece),443,380,168340,Eng. Okafor,pos,Main Yard,47563
+08/05/2026,INV3577,Blocks 9in (piece),531,450,238950,Walk-in,cash,Main Yard,0
+14-May-2026,INV2184, BLOCKS 9IN (PIECE) ,433,450,194850,Walk-in,Part Payment,Main Yard,0
+24/07/2026,INV2462,Nails 3in (kg),14,1800,25200,Kola & Sons,pos,Main Yard,7977
+2026-07-02,INV1169,Binding Wire (roll),9,11026,99234,Chief Nwosu,transfer,Main Yard,57080
+17/07/2026,INV2465, NAILS 3IN (KG) ,9,1800,16200,Mrs Adebayo,Credit,Main Yard,0
+05/06/2026,INV9130,Nails 3in (kg),13,1800,23400,Grace Ventures,transfer,Ojo Branch,0
+25/07/2026,INV3483,PVC Pipe 4in (length),36,3876,139536,Site 12 Rehab,pos,Ojo Branch,0
+26-Jun-2026,INV3918,Stepping Tiles (carton),42,7500,315000,Mrs Adebayo,credit,Ikorodu Branch,0
+17/07/2026,INV9621,12mm Iron Rod (length),33,8500,280500,Kola & Sons,transfer,Ikorodu Branch,0
+16/05/2026,INV1154,Binding Wire (roll),3,12000,36000,Alhaji Bello,credit,Main Yard,0
+2026-05-16,INV4598,Sharp Sand (trip),2,85000,170000,Eng. Okafor,part payment,Main Yard,0
+03/07/2026,INV7952,Sharp Sand (trip),3,81016,243048,Grace Ventures,part payment,Ikorodu Branch,0
+27/06/2026,INV9768,10mm Iron Rod (length),79,5518,435922,Chief Nwosu,Part Payment,Ikorodu Branch,190600
+11/07/2026,INV2094,BUA Cement (bag),190,8493,1613670,Eng. Okafor,part payment,Ojo Branch,0
+06/06/2026,INV9614,Stepping Tiles (carton),18,7500,135000,Zenith Builders,part payment,Main Yard,48369
+25-Jun-2026,INV1010, BINDING WIRE (ROLL) ,5,12000,60000,Site 12 Rehab,Transfer,Main Yard,0
+12/05/2026,INV8293,Blocks 9in (piece),238,450,107100,Eng. Okafor,Cash,Main Yard,51028
+12/06/2026,INV7836,10mm Iron Rod (length),72,5847,420984,Chief Nwosu,pos,Ojo Branch,0
+26-Jun-2026,INV9087,Blocks 9in (piece),796,N419,333524,Site 12 Rehab,part payment,Ikorodu Branch,93928
+18/06/2026,INV3261,Binding Wire (roll),1,12000,12000,Eng. Okafor,Transfer,Ojo Branch,0
+29/05/2026,INV6352,16mm Iron Rod (length),60,12822,769320,Zenith Builders,credit,Ojo Branch,0
+02/07/2026,INV1988,12mm Iron Rod (length),19,8500,161500,Eng. Okafor,cash,Main Yard,0
+21-May-2026,INV1330,Nails 3in (kg),14,"N1,800",25200,Chief Nwosu,pos,Ikorodu Branch,0
+22/06/2026,INV1471,16mm Iron Rod (length),52,13673,710996,Kola & Sons,Credit,Ojo Branch,0
+06/05/2026,INV7579,Blocks 9in (piece),342,N450,153900,Mrs Adebayo,credit,Main Yard,46224
+30-May-2026,INV6998,PVC Pipe 4in (length),28,4200,117600,Zenith Builders,Part Payment,Ojo Branch,0
+06/05/2026,INV2613,Blocks 6in (piece),349,380,132620,Grace Ventures,cash,Main Yard,0
+15/06/2026,INV3548,12mm Iron Rod (length),16,8500,136000,Walk-in,credit,Main Yard,0
+21/05/2026,INV9507,Binding Wire (roll),3,12000,36000,Alhaji Bello,Transfer,Main Yard,0
+16/06/2026,INV7129,Blocks 6in (piece),627,349,218823,Alhaji Bello,credit,Main Yard,0
+11/07/2026,INV2441,12mm Iron Rod (length),13,8500,110500,Grace Ventures,Transfer,Main Yard,0
+14/05/2026,INV6277,Paint Emulsion (20L),2,28000,56000,Grace Ventures,Transfer,Ojo Branch,0
+24/07/2026,INV3895,12mm Iron Rod (length),48,8500,408000,Site 12 Rehab,Cash,Main Yard,0
+14/05/2026,INV8836,Paint Emulsion (20L),7,28000,196000,Site 12 Rehab,part payment,Main Yard,0
+04/05/2026,INV6621,Paint Emulsion (20L),9,28000,252000,Mrs Adebayo,Transfer,Main Yard,0
+19-May-2026,INV4494,Binding Wire (roll),1,12000,12000,Zenith Builders,credit,Main Yard,0
+07/05/2026,INV6358,16mm Iron Rod (length),27,14500,391500,Site 4 Contractors,Part Payment,Ojo Branch,0
+20/05/2026,INV6865, NAILS 3IN (KG) ,21,1800,37800,Site 12 Rehab,part payment,Main Yard,0
+28/05/2026,INV8768,16mm Iron Rod (length),56,13318,745808,Kola & Sons,part payment,Main Yard,0
+02-May-2026,INV7834,Paint Emulsion (20L),2,28000,56000,Alhaji Bello,Credit,Ikorodu Branch,26034
+26/05/2026,INV9058,Stepping Tiles (carton),32,"N7,500",240000,Kola & Sons,Transfer,Main Yard,0
+23/05/2026,INV5723,Dangote Cement (bag),131,8934,1170354,Chief Nwosu,Part Payment,Main Yard,0
+27/07/2026,INV4936,Blocks 9in (piece),745,419,312155,Site 12 Rehab,Cash,Main Yard,0
+08/07/2026,INV5387,Nails 3in (kg),38,1584,60192,Walk-in,credit,Ojo Branch,18271
+10/06/2026,INV1951,Granite 3/4 (trip),2,"N145,000",290000,Mrs Adebayo,transfer,Main Yard,0
+18/05/2026,INV5667,16mm Iron Rod (length),36,14500,522000,Zenith Builders,Transfer,Ojo Branch,0
+01/05/2026,INV8925,Stepping Tiles (carton),39,7500,292500,Eng. Okafor,credit,Main Yard,0
+27-Jul-2026,INV9370,Blocks 9in (piece),531,450,238950,Alhaji Bello,Part Payment,Ojo Branch,0
+29/06/2026,INV9248,Granite 3/4 (trip),3,131994,395982,Zenith Builders,Transfer,Ojo Branch,150892
+2026-06-19,INV3397,BUA Cement (bag),175,8741,1529675,Site 12 Rehab,pos,Ikorodu Branch,540466
+10/06/2026,INV8045,Blocks 9in (piece),651,403,262353,Mrs Adebayo,transfer,Main Yard,0
+15/05/2026,INV4407,Paint Emulsion (20L),1,28000,28000,Eng. Okafor,Cash,Main Yard,12562
+21/05/2026,INV6453,Granite 3/4 (trip),1,145000,145000,Chief Nwosu,part payment,Ikorodu Branch,0
+16/06/2026,INV1602,Granite 3/4 (trip),1,145000,145000,Zenith Builders,POS,Main Yard,0
+04/07/2026,INV1386,Aluminium Roofing (m2),139,6117,850263,Zenith Builders,credit,Main Yard,294236
+2026-06-08,INV9928, PAINT EMULSION (20L) ,14,26017,364238,Mrs Adebayo,Part Payment,Ojo Branch,182029
+18/05/2026,INV3551,Nails 3in (kg),6,1800,10800,Walk-in,cash,Ojo Branch,0
+2026-06-24,INV6694,BUA Cement (bag),110,9200,1012000,Walk-in,Transfer,Main Yard,445235
+18/05/2026,INV3810,16mm Iron Rod (length),49,13003,637147,Grace Ventures,transfer,Main Yard,0
+04-May-2026,INV7782,Granite 3/4 (trip),2,145000,290000,Site 12 Rehab,Credit,Main Yard,0
+02/07/2026,INV1142,Blocks 6in (piece),773,336,259728,Eng. Okafor,Transfer,Main Yard,136195
+05-Jul-2026,INV6068, DANGOTE CEMENT (BAG) ,22,9500,209000,Zenith Builders,transfer,Main Yard,0
+17/07/2026,INV7202,Aluminium Roofing (m2),146,6479,945934,Site 4 Contractors,transfer,Main Yard,0
+15-May-2026,INV9394,10mm Iron Rod (length),19,6200,117800,Grace Ventures,transfer,Main Yard,0
+07/07/2026,INV1978, PAINT EMULSION (20L) ,14,25610,358540,Site 12 Rehab,part payment,Main Yard,0
+06/06/2026,INV9432, ALUMINIUM ROOFING (M2) ,130,6039,785070,Eng. Okafor,Cash,Main Yard,0
+20/07/2026,INV2010,Blocks 6in (piece),736,357,262752,Alhaji Bello,Cash,Ikorodu Branch,0
+29/06/2026,INV1215,Binding Wire (roll),9,11370,102330,Grace Ventures,transfer,Main Yard,0
+25/06/2026,INV9521,Aluminium Roofing (m2),30,6800,204000,Site 4 Contractors,Credit,Main Yard,100555
+28/07/2026,INV2699,10mm Iron Rod (length),80,5591,447280,Walk-in,credit,Ikorodu Branch,0
+08/06/2026,INV7683,Dangote Cement (bag),41,9500,389500,Grace Ventures,Transfer,Main Yard,90253
+21/05/2026,INV9284,Binding Wire (roll),6,12000,72000,Walk-in,Cash,Main Yard,0
+06/05/2026,INV9320,Paint Emulsion (20L),6,28000,168000,Site 12 Rehab,pos,Main Yard,0
+23/07/2026,INV6867,12mm Iron Rod (length),50,8500,425000,Zenith Builders,pos,Main Yard,0
+18-May-2026,INV2177,Stepping Tiles (carton),39,7500,292500,Mrs Adebayo,POS,Main Yard,0
+25/07/2026,INV6209,Blocks 9in (piece),431,N450,193950,Site 12 Rehab,pos,Main Yard,0
+18/07/2026,INV7204,Sharp Sand (trip),1,85000,85000,Mrs Adebayo,POS,Main Yard,33414
+23/07/2026,INV5785,Blocks 9in (piece),220,450,99000,Kola & Sons,part payment,Main Yard,0
+14/05/2026,INV4153,Binding Wire (roll),8,11497,91976,Zenith Builders,Cash,Main Yard,0
+01/06/2026,INV1247,BUA Cement (bag),117,9200,1076400,Grace Ventures,pos,Ojo Branch,0
+14/05/2026,INV7298,10mm Iron Rod (length),90,5895,530550,Walk-in,transfer,Ikorodu Branch,0
+26/05/2026,INV6936,10mm Iron Rod (length),47,6200,291400,Walk-in,Cash,Ojo Branch,0
+04/05/2026,INV9771,PVC Pipe 4in (length),12,4200,50400,Walk-in,Transfer,Main Yard,0
+04/05/2026,INV8451,PVC Pipe 4in (length),41,3702,151782,Zenith Builders,Cash,Main Yard,0
+07/07/2026,INV9947,Stepping Tiles (carton),12,7500,90000,Site 4 Contractors,Transfer,Main Yard,0
+19/05/2026,INV5927,Dangote Cement (bag),113,9500,1073500,Site 12 Rehab,transfer,Ojo Branch,0
+29/05/2026,INV4191,Nails 3in (kg),16,1800,28800,Walk-in,transfer,Main Yard,6171
+01/06/2026,INV8858, BLOCKS 6IN (PIECE) ,384,380,145920,Chief Nwosu,Part Payment,Ojo Branch,0
+01/06/2026,INV2973,Nails 3in (kg),36,1718,61848,Kola & Sons,Cash,Main Yard,0
+02/07/2026,INV9789,Stepping Tiles (carton),43,6844,294292,Site 12 Rehab,pos,Ikorodu Branch,0
+30-Jun-2026,INV5378,Blocks 9in (piece),434,450,195300,Site 12 Rehab,part payment,Main Yard,0
+02/06/2026,INV7530,Paint Emulsion (20L),5,28000,140000,Chief Nwosu,credit,Main Yard,0
+30/05/2026,INV9470,Aluminium Roofing (m2),92,6800,625600,Eng. Okafor,pos,Main Yard,0
+27/07/2026,INV4199,Sharp Sand (trip),3,79590,238770,Alhaji Bello,Transfer,Ikorodu Branch,0
+16/07/2026,INV3134,Binding Wire (roll),8,10727,85816,Grace Ventures,transfer,Main Yard,0
+16/06/2026,INV9380,Blocks 6in (piece),724,344,249056,Kola & Sons,credit,Ojo Branch,0
+21/05/2026,INV2176,BUA Cement (bag),157,8788,1379716,Alhaji Bello,Transfer,Ikorodu Branch,0
+28/07/2026,INV8770, STEPPING TILES (CARTON) ,44,6958,306152,Site 12 Rehab,POS,Main Yard,0
+01/05/2026,INV5087,10mm Iron Rod (length),34,6200,210800,Eng. Okafor,POS,Main Yard,0
+07/05/2026,INV3939,BUA Cement (bag),87,9200,800400,Grace Ventures,,,0
+13/06/2026,INV3310,Nails 3in (kg),23,1800,41400,Alhaji Bello,pos,Ikorodu Branch,0
+30-May-2026,INV8960,16mm Iron Rod (length),57,13248,755136,Walk-in,Transfer,Main Yard,0
+18/07/2026,INV5176,Blocks 9in (piece),377,450,169650,Walk-in,Cash,Main Yard,0
+06/07/2026,INV7125,12mm Iron Rod (length),21,8500,178500,Grace Ventures,Part Payment,Main Yard,0
+14-Jul-2026,INV7395,Dangote Cement (bag),181,8783,1589723,Alhaji Bello,transfer,Ojo Branch,0
+06/05/2026,INV5228,Nails 3in (kg),18,1800,32400,Eng. Okafor,,,0
+20/06/2026,INV6824,Aluminium Roofing (m2),77,6800,523600,Kola & Sons,pos,Main Yard,152517
+30/05/2026,INV2204,10mm Iron Rod (length),58,6200,359600,Eng. Okafor,Credit,Ikorodu Branch,0
+15/05/2026,INV3051,12mm Iron Rod (length),39,8500,331500,Chief Nwosu,part payment,Main Yard,0
+05/06/2026,INV3202,Stepping Tiles (carton),38,7500,285000,Walk-in,POS,Main Yard,107194
+29/05/2026,INV6986,Aluminium Roofing (m2),53,6800,360400,Zenith Builders,Transfer,Ojo Branch,0
+17/07/2026,INV3554,Blocks 9in (piece),291,450,130950,Eng. Okafor,POS,Main Yard,0
+09/06/2026,INV2957, BINDING WIRE (ROLL) ,10,10710,107100,Chief Nwosu,pos,Main Yard,0
+11/07/2026,INV6060, BLOCKS 9IN (PIECE) ,113,450,50850,Zenith Builders,credit,Ojo Branch,0
+15/05/2026,INV8900,10mm Iron Rod (length),46,6200,285200,Site 12 Rehab,part payment,Ikorodu Branch,64384
+29/07/2026,INV4127,PVC Pipe 4in (length),36,3960,142560,Chief Nwosu,cash,Main Yard,0
+24/06/2026,INV7071,Stepping Tiles (carton),34,"N7,500",255000,Mrs Adebayo,Transfer,Ikorodu Branch,82773
+28/05/2026,INV7425,Paint Emulsion (20L),1,28000,28000,Zenith Builders,cash,Main Yard,0
+22/07/2026,INV7722,Blocks 6in (piece),422,380,160360,Site 4 Contractors,Part Payment,Ikorodu Branch,0
+12/05/2026,INV1819,PVC Pipe 4in (length),20,4200,84000,Zenith Builders,Part Payment,Main Yard,0
+2026-05-19,INV9033, 10MM IRON ROD (LENGTH) ,87,5596,486852,Chief Nwosu,Transfer,Ikorodu Branch,163591
+23-Jul-2026,INV4825,12mm Iron Rod (length),39,8500,331500,Zenith Builders,Credit,Ojo Branch,0
+21/05/2026,INV1244,Binding Wire (roll),4,12000,48000,Mrs Adebayo,part payment,Main Yard,0
+13/05/2026,INV9252,Stepping Tiles (carton),41,7500,307500,Zenith Builders,transfer,Main Yard,83420
+08-May-2026,INV6102,Aluminium Roofing (m2),146,6069,886074,Kola & Sons,Transfer,Ikorodu Branch,0
+23/05/2026,INV1052,Binding Wire (roll),5,12000,60000,Site 12 Rehab,Transfer,Ojo Branch,0
+25-May-2026,INV7410, NAILS 3IN (KG) ,18,1800,32400,Walk-in,Part Payment,Ikorodu Branch,0
+10/07/2026,INV1824,Nails 3in (kg),16,1800,28800,Chief Nwosu,Cash,Main Yard,0
+14/07/2026,INV2263,Blocks 9in (piece),200,450,90000,Walk-in,Cash,Main Yard,0
+15/06/2026,INV6448,Blocks 9in (piece),559,404,225836,Mrs Adebayo,transfer,Ikorodu Branch,0
+30/06/2026,INV7662,Paint Emulsion (20L),15,25125,376875,Grace Ventures,pos,Ojo Branch,0
+23/07/2026,INV8326, ALUMINIUM ROOFING (M2) ,54,6800,367200,Site 12 Rehab,part payment,Ojo Branch,0
+29/06/2026,INV4865,Granite 3/4 (trip),3,137332,411996,Kola & Sons,Part Payment,Main Yard,125169
+08/05/2026,INV8321,10mm Iron Rod (length),77,"N5,689",438053,Site 4 Contractors,Transfer,Main Yard,0
+24/07/2026,INV5983,Aluminium Roofing (m2),90,6800,612000,Site 12 Rehab,Credit,Main Yard,0
+09/07/2026,INV3471,Blocks 6in (piece),345,380,131100,Kola & Sons,cash,Ikorodu Branch,0
+16/07/2026,INV1422,Granite 3/4 (trip),2,145000,290000,Mrs Adebayo,part payment,Main Yard,0
+01/05/2026,INV1487, BINDING WIRE (ROLL) ,4,12000,48000,Site 4 Contractors,credit,Main Yard,0
+13/05/2026,INV8136,Blocks 6in (piece),269,380,102220,Grace Ventures,POS,Main Yard,0
+08-May-2026,INV8678,Aluminium Roofing (m2),44,6800,299200,Chief Nwosu,POS,Ikorodu Branch,0
+16/05/2026,INV6714,Blocks 9in (piece),450,450,202500,Site 12 Rehab,transfer,Ojo Branch,0
+2026-07-24,INV6379,12mm Iron Rod (length),6,8500,51000,Zenith Builders,cash,Ojo Branch,0
+04/06/2026,INV1233,16mm Iron Rod (length),41,13375,548375,Kola & Sons,part payment,Main Yard,0
+04-May-2026,INV3692,Granite 3/4 (trip),3,134081,402243,Site 12 Rehab,,,0
+28/05/2026,INV9774,PVC Pipe 4in (length),38,3752,142576,Kola & Sons,cash,Ojo Branch,0
+26/06/2026,INV7780,Dangote Cement (bag),92,9500,874000,Site 12 Rehab,Credit,Ojo Branch,0
+29-May-2026,INV7108,Nails 3in (kg),27,1800,48600,Walk-in,credit,Ikorodu Branch,0
+20/05/2026,INV1739,16mm Iron Rod (length),45,"N13,063",587835,Site 4 Contractors,part payment,Ojo Branch,0
+13/05/2026,INV8346,16mm Iron Rod (length),43,13885,597055,Eng. Okafor,Part Payment,Main Yard,0
+25/06/2026,INV9307,Binding Wire (roll),2,12000,24000,Chief Nwosu,Cash,Ojo Branch,0
+07/05/2026,INV5611,12mm Iron Rod (length),16,8500,136000,Mrs Adebayo,POS,Main Yard,0
+16/06/2026,INV8942, BLOCKS 6IN (PIECE) ,263,380,99940,Eng. Okafor,Credit,Main Yard,0
+03/06/2026,INV5825,Paint Emulsion (20L),11,25720,282920,Alhaji Bello,cash,Main Yard,0
+06/05/2026,INV1739,Blocks 6in (piece),760,336,255360,Eng. Okafor,credit,Ojo Branch,0
+03/07/2026,INV2970, BLOCKS 6IN (PIECE) ,430,380,163400,Kola & Sons,pos,Main Yard,0
+16/05/2026,INV8655,BUA Cement (bag),199,8603,1711997,Kola & Sons,POS,Main Yard,0
+05/05/2026,INV9826,BUA Cement (bag),135,8164,1102140,Kola & Sons,part payment,Main Yard,0
+02/05/2026,INV8059,Binding Wire (roll),7,11199,78393,Mrs Adebayo,Cash,Ojo Branch,0
+07/05/2026,INV8077,Binding Wire (roll),2,12000,24000,Grace Ventures,Credit,Main Yard,0
+04/06/2026,INV7205,PVC Pipe 4in (length),9,4200,37800,Kola & Sons,Credit,Main Yard,14246
+09-May-2026,INV7323,Blocks 6in (piece),251,380,95380,Kola & Sons,pos,Main Yard,0
+25/07/2026,INV8758,Blocks 9in (piece),538,450,242100,Site 4 Contractors,cash,Main Yard,0
+16/05/2026,INV6645,Dangote Cement (bag),64,9500,608000,Kola & Sons,POS,Ikorodu Branch,0
+12/06/2026,INV4034,16mm Iron Rod (length),34,14500,493000,Eng. Okafor,Cash,Main Yard,0
+04/07/2026,INV6398,Sharp Sand (trip),1,85000,85000,Alhaji Bello,Cash,Main Yard,0
+27/06/2026,INV1699,BUA Cement (bag),62,9200,570400,Site 4 Contractors,POS,Main Yard,0
+24/06/2026,INV5787,16mm Iron Rod (length),13,"N14,500",188500,Chief Nwosu,pos,Main Yard,0
+02/06/2026,INV7975,Binding Wire (roll),1,12000,12000,Mrs Adebayo,Part Payment,Main Yard,3474
+07/07/2026,INV6834,Aluminium Roofing (m2),70,6800,476000,Mrs Adebayo,transfer,Main Yard,195316
+07/07/2026,INV3525, DANGOTE CEMENT (BAG) ,165,8559,1412235,Alhaji Bello,cash,Main Yard,0
+01/05/2026,INV2933,Dangote Cement (bag),114,9500,1083000,Site 4 Contractors,transfer,Main Yard,0
+06/05/2026,INV6056,16mm Iron Rod (length),35,14500,507500,Chief Nwosu,Part Payment,Main Yard,0
+01/06/2026,INV2593,PVC Pipe 4in (length),10,4200,42000,Eng. Okafor,credit,Ikorodu Branch,25064
+09/05/2026,INV5007,PVC Pipe 4in (length),47,3762,176814,Kola & Sons,Part Payment,Main Yard,97071
+02/07/2026,INV8065, SHARP SAND (TRIP) ,1,85000,85000,Site 12 Rehab,Cash,Main Yard,0
+16/05/2026,INV1527,Aluminium Roofing (m2),30,6800,204000,Grace Ventures,Credit,Main Yard,0
+22/07/2026,INV5220,Blocks 6in (piece),462,380,175560,Walk-in,Cash,Main Yard,0
