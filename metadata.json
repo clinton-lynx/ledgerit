@@ -4,7 +4,7 @@
   "language_scope": [
     "en"
   ],
-  "african_alpha_claim": false,
+  "african_alpha_claim": true,
   "budget_laptop_claim": true,
   "submitter": {
     "name": "Clinton Adeoti",
